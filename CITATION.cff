@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+type: software
+message: "If you use this code or these experiment notes, cite this repository and identify the commit or release used. Cite the original models and datasets separately."
+title: "NCM experiment notes: twenty exploratory studies and related controls"
+authors:
+  - name: "Quantix-eng"
+    website: "https://github.com/Quantix-eng"
+repository-code: "https://github.com/Quantix-eng/ncm-experiment-notes"
+url: "https://github.com/Quantix-eng/ncm-experiment-notes"
+license: MIT
+abstract: "Exploratory studies of Next-Concept Modeling, Sudoku readouts, terminal-code edits, and recovery after internal interventions in related models. Includes code, recorded results, negative outcomes and explicit limitations. Full inference workflows have not all been validated after relocation."
+keywords:
+  - next-concept-modeling
+  - mechanistic-interpretability
+  - transformer-interpretability
+  - gpt-2
+  - indirect-object-identification
+  - sudoku

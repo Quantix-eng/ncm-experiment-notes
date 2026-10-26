@@ -1,6 +1,6 @@
 # NCM experiment notes
 
-Twenty exploratory studies on NCM and related model controls, with code, recorded results and bounded interpretations.
+Twenty exploratory studies on Next-Concept Modeling (NCM) and related model controls, with code, recorded results and bounded interpretations.
 
 Start with the table below. Each experiment has its own source, inputs, saved results and entry point. Shared model adapters and utilities live in [`common/`](common/README.md).
 
@@ -62,3 +62,9 @@ experiments/02-terminal-readout/
 The [connections guide](experiments/README.md) explains which studies to read together. [Scope](docs/scope.md) separates observations from claims, and [related work](docs/related-work.md) identifies prior findings. There is no claimed model-performance breakthrough or independent human replication. AI tools contributed substantially to planning, code, analysis and writing.
 
 This work is independent of [Hazy Research NCM](https://github.com/HazyResearch/ncm). Upstream copyright notices are retained in [LICENSE](LICENSE) and [NOTICE](NOTICE.md). The [source inventory](provenance/source-inventory.json) records the relocation and omitted numerical arrays. The earlier archive remains in Git history, rather than a second working tree in this repository.
+
+## Citation and reuse
+
+Use [CITATION.cff](CITATION.cff), and identify the commit or release you used. A DOI has not been issued. This is an exploratory software and notes collection, not a peer-reviewed publication. Cite the [original models and datasets](docs/related-work.md) separately.
+
+Original code and authored notes use [MIT](LICENSE), with third-party exceptions and attribution explained in [NOTICE](NOTICE.md).
