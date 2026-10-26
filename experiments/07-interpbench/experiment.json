@@ -1,0 +1,48 @@
+{
+  "id": 7,
+  "original_id": 20,
+  "title": "An extra mismatch check did not improve prediction",
+  "domain": "Tracr \u00b7 InterpBench",
+  "requirements": "InterpBench weights, Tracr sources, dependencies and fresh seals",
+  "records": [
+    "experiments/07-interpbench/recorded/c2_summary.json"
+  ],
+  "stages": {
+    "reserve": {
+      "source": "experiments/07-interpbench/src/prepare_reserve.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "prepare": {
+      "source": "experiments/07-interpbench/src/reserved_c2.py",
+      "args": [
+        "--phase",
+        "prepare"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "probes": {
+      "source": "experiments/07-interpbench/src/reserved_c2.py",
+      "args": [
+        "--phase",
+        "probes"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "falsify": {
+      "source": "experiments/07-interpbench/src/reserved_c2.py",
+      "args": [
+        "--phase",
+        "falsify"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/07-interpbench/src/analyse_c2.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": 2,
+  "original_id": 10,
+  "title": "Reading and editing terminal codes",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Hard Sudoku assets + included table for sample; extraction arrays and other checkpoints for full historical stages",
+  "records": [
+    "experiments/02-terminal-readout/recorded/writing_interventions.json",
+    "experiments/02-terminal-readout/recorded/hard_readout.json",
+    "experiments/02-terminal-readout/recorded/benchmark.json"
+  ],
+  "stages": {
+    "sample": {
+      "source": "experiments/02-terminal-readout/src/sample.py",
+      "args": [
+        "--n",
+        "8"
+      ],
+      "note": "Small portable readout/write trial; first official puzzles, saved table, no Gaussian controls or timing.",
+      "direct": true,
+      "asset_argument": "--asset-root",
+      "output_argument": "--output"
+    },
+    "discovery": {
+      "source": "experiments/02-terminal-readout/src/discovery.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "interventions": {
+      "source": "experiments/02-terminal-readout/src/experiment.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "benchmark": {
+      "source": "experiments/02-terminal-readout/src/benchmark.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [
+    "sample"
+  ],
+  "recorded_check_validated": true
+}

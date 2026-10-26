@@ -1,9 +1,0 @@
-torch
-numpy
-omegaconf
-hydra-core
-transformers>=4.51
-huggingface_hub[cli]
-regex
-rouge_score
-sacrebleu

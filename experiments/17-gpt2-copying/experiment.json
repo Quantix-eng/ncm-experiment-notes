@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "original_id": 14,
+  "title": "The same access test on GPT-2 copying",
+  "domain": "GPT-2 \u00b7 Copying",
+  "requirements": "GPT-2 checkpoint and copying families",
+  "records": [
+    "experiments/17-gpt2-copying/recorded/summary.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/17-gpt2-copying/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "freeze": {
+      "source": "experiments/17-gpt2-copying/src/run.py",
+      "args": [
+        "--freeze"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "inference": {
+      "source": "experiments/17-gpt2-copying/src/run.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/17-gpt2-copying/src/analyze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

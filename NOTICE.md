@@ -1,8 +1,8 @@
 # Sources and credit
 
-The NCM model and upstream code are by Hermann Kumbong and the Hazy Research NCM team. The original MIT notice is retained in `LICENSE` and in the historical source tree. This repository is independent and does not imply their endorsement.
+The NCM model and upstream code are by Hermann Kumbong and the Hazy Research NCM team. The original MIT notice is retained in `LICENSE` and in the relocated upstream source. This repository is independent and does not imply their endorsement.
 
-The export includes research scripts and modified inference code from the local experiment archive. Installed third-party environments, downloaded model weights and large numerical traces are excluded. Historical copies of source files keep their original notices. Models and datasets must be obtained from their original sources under their applicable terms; the code license does not grant additional rights to those resources.
+The export includes research scripts and modified inference code from the local experiment project. Installed third-party environments, downloaded model weights and large numerical traces are excluded. Relocated source files keep their original notices. Models and datasets must be obtained from their original sources under their applicable terms; the code license does not grant additional rights to those resources.
 
 GPT-2, Pythia, MIB, InterpBench, TransformerLens and Tracr are separate projects. Their attribution, revisions and dependency records are retained in the relevant campaign folders. See `docs/related-work.md` for research references.
 

@@ -1,0 +1,19 @@
+{
+  "id": 9,
+  "original_id": 8,
+  "title": "Omitting a residual did not establish specific repair",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets and native extraction arrays",
+  "records": [
+    "experiments/09-ncm-omission/recorded/fresh_crossed.json"
+  ],
+  "stages": {
+    "crossed": {
+      "source": "experiments/09-ncm-omission/src/crossed.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "original_id": 3,
+  "title": "A correct intermediate digit can change again",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Per-level Sudoku extraction arrays",
+  "records": [
+    "experiments/06-sudoku-reversals/recorded/observations.json"
+  ],
+  "stages": {
+    "describe": {
+      "source": "experiments/06-sudoku-reversals/src/observations.py",
+      "args": [],
+      "note": "Requires regenerated per-level Sudoku extraction arrays."
+    },
+    "intervene": {
+      "source": "experiments/06-sudoku-reversals/src/interventions.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

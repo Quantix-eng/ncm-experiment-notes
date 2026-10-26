@@ -1,35 +1,25 @@
 # A reader-only Pythia control
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E19 · Pythia-160M · WikiText
 
-Original ID **E19** · Pythia-160M · WikiText · Outcome: **control**
+Intervene at Pythia-160M’s final parallel layer. Separate final-reader changes from nonexistent downstream block adaptation and check the reader/self-repair identity.
 
-Use the parallel branches in Pythia-160M final layer to separate changes in the reader from downstream block adaptation.
+**Result.** Across 512 WikiText sequences, mean reader recovery is -0.000601 nat; the descriptive interval includes zero. The reader/self-repair identity passes its numerical check.
 
-## Recorded result
+**Interpretation.** Structural identity checked; no average recovery established.
 
-Across 512 WikiText sequences, mean reader recovery is -0.000601 nat; the descriptive interval includes zero. The reader/self-repair identity passes its numerical check.
+**Limit.** This does not show that LayerNorm never contributes to self-repair. It uses a different distribution and sampling policy from prior work, and does not decompose the IOI result.
 
-## Interpretation
+## Run from this folder
 
-A structural implementation control with a negative average outcome.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run prepare --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-This does not show that LayerNorm never contributes to self-repair. It uses a different distribution and sampling policy from prior work, and does not decompose the IOI result.
+**Inputs:** Pythia-160M checkpoint and WikiText inputs. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/scripts](../../historical/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/scripts)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/results/test_summary.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/results/test_summary.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [Recovery and donor matching in GPT-2](../03-ioi-recovery/README.md).
-- [Repeating IOI interventions at two other heads](../08-ioi-secondary-heads/README.md).
-- [Omitting a residual did not establish specific repair](../09-ncm-omission/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

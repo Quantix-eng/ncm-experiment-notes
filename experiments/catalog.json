@@ -10,19 +10,45 @@
     "interpretation": "This is the clearest small observation to discuss with the NCM authors. The useful part is the checkpoint diagnosis and its limits; the averaging identity itself is elementary.",
     "limits": "The algebra applies before GroupNorm and earlier residual subtraction. It does not prove that native quantization must collapse. The modified encoding path is not used by native generation, and no solving improvement follows.",
     "code": [
-      "analyse_fondamentale_NCM/directions_mecanistes/scripts",
-      "analyse_fondamentale_NCM/correction_pooling/scripts"
+      "experiments/01-pooling/src/check_checkpoint.py",
+      "experiments/01-pooling/src/check_recorded.py",
+      "experiments/01-pooling/src/diagnostics/archive_centers.py",
+      "experiments/01-pooling/src/diagnostics/base.py",
+      "experiments/01-pooling/src/diagnostics/conditional.py",
+      "experiments/01-pooling/src/diagnostics/continue.py",
+      "experiments/01-pooling/src/diagnostics/diagnose_level5.py",
+      "experiments/01-pooling/src/diagnostics/dropout_control.py",
+      "experiments/01-pooling/src/diagnostics/extract_revision.py",
+      "experiments/01-pooling/src/diagnostics/level5_interventions.py",
+      "experiments/01-pooling/src/diagnostics/pooling_algebra.py",
+      "experiments/01-pooling/src/diagnostics/probes.py",
+      "experiments/01-pooling/src/diagnostics/runtime.py",
+      "experiments/01-pooling/src/diagnostics/steer_revision.py",
+      "experiments/01-pooling/src/diagnostics/verify.py",
+      "experiments/01-pooling/src/pooling_identity.py",
+      "experiments/01-pooling/src/weighted_pooling/base.py",
+      "experiments/01-pooling/src/weighted_pooling/compensation.py",
+      "experiments/01-pooling/src/weighted_pooling/experiments.py",
+      "experiments/01-pooling/src/weighted_pooling/repair.py",
+      "experiments/01-pooling/src/weighted_pooling/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/directions_mecanistes/results/pooling_algebra.json",
-      "analyse_fondamentale_NCM/directions_mecanistes/results/level5_diagnostic.json",
-      "analyse_fondamentale_NCM/correction_pooling/results/heldout.json",
-      "analyse_fondamentale_NCM/correction_pooling/results/generator_alignment.json"
+      "experiments/01-pooling/recorded/diagnostics/pooling_algebra.json",
+      "experiments/01-pooling/recorded/diagnostics/level5_diagnostic.json",
+      "experiments/01-pooling/recorded/weighted_pooling/heldout.json",
+      "experiments/01-pooling/recorded/weighted_pooling/generator_alignment.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Observation",
     "overview_result": "15/16 encoding codes active with weighted pooling; generator agreement falls to 1.65%.",
-    "overview_interpretation": "Encoding diagnosis; no generation improvement."
+    "overview_interpretation": "Encoding diagnosis; no generation improvement.",
+    "entrypoint": "experiments/01-pooling/run.py",
+    "requirements": "Sudoku assets; extraction arrays for weighted pooling",
+    "shared_code": [],
+    "validated_stages": [
+      "checkpoint",
+      "algebra"
+    ]
   },
   {
     "rank": 2,
@@ -35,17 +61,32 @@
     "interpretation": "A concrete endpoint experiment, with an external verifier that makes the limits easy to inspect. It is not evidence of a human-like symbolic alphabet.",
     "limits": "Eight requests share each source puzzle. Gaussian controls do not match valid codebook geometry. The certificate depends on clue checks, uniqueness and exact fallback. No whole-model speedup is established.",
     "code": [
-      "analyse_fondamentale_NCM/recherche_positive/scripts"
+      "experiments/02-terminal-readout/src/base.py",
+      "experiments/02-terminal-readout/src/benchmark.py",
+      "experiments/02-terminal-readout/src/check_recorded.py",
+      "experiments/02-terminal-readout/src/discovery.py",
+      "experiments/02-terminal-readout/src/experiment.py",
+      "experiments/02-terminal-readout/src/freeze.py",
+      "experiments/02-terminal-readout/src/policy.py",
+      "experiments/02-terminal-readout/src/runtime.py",
+      "experiments/02-terminal-readout/src/sample.py",
+      "experiments/02-terminal-readout/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/recherche_positive/results/writing_interventions.json",
-      "analyse_fondamentale_NCM/recherche_positive/results/hard_readout.json",
-      "analyse_fondamentale_NCM/recherche_positive/results/benchmark.json"
+      "experiments/02-terminal-readout/recorded/writing_interventions.json",
+      "experiments/02-terminal-readout/recorded/hard_readout.json",
+      "experiments/02-terminal-readout/recorded/benchmark.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Mixed",
     "overview_result": "784/1,024 requested writes; 552/1,024 fresh puzzles certified by lookup + checker.",
-    "overview_interpretation": "Partial terminal readout; no full-pipeline speedup established."
+    "overview_interpretation": "Partial terminal readout; no full-pipeline speedup established.",
+    "entrypoint": "experiments/02-terminal-readout/run.py",
+    "requirements": "Sudoku assets, extraction arrays and discovery tables",
+    "shared_code": [],
+    "validated_stages": [
+      "sample"
+    ]
   },
   {
     "rank": 3,
@@ -58,16 +99,30 @@
     "interpretation": "The main question is what matching adds beyond recovery. These results support a bounded case study, not a new discovery of compensation.",
     "limits": "IOI compensation and backup heads are established findings. Two fixed donor assignments do not control displacement norm or difficulty. Shared donors also limit bootstrap interpretation.",
     "code": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi"
+      "experiments/03-ioi-recovery/src/analyze.py",
+      "experiments/03-ioi-recovery/src/check_recorded.py",
+      "experiments/03-ioi-recovery/src/diagnostic_projection.py",
+      "experiments/03-ioi-recovery/src/prepare.py",
+      "experiments/03-ioi-recovery/src/supplementary_audit.py",
+      "experiments/03-ioi-recovery/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_observations.json",
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_summary.json"
+      "experiments/03-ioi-recovery/recorded/test_observations.json",
+      "experiments/03-ioi-recovery/recorded/test_summary.json"
     ],
     "domain": "GPT-2 · IOI",
     "outcome": "Observation",
     "overview_result": "Recovery 1.910 nats; donor matching adds 0.038 nat at L9H9.",
-    "overview_interpretation": "Recovery exceeds matching; compensation itself is already known."
+    "overview_interpretation": "Recovery exceeds matching; compensation itself is already known.",
+    "entrypoint": "experiments/03-ioi-recovery/run.py",
+    "requirements": "GPT-2 checkpoint, selected IOI prompts and fresh local freezes",
+    "shared_code": [
+      "common/ioi/support.py",
+      "common/ioi/run_test.py",
+      "common/ioi/support.py",
+      "common/ioi/run_test.py"
+    ],
+    "validated_stages": []
   },
   {
     "rank": 4,
@@ -80,15 +135,22 @@
     "interpretation": "A useful limit on the terminal-readout result. It prevents the single-edit experiment from being read as a context-free editing interface.",
     "limits": "The terminal residual includes a local convolution, so spatial interference is not surprising by itself. Edits share sources and must not be counted as independent puzzles.",
     "code": [
-      "analyse_fondamentale_NCM/composition_terminale/experiment.py"
+      "experiments/04-terminal-composition/src/audit_target_equality.py",
+      "experiments/04-terminal-composition/src/check_recorded.py",
+      "experiments/04-terminal-composition/src/experiment.py",
+      "experiments/04-terminal-composition/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/composition_terminale/results/summary.json"
+      "experiments/04-terminal-composition/recorded/summary.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Mixed",
     "overview_result": "Both targets written in 55.12% of 10,240 double edits.",
-    "overview_interpretation": "Edits interfere; single-edit success does not imply composition."
+    "overview_interpretation": "Edits interfere; single-edit success does not imply composition.",
+    "entrypoint": "experiments/04-terminal-composition/run.py",
+    "requirements": "Sudoku assets and terminal discovery tables",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 5,
@@ -101,16 +163,21 @@
     "interpretation": "It extends the readout observation beyond Sudoku, while keeping correctness and agreement with the eventual output separate.",
     "limits": "The final-token anchor is retrospective and is not a correctness label. Different levels have different resolutions; this does not establish semantic self-correction.",
     "code": [
-      "analyse_fondamentale_NCM/compensation_conditionnelle/scripts/text_generation.py"
+      "experiments/05-text-reversals/src/check_recorded.py",
+      "experiments/05-text-reversals/src/text_generation.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/compensation_conditionnelle/results/lm1b_generation.json",
-      "analyse_fondamentale_NCM/compensation_conditionnelle/results/lm1b_oracle.json"
+      "experiments/05-text-reversals/recorded/lm1b_generation.json",
+      "experiments/05-text-reversals/recorded/lm1b_oracle.json"
     ],
     "domain": "NCM · LM1B",
     "outcome": "Observation",
     "overview_result": "416/2,340 selected positions leave the final token after reaching it at level 9.",
-    "overview_interpretation": "Readouts are non-monotonic; codec controls also reverse."
+    "overview_interpretation": "Readouts are non-monotonic; codec controls also reverse.",
+    "entrypoint": "experiments/05-text-reversals/run.py",
+    "requirements": "LM1B model and tokenizer; selected oracle inputs",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 6,
@@ -123,16 +190,31 @@
     "interpretation": "A direct check on an initially tempting interpretation. Non-monotonic intermediate quality is already acknowledged in the NCM paper; the contribution here is its measurement and oracle control.",
     "limits": "Decoded grids are intermediate observations, not the generator input. An oracle codec given the correct solution also shows reversals. This rules out strict decoded-value locking, not every possible latent commitment.",
     "code": [
-      "analyse_fondamentale_NCM/dynamique_temporelle/scripts"
+      "experiments/06-sudoku-reversals/src/base.py",
+      "experiments/06-sudoku-reversals/src/check_recorded.py",
+      "experiments/06-sudoku-reversals/src/interventions.py",
+      "experiments/06-sudoku-reversals/src/native_dynamics/native.py",
+      "experiments/06-sudoku-reversals/src/native_dynamics/study.py",
+      "experiments/06-sudoku-reversals/src/native_dynamics/verify.py",
+      "experiments/06-sudoku-reversals/src/observations.py",
+      "experiments/06-sudoku-reversals/src/revision_audit/audit.py",
+      "experiments/06-sudoku-reversals/src/runtime.py",
+      "experiments/06-sudoku-reversals/src/utilities/close_native_campaign.py",
+      "experiments/06-sudoku-reversals/src/utilities/summarize_native_dynamics_diagnostics.py",
+      "experiments/06-sudoku-reversals/src/utilities/verify_native_dynamics_bounded.py",
+      "experiments/06-sudoku-reversals/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/dynamique_temporelle/RAPPORT.md",
-      "analyse_fondamentale_NCM/mecanismes_revision/README.md"
+      "experiments/06-sudoku-reversals/recorded/observations.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Observation",
     "overview_result": "25.04% of cells corrected at levels 8–9 become wrong later.",
-    "overview_interpretation": "A correct intermediate digit is not a stable commitment."
+    "overview_interpretation": "A correct intermediate digit is not a stable commitment.",
+    "entrypoint": "experiments/06-sudoku-reversals/run.py",
+    "requirements": "Per-level Sudoku extraction arrays",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 7,
@@ -145,16 +227,40 @@
     "interpretation": "An important negative result for the proposed use of matching. More conditions did not establish better predictions in this test.",
     "limits": "These are finite task averages, not a matched-coverage ranking. One task has substantial native model-program disagreement. The internal ablations are not independent competing methods.",
     "code": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench"
+      "experiments/07-interpbench/src/analyse_c2.py",
+      "experiments/07-interpbench/src/audit_masks_c2.py",
+      "experiments/07-interpbench/src/check_recorded.py",
+      "experiments/07-interpbench/src/craft_development_b0.py",
+      "experiments/07-interpbench/src/craft_development_b1.py",
+      "experiments/07-interpbench/src/craft_oracle.py",
+      "experiments/07-interpbench/src/craft_oracle_b1.py",
+      "experiments/07-interpbench/src/craft_oracle_c2.py",
+      "experiments/07-interpbench/src/official_audit_a1.py",
+      "experiments/07-interpbench/src/padding_c3.py",
+      "experiments/07-interpbench/src/pilot.py",
+      "experiments/07-interpbench/src/posthoc_numerics.py",
+      "experiments/07-interpbench/src/prepare_reserve.py",
+      "experiments/07-interpbench/src/reserved_c2.py",
+      "experiments/07-interpbench/src/sources/tracr_assemble.py",
+      "experiments/07-interpbench/src/sources/tracr_bases.py",
+      "experiments/07-interpbench/src/sources/tracr_compiling.py",
+      "experiments/07-interpbench/src/sources/tracr_craft_model_to_transformer.py",
+      "experiments/07-interpbench/src/sources/tracr_encoder.py",
+      "experiments/07-interpbench/src/sources/transformerlens_1_19_components.py",
+      "experiments/07-interpbench/src/verify.py",
+      "experiments/07-interpbench/src/verify_c2.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/results/c2_summary.json",
-      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/RAPPORT_C2.md"
+      "experiments/07-interpbench/recorded/c2_summary.json"
     ],
     "domain": "Tracr · InterpBench",
     "outcome": "Negative",
     "overview_result": "Coverage/risk: 50.52%/2.35%; without mismatch: 50.90%/2.34%.",
-    "overview_interpretation": "No added benefit from the extra mismatch condition."
+    "overview_interpretation": "No added benefit from the extra mismatch condition.",
+    "entrypoint": "experiments/07-interpbench/run.py",
+    "requirements": "InterpBench weights, Tracr sources, dependencies and fresh seals",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 8,
@@ -167,16 +273,24 @@
     "interpretation": "They help show the scale and variability of the primary IOI result. Failure to exceed a margin is not evidence of absent specificity.",
     "limits": "These use the same GPT-2 checkpoint and source families. They are intervention replications, not independent model or research replications. The practical margin has no independent utility calibration.",
     "code": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/run_test.py"
+      "experiments/08-ioi-secondary-heads/src/check_recorded.py",
+      "experiments/08-ioi-secondary-heads/src/evaluate_heads.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_L9H6_summary.json",
-      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_L10H0_summary.json"
+      "experiments/08-ioi-secondary-heads/recorded/test_L9H6_summary.json",
+      "experiments/08-ioi-secondary-heads/recorded/test_L10H0_summary.json"
     ],
     "domain": "GPT-2 · IOI",
     "outcome": "Mixed",
     "overview_result": "Matching: 0.025 nat at L9H6; 0.008 nat at L10H0.",
-    "overview_interpretation": "Positive effects; L10H0 does not clear the conventional 0.01-nat margin."
+    "overview_interpretation": "Positive effects; L10H0 does not clear the conventional 0.01-nat margin.",
+    "entrypoint": "experiments/08-ioi-secondary-heads/run.py",
+    "requirements": "Same IOI assets and development gate as experiment 03",
+    "shared_code": [
+      "common/ioi/run_test.py",
+      "common/ioi/run_test.py"
+    ],
+    "validated_stages": []
   },
   {
     "rank": 9,
@@ -189,15 +303,35 @@
     "interpretation": "A necessary negative result to keep next to any discussion of adaptation. Changed later codes alone do not establish useful compensation.",
     "limits": "The omission does not create a consistent mean NLL deficit in the first place. This is a limited repair test and does not show that the generator is generally blind to errors.",
     "code": [
-      "analyse_fondamentale_NCM/compensation_conditionnelle/scripts/crossed.py"
+      "experiments/09-ncm-omission/src/assets.py",
+      "experiments/09-ncm-omission/src/base.py",
+      "experiments/09-ncm-omission/src/check_recorded.py",
+      "experiments/09-ncm-omission/src/crossed.py",
+      "experiments/09-ncm-omission/src/runtime.py",
+      "experiments/09-ncm-omission/src/sources/models/__init__.py",
+      "experiments/09-ncm-omission/src/sources/models/common.py",
+      "experiments/09-ncm-omission/src/sources/models/next_concept.py",
+      "experiments/09-ncm-omission/src/sources/models/quant.py",
+      "experiments/09-ncm-omission/src/sources/models/vae.py",
+      "experiments/09-ncm-omission/src/sources/models/vqvae.py",
+      "experiments/09-ncm-omission/src/sources/utils/__init__.py",
+      "experiments/09-ncm-omission/src/sources/utils/misc.py",
+      "experiments/09-ncm-omission/src/sources/utils/registry.py",
+      "experiments/09-ncm-omission/src/transfer.py",
+      "experiments/09-ncm-omission/src/verify.py",
+      "experiments/09-ncm-omission/src/writing.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/compensation_conditionnelle/results/fresh_crossed.json"
+      "experiments/09-ncm-omission/recorded/fresh_crossed.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Negative",
     "overview_result": "Recovery −0.001641 nat; joint criterion fails.",
-    "overview_interpretation": "Specific repair not established under this omission."
+    "overview_interpretation": "Specific repair not established under this omission.",
+    "entrypoint": "experiments/09-ncm-omission/run.py",
+    "requirements": "Sudoku assets and native extraction arrays",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 10,
@@ -210,17 +344,33 @@
     "interpretation": "Background for the more focused pooling experiments. It is a collection of diagnostics rather than a complete causal anatomy.",
     "limits": "Naked singles can be computed directly from the puzzle. Decodability alone does not show that the model uses the feature or implements a human Sudoku rule.",
     "code": [
-      "analyse_fondamentale_NCM/scripts"
+      "experiments/10-initial-audit/src/analyze.py",
+      "experiments/10-initial-audit/src/audit_overlap.py",
+      "experiments/10-initial-audit/src/check_recorded.py",
+      "experiments/10-initial-audit/src/constant_level.py",
+      "experiments/10-initial-audit/src/continue.py",
+      "experiments/10-initial-audit/src/evaluate_mechanistic_leads.py",
+      "experiments/10-initial-audit/src/experiments.py",
+      "experiments/10-initial-audit/src/extract.py",
+      "experiments/10-initial-audit/src/prepare.py",
+      "experiments/10-initial-audit/src/smoke_checks.py",
+      "experiments/10-initial-audit/src/tokenizer_errors.py",
+      "experiments/10-initial-audit/src/upstream_parity.py",
+      "experiments/10-initial-audit/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/results/tokenizer.json",
-      "analyse_fondamentale_NCM/results/naked_single.json",
-      "analyse_fondamentale_NCM/results/causal.json"
+      "experiments/10-initial-audit/recorded/tokenizer.json",
+      "experiments/10-initial-audit/recorded/naked_single.json",
+      "experiments/10-initial-audit/recorded/causal.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Mixed",
     "overview_result": "Naked-single probe AUROC 0.877; causal ablation not specific.",
-    "overview_interpretation": "Decodability does not establish causal use of the feature."
+    "overview_interpretation": "Decodability does not establish causal use of the feature.",
+    "entrypoint": "experiments/10-initial-audit/run.py",
+    "requirements": "Sudoku assets and original split inputs",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 11,
@@ -233,16 +383,43 @@
     "interpretation": "This keeps the Sudoku observation from becoming a claim about all NCMs.",
     "limits": "Two tokenizers do not prove that every text level is useful. The raw averaging identity can hold while contextualization and residual quantization remain input-dependent.",
     "code": [
-      "analyse_fondamentale_NCM/generalisation_architecturale/scripts/text_audit.py"
+      "experiments/11-text-pooling-controls/src/base.py",
+      "experiments/11-text-pooling-controls/src/check_recorded.py",
+      "experiments/11-text-pooling-controls/src/continue_text.py",
+      "experiments/11-text-pooling-controls/src/prepare.py",
+      "experiments/11-text-pooling-controls/src/prepare_corpora.py",
+      "experiments/11-text-pooling-controls/src/runtime.py",
+      "experiments/11-text-pooling-controls/src/sources/models/__init__.py",
+      "experiments/11-text-pooling-controls/src/sources/models/common.py",
+      "experiments/11-text-pooling-controls/src/sources/models/next_concept.py",
+      "experiments/11-text-pooling-controls/src/sources/models/quant.py",
+      "experiments/11-text-pooling-controls/src/sources/models/vae.py",
+      "experiments/11-text-pooling-controls/src/sources/models/vqvae.py",
+      "experiments/11-text-pooling-controls/src/sources/utils/__init__.py",
+      "experiments/11-text-pooling-controls/src/sources/utils/misc.py",
+      "experiments/11-text-pooling-controls/src/sources/utils/registry.py",
+      "experiments/11-text-pooling-controls/src/sudoku_levels.py",
+      "experiments/11-text-pooling-controls/src/text_audit.py",
+      "experiments/11-text-pooling-controls/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/generalisation_architecturale/README.md",
-      "analyse_fondamentale_NCM/generalisation_architecturale/results"
+      "experiments/11-text-pooling-controls/recorded/lm1b_architecture.json",
+      "experiments/11-text-pooling-controls/recorded/lm1b_audit.json",
+      "experiments/11-text-pooling-controls/recorded/lm1b_controls.json",
+      "experiments/11-text-pooling-controls/recorded/lm1b_data.json",
+      "experiments/11-text-pooling-controls/recorded/tinystories_architecture.json",
+      "experiments/11-text-pooling-controls/recorded/tinystories_audit.json",
+      "experiments/11-text-pooling-controls/recorded/tinystories_controls.json",
+      "experiments/11-text-pooling-controls/recorded/tinystories_data.json"
     ],
     "domain": "NCM · LM1B / TinyStories",
     "outcome": "Control",
     "overview_result": "No constant native level in the examined text strata.",
-    "overview_interpretation": "The Sudoku observation does not generalize to these text checks."
+    "overview_interpretation": "The Sudoku observation does not generalize to these text checks.",
+    "entrypoint": "experiments/11-text-pooling-controls/run.py",
+    "requirements": "LM1B/TinyStories tokenizer assets and text data",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 12,
@@ -255,16 +432,36 @@
     "interpretation": "A useful stopping point for the original hypothesis: adding hidden-state features did not produce a convincing practical benefit.",
     "limits": "A small conditional improvement is not an operational advantage. These are externally fitted predictors, not native confidence or metacognition. Earlier probe objectives are separate experiments.",
     "code": [
-      "experiments/metacognition"
+      "experiments/12-failure-probes/src/audit_training_uniqueness.py",
+      "experiments/12-failure-probes/src/check_recorded.py",
+      "experiments/12-failure-probes/src/describe_training.py",
+      "experiments/12-failure-probes/src/diagnose_scaling.py",
+      "experiments/12-failure-probes/src/dynamics_stress/stress.py",
+      "experiments/12-failure-probes/src/extract_training.py",
+      "experiments/12-failure-probes/src/final_v03.py",
+      "experiments/12-failure-probes/src/sensitivity_v03.py",
+      "experiments/12-failure-probes/src/simulate_auc_design.py",
+      "experiments/12-failure-probes/src/stability_v03.py",
+      "experiments/12-failure-probes/src/utilities/audit_metacognition_inputs.py",
+      "experiments/12-failure-probes/src/verify_development.py",
+      "experiments/12-failure-probes/src/verify_final_v03.py",
+      "experiments/12-failure-probes/src/verify_pilot.py",
+      "experiments/12-failure-probes/src/verify_sensitivity_v03.py",
+      "experiments/12-failure-probes/src/verify_stability_v03.py"
     ],
     "records": [
-      "audit/metacognition/final-v0.3/analysis/report.json",
-      "RAPPORT_METACOGNITION.md"
+      "experiments/12-failure-probes/recorded/audit/final-v0.3/analysis/report.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Negative",
     "overview_result": "Hidden-state contrast adds about 0.0043 AUROC; stronger observable baseline wins.",
-    "overview_interpretation": "No convincing practical benefit from internal-state features."
+    "overview_interpretation": "No convincing practical benefit from internal-state features.",
+    "entrypoint": "experiments/12-failure-probes/run.py",
+    "requirements": "Sudoku assets and training/development feature arrays",
+    "shared_code": [
+      "common/probes/run_pilot.py"
+    ],
+    "validated_stages": []
   },
   {
     "rank": 13,
@@ -277,16 +474,23 @@
     "interpretation": "A practical negative result. It explains why the confidence work did not become an inference optimization.",
     "limits": "Abandonment can discard solvable puzzles. The error budget and measured CPU costs belong to this policy and environment.",
     "code": [
-      "experiments/metacognition/early_control"
+      "experiments/13-early-abandonment/src/check_recorded.py",
+      "experiments/13-early-abandonment/src/engine.py",
+      "experiments/13-early-abandonment/src/study.py",
+      "experiments/13-early-abandonment/src/utilities/close_early_control.py",
+      "experiments/13-early-abandonment/src/utilities/verify_early_control.py"
     ],
     "records": [
-      "audit/metacognition/early-control-v1/campaign-summary.json",
-      "RAPPORT_CONTROLE_PRECOCE.md"
+      "experiments/13-early-abandonment/recorded/audit/campaign-summary.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Negative",
     "overview_result": "Optimistic savings 2.29% at 10 lost solutions per 1,000; gate was 5%.",
-    "overview_interpretation": "The tested early-abandonment policy is not worthwhile."
+    "overview_interpretation": "The tested early-abandonment policy is not worthwhile.",
+    "entrypoint": "experiments/13-early-abandonment/run.py",
+    "requirements": "Experiment 12 training features and fitted baseline",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 14,
@@ -299,16 +503,27 @@
     "interpretation": "Another hypothesis that did not pay off. Retaining the baseline and cohort definition matters more than the number of attempted probes.",
     "limits": "The cohort is selected and the target is a future event. The result concerns this fitted procedure, not the absence of information everywhere in the network.",
     "code": [
-      "experiments/metacognition/correction"
+      "experiments/14-future-corrections/src/audit_training.py",
+      "experiments/14-future-corrections/src/cell_features.py",
+      "experiments/14-future-corrections/src/check_recorded.py",
+      "experiments/14-future-corrections/src/external.py",
+      "experiments/14-future-corrections/src/extract_training.py",
+      "experiments/14-future-corrections/src/learning.py",
+      "experiments/14-future-corrections/src/run_development.py",
+      "experiments/14-future-corrections/src/verify_development.py",
+      "experiments/14-future-corrections/src/verify_external.py"
     ],
     "records": [
-      "audit/metacognition/correction-v0.1/external/analysis/report.json",
-      "RAPPORT_CORRECTION_FUTURE.md"
+      "experiments/14-future-corrections/recorded/audit/external/analysis/report.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Negative",
     "overview_result": "Predictive increment −0.00060; interval spans zero.",
-    "overview_interpretation": "Local latent features do not help this fitted persistence predictor."
+    "overview_interpretation": "Local latent features do not help this fitted persistence predictor.",
+    "entrypoint": "experiments/14-future-corrections/run.py",
+    "requirements": "Sudoku assets, training features and development fits",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 15,
@@ -321,15 +536,27 @@
     "interpretation": "A structural implementation control with a negative average outcome.",
     "limits": "This does not show that LayerNorm never contributes to self-repair. It uses a different distribution and sampling policy from prior work, and does not decompose the IOI result.",
     "code": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/scripts"
+      "experiments/15-pythia-reader/src/audit_saved_readout_memmap.py",
+      "experiments/15-pythia-reader/src/check_recorded.py",
+      "experiments/15-pythia-reader/src/common.py",
+      "experiments/15-pythia-reader/src/prepare.py",
+      "experiments/15-pythia-reader/src/recompute_reader_fp64.py",
+      "experiments/15-pythia-reader/src/run.py",
+      "experiments/15-pythia-reader/src/seal_amendment.py",
+      "experiments/15-pythia-reader/src/seal_fp64.py",
+      "experiments/15-pythia-reader/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/results/test_summary.json"
+      "experiments/15-pythia-reader/recorded/test_summary.json"
     ],
     "domain": "Pythia-160M · WikiText",
     "outcome": "Control",
     "overview_result": "Mean reader recovery −0.000601 nat; interval includes zero.",
-    "overview_interpretation": "Structural identity checked; no average recovery established."
+    "overview_interpretation": "Structural identity checked; no average recovery established.",
+    "entrypoint": "experiments/15-pythia-reader/run.py",
+    "requirements": "Pythia-160M checkpoint and WikiText inputs",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 16,
@@ -342,16 +569,26 @@
     "interpretation": "A small functional demonstration that is useful mainly for understanding the intervention design.",
     "limits": "That frozen continuation comes from a previous complete computation. The diagnostic depends on the boundary, access contract and chosen margins; it is not a mechanism label or shortcut.",
     "code": [
-      "analyse_fondamentale_NCM/benchmark_ncm_reel"
+      "experiments/16-ncm-exchanges/src/analyze.py",
+      "experiments/16-ncm-exchanges/src/audit_outputs.py",
+      "experiments/16-ncm-exchanges/src/check_recorded.py",
+      "experiments/16-ncm-exchanges/src/run.py",
+      "experiments/16-ncm-exchanges/src/runtime.py",
+      "experiments/16-ncm-exchanges/src/support.py",
+      "experiments/16-ncm-exchanges/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/benchmark_ncm_reel/results/summary.json",
-      "analyse_fondamentale_NCM/benchmark_ncm_reel/results/output_quality.json"
+      "experiments/16-ncm-exchanges/recorded/summary.json",
+      "experiments/16-ncm-exchanges/recorded/output_quality.json"
     ],
     "domain": "NCM · Sudoku",
     "outcome": "Mixed",
     "overview_result": "15/16 families input-dominant; frozen recipient tail also succeeds in 32/32 swaps.",
-    "overview_interpretation": "Access-dependent diagnosis; regeneration benefit not established."
+    "overview_interpretation": "Access-dependent diagnosis; regeneration benefit not established.",
+    "entrypoint": "experiments/16-ncm-exchanges/run.py",
+    "requirements": "Sudoku assets and constructed Sudoku families from experiment 19",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 17,
@@ -364,15 +601,26 @@
     "interpretation": "Evidence that the implementation transfers, with weak evidence for a broader scientific claim.",
     "limits": "Half the families fail native competence requirements. These are intermediate next-token computations, not edits to text already emitted.",
     "code": [
-      "analyse_fondamentale_NCM/benchmark_multimodel_ar"
+      "experiments/17-gpt2-copying/src/analyze.py",
+      "experiments/17-gpt2-copying/src/check_recorded.py",
+      "experiments/17-gpt2-copying/src/postprocess.py",
+      "experiments/17-gpt2-copying/src/prepare.py",
+      "experiments/17-gpt2-copying/src/run.py",
+      "experiments/17-gpt2-copying/src/runtime.py",
+      "experiments/17-gpt2-copying/src/support.py",
+      "experiments/17-gpt2-copying/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/benchmark_multimodel_ar/results/summary.json"
+      "experiments/17-gpt2-copying/recorded/summary.json"
     ],
     "domain": "GPT-2 · Copying",
     "outcome": "Mixed",
     "overview_result": "8/16 families pass native competence; 8 remain unidentified.",
-    "overview_interpretation": "Protocol transfer, with limited evidence beyond it."
+    "overview_interpretation": "Protocol transfer, with limited evidence beyond it.",
+    "entrypoint": "experiments/17-gpt2-copying/run.py",
+    "requirements": "GPT-2 checkpoint and copying families",
+    "shared_code": [],
+    "validated_stages": []
   },
   {
     "rank": 18,
@@ -385,16 +633,28 @@
     "interpretation": "A control experiment that sets a boundary on what the earlier cross-model comparisons can claim.",
     "limits": "The calibration objective fails. The parallel model is not NCM, and the training objectives differ. These runs cannot identify a general effect of autoregressive versus parallel generation.",
     "code": [
-      "analyse_fondamentale_NCM/benchmark_tache_commune"
+      "experiments/18-matched-toy-models/src/analyze.py",
+      "experiments/18-matched-toy-models/src/calibrate.py",
+      "experiments/18-matched-toy-models/src/check_recorded.py",
+      "experiments/18-matched-toy-models/src/freeze.py",
+      "experiments/18-matched-toy-models/src/prepare.py",
+      "experiments/18-matched-toy-models/src/train.py",
+      "experiments/18-matched-toy-models/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/benchmark_tache_commune/results/calibration.json",
-      "analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json"
+      "experiments/18-matched-toy-models/recorded/calibration.json",
+      "experiments/18-matched-toy-models/recorded/summary.json"
     ],
     "domain": "Toy AR / parallel · Symbol rotation",
     "outcome": "Negative",
     "overview_result": "6/6 models solve native examples; shared damage gate fails.",
-    "overview_interpretation": "No valid general comparison of AR and parallel repair."
+    "overview_interpretation": "No valid general comparison of AR and parallel repair.",
+    "entrypoint": "experiments/18-matched-toy-models/run.py",
+    "requirements": "PyTorch/NumPy; fresh toy training and calibration",
+    "shared_code": [
+      "common/toy/evaluate.py"
+    ],
+    "validated_stages": []
   },
   {
     "rank": 19,
@@ -407,15 +667,28 @@
     "interpretation": "Keep it as an implementation and logic check rather than a headline finding.",
     "limits": "This is a consistency check, not external validation or a benchmark of mechanism discovery on learned networks. Observation-only failure on these programs is not a universal upper bound.",
     "code": [
-      "analyse_fondamentale_NCM/benchmark_causal_revision"
+      "experiments/19-constructed-controls/src/check_recorded.py",
+      "experiments/19-constructed-controls/src/controls.py",
+      "experiments/19-constructed-controls/src/dataset.py",
+      "experiments/19-constructed-controls/src/methods.py",
+      "experiments/19-constructed-controls/src/run.py",
+      "experiments/19-constructed-controls/src/run_fixed.py",
+      "experiments/19-constructed-controls/src/support.py",
+      "experiments/19-constructed-controls/src/verify.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/benchmark_causal_revision/results/summary.json"
+      "experiments/19-constructed-controls/recorded/summary.json"
     ],
     "domain": "Constructed programs",
     "outcome": "Control",
     "overview_result": "344/344 intended diagnoses on jointly designed instances.",
-    "overview_interpretation": "Implementation consistency, not external mechanism validation."
+    "overview_interpretation": "Implementation consistency, not external mechanism validation.",
+    "entrypoint": "experiments/19-constructed-controls/run.py",
+    "requirements": "NumPy/PyTorch for the fixed-family analytical rerun; no trained checkpoint required",
+    "shared_code": [],
+    "validated_stages": [
+      "fixed-families"
+    ]
   },
   {
     "rank": 20,
@@ -428,14 +701,23 @@
     "interpretation": "The least substantive scientific result, but a useful check that the implementation respects its declared inputs.",
     "limits": "No recipient influence can be recovered through a path that has been removed. This is a control of the adapter, not a discovered property of intelligence.",
     "code": [
-      "analyse_fondamentale_NCM/benchmark_tache_commune/evaluate.py"
+      "experiments/20-whole-memory-control/src/check_recorded.py",
+      "experiments/20-whole-memory-control/src/whole_memory.py"
     ],
     "records": [
-      "analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json"
+      "experiments/20-whole-memory-control/recorded/whole_memory.json"
     ],
     "domain": "Toy models · Whole-memory exchange",
     "outcome": "Control",
     "overview_result": "Outputs follow the donor when all recipient state is removed.",
-    "overview_interpretation": "Expected consequence of the access contract."
+    "overview_interpretation": "Expected consequence of the access contract.",
+    "entrypoint": "experiments/20-whole-memory-control/run.py",
+    "requirements": "NumPy/PyTorch for structural; trained toy checkpoints from experiment 18 for evaluate",
+    "shared_code": [
+      "common/toy/evaluate.py"
+    ],
+    "validated_stages": [
+      "structural"
+    ]
   }
 ]

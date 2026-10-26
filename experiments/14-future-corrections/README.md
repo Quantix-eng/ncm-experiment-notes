@@ -1,35 +1,25 @@
 # Predicting which cell errors persist
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E02 · NCM · Sudoku
 
-Original ID **E02** · NCM · Sudoku · Outcome: **negative**
+Predict which currently wrong cells remain wrong. Use visible-feature controls, grouped evaluation and the restricted mixed-puzzle cohort; inspect persistence prevalence.
 
-Test whether local latent features improve prediction of which currently wrong cells will remain wrong.
+**Result.** On the restricted mixed-puzzle cohort, the reported increment is -0.00060 with an interval spanning zero. Most current errors are corrected later, creating a strong prevalence trap.
 
-## Recorded result
+**Interpretation.** Local latent features do not help this fitted persistence predictor.
 
-On the restricted mixed-puzzle cohort, the reported increment is -0.00060 with an interval spanning zero. Most current errors are corrected later, creating a strong prevalence trap.
+**Limit.** The cohort is selected and the target is a future event. The result concerns this fitted procedure, not the absence of information everywhere in the network.
 
-## Interpretation
+## Run from this folder
 
-Another hypothesis that did not pay off. Retaining the baseline and cohort definition matters more than the number of attempted probes.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run development --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-The cohort is selected and the target is a future event. The result concerns this fitted procedure, not the absence of information everywhere in the network.
+**Inputs:** Sudoku assets, training features and development fits. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [experiments/metacognition/correction](../../historical/Experience_NCM/experiments/metacognition/correction)
-
-## Saved records
-
-- [audit/metacognition/correction-v0.1/external/analysis/report.json](../../historical/Experience_NCM/audit/metacognition/correction-v0.1/external/analysis/report.json)
-- [RAPPORT_CORRECTION_FUTURE.md](../../historical/Experience_NCM/RAPPORT_CORRECTION_FUTURE.md)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [Internal states added little to failure prediction](../12-failure-probes/README.md).
-- [An abandonment policy saved too little](../13-early-abandonment/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

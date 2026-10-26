@@ -1,0 +1,51 @@
+{
+  "id": 14,
+  "original_id": 2,
+  "title": "Predicting which cell errors persist",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets, training features and development fits",
+  "records": [
+    "experiments/14-future-corrections/recorded/audit/external/analysis/report.json"
+  ],
+  "stages": {
+    "development": {
+      "source": "experiments/14-future-corrections/src/run_development.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "generate": {
+      "source": "experiments/14-future-corrections/src/external.py",
+      "args": [
+        "--stage",
+        "generate"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "fit": {
+      "source": "experiments/14-future-corrections/src/external.py",
+      "args": [
+        "--stage",
+        "fit"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "extract": {
+      "source": "experiments/14-future-corrections/src/external.py",
+      "args": [
+        "--stage",
+        "extract"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "evaluate": {
+      "source": "experiments/14-future-corrections/src/external.py",
+      "args": [
+        "--stage",
+        "evaluate"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

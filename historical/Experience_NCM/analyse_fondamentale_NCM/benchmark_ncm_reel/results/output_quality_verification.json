@@ -1,6 +1,0 @@
-{
-  "status": "passed",
-  "aggregate_groups": 28,
-  "method": "Cross-check post-processing counts using the pre-existing common.observed implementation",
-  "output_quality_sha256": "9953aae591f784b27d00b02e92bef19e53bb0b0f926316e8eadfa41ca06b4881"
-}

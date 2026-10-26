@@ -1,34 +1,25 @@
 # Checking the protocol on constructed programs
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E12 · Constructed programs
 
-Original ID **E12** · Constructed programs · Outcome: **control**
+Generate known-behavior programs, apply observation/continuation/exchange access rules, and compare diagnostic sets with evaluator labels on 344 constructed instances.
 
-Check whether the observation, continuation and exchange rules distinguish programs with known behavior.
+**Result.** The complete diagnostic returns the intended answer in 344/344 constructed instances. The program library and diagnostic were designed together.
 
-## Recorded result
+**Interpretation.** Implementation consistency, not external mechanism validation.
 
-The complete diagnostic returns the intended answer in 344/344 constructed instances. The program library and diagnostic were designed together.
+**Limit.** This is a consistency check, not external validation or a benchmark of mechanism discovery on learned networks. Observation-only failure on these programs is not a universal upper bound.
 
-## Interpretation
+## Run from this folder
 
-Keep it as an implementation and logic check rather than a headline finding.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run fixed-families --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-This is a consistency check, not external validation or a benchmark of mechanism discovery on learned networks. Observation-only failure on these programs is not a universal upper bound.
+**Inputs:** NumPy/PyTorch for the fixed-family analytical rerun; no trained checkpoint required. **Tested here:** recorded-data check; `fixed-families`. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/benchmark_causal_revision](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_causal_revision)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/benchmark_causal_revision/results/summary.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_causal_revision/results/summary.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [An extra mismatch check did not improve prediction](../07-interpbench/README.md).
-- [Replacing the whole memory removes the recipient path](../20-whole-memory-control/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

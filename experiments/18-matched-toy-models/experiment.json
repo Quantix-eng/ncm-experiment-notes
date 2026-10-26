@@ -1,0 +1,45 @@
+{
+  "id": 18,
+  "original_id": 15,
+  "title": "AR and parallel toy models on one task",
+  "domain": "Toy AR / parallel \u00b7 Symbol rotation",
+  "requirements": "PyTorch/NumPy; fresh toy training and calibration",
+  "records": [
+    "experiments/18-matched-toy-models/recorded/calibration.json",
+    "experiments/18-matched-toy-models/recorded/summary.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/18-matched-toy-models/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "freeze": {
+      "source": "experiments/18-matched-toy-models/src/freeze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "train": {
+      "source": "experiments/18-matched-toy-models/src/train.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "calibrate": {
+      "source": "experiments/18-matched-toy-models/src/calibrate.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "evaluate": {
+      "source": "common/toy/evaluate.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/18-matched-toy-models/src/analyze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

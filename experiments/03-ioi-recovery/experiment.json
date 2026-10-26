@@ -1,0 +1,57 @@
+{
+  "id": 3,
+  "original_id": 17,
+  "title": "Recovery and donor matching in GPT-2",
+  "domain": "GPT-2 \u00b7 IOI",
+  "requirements": "GPT-2 checkpoint, selected IOI prompts and fresh local freezes",
+  "records": [
+    "experiments/03-ioi-recovery/recorded/test_observations.json",
+    "experiments/03-ioi-recovery/recorded/test_summary.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/03-ioi-recovery/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "freeze-dev": {
+      "source": "common/ioi/support.py",
+      "args": [
+        "dev"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required.",
+      "function": "freeze"
+    },
+    "development": {
+      "source": "common/ioi/run_test.py",
+      "args": [
+        "--split",
+        "dev"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "freeze-test": {
+      "source": "common/ioi/support.py",
+      "args": [
+        "test"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required.",
+      "function": "freeze"
+    },
+    "test": {
+      "source": "common/ioi/run_test.py",
+      "args": [
+        "--split",
+        "test"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/03-ioi-recovery/src/analyze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

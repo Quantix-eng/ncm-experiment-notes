@@ -1,0 +1,5 @@
+-r ncm.txt
+transformers==4.57.1
+datasets==2.21.0
+einops>=0.8,<1
+safetensors>=0.4

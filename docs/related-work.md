@@ -10,4 +10,4 @@
 - [MIB](https://arxiv.org/abs/2504.13151): circuit and causal-variable localization benchmarks. The IOI study uses public prompts, without being an official benchmark submission.
 - [InterpBench](https://arxiv.org/abs/2407.14494): semi-synthetic networks and reference programs. The retained study found a fidelity problem on one tested case; that observation has not been established as a general flaw in the benchmark.
 
-These links are starting points rather than an exhaustive literature review. Older campaign bibliographies remain in their original reports. No benchmark lead or novelty claim is inferred from the size of that bibliography.
+These links are starting points rather than an exhaustive literature review. Older campaign bibliographies remain available in the earlier Git snapshot. No benchmark lead or novelty claim is inferred from the size of that bibliography.

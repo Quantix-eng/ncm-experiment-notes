@@ -1,8 +1,0 @@
-{
-  "max_abs_replay_error": 2.7533531010703882e-14,
-  "no_fitting_validation_group_overlap": true,
-  "repeats": 20,
-  "report_sha256": "6f7b86950748aad54ac3cce3cbb71f1266204f157e07c2394ab2ba046a803c54",
-  "resampling_indices_reconstructed": true,
-  "status": "passed"
-}

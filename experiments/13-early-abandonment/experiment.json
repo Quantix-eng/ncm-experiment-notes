@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "original_id": 4,
+  "title": "An abandonment policy saved too little",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Experiment 12 training features and fitted baseline",
+  "records": [
+    "experiments/13-early-abandonment/recorded/audit/campaign-summary.json"
+  ],
+  "stages": {
+    "technical": {
+      "source": "experiments/13-early-abandonment/src/study.py",
+      "args": [
+        "technical"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "fit": {
+      "source": "experiments/13-early-abandonment/src/study.py",
+      "args": [
+        "fit"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "profile": {
+      "source": "experiments/13-early-abandonment/src/study.py",
+      "args": [
+        "profile"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

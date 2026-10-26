@@ -1,0 +1,26 @@
+{
+  "id": 20,
+  "original_id": 16,
+  "title": "Replacing the whole memory removes the recipient path",
+  "domain": "Toy models \u00b7 Whole-memory exchange",
+  "requirements": "NumPy/PyTorch for structural; trained toy checkpoints from experiment 18 for evaluate",
+  "records": [
+    "experiments/20-whole-memory-control/recorded/whole_memory.json"
+  ],
+  "stages": {
+    "structural": {
+      "source": "experiments/20-whole-memory-control/src/whole_memory.py",
+      "args": [],
+      "note": "Fresh structural check on randomly initialized toy models.\n\nThis intentionally needs no trained checkpoint: whole-memory donor parity is\nan identity of the access contract. It is separate from the trained records."
+    },
+    "evaluate": {
+      "source": "common/toy/evaluate.py",
+      "args": [],
+      "note": "Includes the whole-memory control. Requires the six models and calibration produced by experiment 18."
+    }
+  },
+  "validated_stages": [
+    "structural"
+  ],
+  "recorded_check_validated": true
+}

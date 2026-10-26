@@ -1,8 +1,0 @@
-{
-  "fitting": false,
-  "max_abs_replay_error": 8.881784197001252e-16,
-  "model_execution": false,
-  "paired_group_bootstrap_recomputed": true,
-  "report_sha256": "cc87de867719405fea2ea0b201b05823baf9740c131fbc66167da878dfeebbbf",
-  "status": "passed"
-}

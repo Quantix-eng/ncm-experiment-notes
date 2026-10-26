@@ -1,34 +1,25 @@
 # Replacing the whole memory removes the recipient path
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E16 · Toy models · Whole-memory exchange
 
-Original ID **E16** · Toy models · Whole-memory exchange · Outcome: **control**
+Exchange the entire retained memory in the toy models, leaving no recipient representation. Compare regenerated outputs with the donor-native output.
 
-Exchange every available state tensor, leaving no recipient representation for the remaining computation.
+**Result.** Regenerated outputs reproduce the donor as required by the access contract. The resulting state-dominant classification follows from the construction.
 
-## Recorded result
+**Interpretation.** Expected consequence of the access contract.
 
-Regenerated outputs reproduce the donor as required by the access contract. The resulting state-dominant classification follows from the construction.
+**Limit.** No recipient influence can be recovered through a path that has been removed. This is a control of the adapter, not a discovered property of intelligence.
 
-## Interpretation
+## Run from this folder
 
-The least substantive scientific result, but a useful check that the implementation respects its declared inputs.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run structural --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-No recipient influence can be recovered through a path that has been removed. This is a control of the adapter, not a discovered property of intelligence.
+**Inputs:** NumPy/PyTorch for structural; trained toy checkpoints from experiment 18 for evaluate. **Tested here:** recorded-data check; `structural`. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/benchmark_tache_commune/evaluate.py](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_tache_commune/evaluate.py)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [An extra mismatch check did not improve prediction](../07-interpbench/README.md).
-- [Checking the protocol on constructed programs](../19-constructed-controls/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

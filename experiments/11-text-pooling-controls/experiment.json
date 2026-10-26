@@ -1,0 +1,31 @@
+{
+  "id": 11,
+  "original_id": 7,
+  "title": "The constant level did not recur in text tokenizers",
+  "domain": "NCM \u00b7 LM1B / TinyStories",
+  "requirements": "LM1B/TinyStories tokenizer assets and text data",
+  "records": [
+    "experiments/11-text-pooling-controls/recorded/lm1b_architecture.json",
+    "experiments/11-text-pooling-controls/recorded/lm1b_audit.json",
+    "experiments/11-text-pooling-controls/recorded/lm1b_controls.json",
+    "experiments/11-text-pooling-controls/recorded/lm1b_data.json",
+    "experiments/11-text-pooling-controls/recorded/tinystories_architecture.json",
+    "experiments/11-text-pooling-controls/recorded/tinystories_audit.json",
+    "experiments/11-text-pooling-controls/recorded/tinystories_controls.json",
+    "experiments/11-text-pooling-controls/recorded/tinystories_data.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/11-text-pooling-controls/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "audit": {
+      "source": "experiments/11-text-pooling-controls/src/text_audit.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

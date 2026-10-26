@@ -1,35 +1,25 @@
 # The constant level did not recur in text tokenizers
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E07 · NCM · LM1B / TinyStories
 
-Original ID **E07** · NCM · LM1B / TinyStories · Outcome: **control**
+Inspect native tokenizer occupancy on random and long-text strata in LM1B and TinyStories. Test local permutations rather than extrapolating from Sudoku.
 
-Audit LM1B and TinyStories tokenizers for the same kind of constant native level.
+**Result.** No constant native level was found in the examined random and longer-text strata. Local permutations can change native codes.
 
-## Recorded result
+**Interpretation.** The Sudoku observation does not generalize to these text checks.
 
-No constant native level was found in the examined random and longer-text strata. Local permutations can change native codes.
+**Limit.** Two tokenizers do not prove that every text level is useful. The raw averaging identity can hold while contextualization and residual quantization remain input-dependent.
 
-## Interpretation
+## Run from this folder
 
-This keeps the Sudoku observation from becoming a claim about all NCMs.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run prepare --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-Two tokenizers do not prove that every text level is useful. The raw averaging identity can hold while contextualization and residual quantization remain input-dependent.
+**Inputs:** LM1B/TinyStories tokenizer assets and text data. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/generalisation_architecturale/scripts/text_audit.py](../../historical/Experience_NCM/analyse_fondamentale_NCM/generalisation_architecturale/scripts/text_audit.py)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/generalisation_architecturale/README.md](../../historical/Experience_NCM/analyse_fondamentale_NCM/generalisation_architecturale/README.md)
-- [analyse_fondamentale_NCM/generalisation_architecturale/results](../../historical/Experience_NCM/analyse_fondamentale_NCM/generalisation_architecturale/results)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [A pooling symmetry in solved Sudoku](../01-pooling/README.md).
-- [The initial NCM audit](../10-initial-audit/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

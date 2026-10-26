@@ -1,0 +1,35 @@
+{
+  "id": 15,
+  "original_id": 19,
+  "title": "A reader-only Pythia control",
+  "domain": "Pythia-160M \u00b7 WikiText",
+  "requirements": "Pythia-160M checkpoint and WikiText inputs",
+  "records": [
+    "experiments/15-pythia-reader/recorded/test_summary.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/15-pythia-reader/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "development": {
+      "source": "experiments/15-pythia-reader/src/run.py",
+      "args": [
+        "--split",
+        "dev"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "test": {
+      "source": "experiments/15-pythia-reader/src/run.py",
+      "args": [
+        "--split",
+        "test"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

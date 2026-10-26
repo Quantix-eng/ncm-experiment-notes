@@ -1,35 +1,25 @@
 # AR and parallel toy models on one task
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E15 · Toy AR / parallel · Symbol rotation
 
-Original ID **E15** · Toy AR / parallel · Symbol rotation · Outcome: **negative**
+Train three paired seeds of AR and parallel toy models on symbol rotation. Calibrate a common damage dose before comparing recovery and exchange behavior.
 
-Train three paired seeds of small autoregressive and parallel Transformers on the same symbol-rotation task.
+**Result.** All six models solve the native examples, but no tested corruption dose meets the shared damage gate. Recovery contrasts at the fallback dose are negative. Cutoffs and seeds change exchange behavior.
 
-## Recorded result
+**Interpretation.** No valid general comparison of AR and parallel repair.
 
-All six models solve the native examples, but no tested corruption dose meets the shared damage gate. Recovery contrasts at the fallback dose are negative. Cutoffs and seeds change exchange behavior.
+**Limit.** The calibration objective fails. The parallel model is not NCM, and the training objectives differ. These runs cannot identify a general effect of autoregressive versus parallel generation.
 
-## Interpretation
+## Run from this folder
 
-A control experiment that sets a boundary on what the earlier cross-model comparisons can claim.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run prepare --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-The calibration objective fails. The parallel model is not NCM, and the training objectives differ. These runs cannot identify a general effect of autoregressive versus parallel generation.
+**Inputs:** PyTorch/NumPy; fresh toy training and calibration. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/benchmark_tache_commune](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_tache_commune)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/benchmark_tache_commune/results/calibration.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_tache_commune/results/calibration.json)
-- [analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [Input and state exchanges in NCM](../16-ncm-exchanges/README.md).
-- [The same access test on GPT-2 copying](../17-gpt2-copying/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

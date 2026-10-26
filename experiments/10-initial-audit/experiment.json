@@ -1,0 +1,39 @@
+{
+  "id": 10,
+  "original_id": 5,
+  "title": "The initial NCM audit",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets and original split inputs",
+  "records": [
+    "experiments/10-initial-audit/recorded/tokenizer.json",
+    "experiments/10-initial-audit/recorded/naked_single.json",
+    "experiments/10-initial-audit/recorded/causal.json"
+  ],
+  "stages": {
+    "prepare": {
+      "source": "experiments/10-initial-audit/src/prepare.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "extract": {
+      "source": "experiments/10-initial-audit/src/extract.py",
+      "args": [
+        "--difficulty",
+        "hard"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/10-initial-audit/src/analyze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "probe": {
+      "source": "experiments/10-initial-audit/src/experiments.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

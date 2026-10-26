@@ -1,0 +1,32 @@
+{
+  "id": 16,
+  "original_id": 13,
+  "title": "Input and state exchanges in NCM",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets and constructed Sudoku families from experiment 19",
+  "records": [
+    "experiments/16-ncm-exchanges/recorded/summary.json",
+    "experiments/16-ncm-exchanges/recorded/output_quality.json"
+  ],
+  "stages": {
+    "freeze": {
+      "source": "experiments/16-ncm-exchanges/src/run.py",
+      "args": [
+        "--freeze"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "inference": {
+      "source": "experiments/16-ncm-exchanges/src/run.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "analyze": {
+      "source": "experiments/16-ncm-exchanges/src/analyze.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

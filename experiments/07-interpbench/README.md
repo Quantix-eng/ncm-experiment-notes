@@ -1,35 +1,25 @@
 # An extra mismatch check did not improve prediction
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E20 · Tracr · InterpBench
 
-Original ID **E20** · Tracr · InterpBench · Outcome: **negative**
+Use reserved InterpBench tasks 13, 18, 19 and 21. Compare the five-condition rule with internal ablations on future-donor queries, checking Craft/RASP agreement.
 
-Use probe interventions to predict whether a future donor exchange preserves the native output.
+**Result.** On four reserved tasks and 5,632 queries, the five-condition rule has 50.52% coverage and 2.35% neural contradiction risk. Without mismatch, these are 50.90% and 2.34%.
 
-## Recorded result
+**Interpretation.** No added benefit from the extra mismatch condition.
 
-On four reserved tasks and 5,632 queries, the five-condition rule has 50.52% coverage and 2.35% neural contradiction risk. Without mismatch, these are 50.90% and 2.34%.
+**Limit.** These are finite task averages, not a matched-coverage ranking. One task has substantial native model-program disagreement. The internal ablations are not independent competing methods.
 
-## Interpretation
+## Run from this folder
 
-An important negative result for the proposed use of matching. More conditions did not establish better predictions in this test.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run reserve --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-These are finite task averages, not a matched-coverage ranking. One task has substantial native model-program disagreement. The internal ablations are not independent competing methods.
+**Inputs:** InterpBench weights, Tracr sources, dependencies and fresh seals. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench](../../historical/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/results/c2_summary.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/results/c2_summary.json)
-- [analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/RAPPORT_C2.md](../../historical/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/RAPPORT_C2.md)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [Checking the protocol on constructed programs](../19-constructed-controls/README.md).
-- [Replacing the whole memory removes the recipient path](../20-whole-memory-control/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

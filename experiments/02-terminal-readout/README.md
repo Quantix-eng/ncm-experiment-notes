@@ -1,35 +1,25 @@
 # Reading and editing terminal codes
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E10 · NCM · Sudoku
 
-Original ID **E10** · NCM · Sudoku · Outcome: **mixed**
+Build digit/code lookup tables on discovery data. Request single-cell writes on 128 source puzzles, then test lookup plus external certification on 1,024 fresh puzzles.
 
-Can a simple table read digits from the final Sudoku codes, and can a code replacement write a requested digit?
+**Result.** Target-associated substitutions succeed in 784/1,024 requests on 128 puzzles. A lookup plus a Sudoku checker certifies 552/1,024 fresh puzzles before falling back to the native decoder.
 
-## Recorded result
+**Interpretation.** Partial terminal readout; no full-pipeline speedup established.
 
-Target-associated substitutions succeed in 784/1,024 requests on 128 puzzles. A lookup plus a Sudoku checker certifies 552/1,024 fresh puzzles before falling back to the native decoder.
+**Limit.** Eight requests share each source puzzle. Gaussian controls do not match valid codebook geometry. The certificate depends on clue checks, uniqueness and exact fallback. No whole-model speedup is established.
 
-## Interpretation
+## Run from this folder
 
-A concrete endpoint experiment, with an external verifier that makes the limits easy to inspect. It is not evidence of a human-like symbolic alphabet.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run sample --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-Eight requests share each source puzzle. Gaussian controls do not match valid codebook geometry. The certificate depends on clue checks, uniqueness and exact fallback. No whole-model speedup is established.
+**Inputs:** Hard Sudoku assets + the included table for `sample`; extraction arrays and other checkpoints for full historical stages. **Tested here:** recorded-data check; `sample`. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/recherche_positive/scripts](../../historical/Experience_NCM/analyse_fondamentale_NCM/recherche_positive/scripts)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/recherche_positive/results/writing_interventions.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/recherche_positive/results/writing_interventions.json)
-- [analyse_fondamentale_NCM/recherche_positive/results/hard_readout.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/recherche_positive/results/hard_readout.json)
-- [analyse_fondamentale_NCM/recherche_positive/results/benchmark.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/recherche_positive/results/benchmark.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [Two terminal edits can interfere](../04-terminal-composition/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

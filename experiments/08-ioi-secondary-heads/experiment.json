@@ -1,0 +1,47 @@
+{
+  "id": 8,
+  "original_id": 18,
+  "title": "Repeating IOI interventions at two other heads",
+  "domain": "GPT-2 \u00b7 IOI",
+  "requirements": "Same IOI assets and development gate as experiment 03",
+  "records": [
+    "experiments/08-ioi-secondary-heads/recorded/test_L9H6_summary.json",
+    "experiments/08-ioi-secondary-heads/recorded/test_L10H0_summary.json"
+  ],
+  "stages": {
+    "heads": {
+      "source": "experiments/08-ioi-secondary-heads/src/evaluate_heads.py",
+      "args": [
+        "--head",
+        "both"
+      ],
+      "note": "Secondary-head IOI workflow, reusing the common intervention engine."
+    },
+    "head-9-6": {
+      "source": "common/ioi/run_test.py",
+      "args": [
+        "--split",
+        "test",
+        "--layer",
+        "9",
+        "--head",
+        "6"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "head-10-0": {
+      "source": "common/ioi/run_test.py",
+      "args": [
+        "--split",
+        "test",
+        "--layer",
+        "10",
+        "--head",
+        "0"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

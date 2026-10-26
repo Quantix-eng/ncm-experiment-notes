@@ -1,0 +1,21 @@
+{
+  "id": 19,
+  "original_id": 12,
+  "title": "Checking the protocol on constructed programs",
+  "domain": "Constructed programs",
+  "requirements": "NumPy/PyTorch for the fixed-family analytical rerun; no trained checkpoint required",
+  "records": [
+    "experiments/19-constructed-controls/recorded/summary.json"
+  ],
+  "stages": {
+    "fixed-families": {
+      "source": "experiments/19-constructed-controls/src/run_fixed.py",
+      "args": [],
+      "note": "Re-execute analytical controls on the included fixed source families.\n\nThis recomputes interventions and diagnostic predictions, rather than reading\nsaved predictions. It reuses the source families and is not a new dataset."
+    }
+  },
+  "validated_stages": [
+    "fixed-families"
+  ],
+  "recorded_check_validated": true
+}

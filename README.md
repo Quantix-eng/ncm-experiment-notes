@@ -1,14 +1,19 @@
 # NCM experiment notes
 
-Small experiments on NCM readouts, terminal codes, and recovery after internal interventions.
+Twenty exploratory studies on NCM and related model controls, with code, recorded results and bounded interpretations.
 
-[Français](docs/README.fr.md) · [Compare the 20 experiments](#all-20-experiments-at-a-glance) · [How the studies connect](experiments/README.md) · [Reproducing the work](docs/reproducing.md)
+Start with the table below. Each experiment has its own source, inputs, saved results and entry point. Shared model adapters and utilities live in [`common/`](common/README.md).
 
-We started with a question: when an intermediate answer changes, what has actually changed inside the model? That led to Sudoku probes, a few attempts to save computation, and later some GPT-2 experiments. Several ideas did not work. We kept those results here too.
+## Try one experiment
 
-The most useful observations are fairly narrow. One Sudoku checkpoint uses a constant code at an intermediate level. Some terminal codes can be read or edited with a simple table. In GPT-2, recovery after an intervention is much larger than the extra advantage of matching a continuation to its particular donor.
+```sh
+git clone https://github.com/Quantix-eng/ncm-experiment-notes.git
+cd ncm-experiment-notes/experiments/02-terminal-readout
+python3 run.py check
+python3 run.py stages
+```
 
-There is no model release or claimed performance breakthrough here. These are exploratory notes, code and recorded results. The original [NCM paper and implementation](https://github.com/HazyResearch/ncm) belong to the Hazy Research team; this work is independent.
+The first command recalculates this experiment’s saved counts. It does not rerun the model. The second lists its real inference stages. With the shared setup installed, `python3 run.py run sample` runs a small model trial in that same folder. See [setup and execution](docs/reproducing.md) for dependencies, assets and current validation status.
 
 ## All 20 experiments at a glance
 
@@ -41,48 +46,19 @@ GitHub Markdown tables cannot be sorted by clicking a column. Download the [CSV 
 | 19 / E12 | [Checking the protocol on constructed programs](experiments/19-constructed-controls/README.md) | Constructed programs | Control | 344/344 intended diagnoses on jointly designed instances. | Implementation consistency, not external mechanism validation. |
 | 20 / E16 | [Replacing the whole memory removes the recipient path](experiments/20-whole-memory-control/README.md) | Toy models · Whole-memory exchange | Control | Outputs follow the donor when all recipient state is removed. | Expected consequence of the access contract. |
 
-## Inspect or reproduce a result
-
-Choose an experiment in the table, then open its page for the recorded result, interpretation, limits, code and saved records. [How the experiments connect](experiments/README.md) groups related studies and explains which controls matter.
-
-### Quick checks
-
-Python 3.10 or later is enough for these commands. No model downloads are needed.
-
-```sh
-python3 scripts/check_pooling_identity.py
-python3 scripts/recompute_ioi.py
-python3 scripts/verify_release.py
-```
-
-The first illustrates the pooling identity. The second recalculates IOI means from saved observations. The third checks the exported files and navigation. None reruns the original neural experiments.
-
-For a small NCM inference check, see [the reproduction guide](docs/reproducing.md). It also explains which historical campaigns need additional data, dependencies or large traces. The original scripts are included, but the whole archive is not a one-command reproduction package.
-
-## What is included
+## Repository layout
 
 ```text
-experiments/     Individual studies, connections and sortable catalogues
-docs/           Scope, reproduction and background
-scripts/        Small checks and a checkpoint-based smoke test
-historical/     Copies of the original code, protocols and JSON records
-provenance/     File hashes, omissions and packaging checks
+common/                       Shared adapters, dependencies and execution support
+experiments/02-terminal-readout/
+  run.py                      Local command line entry point
+  experiment.json             Stage arguments and required inputs
+  src/                        Scientific code and recorded-data recalculation
+  inputs/                     Protocol settings and small input files
+  recorded/                   Saved results
+  runs/                       New executions, ignored by Git
 ```
 
-The historical files keep their original wording and layout. Some earlier interpretations were later narrowed; the experiment pages explain the current reading. Old local paths and command lines are retained as provenance, not presented as portable instructions.
+The [connections guide](experiments/README.md) explains which studies to read together. [Scope](docs/scope.md) separates observations from claims, and [related work](docs/related-work.md) identifies prior findings. There is no claimed model-performance breakthrough or independent human replication. AI tools contributed substantially to planning, code, analysis and writing.
 
-Weights, installed libraries and large numerical traces are not bundled. The [inventory](provenance/historical-manifest.json) records omitted traces and their hashes. Model sources and versions are described in [reproduction](docs/reproducing.md).
-
-## A few limits worth keeping in view
-
-Most work uses frozen checkpoints and small, sometimes reused datasets. Related campaigns are not independent replications. Some hypotheses and reporting choices changed during exploration. Local freezes and hashes make the record easier to inspect; they do not prove an untouched research history.
-
-AI tools contributed substantially to planning, code, analysis and writing. Checks by those tools are internal checks. No independent human replication is claimed. [Scope and provenance](docs/scope.md) gives the details.
-
-## Background and credit
-
-Start with [Next-Concept Modeling](https://arxiv.org/abs/2610.14162), [Interpretability in the Wild](https://arxiv.org/abs/2211.00593) and [Explorations of Self-Repair](https://arxiv.org/abs/2402.15390). [Related work](docs/related-work.md) lists the closest references, including CoAx.
-
-The original NCM copyright notice is retained in [LICENSE](LICENSE). Other models, datasets and libraries keep their own terms; see [NOTICE](NOTICE.md).
-
-If you find a mistaken interpretation, a missing control or a reproduction problem, please open an issue with the experiment number and the command you used.
+This work is independent of [Hazy Research NCM](https://github.com/HazyResearch/ncm). Upstream copyright notices are retained in [LICENSE](LICENSE) and [NOTICE](NOTICE.md). The [source inventory](provenance/source-inventory.json) records the relocation and omitted numerical arrays. The earlier archive remains in Git history, rather than a second working tree in this repository.

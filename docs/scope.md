@@ -28,8 +28,8 @@ AI tools contributed substantially to experiment planning, implementation, execu
 
 The repository does not claim an external review, an accepted paper or independent human replication. Anyone using the results should inspect the code and the assumptions, including the negative outcomes.
 
-## Historical files
+## Source provenance
 
-The copies under `historical/Experience_NCM/` preserve the original files. Their command lines may refer to local environments, missing traces or old paths. New readers should use the curated experiment pages and reproduction guide first.
+Scientific scripts now live under each experiment’s `src/` or in `common/`. Local entry points provide isolated execution. The earlier archive remains in Git history; its reports are not duplicated in the working tree.
 
-The export manifest records SHA-256 hashes for copied files and omitted numerical arrays. Packaging checks and small examples added for this repository are recorded separately. They do not retroactively validate the scientific conclusions.
+The [source inventory](../provenance/source-inventory.json) records hashes, relocation and omitted numerical arrays. Packaging checks and small examples added for this repository are recorded separately. They do not retroactively validate the scientific conclusions.

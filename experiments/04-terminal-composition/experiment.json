@@ -1,0 +1,26 @@
+{
+  "id": 4,
+  "original_id": 11,
+  "title": "Two terminal edits can interfere",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets and terminal discovery tables",
+  "records": [
+    "experiments/04-terminal-composition/recorded/summary.json"
+  ],
+  "stages": {
+    "freeze": {
+      "source": "experiments/04-terminal-composition/src/experiment.py",
+      "args": [
+        "--freeze"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "interventions": {
+      "source": "experiments/04-terminal-composition/src/experiment.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

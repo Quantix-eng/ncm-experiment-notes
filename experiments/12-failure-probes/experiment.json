@@ -1,0 +1,48 @@
+{
+  "id": 12,
+  "original_id": 1,
+  "title": "Internal states added little to failure prediction",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets and training/development feature arrays",
+  "records": [
+    "experiments/12-failure-probes/recorded/audit/final-v0.3/analysis/report.json"
+  ],
+  "stages": {
+    "pilot": {
+      "source": "common/probes/run_pilot.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "training-features": {
+      "source": "experiments/12-failure-probes/src/extract_training.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "fit": {
+      "source": "experiments/12-failure-probes/src/final_v03.py",
+      "args": [
+        "--stage",
+        "fit"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "extract": {
+      "source": "experiments/12-failure-probes/src/final_v03.py",
+      "args": [
+        "--stage",
+        "extract"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "evaluate": {
+      "source": "experiments/12-failure-probes/src/final_v03.py",
+      "args": [
+        "--stage",
+        "evaluate"
+      ],
+      "note": "Existing scientific runner; dependencies and input files required."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

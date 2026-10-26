@@ -1,36 +1,25 @@
 # The initial NCM audit
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E05 · NCM · Sudoku
 
-Original ID **E05** · NCM · Sudoku · Outcome: **mixed**
+Audit native reconstruction and code usage. Fit a naked-single probe with shuffled-label control, then test whether the feature-specific causal intervention is selective.
 
-Inspect reconstruction, code usage, deterministic repeats, symmetries, checkpoint transfer and simple probes.
+**Result.** The audit found the constant intermediate level and a naked-single probe with AUROC 0.877 versus 0.496 with shuffled labels. The causal ablation was not specific.
 
-## Recorded result
+**Interpretation.** Decodability does not establish causal use of the feature.
 
-The audit found the constant intermediate level and a naked-single probe with AUROC 0.877 versus 0.496 with shuffled labels. The causal ablation was not specific.
+**Limit.** Naked singles can be computed directly from the puzzle. Decodability alone does not show that the model uses the feature or implements a human Sudoku rule.
 
-## Interpretation
+## Run from this folder
 
-Background for the more focused pooling experiments. It is a collection of diagnostics rather than a complete causal anatomy.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run prepare --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-Naked singles can be computed directly from the puzzle. Decodability alone does not show that the model uses the feature or implements a human Sudoku rule.
+**Inputs:** Sudoku assets and original split inputs. **Tested here:** recorded-data check. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/scripts](../../historical/Experience_NCM/analyse_fondamentale_NCM/scripts)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/results/tokenizer.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/results/tokenizer.json)
-- [analyse_fondamentale_NCM/results/naked_single.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/results/naked_single.json)
-- [analyse_fondamentale_NCM/results/causal.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/results/causal.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [A pooling symmetry in solved Sudoku](../01-pooling/README.md).
-- [The constant level did not recur in text tokenizers](../11-text-pooling-controls/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)

@@ -1,8 +1,111 @@
 {
   "passed": true,
-  "historical_files": 1025,
-  "curated_links": 282,
-  "experiments": 20,
-  "originals_checked": true,
-  "scope": "packaging integrity and syntax, not scientific replication"
+  "source_files": 340,
+  "mapped_files": 613,
+  "curated_links": 214,
+  "original_files_checked": 608,
+  "recorded_data_checks": [
+    {
+      "experiment": "01-pooling",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "02-terminal-readout",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "03-ioi-recovery",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "04-terminal-composition",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "05-text-reversals",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "06-sudoku-reversals",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "07-interpbench",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "08-ioi-secondary-heads",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "09-ncm-omission",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "10-initial-audit",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "11-text-pooling-controls",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "12-failure-probes",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "13-early-abandonment",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "14-future-corrections",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "15-pythia-reader",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "16-ncm-exchanges",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "17-gpt2-copying",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "18-matched-toy-models",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "19-constructed-controls",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    },
+    {
+      "experiment": "20-whole-memory-control",
+      "passed": true,
+      "scope": "recorded-data recalculation, not a new model run"
+    }
+  ],
+  "scope": "packaging and recorded-data checks; full inference validation is listed separately in provenance/execution-checks.json",
+  "execution_isolation_test": "passed"
 }

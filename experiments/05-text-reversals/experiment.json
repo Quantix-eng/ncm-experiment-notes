@@ -1,0 +1,20 @@
+{
+  "id": 5,
+  "original_id": 9,
+  "title": "Token reversals in LM1B generation",
+  "domain": "NCM \u00b7 LM1B",
+  "requirements": "LM1B model and tokenizer; selected oracle inputs",
+  "records": [
+    "experiments/05-text-reversals/recorded/lm1b_generation.json",
+    "experiments/05-text-reversals/recorded/lm1b_oracle.json"
+  ],
+  "stages": {
+    "generate": {
+      "source": "experiments/05-text-reversals/src/text_generation.py",
+      "args": [],
+      "note": "Requires LM1B model, tokenizer and selected reconstruction-control inputs."
+    }
+  },
+  "validated_stages": [],
+  "recorded_check_validated": true
+}

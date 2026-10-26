@@ -1,0 +1,46 @@
+{
+  "id": 1,
+  "original_id": 6,
+  "title": "A pooling symmetry in solved Sudoku",
+  "domain": "NCM \u00b7 Sudoku",
+  "requirements": "Sudoku assets; extraction arrays for weighted pooling",
+  "records": [
+    "experiments/01-pooling/recorded/diagnostics/pooling_algebra.json",
+    "experiments/01-pooling/recorded/diagnostics/level5_diagnostic.json",
+    "experiments/01-pooling/recorded/weighted_pooling/heldout.json",
+    "experiments/01-pooling/recorded/weighted_pooling/generator_alignment.json"
+  ],
+  "stages": {
+    "checkpoint": {
+      "source": "experiments/01-pooling/src/check_checkpoint.py",
+      "args": [
+        "--n",
+        "16"
+      ],
+      "note": "Small fresh parity test, not the complete pooling campaign.",
+      "direct": true,
+      "asset_argument": "--asset-root",
+      "output_argument": "--output"
+    },
+    "algebra": {
+      "source": "experiments/01-pooling/src/diagnostics/pooling_algebra.py",
+      "args": [],
+      "note": "Requires official Sudoku data and all three tokenizer checkpoints."
+    },
+    "geometry": {
+      "source": "experiments/01-pooling/src/diagnostics/diagnose_level5.py",
+      "args": [],
+      "note": "Existing scientific runner; dependencies and input files required."
+    },
+    "weighted-pooling": {
+      "source": "experiments/01-pooling/src/weighted_pooling/experiments.py",
+      "args": [],
+      "note": "Requires cached extraction arrays and the calibration split."
+    }
+  },
+  "validated_stages": [
+    "checkpoint",
+    "algebra"
+  ],
+  "recorded_check_validated": true
+}

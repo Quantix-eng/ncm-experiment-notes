@@ -1,38 +1,25 @@
 # A pooling symmetry in solved Sudoku
 
-[All experiments](../../README.md#all-20-experiments-at-a-glance) · [Connections between studies](../README.md) · [Reproduction](../../docs/reproducing.md)
+[Overview](../../README.md#all-20-experiments-at-a-glance) · E06 · NCM · Sudoku
 
-Original ID **E06** · NCM · Sudoku · Outcome: **observation**
+Compare token histograms in the nine adaptive pooling windows, inspect native level-5 usage, then perturb the encoding pool while keeping the generator frozen.
 
-Averaging raw token-plus-position embeddings loses the order of digits inside a valid Sudoku row. At one nine-position level, the hard checkpoint also uses a constant code on the examined inputs.
+**Result.** Weighted pooling activates 15 of the 16 encoding identifiers while preserving the recorded reconstruction counts. Agreement with the frozen generator target falls from 100% to 1.65%.
 
-## Recorded result
+**Interpretation.** Encoding diagnosis; no generation improvement.
 
-Weighted pooling activates 15 of the 16 encoding identifiers while preserving the recorded reconstruction counts. Agreement with the frozen generator target falls from 100% to 1.65%.
+**Limit.** The algebra applies before GroupNorm and earlier residual subtraction. It does not prove that native quantization must collapse. The modified encoding path is not used by native generation, and no solving improvement follows.
 
-## Interpretation
+## Run from this folder
 
-This is the clearest small observation to discuss with the NCM authors. The useful part is the checkpoint diagnosis and its limits; the averaging identity itself is elementary.
+```sh
+python3 run.py check
+python3 run.py stages
+python3 run.py run checkpoint --plan
+```
 
-## Limits
+`check` executes [the local recalculation](src/check_recorded.py), without a model. Remove `--plan` to execute an inference stage after [setup](../../common/README.md). New outputs go to `runs/<name>/`.
 
-The algebra applies before GroupNorm and earlier residual subtraction. It does not prove that native quantization must collapse. The modified encoding path is not used by native generation, and no solving improvement follows.
+**Inputs:** Sudoku assets; extraction arrays for weighted pooling. **Tested here:** recorded-data check; `checkpoint`, `algebra`. Other full workflows remain unvalidated after relocation.
 
-## Code and protocol
-
-- [analyse_fondamentale_NCM/directions_mecanistes/scripts](../../historical/Experience_NCM/analyse_fondamentale_NCM/directions_mecanistes/scripts)
-- [analyse_fondamentale_NCM/correction_pooling/scripts](../../historical/Experience_NCM/analyse_fondamentale_NCM/correction_pooling/scripts)
-
-## Saved records
-
-- [analyse_fondamentale_NCM/directions_mecanistes/results/pooling_algebra.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/directions_mecanistes/results/pooling_algebra.json)
-- [analyse_fondamentale_NCM/directions_mecanistes/results/level5_diagnostic.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/directions_mecanistes/results/level5_diagnostic.json)
-- [analyse_fondamentale_NCM/correction_pooling/results/heldout.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/correction_pooling/results/heldout.json)
-- [analyse_fondamentale_NCM/correction_pooling/results/generator_alignment.json](../../historical/Experience_NCM/analyse_fondamentale_NCM/correction_pooling/results/generator_alignment.json)
-
-These are historical records. They were not regenerated for this page. The [reproduction guide](../../docs/reproducing.md) distinguishes quick recalculations, the checkpoint smoke test and full campaign reruns. The [export inventory](../../provenance/historical-manifest.json) records omitted traces.
-
-## Read alongside
-
-- [The initial NCM audit](../10-initial-audit/README.md).
-- [The constant level did not recur in text tokenizers](../11-text-pooling-controls/README.md).
+[Code](src/) · [Inputs](inputs/) · [Saved results](recorded/) · [Stage details](experiment.json)
