@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "stage": "prospective_local_freeze_on_existing_corpus",
+  "seed": 2026102503,
+  "source_indices": {"start": 512, "stop_exclusive": 544},
+  "checkpoint": "hard",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "decoder_batch_size": 16,
+  "bootstrap": 10000,
+  "strata": ["adjacent", "row_distant", "column_other_block", "block_only", "unrelated"],
+  "selection": "One unordered pair of initially blank cells per source and stratum, uniformly sampled from input-only eligible pairs using the fixed seed. All strata required; fail rather than replace a source. No selection by native correctness or intervention outcomes.",
+  "stratum_definitions": {
+    "adjacent": "same row, column distance 1 (terminal token distance 1)",
+    "row_distant": "same row, column distance >= 3",
+    "column_other_block": "same column, different 3x3 blocks",
+    "block_only": "same 3x3 block, different rows and columns",
+    "unrelated": "different rows, columns and 3x3 blocks; terminal distance > 2"
+  },
+  "writing_rule": "Use unchanged hard alphabet_by_digit from recherche_positive/results/discovery_tables.json. No fitting, code search or per-example tuning.",
+  "targets": "For each cell use all eight digits unequal to its native singleton decoder argmax. Cross all 8x8 targets, including identical digits at the two positions. Report same vs different digits descriptively.",
+  "intervention": "z_final + (R12(c12 edited) - R12(c12 native)), preserving all other terminal codes and all previous levels. Compute one joint residual, not the sum of single residual deltas. No generator continuation.",
+  "arms": ["native/sham", "A only: 8 targets", "B only: 8 targets", "A and B: 64 target pairs", "direct output token edit: exact comparator by construction"],
+  "primary_descriptive": ["both targets written", "exactly one target written", "neither target written", "full contract: both targets plus unchanged other 79 cells and eight separators", "loss relative to conjunction of matched singleton full contracts", "full-contract retention among target pairs whose two singleton full contracts both pass"],
+  "inference": "Descriptive 95% percentile bootstrap resampling 32 whole source puzzles, keeping strata and targets clustered. No p-value, no multiplicity-adjusted confirmatory claim. Wilson upper bound for fraction of sources with any violation when zero events observed.",
+  "pilot_decision": "Heuristic fixed before outcomes: strong composition degradation if full-contract retention < 0.95 OR matched singleton-conjunction rate minus joint full-contract rate > 0.05. Otherwise no composition veto at tested scope. This is not evidence of an architecture advantage. Absolute joint failure and singleton failure must remain explicit; direct output edits satisfy this terminal contract by construction.",
+  "verification": "Check frozen hashes before and after; regenerate native codes/z for all 32 inputs in original batches of 16; require bitwise parity with cached codes/z and singleton argmax. Require sham equality. Independently replay first source in singleton decoder calls, all 5 strata and 80 interventions per pair, checking all 89 tokens and summaries. Preserve failures; stop on parity failure without changing endpoints.",
+  "scope": "Existing nonuniform unique-solution 30-clue corpus, one fixed checkpoint and alphabet, 32 sources, five sampled pairs each. New interventions are not fresh independent puzzles. No universal symbolic interface, Sudoku-solving gain, code-space exhaustive certificate, continuation utility or novel architecture claim. Freeze is local and is not independent preregistration. Stop and report after this stage."
+}

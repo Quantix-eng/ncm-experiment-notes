@@ -1,0 +1,612 @@
+{
+  "status": "calibration_executed_not_independently_validated",
+  "n_families": 52,
+  "n_cases": 344,
+  "scores": {
+    "trajectory_naive": {
+      "all": {
+        "n": 344,
+        "covered": 52,
+        "coverage": 0.1511627906976744,
+        "singleton": 344,
+        "singleton_correct": 52,
+        "exact_identification": 0.1511627906976744,
+        "singleton_accuracy": 0.1511627906976744,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "split:development": {
+        "n": 120,
+        "covered": 24,
+        "coverage": 0.2,
+        "singleton": 120,
+        "singleton_correct": 24,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 0.2,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "split:evaluation": {
+        "n": 224,
+        "covered": 28,
+        "coverage": 0.125,
+        "singleton": 224,
+        "singleton_correct": 28,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 0.125,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:equality": {
+        "n": 60,
+        "covered": 12,
+        "coverage": 0.2,
+        "singleton": 60,
+        "singleton_correct": 12,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 0.2,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:parity": {
+        "n": 60,
+        "covered": 12,
+        "coverage": 0.2,
+        "singleton": 60,
+        "singleton_correct": 12,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 0.2,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:permutation": {
+        "n": 96,
+        "covered": 12,
+        "coverage": 0.125,
+        "singleton": 96,
+        "singleton_correct": 12,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 0.125,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:sudoku": {
+        "n": 128,
+        "covered": 16,
+        "coverage": 0.125,
+        "singleton": 128,
+        "singleton_correct": 16,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 0.125,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:fixed_response": {
+        "n": 52,
+        "covered": 0,
+        "coverage": 0.0,
+        "singleton": 52,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": 0.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:input_recompute": {
+        "n": 52,
+        "covered": 0,
+        "coverage": 0.0,
+        "singleton": 52,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": 0.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:mixed": {
+        "n": 84,
+        "covered": 0,
+        "coverage": 0.0,
+        "singleton": 84,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": 0.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:oracle_replay": {
+        "n": 52,
+        "covered": 0,
+        "coverage": 0.0,
+        "singleton": 52,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": 0.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:state_compensation": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:tolerant": {
+        "n": 52,
+        "covered": 0,
+        "coverage": 0.0,
+        "singleton": 52,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": 0.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "macro_exact_by_control": 0.16666666666666666
+    },
+    "trajectory_cautious": {
+      "all": {
+        "n": 344,
+        "covered": 344,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "split:development": {
+        "n": 120,
+        "covered": 120,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "split:evaluation": {
+        "n": 224,
+        "covered": 224,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "family:equality": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "family:parity": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "family:permutation": {
+        "n": 96,
+        "covered": 96,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "family:sudoku": {
+        "n": 128,
+        "covered": 128,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:fixed_response": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:input_recompute": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:mixed": {
+        "n": 84,
+        "covered": 84,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:oracle_replay": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:state_compensation": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "label:tolerant": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 6.0,
+        "abstention_fraction": 1.0
+      },
+      "macro_exact_by_control": 0.0
+    },
+    "crossed_only": {
+      "all": {
+        "n": 344,
+        "covered": 344,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 0.1511627906976744,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.395348837209302,
+        "abstention_fraction": 0.8488372093023255
+      },
+      "split:development": {
+        "n": 120,
+        "covered": 120,
+        "coverage": 1.0,
+        "singleton": 24,
+        "singleton_correct": 24,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.2,
+        "abstention_fraction": 0.8
+      },
+      "split:evaluation": {
+        "n": 224,
+        "covered": 224,
+        "coverage": 1.0,
+        "singleton": 28,
+        "singleton_correct": 28,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.5,
+        "abstention_fraction": 0.875
+      },
+      "family:equality": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 12,
+        "singleton_correct": 12,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.2,
+        "abstention_fraction": 0.8
+      },
+      "family:parity": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 12,
+        "singleton_correct": 12,
+        "exact_identification": 0.2,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.2,
+        "abstention_fraction": 0.8
+      },
+      "family:permutation": {
+        "n": 96,
+        "covered": 96,
+        "coverage": 1.0,
+        "singleton": 12,
+        "singleton_correct": 12,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.5,
+        "abstention_fraction": 0.875
+      },
+      "family:sudoku": {
+        "n": 128,
+        "covered": 128,
+        "coverage": 1.0,
+        "singleton": 16,
+        "singleton_correct": 16,
+        "exact_identification": 0.125,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 2.5,
+        "abstention_fraction": 0.875
+      },
+      "label:fixed_response": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:input_recompute": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 3.0,
+        "abstention_fraction": 1.0
+      },
+      "label:mixed": {
+        "n": 84,
+        "covered": 84,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 3.0,
+        "abstention_fraction": 1.0
+      },
+      "label:oracle_replay": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 2.0,
+        "abstention_fraction": 1.0
+      },
+      "label:state_compensation": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 3.0,
+        "abstention_fraction": 1.0
+      },
+      "label:tolerant": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 0,
+        "singleton_correct": 0,
+        "exact_identification": 0.0,
+        "singleton_accuracy": null,
+        "mean_set_size": 2.0,
+        "abstention_fraction": 1.0
+      },
+      "macro_exact_by_control": 0.16666666666666666
+    },
+    "complete_intervention": {
+      "all": {
+        "n": 344,
+        "covered": 344,
+        "coverage": 1.0,
+        "singleton": 344,
+        "singleton_correct": 344,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "split:development": {
+        "n": 120,
+        "covered": 120,
+        "coverage": 1.0,
+        "singleton": 120,
+        "singleton_correct": 120,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "split:evaluation": {
+        "n": 224,
+        "covered": 224,
+        "coverage": 1.0,
+        "singleton": 224,
+        "singleton_correct": 224,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:equality": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 60,
+        "singleton_correct": 60,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:parity": {
+        "n": 60,
+        "covered": 60,
+        "coverage": 1.0,
+        "singleton": 60,
+        "singleton_correct": 60,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:permutation": {
+        "n": 96,
+        "covered": 96,
+        "coverage": 1.0,
+        "singleton": 96,
+        "singleton_correct": 96,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "family:sudoku": {
+        "n": 128,
+        "covered": 128,
+        "coverage": 1.0,
+        "singleton": 128,
+        "singleton_correct": 128,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:fixed_response": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:input_recompute": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:mixed": {
+        "n": 84,
+        "covered": 84,
+        "coverage": 1.0,
+        "singleton": 84,
+        "singleton_correct": 84,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:oracle_replay": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:state_compensation": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "label:tolerant": {
+        "n": 52,
+        "covered": 52,
+        "coverage": 1.0,
+        "singleton": 52,
+        "singleton_correct": 52,
+        "exact_identification": 1.0,
+        "singleton_accuracy": 1.0,
+        "mean_set_size": 1.0,
+        "abstention_fraction": 0.0
+      },
+      "macro_exact_by_control": 1.0
+    }
+  },
+  "partitions": {
+    "development": 24,
+    "evaluation": 28
+  },
+  "counts_by_family": {
+    "equality": 12,
+    "parity": 12,
+    "permutation": 12,
+    "sudoku": 16
+  },
+  "utc": "2026-10-25T13:28:05Z",
+  "elapsed_seconds": 2.5687613339396194,
+  "environment": {
+    "python": "3.13.0",
+    "numpy": "1.26.4",
+    "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+    "dtype": "float64",
+    "inference": "constructed controls; no learned model"
+  },
+  "freeze_sha256": "a164b2cb0a03818bd2c9482eb59a892341a8971a999a939de02a36e8504f45a0",
+  "freeze_utc": "2026-10-25T13:27:17Z"
+}

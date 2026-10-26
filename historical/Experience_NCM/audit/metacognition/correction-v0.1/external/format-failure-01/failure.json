@@ -1,0 +1,5 @@
+{
+  "error": "Expected 91-token official prompts; subsequent re-lock import path corrected without data access",
+  "external_predictions_observed": 0,
+  "stage": "before_first_prediction"
+}

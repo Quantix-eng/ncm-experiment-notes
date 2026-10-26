@@ -1,0 +1,13 @@
+{
+  "bootstrap_caveat": "Fixed pooled OOF predictions from overlapping training sets; descriptive only, excludes refitting uncertainty, not the protocol's final-test interval",
+  "calibration_or_test_used": false,
+  "descriptive_pooled_oof_delta_auc_percentile_95": [
+    -0.020825967808781227,
+    0.005946409993994927
+  ],
+  "max_abs_logit_replay_error": 9.313225746154785e-08,
+  "n": 1000,
+  "note": "Independent numerical replay of saved preprocessing and coefficients; not independent model replication or learning-variability inference",
+  "report_sha256": "be9523725e0fc00b91369a9df6980e129331c95fb2379b34afe8094681752fd0",
+  "status": "passed"
+}

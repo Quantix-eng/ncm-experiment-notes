@@ -1,0 +1,14 @@
+{
+  "native": {
+    "level5_match": 1.0,
+    "all_codes_match": 0.8718737060041408
+  },
+  "weighted_1": {
+    "level5_match": 0.016481481481481482,
+    "all_codes_match": 0.7959782608695652
+  },
+  "max_1": {
+    "level5_match": 0.00037037037037037035,
+    "all_codes_match": 0.7643115942028985
+  }
+}

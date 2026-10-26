@@ -1,0 +1,23 @@
+{
+  "amendment_sha256": "9e1f90f2bf77655ee573e0fbbd6874ac89e0a2130be0d05837e007f43300a554",
+  "calibration_partition_used": false,
+  "completed_outer_folds": [],
+  "error": "Traceback (most recent call last):\n  File \"/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/experiments/metacognition/study_v03.py\", line 140, in main\n    fitted, diagnostics = select_and_fit(data, y, train, valid, cv, models, noise,\n                          ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        20261025 + 100 * k, protocol, progress=f\"{args.mode} {k + 1}/{repeats}\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/experiments/metacognition/study_v03.py\", line 97, in select_and_fit\n    strength = max(s for s in strengths if means[s] <= best + 1e-8)\nValueError: max() iterable argument is empty\n",
+  "feature_cache_manifest_sha256": "a62c22fc2642fc1cfd1b54b33e7e06c25913ff8e1d6fb4000b8f212df0b5838f",
+  "fits": [],
+  "mode": "stability",
+  "models": [
+    "rich",
+    "rich_hidden_primary"
+  ],
+  "source_files": {
+    "features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "probes.py": "d646f50aab1f8909741a49aba726507499867025b604346d361311670c3c26df",
+    "study_v03.py": "fa6488677a450f34b566473f47443a21782027cff80f11fe8fdfd5178dcbd4ca",
+    "train_probes.py": "62d254c025c70a6a42d7926c3555327eafd5aef11c9d274336d69a2e2e48c20d"
+  },
+  "split_sha256": "e9298238ffb693bb5914ce29b72d2e83707f80c8b6878540d3f7eea89f3e5e65",
+  "started_utc": "2026-10-23T00:13:42.647117+00:00",
+  "status": "failed",
+  "test_partition_used": false
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "source_id": "parity-000",
+    "case_ids": [
+      "df136ee999fc43f81e31",
+      "7407216f6f4873483cca"
+    ],
+    "conclusion": "Crossed same-input observations cannot distinguish state compensation, input recompute and the announced mixtures."
+  }
+]

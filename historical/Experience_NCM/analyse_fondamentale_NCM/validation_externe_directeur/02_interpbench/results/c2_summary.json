@@ -1,0 +1,848 @@
+{
+  "tasks": {
+    "13": {
+      "families": 256,
+      "native_scorable": 256,
+      "native_exact_defined": 256,
+      "queries": 1536,
+      "oracle_scorable": 1536,
+      "craft_RASP_disagreements": 0,
+      "empty_masks": 0,
+      "interchange_conformity": {
+        "aligned": {
+          "n": 1024,
+          "agreement": 1024,
+          "fraction": 1.0
+        },
+        "unaligned": {
+          "n": 512,
+          "agreement": 512,
+          "fraction": 1.0
+        }
+      },
+      "methods": {
+        "O_prudent": {
+          "0.5": {
+            "total": 1536,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "0.75": {
+            "total": 1536,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "1.0": {
+            "total": 1536,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          }
+        },
+        "O_naive": {
+          "0.5": {
+            "total": 1536,
+            "emitted": 1536,
+            "coverage": 1.0,
+            "contradicted_by_network": 909,
+            "risk_network": 0.591796875,
+            "oracle_scorable_emitted": 1536,
+            "contradicted_by_oracle": 806,
+            "risk_oracle": 0.5247395833333334
+          },
+          "0.75": {
+            "total": 1536,
+            "emitted": 1536,
+            "coverage": 1.0,
+            "contradicted_by_network": 909,
+            "risk_network": 0.591796875,
+            "oracle_scorable_emitted": 1536,
+            "contradicted_by_oracle": 806,
+            "risk_oracle": 0.5247395833333334
+          },
+          "1.0": {
+            "total": 1536,
+            "emitted": 1536,
+            "coverage": 1.0,
+            "contradicted_by_network": 909,
+            "risk_network": 0.591796875,
+            "oracle_scorable_emitted": 1536,
+            "contradicted_by_oracle": 806,
+            "risk_oracle": 0.5247395833333334
+          }
+        },
+        "C_without_frozen": {
+          "0.5": {
+            "total": 1536,
+            "emitted": 700,
+            "coverage": 0.4557291666666667,
+            "contradicted_by_network": 116,
+            "risk_network": 0.1657142857142857,
+            "oracle_scorable_emitted": 700,
+            "contradicted_by_oracle": 87,
+            "risk_oracle": 0.12428571428571429
+          },
+          "0.75": {
+            "total": 1536,
+            "emitted": 580,
+            "coverage": 0.3776041666666667,
+            "contradicted_by_network": 20,
+            "risk_network": 0.034482758620689655,
+            "oracle_scorable_emitted": 580,
+            "contradicted_by_oracle": 14,
+            "risk_oracle": 0.02413793103448276
+          },
+          "1.0": {
+            "total": 1536,
+            "emitted": 580,
+            "coverage": 0.3776041666666667,
+            "contradicted_by_network": 20,
+            "risk_network": 0.034482758620689655,
+            "oracle_scorable_emitted": 580,
+            "contradicted_by_oracle": 14,
+            "risk_oracle": 0.02413793103448276
+          }
+        },
+        "C_without_mismatch": {
+          "0.5": {
+            "total": 1536,
+            "emitted": 1531,
+            "coverage": 0.9967447916666666,
+            "contradicted_by_network": 904,
+            "risk_network": 0.5904637491835402,
+            "oracle_scorable_emitted": 1531,
+            "contradicted_by_oracle": 801,
+            "risk_oracle": 0.5231874591770085
+          },
+          "0.75": {
+            "total": 1536,
+            "emitted": 699,
+            "coverage": 0.455078125,
+            "contradicted_by_network": 116,
+            "risk_network": 0.1659513590844063,
+            "oracle_scorable_emitted": 699,
+            "contradicted_by_oracle": 87,
+            "risk_oracle": 0.12446351931330472
+          },
+          "1.0": {
+            "total": 1536,
+            "emitted": 578,
+            "coverage": 0.3763020833333333,
+            "contradicted_by_network": 20,
+            "risk_network": 0.03460207612456748,
+            "oracle_scorable_emitted": 578,
+            "contradicted_by_oracle": 14,
+            "risk_oracle": 0.02422145328719723
+          }
+        },
+        "C_full": {
+          "0.5": {
+            "total": 1536,
+            "emitted": 700,
+            "coverage": 0.4557291666666667,
+            "contradicted_by_network": 116,
+            "risk_network": 0.1657142857142857,
+            "oracle_scorable_emitted": 700,
+            "contradicted_by_oracle": 87,
+            "risk_oracle": 0.12428571428571429
+          },
+          "0.75": {
+            "total": 1536,
+            "emitted": 580,
+            "coverage": 0.3776041666666667,
+            "contradicted_by_network": 20,
+            "risk_network": 0.034482758620689655,
+            "oracle_scorable_emitted": 580,
+            "contradicted_by_oracle": 14,
+            "risk_oracle": 0.02413793103448276
+          },
+          "1.0": {
+            "total": 1536,
+            "emitted": 578,
+            "coverage": 0.3763020833333333,
+            "contradicted_by_network": 20,
+            "risk_network": 0.03460207612456748,
+            "oracle_scorable_emitted": 578,
+            "contradicted_by_oracle": 14,
+            "risk_oracle": 0.02422145328719723
+          }
+        }
+      }
+    },
+    "18": {
+      "families": 256,
+      "native_scorable": 256,
+      "native_exact_defined": 119,
+      "queries": 768,
+      "oracle_scorable": 768,
+      "craft_RASP_disagreements": 0,
+      "empty_masks": 0,
+      "interchange_conformity": {
+        "aligned": {
+          "n": 256,
+          "agreement": 116,
+          "fraction": 0.453125
+        },
+        "unaligned": {
+          "n": 512,
+          "agreement": 232,
+          "fraction": 0.453125
+        }
+      },
+      "methods": {
+        "O_prudent": {
+          "0.5": {
+            "total": 768,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "0.75": {
+            "total": 768,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "1.0": {
+            "total": 768,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          }
+        },
+        "O_naive": {
+          "0.5": {
+            "total": 768,
+            "emitted": 768,
+            "coverage": 1.0,
+            "contradicted_by_network": 288,
+            "risk_network": 0.375,
+            "oracle_scorable_emitted": 768,
+            "contradicted_by_oracle": 526,
+            "risk_oracle": 0.6848958333333334
+          },
+          "0.75": {
+            "total": 768,
+            "emitted": 768,
+            "coverage": 1.0,
+            "contradicted_by_network": 288,
+            "risk_network": 0.375,
+            "oracle_scorable_emitted": 768,
+            "contradicted_by_oracle": 526,
+            "risk_oracle": 0.6848958333333334
+          },
+          "1.0": {
+            "total": 768,
+            "emitted": 768,
+            "coverage": 1.0,
+            "contradicted_by_network": 288,
+            "risk_network": 0.375,
+            "oracle_scorable_emitted": 768,
+            "contradicted_by_oracle": 526,
+            "risk_oracle": 0.6848958333333334
+          }
+        },
+        "C_without_frozen": {
+          "0.5": {
+            "total": 768,
+            "emitted": 514,
+            "coverage": 0.6692708333333334,
+            "contradicted_by_network": 48,
+            "risk_network": 0.0933852140077821,
+            "oracle_scorable_emitted": 514,
+            "contradicted_by_oracle": 281,
+            "risk_oracle": 0.546692607003891
+          },
+          "0.75": {
+            "total": 768,
+            "emitted": 448,
+            "coverage": 0.5833333333333334,
+            "contradicted_by_network": 14,
+            "risk_network": 0.03125,
+            "oracle_scorable_emitted": 448,
+            "contradicted_by_oracle": 224,
+            "risk_oracle": 0.5
+          },
+          "1.0": {
+            "total": 768,
+            "emitted": 448,
+            "coverage": 0.5833333333333334,
+            "contradicted_by_network": 14,
+            "risk_network": 0.03125,
+            "oracle_scorable_emitted": 448,
+            "contradicted_by_oracle": 224,
+            "risk_oracle": 0.5
+          }
+        },
+        "C_without_mismatch": {
+          "0.5": {
+            "total": 768,
+            "emitted": 761,
+            "coverage": 0.9908854166666666,
+            "contradicted_by_network": 282,
+            "risk_network": 0.37056504599211565,
+            "oracle_scorable_emitted": 761,
+            "contradicted_by_oracle": 521,
+            "risk_oracle": 0.6846254927726675
+          },
+          "0.75": {
+            "total": 768,
+            "emitted": 508,
+            "coverage": 0.6614583333333334,
+            "contradicted_by_network": 47,
+            "risk_network": 0.09251968503937008,
+            "oracle_scorable_emitted": 508,
+            "contradicted_by_oracle": 275,
+            "risk_oracle": 0.5413385826771654
+          },
+          "1.0": {
+            "total": 768,
+            "emitted": 441,
+            "coverage": 0.57421875,
+            "contradicted_by_network": 12,
+            "risk_network": 0.027210884353741496,
+            "oracle_scorable_emitted": 441,
+            "contradicted_by_oracle": 219,
+            "risk_oracle": 0.4965986394557823
+          }
+        },
+        "C_full": {
+          "0.5": {
+            "total": 768,
+            "emitted": 515,
+            "coverage": 0.6705729166666666,
+            "contradicted_by_network": 48,
+            "risk_network": 0.09320388349514563,
+            "oracle_scorable_emitted": 515,
+            "contradicted_by_oracle": 281,
+            "risk_oracle": 0.545631067961165
+          },
+          "0.75": {
+            "total": 768,
+            "emitted": 451,
+            "coverage": 0.5872395833333334,
+            "contradicted_by_network": 15,
+            "risk_network": 0.03325942350332594,
+            "oracle_scorable_emitted": 451,
+            "contradicted_by_oracle": 226,
+            "risk_oracle": 0.5011086474501109
+          },
+          "1.0": {
+            "total": 768,
+            "emitted": 439,
+            "coverage": 0.5716145833333334,
+            "contradicted_by_network": 12,
+            "risk_network": 0.02733485193621868,
+            "oracle_scorable_emitted": 439,
+            "contradicted_by_oracle": 217,
+            "risk_oracle": 0.49430523917995445
+          }
+        }
+      }
+    },
+    "19": {
+      "families": 256,
+      "native_scorable": 253,
+      "native_exact_defined": 253,
+      "queries": 1280,
+      "oracle_scorable": 1266,
+      "craft_RASP_disagreements": 0,
+      "empty_masks": 14,
+      "interchange_conformity": {
+        "aligned": {
+          "n": 507,
+          "agreement": 507,
+          "fraction": 1.0
+        },
+        "unaligned": {
+          "n": 759,
+          "agreement": 759,
+          "fraction": 1.0
+        }
+      },
+      "methods": {
+        "O_prudent": {
+          "0.5": {
+            "total": 1280,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "0.75": {
+            "total": 1280,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "1.0": {
+            "total": 1280,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          }
+        },
+        "O_naive": {
+          "0.5": {
+            "total": 1280,
+            "emitted": 1280,
+            "coverage": 1.0,
+            "contradicted_by_network": 489,
+            "risk_network": 0.38203125,
+            "oracle_scorable_emitted": 1266,
+            "contradicted_by_oracle": 399,
+            "risk_oracle": 0.31516587677725116
+          },
+          "0.75": {
+            "total": 1280,
+            "emitted": 1280,
+            "coverage": 1.0,
+            "contradicted_by_network": 489,
+            "risk_network": 0.38203125,
+            "oracle_scorable_emitted": 1266,
+            "contradicted_by_oracle": 399,
+            "risk_oracle": 0.31516587677725116
+          },
+          "1.0": {
+            "total": 1280,
+            "emitted": 1280,
+            "coverage": 1.0,
+            "contradicted_by_network": 489,
+            "risk_network": 0.38203125,
+            "oracle_scorable_emitted": 1266,
+            "contradicted_by_oracle": 399,
+            "risk_oracle": 0.31516587677725116
+          }
+        },
+        "C_without_frozen": {
+          "0.5": {
+            "total": 1280,
+            "emitted": 811,
+            "coverage": 0.63359375,
+            "contradicted_by_network": 35,
+            "risk_network": 0.04315659679408138,
+            "oracle_scorable_emitted": 802,
+            "contradicted_by_oracle": 18,
+            "risk_oracle": 0.022443890274314215
+          },
+          "0.75": {
+            "total": 1280,
+            "emitted": 777,
+            "coverage": 0.60703125,
+            "contradicted_by_network": 6,
+            "risk_network": 0.007722007722007722,
+            "oracle_scorable_emitted": 768,
+            "contradicted_by_oracle": 1,
+            "risk_oracle": 0.0013020833333333333
+          },
+          "1.0": {
+            "total": 1280,
+            "emitted": 777,
+            "coverage": 0.60703125,
+            "contradicted_by_network": 6,
+            "risk_network": 0.007722007722007722,
+            "oracle_scorable_emitted": 768,
+            "contradicted_by_oracle": 1,
+            "risk_oracle": 0.0013020833333333333
+          }
+        },
+        "C_without_mismatch": {
+          "0.5": {
+            "total": 1280,
+            "emitted": 1070,
+            "coverage": 0.8359375,
+            "contradicted_by_network": 281,
+            "risk_network": 0.2626168224299065,
+            "oracle_scorable_emitted": 1058,
+            "contradicted_by_oracle": 196,
+            "risk_oracle": 0.18525519848771266
+          },
+          "0.75": {
+            "total": 1280,
+            "emitted": 808,
+            "coverage": 0.63125,
+            "contradicted_by_network": 32,
+            "risk_network": 0.039603960396039604,
+            "oracle_scorable_emitted": 799,
+            "contradicted_by_oracle": 15,
+            "risk_oracle": 0.01877346683354193
+          },
+          "1.0": {
+            "total": 1280,
+            "emitted": 559,
+            "coverage": 0.43671875,
+            "contradicted_by_network": 6,
+            "risk_network": 0.01073345259391771,
+            "oracle_scorable_emitted": 551,
+            "contradicted_by_oracle": 1,
+            "risk_oracle": 0.0018148820326678765
+          }
+        },
+        "C_full": {
+          "0.5": {
+            "total": 1280,
+            "emitted": 817,
+            "coverage": 0.63828125,
+            "contradicted_by_network": 41,
+            "risk_network": 0.05018359853121175,
+            "oracle_scorable_emitted": 808,
+            "contradicted_by_oracle": 24,
+            "risk_oracle": 0.0297029702970297
+          },
+          "0.75": {
+            "total": 1280,
+            "emitted": 667,
+            "coverage": 0.52109375,
+            "contradicted_by_network": 6,
+            "risk_network": 0.008995502248875561,
+            "oracle_scorable_emitted": 658,
+            "contradicted_by_oracle": 1,
+            "risk_oracle": 0.001519756838905775
+          },
+          "1.0": {
+            "total": 1280,
+            "emitted": 551,
+            "coverage": 0.43046875,
+            "contradicted_by_network": 6,
+            "risk_network": 0.010889292196007259,
+            "oracle_scorable_emitted": 545,
+            "contradicted_by_oracle": 1,
+            "risk_oracle": 0.001834862385321101
+          }
+        }
+      }
+    },
+    "21": {
+      "families": 256,
+      "native_scorable": 256,
+      "native_exact_defined": 256,
+      "queries": 2048,
+      "oracle_scorable": 2048,
+      "craft_RASP_disagreements": 0,
+      "empty_masks": 0,
+      "interchange_conformity": {
+        "aligned": {
+          "n": 768,
+          "agreement": 768,
+          "fraction": 1.0
+        },
+        "unaligned": {
+          "n": 1280,
+          "agreement": 1277,
+          "fraction": 0.99765625
+        }
+      },
+      "methods": {
+        "O_prudent": {
+          "0.5": {
+            "total": 2048,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "0.75": {
+            "total": 2048,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          },
+          "1.0": {
+            "total": 2048,
+            "emitted": 0,
+            "coverage": 0.0,
+            "contradicted_by_network": 0,
+            "risk_network": null,
+            "oracle_scorable_emitted": 0,
+            "contradicted_by_oracle": 0,
+            "risk_oracle": null
+          }
+        },
+        "O_naive": {
+          "0.5": {
+            "total": 2048,
+            "emitted": 2048,
+            "coverage": 1.0,
+            "contradicted_by_network": 600,
+            "risk_network": 0.29296875,
+            "oracle_scorable_emitted": 2048,
+            "contradicted_by_oracle": 308,
+            "risk_oracle": 0.150390625
+          },
+          "0.75": {
+            "total": 2048,
+            "emitted": 2048,
+            "coverage": 1.0,
+            "contradicted_by_network": 600,
+            "risk_network": 0.29296875,
+            "oracle_scorable_emitted": 2048,
+            "contradicted_by_oracle": 308,
+            "risk_oracle": 0.150390625
+          },
+          "1.0": {
+            "total": 2048,
+            "emitted": 2048,
+            "coverage": 1.0,
+            "contradicted_by_network": 600,
+            "risk_network": 0.29296875,
+            "oracle_scorable_emitted": 2048,
+            "contradicted_by_oracle": 308,
+            "risk_oracle": 0.150390625
+          }
+        },
+        "C_without_frozen": {
+          "0.5": {
+            "total": 2048,
+            "emitted": 1521,
+            "coverage": 0.74267578125,
+            "contradicted_by_network": 123,
+            "risk_network": 0.08086785009861933,
+            "oracle_scorable_emitted": 1521,
+            "contradicted_by_oracle": 22,
+            "risk_oracle": 0.014464168310322156
+          },
+          "0.75": {
+            "total": 2048,
+            "emitted": 1355,
+            "coverage": 0.66162109375,
+            "contradicted_by_network": 30,
+            "risk_network": 0.02214022140221402,
+            "oracle_scorable_emitted": 1355,
+            "contradicted_by_oracle": 3,
+            "risk_oracle": 0.002214022140221402
+          },
+          "1.0": {
+            "total": 2048,
+            "emitted": 1355,
+            "coverage": 0.66162109375,
+            "contradicted_by_network": 30,
+            "risk_network": 0.02214022140221402,
+            "oracle_scorable_emitted": 1355,
+            "contradicted_by_oracle": 3,
+            "risk_oracle": 0.002214022140221402
+          }
+        },
+        "C_without_mismatch": {
+          "0.5": {
+            "total": 2048,
+            "emitted": 1842,
+            "coverage": 0.8994140625,
+            "contradicted_by_network": 399,
+            "risk_network": 0.21661237785016288,
+            "oracle_scorable_emitted": 1842,
+            "contradicted_by_oracle": 124,
+            "risk_oracle": 0.06731813246471227
+          },
+          "0.75": {
+            "total": 2048,
+            "emitted": 1510,
+            "coverage": 0.7373046875,
+            "contradicted_by_network": 112,
+            "risk_network": 0.07417218543046358,
+            "oracle_scorable_emitted": 1510,
+            "contradicted_by_oracle": 19,
+            "risk_oracle": 0.012582781456953643
+          },
+          "1.0": {
+            "total": 2048,
+            "emitted": 1329,
+            "coverage": 0.64892578125,
+            "contradicted_by_network": 28,
+            "risk_network": 0.021068472535741158,
+            "oracle_scorable_emitted": 1329,
+            "contradicted_by_oracle": 3,
+            "risk_oracle": 0.002257336343115124
+          }
+        },
+        "C_full": {
+          "0.5": {
+            "total": 2048,
+            "emitted": 1534,
+            "coverage": 0.7490234375,
+            "contradicted_by_network": 132,
+            "risk_network": 0.08604954367666232,
+            "oracle_scorable_emitted": 1534,
+            "contradicted_by_oracle": 26,
+            "risk_oracle": 0.01694915254237288
+          },
+          "0.75": {
+            "total": 2048,
+            "emitted": 1362,
+            "coverage": 0.6650390625,
+            "contradicted_by_network": 33,
+            "risk_network": 0.024229074889867842,
+            "oracle_scorable_emitted": 1362,
+            "contradicted_by_oracle": 3,
+            "risk_oracle": 0.0022026431718061676
+          },
+          "1.0": {
+            "total": 2048,
+            "emitted": 1316,
+            "coverage": 0.642578125,
+            "contradicted_by_network": 28,
+            "risk_network": 0.02127659574468085,
+            "oracle_scorable_emitted": 1316,
+            "contradicted_by_oracle": 3,
+            "risk_oracle": 0.0022796352583586625
+          }
+        }
+      }
+    }
+  },
+  "macro_average_over_tasks": {
+    "O_prudent": {
+      "0.5": {
+        "coverage": 0.0,
+        "risk_network": null,
+        "risk_oracle": null,
+        "n_tasks_with_oracle_claims": 0
+      },
+      "0.75": {
+        "coverage": 0.0,
+        "risk_network": null,
+        "risk_oracle": null,
+        "n_tasks_with_oracle_claims": 0
+      },
+      "1.0": {
+        "coverage": 0.0,
+        "risk_network": null,
+        "risk_oracle": null,
+        "n_tasks_with_oracle_claims": 0
+      }
+    },
+    "O_naive": {
+      "0.5": {
+        "coverage": 1.0,
+        "risk_network": 0.41044921875,
+        "risk_oracle": 0.4187979796109795,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "0.75": {
+        "coverage": 1.0,
+        "risk_network": 0.41044921875,
+        "risk_oracle": 0.4187979796109795,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "1.0": {
+        "coverage": 1.0,
+        "risk_network": 0.41044921875,
+        "risk_oracle": 0.4187979796109795,
+        "n_tasks_with_oracle_claims": 4
+      }
+    },
+    "C_without_frozen": {
+      "0.5": {
+        "coverage": 0.6253173828125,
+        "risk_network": 0.09578098665369214,
+        "risk_oracle": 0.17697159496856044,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "0.75": {
+        "coverage": 0.5573974609375,
+        "risk_network": 0.02389874693622785,
+        "risk_oracle": 0.1319135091270094,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "1.0": {
+        "coverage": 0.5573974609375,
+        "risk_network": 0.02389874693622785,
+        "risk_oracle": 0.1319135091270094,
+        "n_tasks_with_oracle_claims": 4
+      }
+    },
+    "C_without_mismatch": {
+      "0.5": {
+        "coverage": 0.9307454427083333,
+        "risk_network": 0.3600644988639313,
+        "risk_oracle": 0.36509657072552526,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "0.75": {
+        "coverage": 0.6212727864583334,
+        "risk_network": 0.0930617974875699,
+        "risk_oracle": 0.17428958757024143,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "1.0": {
+        "coverage": 0.5090413411458333,
+        "risk_network": 0.023403721401991963,
+        "risk_oracle": 0.13122307777969064,
+        "n_tasks_with_oracle_claims": 4
+      }
+    },
+    "C_full": {
+      "0.5": {
+        "coverage": 0.6284016927083333,
+        "risk_network": 0.09878782785432635,
+        "risk_oracle": 0.17914222627157048,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "0.75": {
+        "coverage": 0.537744140625,
+        "risk_network": 0.02524168981568975,
+        "risk_oracle": 0.13224224462382642,
+        "n_tasks_with_oracle_claims": 4
+      },
+      "1.0": {
+        "coverage": 0.5052408854166667,
+        "risk_network": 0.023525704000368568,
+        "risk_oracle": 0.13066029752770783,
+        "n_tasks_with_oracle_claims": 4
+      }
+    }
+  },
+  "n_queries": 5632,
+  "n_families": 1024,
+  "E": {
+    "conditions": 55296,
+    "regenerated_conditions": 18432,
+    "max_regenerated_donor_native_error": 0.0
+  },
+  "interpretation": "invariance prediction on future donor after test-time probes; not mechanism classification",
+  "estimators": "finite counts; no population intervals; methods are internal baselines",
+  "definitions": "score is agreement fraction, not a calibrated probability; missing risk at zero coverage is null"
+}

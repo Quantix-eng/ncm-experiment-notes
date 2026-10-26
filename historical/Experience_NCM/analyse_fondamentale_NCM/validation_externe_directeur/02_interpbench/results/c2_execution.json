@@ -1,0 +1,9 @@
+{
+  "finished_utc": "2026-10-25T21:44:39.040302+00:00",
+  "n_queries": 5632,
+  "n_E_conditions": 55296,
+  "future_elapsed_seconds": 103.83010416594334,
+  "oracle_disagreements": 0,
+  "empty_oracle_masks": 14,
+  "limitations": "semantic subset; test-time probes; internal methods and implementation; no human external replication"
+}

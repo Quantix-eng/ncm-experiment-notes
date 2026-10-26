@@ -1,0 +1,242 @@
+{
+  "_id": "63e3f73a27da6c56511c6ccc",
+  "id": "EleutherAI/pythia-160m",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "gpt_neox",
+    "text-generation",
+    "causal-lm",
+    "pythia",
+    "en",
+    "dataset:EleutherAI/pile",
+    "arxiv:2304.01373",
+    "arxiv:2101.00027",
+    "arxiv:2201.07311",
+    "license:apache-2.0",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 3398242,
+  "likes": 64,
+  "modelId": "EleutherAI/pythia-160m",
+  "author": "EleutherAI",
+  "sha": "50f5173d932e8e61f858120bcb800b97af589f46",
+  "lastModified": "2023-07-09T15:52:09.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "GPTNeoXForCausalLM"
+    ],
+    "model_type": "gpt_neox",
+    "tokenizer_config": {
+      "bos_token": "<|endoftext|>",
+      "eos_token": "<|endoftext|>",
+      "unk_token": "<|endoftext|>"
+    }
+  },
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "pytorch",
+      "causal-lm",
+      "pythia"
+    ],
+    "license": "apache-2.0",
+    "datasets": [
+      "EleutherAI/pile"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "c7d9f3332a950355d5a77d85000f05e6f45435ea",
+      "size": 1477
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "2e8b2b93bf534833600f862c90c0b53fc6f76a46",
+      "size": 13593
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "b8368ff94f3bcf3088de5e9912251fc0208ae524",
+      "size": 569
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "681c808e9bf6584885528a34c52d5204bcc78d25",
+      "size": 374998696,
+      "lfs": {
+        "sha256": "29d2e457a664e41c12c735f20a36dc0956a665f614a54ce5db21a32e75965270",
+        "size": 374998696,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "pytorch_model.bin",
+      "blobId": "c059474641eb1d8f26a7446ebe403bc0cf90fb9d",
+      "size": 375036845,
+      "lfs": {
+        "sha256": "8d856725c4a8266f10568cc1269948fc851e2aed1fb230036af2eac68e9df072",
+        "size": 375036845,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "special_tokens_map.json",
+      "blobId": "0204ed10c186a4c7c68f55dff8f26087a45898d6",
+      "size": 99
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "f74dfbfab8f97770a87769c739fb080c21c8bacc",
+      "size": 2113710
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "f1860edb10f80bcaf7b023fce47c68a23b724c23",
+      "size": 396
+    }
+  ],
+  "spaces": [
+    "pliny-the-prompter/obliteratus",
+    "eduagarcia/open_pt_llm_leaderboard",
+    "KBaba7/Quant",
+    "VIDraft/global-llm-leaderboard",
+    "EvanTHU/MotionLLM",
+    "FallnAI/Quantize-HF-Models",
+    "DedeProGames/SLM-Tetris-Arena",
+    "bhaskartripathi/LLM_Quantization",
+    "openfree/LLM_Quantization",
+    "fromziro/SLM_Regression_Line",
+    "ruslanmv/convert_to_gguf",
+    "stanley-00/slm-testing",
+    "Glaciohound/LM-Steer",
+    "UniversalComputingResearch/clmi",
+    "seawolf2357/LLM_Quantization",
+    "emanforhelp/model-pulse",
+    "anantgupta129/LitGPT-Pythia-160M",
+    "HemaAM/GPT_train_on_LLaMa",
+    "totolook/Quant",
+    "li-qing/FIRE",
+    "K00B404/LLM_Quantization",
+    "b1sheng/kg_llm_leaderboard_test",
+    "dumbordumber/obliteratus",
+    "Kodacoda/obliteratus",
+    "Sijuade/GPTNEXTWORD",
+    "PrarthanaTS/tsai-gpt-from-scratch",
+    "MadhurGarg/TSAIGPTRedPajama",
+    "RaviNaik/ERA-SESSION22",
+    "tianleliphoebe/visual-arena",
+    "Ashmal/MobiLlama",
+    "martinakaduc/melt",
+    "acmc/ss-prompts",
+    "ab12321/ragai",
+    "Xlnk/Quantize-HF-Models",
+    "exploitz3r0bbd/Quantize-HF-Models",
+    "Oss11/Quantize-HF-Models",
+    "Ringokun/condensate-theorem",
+    "CiLprototype/CurvOpt-SmarterModels",
+    "dromero14521/obliteratus",
+    "rbinrs/obliteratus",
+    "kicfk/obliteratus",
+    "aaahmet/obliteratus",
+    "Deadmon/obliteratus",
+    "Ngixdev/obliteratus",
+    "atomic24/planetary-rover-navigation",
+    "Jyo-K/DarkHorse",
+    "rithwik-ravikumar/OpenEnv-Dynamic-Guardrails",
+    "RavichandranJ/obliteratus",
+    "S-Dreamer/obliteratus",
+    "AlanaSky/asgaard",
+    "marchkamal51/obliteratus",
+    "alexshengzhili/calahealthgpt",
+    "teachyourselfcoding/chatlawv1",
+    "wissamantoun/LLM_Detection_Attribution",
+    "pngwn/open_llm_leaderboard_two",
+    "pngwn/open_llm_leaderboard",
+    "ToletiSri/TSAI_S22",
+    "VarunSivamani/GPT-From-Scratch",
+    "mkthoma/GPT_From_Scratch",
+    "piyushgrover/MiniGPT_S22",
+    "supra-e-acc/Pythia-160M-text-generate",
+    "venkyyuvy/GPT_redpajama",
+    "sanjanatule/GPTNext",
+    "RashiAgarwal/TSAIGPTRedPajama",
+    "neuralorbs/DialogGen",
+    "Navyabhat/ERAV1-Session-22",
+    "GunaKoppula/ERA-Session-22",
+    "Vaish2705/ERA_S22",
+    "zjasper666/bf16_vs_fp8",
+    "Bofeee5675/FIRE",
+    "evelyn-lo/evelyn",
+    "yuantao-infini-ai/demo_test",
+    "lastsamuraii/LitGPT-Pythia-160M",
+    "KR-16/Code-Assistant-CodeLlama2",
+    "nirbo/Finetune-Test",
+    "Zwounds/Boolean_Search_Query_Model",
+    "atorojaen/MisogynyDetector",
+    "K00B404/convert_to_gguf",
+    "wellwisherofindia/AyurvedaSFT",
+    "Dileepkumar46/sql-llama-app-v2",
+    "Dileepkumar46/sql-llama-app",
+    "HFChewy/Llama-3_HPLC_Method_Development__Troubleshooting",
+    "aparke21/newtest",
+    "Sambhavnoobcoder/quantization-mvp",
+    "GTOMA83/Quantize-HF-Models",
+    "cdpearlman/LLMVis",
+    "aaravriyer193/MONKE",
+    "LisaMegaWatts/VocabFusion-Pythia160m-Fused",
+    "GirishaBuilds01/curvopt-llm",
+    "cw4444/obliteratus",
+    "kalmuahlaunda/obliteratus",
+    "sub314xxl/obliteratus",
+    "mastodonitis/obliteratus",
+    "GrozniMilitq/obliteratus",
+    "liminal4423/obliteratus",
+    "duarffodog/obliteratus",
+    "cypher109/obliteratus",
+    "Ev3Dev/hackathon",
+    "ab490/activation-patching-playground",
+    "milkygingers/obliteratus"
+  ],
+  "createdAt": "2023-02-08T19:25:46.000Z",
+  "safetensors": {
+    "parameters": {
+      "F16": 162323040,
+      "U8": 50331648
+    },
+    "total": 212654688
+  },
+  "usedStorage": 159198898363
+}

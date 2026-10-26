@@ -1,0 +1,50 @@
+{
+  "status": "second_learned_architecture_complete",
+  "utc": "2026-10-25T15:18:10Z",
+  "reports": [
+    "RAPPORT.md",
+    "PAPER_MULTIMODEL.md",
+    "PAPER_ADDENDUM.md"
+  ],
+  "scope": "GPT-2 within-forward next-token intervention; recipient earlier-token context retained; no architecture ground-truth class",
+  "experimental_protocol_unchanged": true,
+  "postfreeze_additions": [
+    "postprocess.py: paired descriptive argmax exporter and environment metadata; no new inference",
+    "build_paper.py: editorial assembly of manuscript version 2",
+    "Markdown reports and reproduction documentation"
+  ],
+  "external_validation": false,
+  "diffusion_executed": false,
+  "verification": "results/verification.json",
+  "files": {
+    "JOURNAL.md": "7e4f837acd263cc1780bbf1cd003f0096a6d0a750aafd64cddaf6d55ac05fc79",
+    "PAPER_ADDENDUM.md": "2c7abcb3271eceb077829d5c610392f8c63b26267d97c8e9c6c768fd36ae8be8",
+    "PAPER_MULTIMODEL.md": "bdee9a9820cd370355d2ca55547d306149f36bb7d5f923debca1a69d5a6c28bf",
+    "PROTOCOLE.md": "a30a97a8195b8740e386fc254fe3d9217c633ce199227f1716a2b6e9727173d0",
+    "RAPPORT.md": "12e5a70cf40268c85b99eb56995b7784a5de18c5692099c080e519d5045014c6",
+    "README.md": "d383d84675df4403bff921b463a879536eb5b624e41bc9bf1190ac6571930b10",
+    "analyse.py": "5e6719f1c27de93b172e94dfa0d561710e8279d418beb86262fe4c0d84d8a6dd",
+    "build_paper.py": "39582e8951401c30927707df8f79e1f38081466a4002bbe787ff2b3dfdd17c23",
+    "data/families.json": "5bc0a6720200d1ef2449efa7b187387880673b9c3ada6c1516c7d8f1416bcb7b",
+    "postprocess.py": "569b96211fde3ae5ec3d6aae4c006b7fa984100c3273cd0088df3b4b9da79f01",
+    "prepare.py": "1b3bd1d1d45203213a6cf9d7c255e692cba7cb64b6386c624d67055d6e5c18e3",
+    "protocol.json": "eb56e8ed7663b9c2ae14d97c47dfacbef15cbb6998dceaad156c4ae61d07b292",
+    "results/analysis.log": "98d6e8cbdbbe26851ab40678e010eace154e5230c600f362fbae0724684622c4",
+    "results/crossed.npz": "87212dd549906775bf7acab75d89fd2fad1f1a98355b03290e4970db47cc9d79",
+    "results/environment_packages.json": "b32cc461450306343de759bff9d710638c4d91508a1395ac8baa564d75833c85",
+    "results/exchanges.npz": "a0b29fedb5f9889284677d53bcd55ebc5ee1405cf1aaac9cfd0f23927a28d70a",
+    "results/execution.json": "9ffed4d04edd7bc497a2a8f7f2212b879d6f8ac6883f37ae03910c1e8922e472",
+    "results/execution.log": "a9a23e4fcd26b7765e3f18db18df6d2dd649e729e44ea3dd3b71db07e1e521b9",
+    "results/metrics.npz": "df0473087a691226ff012ce09024a24819f75daefecd8566a983fdcbd873ca91",
+    "results/native.npz": "0483c65a36b3ca210e894375e9b7ad1df9384a28bbc21633a4e47ba3e6ed487b",
+    "results/paired_descriptive.json": "5ddddca90f514d1d68847fceb275e66bce862d330635f5cdc7afeac154c09879",
+    "results/protocol_frozen.json": "ddc049b69f8744d5b05caab2793eec7a124de234e1b14e974afecc7ffd95fed7",
+    "results/summary.json": "3db61f73746ffa1a076a6dd01ed6a5d229622386eb92c22762237a010a907d67",
+    "results/verification.json": "a96d820882d708ce14923e77f94960858c153eb60fafdb8967781b8cebcbf8ba",
+    "results/verification.log": "a96d820882d708ce14923e77f94960858c153eb60fafdb8967781b8cebcbf8ba",
+    "run.py": "7ee5d44d3305e8a30b7cced01c7469ada71784e52d9d7fe7a3a8fac72f088c76",
+    "runtime.py": "1fbc970f29f3f87659444e18b1fcfd7a4c48073bd69312a7ae1fe8fcd6bc47f2",
+    "support.py": "5fbc5559f1652a6d4e0e015336073acc9ae2acadff17a67c233813084577edca",
+    "verify.py": "fd3f8671bbf91b954a27f22bb8bdef16ee3ef2eba49aff54840ac39bc0bf3a7e"
+  }
+}

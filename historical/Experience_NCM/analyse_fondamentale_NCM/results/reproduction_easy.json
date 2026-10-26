@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "n": 2000,
+    "solved": 1988,
+    "solved_rate": 0.994,
+    "cell_accuracy": 0.9997407407407407,
+    "valid_and_clues_rate": 0.994,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9895415516630582,
+      0.9965644056230637
+    ]
+  },
+  "parity": {
+    "codes_equal": true,
+    "outputs_equal": true
+  },
+  "levels": [
+    1,
+    2,
+    4,
+    6,
+    9,
+    13,
+    18,
+    26,
+    37,
+    50,
+    67,
+    89
+  ],
+  "last_progress_seconds": 1182.8875731250737,
+  "timing_note": "Last recorded extraction progress, not total runtime; summary recovered after JSON-only ListConfig serialization failure",
+  "recovery": {
+    "source_npz_sha256": "20f543cc747a89bfb98b296b17ba9d3025c5096d9c132a79abd224d93ec1b3fc",
+    "parity_replayed": true,
+    "log": "logs/extract_easy.log"
+  }
+}

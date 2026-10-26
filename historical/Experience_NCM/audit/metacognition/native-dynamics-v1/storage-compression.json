@@ -1,0 +1,11 @@
+{
+  "status": "byte_integrity_passed_no_observed_storage_gain",
+  "file": "audit/metacognition/native-dynamics-v1/external/traces/visible.npy",
+  "sha256_unchanged": "9adcdc613f9da165cbf7de59e0fe61992c2a76795228b428d0053b8a6c1c1336",
+  "logical_bytes": 316608128,
+  "physical_bytes_before": 316608512,
+  "physical_bytes_after": 316608512,
+  "free_disk_bytes": 473677824,
+  "method": "ditto --hfsCompression; compare SHA256 then atomic replacement; no numerical change",
+  "physical_saving_bytes_observed": 0
+}

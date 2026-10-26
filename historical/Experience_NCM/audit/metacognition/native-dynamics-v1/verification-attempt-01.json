@@ -1,0 +1,12 @@
+{
+  "status": "failed_before_verification_complete",
+  "reason": "strict byte equality for independently recomputed AUC bootstrap endpoints; floating arithmetic of rank vs pairwise AUC",
+  "max_abs_endpoint_differences": {
+    "dynamic-static": 8.673617379884035e-18,
+    "dynamic-visible": 1.214306433183765e-17,
+    "noise-static": 3.5236570605778894e-18,
+    "shuffle-static": 1.734723475976807e-17,
+    "static-visible": 8.673617379884035e-18
+  },
+  "correction": "tolerance 1e-12 for independent arithmetic, no source/prediction/model or primary-result change"
+}

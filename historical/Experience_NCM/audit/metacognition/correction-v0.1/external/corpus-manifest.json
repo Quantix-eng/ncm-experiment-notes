@@ -1,0 +1,12 @@
+{
+  "attempts": 1000,
+  "caveat": "Generated external distribution; exclude known digit/dihedral transforms, not all isomorphisms or pretraining contamination",
+  "config_sha256": "d5c80a3832ffb7aff8b72156270860db05cd138afd510879c14532bc581a1463",
+  "corpus_sha256": "77216c690e0d149df3016dc15ed5b7f7264bc98d3373aac60184f3be721a8aa4",
+  "independent_exact_cover_uniqueness_verified": true,
+  "n": 1000,
+  "no_ncm_scoring": true,
+  "rejections": [],
+  "status": "complete",
+  "wall_seconds": 53.785289374995045
+}

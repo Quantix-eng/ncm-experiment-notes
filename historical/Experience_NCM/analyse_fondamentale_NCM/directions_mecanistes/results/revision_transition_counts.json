@@ -1,0 +1,8 @@
+{
+  "n_puzzles": 2000,
+  "n_cells": 162000,
+  "scope": "All 81 cells per official hard puzzle, including givens; descriptive motivation, not probe test metrics",
+  "corrected": 41620,
+  "degraded": 14770,
+  "wrong_to_wrong": 17993
+}

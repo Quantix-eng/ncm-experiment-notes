@@ -1,0 +1,13 @@
+{
+  "python": "3.13.1 (main, Dec  3 2024, 17:59:52) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "numpy": "2.5.4",
+  "torch": "2.8.0",
+  "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+  "processor": "Apple M1",
+  "physical_memory_bytes": 8589934592,
+  "device": "cpu",
+  "dtype": "float32",
+  "batch": 8,
+  "threads": 4,
+  "note": "Shared local computer, no exclusive-resource speed guarantee; initialization excluded from resident inference timing."
+}

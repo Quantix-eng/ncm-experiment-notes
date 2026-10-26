@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.cache/
+.env
+.env.*
+runs/
+artifacts/
+weights/
+*.pt
+*.safetensors
+*.npz
+*.npy
+*.pickle
+*.pkl

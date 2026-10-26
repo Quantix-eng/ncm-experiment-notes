@@ -1,0 +1,618 @@
+{
+  "primary_indirect_positive_vs_random": {
+    "mean": 0.003941201294461886,
+    "ci95": [
+      -0.05274779479950666,
+      0.05997960940779492
+    ],
+    "n_puzzles": 96,
+    "method": "paired percentile bootstrap by puzzle, fixed models"
+  },
+  "secondary_positive_vs_negative": {
+    "mean": 0.022072477887074154,
+    "ci95": [
+      -0.0726918074923257,
+      0.13487071062748623
+    ],
+    "n_puzzles": 96,
+    "method": "paired percentile bootstrap by puzzle, fixed models"
+  },
+  "conditions": {
+    "sham": {
+      "n": 96,
+      "full_adoption": 0.5520833333333334,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.5520833333333334,
+      "full_logodds_gain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.0,
+      "changed_level9_codes": 0,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9849537037037037,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.25_positive": {
+      "n": 96,
+      "full_adoption": 0.5833333333333334,
+      "indirect_adoption": 0.5625,
+      "direct_only_adoption": 0.5729166666666666,
+      "full_logodds_gain": {
+        "mean": -0.11991947330534458,
+        "ci95": [
+          -0.2608072426635772,
+          0.022580899003272068
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.005638172850012779,
+        "ci95": [
+          -0.08251176291766267,
+          0.05821008806427315
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.11041549406945705,
+        "ci95": [
+          -0.2523318514383088,
+          0.03536473312415173
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.5833333333333334,
+      "changed_level9_codes": 6,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9848251028806584,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.25_negative": {
+      "n": 96,
+      "full_adoption": 0.5,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.5,
+      "full_logodds_gain": {
+        "mean": -0.152497336268425,
+        "ci95": [
+          -0.31651280199488,
+          0.002962582713613813
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.027710650737086933,
+        "ci95": [
+          -0.1285964511334896,
+          0.04873827680324513
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.12800229030350843,
+        "ci95": [
+          -0.2542655936287095,
+          -0.015905377501621847
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.59375,
+      "changed_level9_codes": 6,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9849537037037037,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.25_random0": {
+      "n": 96,
+      "full_adoption": 0.5729166666666666,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.5625,
+      "full_logodds_gain": {
+        "mean": -0.12574805257221064,
+        "ci95": [
+          -0.2777770683945467,
+          0.014573601214215132
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.029901104047894478,
+        "ci95": [
+          -0.09540963545441628,
+          0.006920566161473592
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.09907486600180467,
+        "ci95": [
+          -0.2447830022778362,
+          0.03833616389892994
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.5625,
+      "changed_level9_codes": 4,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9850823045267489,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.25_random1": {
+      "n": 96,
+      "full_adoption": 0.46875,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.46875,
+      "full_logodds_gain": {
+        "mean": -0.21264875742296377,
+        "ci95": [
+          -0.35938529997753604,
+          -0.07332579074427502
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.0006514694541692734,
+        "ci95": [
+          -0.01245933398604393,
+          0.010818650325139364
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.21254687073330084,
+        "ci95": [
+          -0.35777733765232067,
+          -0.07165257801922668
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.5729166666666666,
+      "changed_level9_codes": 4,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9848251028806584,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.25_random2": {
+      "n": 96,
+      "full_adoption": 0.5104166666666666,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.5104166666666666,
+      "full_logodds_gain": {
+        "mean": -0.21291201437513033,
+        "ci95": [
+          -0.35924409250728784,
+          -0.07449348969385035
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": 0.0018144510686397552,
+        "ci95": [
+          -0.007472013433774312,
+          0.012150983512401575
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.21535713598132133,
+        "ci95": [
+          -0.360599816031754,
+          -0.07665843274444341
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.5625,
+      "changed_level9_codes": 7,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9848251028806584,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.5_positive": {
+      "n": 96,
+      "full_adoption": 0.4375,
+      "indirect_adoption": 0.5625,
+      "direct_only_adoption": 0.4375,
+      "full_logodds_gain": {
+        "mean": -0.3047671454648177,
+        "ci95": [
+          -0.5866077938582748,
+          -0.022764070642491592
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.007020068044463794,
+        "ci95": [
+          -0.08568862808557848,
+          0.05620261815687007
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.28990653964380425,
+        "ci95": [
+          -0.5678321309542904,
+          -0.0073269338036581495
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.9791666666666666,
+      "changed_level9_codes": 13,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9848251028806584,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.5_negative": {
+      "n": 96,
+      "full_adoption": 0.4270833333333333,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.4166666666666667,
+      "full_logodds_gain": {
+        "mean": -0.4748270207395156,
+        "ci95": [
+          -0.7366034363396465,
+          -0.22886354258904856
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.06564913007120292,
+        "ci95": [
+          -0.19435862355555097,
+          0.03461741347176331
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.45670440544684726,
+        "ci95": [
+          -0.6916551526946326,
+          -0.2416192282767346
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 0.90625,
+      "changed_level9_codes": 13,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9852109053497943,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.5_random0": {
+      "n": 96,
+      "full_adoption": 0.4791666666666667,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.4895833333333333,
+      "full_logodds_gain": {
+        "mean": -0.3766042434920867,
+        "ci95": [
+          -0.6521179135733595,
+          -0.13327297633513815
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.06920281238853931,
+        "ci95": [
+          -0.16986572011373938,
+          0.0015029930509626816
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.33361802995204926,
+        "ci95": [
+          -0.5931198291790982,
+          -0.09633802824343254
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 1.0729166666666667,
+      "changed_level9_codes": 14,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9850823045267489,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.5_random1": {
+      "n": 96,
+      "full_adoption": 0.3958333333333333,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.3958333333333333,
+      "full_logodds_gain": {
+        "mean": -0.45523898924390477,
+        "ci95": [
+          -0.7066789694751302,
+          -0.20830766956011457
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.04314524742464224,
+        "ci95": [
+          -0.13346595087399085,
+          0.010243757270897425
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.4367138197024663,
+        "ci95": [
+          -0.6850496592776228,
+          -0.19880784596316559
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 1.0104166666666667,
+      "changed_level9_codes": 9,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9848251028806584,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    },
+    "0.5_random2": {
+      "n": 96,
+      "full_adoption": 0.3854166666666667,
+      "indirect_adoption": 0.5520833333333334,
+      "direct_only_adoption": 0.3854166666666667,
+      "full_logodds_gain": {
+        "mean": -0.4564723912626505,
+        "ci95": [
+          -0.7720105752814561,
+          -0.18501332995171363
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "indirect_logodds_gain": {
+        "mean": -0.03152424904207388,
+        "ci95": [
+          -0.12602381294903656,
+          0.040052287389213834
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "direct_only_logodds_gain": {
+        "mean": -0.43071163818240166,
+        "ci95": [
+          -0.7288201725420853,
+          -0.15802882835268986
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "mean_offtarget_changed_cells": 1.0208333333333333,
+      "changed_level9_codes": 13,
+      "final_metrics": {
+        "n": 96,
+        "solved": 82,
+        "solved_rate": 0.8541666666666666,
+        "cell_accuracy": 0.9849537037037037,
+        "valid_and_clues_rate": 0.8541666666666666,
+        "malformed": 0
+      },
+      "delta_final_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 96,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "introduced_errors": 0,
+      "rescued": 0
+    }
+  },
+  "selection": "First 96 fixed test puzzles; one initially blank cell and alternative chosen using only pre-step9 features and a train/validation-fitted probe.",
+  "interpretation": "Removing delta at readout is an intervention control, not identification of a unique natural mediation effect."
+}

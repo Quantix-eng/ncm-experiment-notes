@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "samples": [
+    {
+      "codes": true,
+      "logits": true,
+      "z8": true,
+      "z9": true,
+      "calls": 12
+    },
+    {
+      "codes": true,
+      "logits": true,
+      "z8": true,
+      "z9": true,
+      "calls": 12
+    }
+  ]
+}

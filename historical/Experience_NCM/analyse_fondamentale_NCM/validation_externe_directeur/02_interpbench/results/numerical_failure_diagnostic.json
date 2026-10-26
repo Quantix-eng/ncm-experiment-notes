@@ -1,0 +1,1884 @@
+{
+  "status": "failed_frozen_numeric_audit_branch_stopped",
+  "initial_failure": {
+    "source": "dev-8-017",
+    "max_abs_difference": 0.0005538618895570835
+  },
+  "posthoc": true,
+  "criteria_changed": false,
+  "threshold_pass_count": 241,
+  "argmax_equal_count": 256,
+  "n": 256,
+  "max_abs_difference": 0.0014335333930262095,
+  "frozen_hashes_unchanged": true,
+  "records": [
+    {
+      "id": "dev-8-000",
+      "case": 8,
+      "max_abs_difference": 0.00014818321628240483,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-001",
+      "case": 8,
+      "max_abs_difference": 0.00023226042416979453,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-002",
+      "case": 8,
+      "max_abs_difference": 0.0001788734384149393,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-003",
+      "case": 8,
+      "max_abs_difference": 0.0003030246614486032,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-004",
+      "case": 8,
+      "max_abs_difference": 0.00035097389013571956,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-005",
+      "case": 8,
+      "max_abs_difference": 0.0002217351042759219,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-006",
+      "case": 8,
+      "max_abs_difference": 0.0003208714622644493,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-007",
+      "case": 8,
+      "max_abs_difference": 0.00016368207329264806,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-008",
+      "case": 8,
+      "max_abs_difference": 0.00020910383801719945,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-009",
+      "case": 8,
+      "max_abs_difference": 0.00016251723704385768,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-010",
+      "case": 8,
+      "max_abs_difference": 0.00032150208545544956,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-011",
+      "case": 8,
+      "max_abs_difference": 0.00037368113640923184,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-012",
+      "case": 8,
+      "max_abs_difference": 0.00034742324299941174,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-013",
+      "case": 8,
+      "max_abs_difference": 0.00022093589026894733,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-014",
+      "case": 8,
+      "max_abs_difference": 0.00019270632000711885,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-015",
+      "case": 8,
+      "max_abs_difference": 0.00022093589026894733,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-016",
+      "case": 8,
+      "max_abs_difference": 0.00022093589026894733,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-017",
+      "case": 8,
+      "max_abs_difference": 0.0005538618895570835,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-018",
+      "case": 8,
+      "max_abs_difference": 0.0009520352191429993,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-019",
+      "case": 8,
+      "max_abs_difference": 0.00020298066556279082,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-020",
+      "case": 8,
+      "max_abs_difference": 0.00027528122008391165,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-021",
+      "case": 8,
+      "max_abs_difference": 0.0002988776117973657,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-022",
+      "case": 8,
+      "max_abs_difference": 0.00033303159078457156,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-023",
+      "case": 8,
+      "max_abs_difference": 0.00032928709580914983,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-024",
+      "case": 8,
+      "max_abs_difference": 0.0011326270825691154,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-025",
+      "case": 8,
+      "max_abs_difference": 0.00022044886969752042,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-026",
+      "case": 8,
+      "max_abs_difference": 0.0003974416386398616,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-027",
+      "case": 8,
+      "max_abs_difference": 0.0003012213356612392,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-028",
+      "case": 8,
+      "max_abs_difference": 0.0003521596264732807,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-029",
+      "case": 8,
+      "max_abs_difference": 0.0004150110532137319,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-030",
+      "case": 8,
+      "max_abs_difference": 0.00018841985917106285,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-031",
+      "case": 8,
+      "max_abs_difference": 0.00017604114495384238,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-032",
+      "case": 8,
+      "max_abs_difference": 0.0003158362887916155,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-033",
+      "case": 8,
+      "max_abs_difference": 0.00020214740828805589,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-034",
+      "case": 8,
+      "max_abs_difference": 0.000292053849449303,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-035",
+      "case": 8,
+      "max_abs_difference": 0.0002760290981740354,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-036",
+      "case": 8,
+      "max_abs_difference": 0.0002501542159905057,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-037",
+      "case": 8,
+      "max_abs_difference": 0.00015175833158309615,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-038",
+      "case": 8,
+      "max_abs_difference": 0.00019216995690385374,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-039",
+      "case": 8,
+      "max_abs_difference": 0.00023496939263623062,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-040",
+      "case": 8,
+      "max_abs_difference": 0.0002432735465163205,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-041",
+      "case": 8,
+      "max_abs_difference": 0.00021007352037827332,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-042",
+      "case": 8,
+      "max_abs_difference": 0.0014109009039486864,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-043",
+      "case": 8,
+      "max_abs_difference": 0.0002383890119546095,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-044",
+      "case": 8,
+      "max_abs_difference": 0.00022521273470488268,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-045",
+      "case": 8,
+      "max_abs_difference": 0.00014732932797301146,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-046",
+      "case": 8,
+      "max_abs_difference": 0.00023503253341061736,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-047",
+      "case": 8,
+      "max_abs_difference": 0.00022333659552487006,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-048",
+      "case": 8,
+      "max_abs_difference": 0.00026284524385289387,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-049",
+      "case": 8,
+      "max_abs_difference": 0.0003463842924134042,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-050",
+      "case": 8,
+      "max_abs_difference": 0.00022093589026894733,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-051",
+      "case": 8,
+      "max_abs_difference": 0.00022333659552487006,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-052",
+      "case": 8,
+      "max_abs_difference": 0.00014491236797198326,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-053",
+      "case": 8,
+      "max_abs_difference": 0.00023123065585650693,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-054",
+      "case": 8,
+      "max_abs_difference": 0.0002771350610828449,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-055",
+      "case": 8,
+      "max_abs_difference": 0.00022333659552487006,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-056",
+      "case": 8,
+      "max_abs_difference": 0.00032150208545544956,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-057",
+      "case": 8,
+      "max_abs_difference": 0.0002189115434703126,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-058",
+      "case": 8,
+      "max_abs_difference": 0.0014335333930262095,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-059",
+      "case": 8,
+      "max_abs_difference": 0.00025074249046497243,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-060",
+      "case": 8,
+      "max_abs_difference": 0.0002354774315023178,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-061",
+      "case": 8,
+      "max_abs_difference": 0.0005975830795819093,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-062",
+      "case": 8,
+      "max_abs_difference": 0.0002488293490614524,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-063",
+      "case": 8,
+      "max_abs_difference": 9.490203018458487e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-064",
+      "case": 8,
+      "max_abs_difference": 0.00026359710636825184,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-065",
+      "case": 8,
+      "max_abs_difference": 0.00022447551549475975,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-066",
+      "case": 8,
+      "max_abs_difference": 0.00025447784281595887,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-067",
+      "case": 8,
+      "max_abs_difference": 0.00016745475217305739,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-068",
+      "case": 8,
+      "max_abs_difference": 0.00024064727554673482,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-069",
+      "case": 8,
+      "max_abs_difference": 0.00023405435268841757,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-070",
+      "case": 8,
+      "max_abs_difference": 0.00024089197070509272,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-071",
+      "case": 8,
+      "max_abs_difference": 0.0003038991472976704,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-072",
+      "case": 8,
+      "max_abs_difference": 0.00014491236797198326,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-073",
+      "case": 8,
+      "max_abs_difference": 0.0003039488819354119,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-074",
+      "case": 8,
+      "max_abs_difference": 0.00013409409903886171,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-075",
+      "case": 8,
+      "max_abs_difference": 0.00029045498244784085,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-076",
+      "case": 8,
+      "max_abs_difference": 0.00028612766138280676,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-077",
+      "case": 8,
+      "max_abs_difference": 0.00022333659552487006,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-078",
+      "case": 8,
+      "max_abs_difference": 0.0003152352704205441,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-079",
+      "case": 8,
+      "max_abs_difference": 0.0002036847744619763,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-080",
+      "case": 8,
+      "max_abs_difference": 0.0008142512538711344,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-081",
+      "case": 8,
+      "max_abs_difference": 0.00030934959600870116,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-082",
+      "case": 8,
+      "max_abs_difference": 0.00022044886969752042,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-083",
+      "case": 8,
+      "max_abs_difference": 0.00028613354530193646,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-084",
+      "case": 8,
+      "max_abs_difference": 0.0001435149810617986,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-085",
+      "case": 8,
+      "max_abs_difference": 0.0007560367230752263,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-086",
+      "case": 8,
+      "max_abs_difference": 0.0002856723111079873,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-087",
+      "case": 8,
+      "max_abs_difference": 0.00027811896143248305,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-088",
+      "case": 8,
+      "max_abs_difference": 0.0002761623135256741,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-089",
+      "case": 8,
+      "max_abs_difference": 0.00040429109007789066,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-090",
+      "case": 8,
+      "max_abs_difference": 0.0002856723111079873,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-091",
+      "case": 8,
+      "max_abs_difference": 0.00024112507736617772,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-092",
+      "case": 8,
+      "max_abs_difference": 0.00025808788645065306,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-093",
+      "case": 8,
+      "max_abs_difference": 0.0002749102287111782,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-094",
+      "case": 8,
+      "max_abs_difference": 0.00022093589026894733,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-095",
+      "case": 8,
+      "max_abs_difference": 0.00022534318716793678,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-096",
+      "case": 8,
+      "max_abs_difference": 0.00014757807875298568,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-097",
+      "case": 8,
+      "max_abs_difference": 0.00039920574164398204,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-098",
+      "case": 8,
+      "max_abs_difference": 0.000171004898817273,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-099",
+      "case": 8,
+      "max_abs_difference": 0.0002703847584086816,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-100",
+      "case": 8,
+      "max_abs_difference": 0.0002666626338623246,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-101",
+      "case": 8,
+      "max_abs_difference": 0.00019668925010307703,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-102",
+      "case": 8,
+      "max_abs_difference": 0.0001903670683702785,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-103",
+      "case": 8,
+      "max_abs_difference": 0.0005474742328601678,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-104",
+      "case": 8,
+      "max_abs_difference": 0.0009758663392744893,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-105",
+      "case": 8,
+      "max_abs_difference": 0.0002881664653671123,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-106",
+      "case": 8,
+      "max_abs_difference": 0.00014491236797198326,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-107",
+      "case": 8,
+      "max_abs_difference": 0.00025447784281595887,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-108",
+      "case": 8,
+      "max_abs_difference": 0.00024010717051226038,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-109",
+      "case": 8,
+      "max_abs_difference": 0.00014491236797198326,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-110",
+      "case": 8,
+      "max_abs_difference": 0.0003319619107173821,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-111",
+      "case": 8,
+      "max_abs_difference": 0.0002530314950774937,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-112",
+      "case": 8,
+      "max_abs_difference": 0.00018550137448869464,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-113",
+      "case": 8,
+      "max_abs_difference": 0.00039280288785903394,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-114",
+      "case": 8,
+      "max_abs_difference": 0.0002703529630991852,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-115",
+      "case": 8,
+      "max_abs_difference": 0.0002432735465163205,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-116",
+      "case": 8,
+      "max_abs_difference": 0.0003196893943879786,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-117",
+      "case": 8,
+      "max_abs_difference": 0.00023624647974429536,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-118",
+      "case": 8,
+      "max_abs_difference": 0.0002699673983102002,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-119",
+      "case": 8,
+      "max_abs_difference": 0.00022603545122024116,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-120",
+      "case": 8,
+      "max_abs_difference": 0.00019192058715589155,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-121",
+      "case": 8,
+      "max_abs_difference": 0.00025620941204351766,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-122",
+      "case": 8,
+      "max_abs_difference": 0.00020298066556279082,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-123",
+      "case": 8,
+      "max_abs_difference": 0.0002078523665289822,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-124",
+      "case": 8,
+      "max_abs_difference": 0.0009232157142378128,
+      "frozen_tolerance_pass": false,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-125",
+      "case": 8,
+      "max_abs_difference": 0.00019488751229346235,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-126",
+      "case": 8,
+      "max_abs_difference": 0.0002184696620304294,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-8-127",
+      "case": 8,
+      "max_abs_difference": 0.0002779099284282438,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-000",
+      "case": 33,
+      "max_abs_difference": 4.5691872898601105e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-001",
+      "case": 33,
+      "max_abs_difference": 5.393315987589631e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-002",
+      "case": 33,
+      "max_abs_difference": 5.8560387117267965e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-003",
+      "case": 33,
+      "max_abs_difference": 1.220948929159249e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-004",
+      "case": 33,
+      "max_abs_difference": 5.961167133250456e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-005",
+      "case": 33,
+      "max_abs_difference": 4.618843966852637e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-006",
+      "case": 33,
+      "max_abs_difference": 6.095863319899308e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-007",
+      "case": 33,
+      "max_abs_difference": 1.0022740376314232e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-008",
+      "case": 33,
+      "max_abs_difference": 4.659378532778646e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-009",
+      "case": 33,
+      "max_abs_difference": 1.0247132323115693e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-010",
+      "case": 33,
+      "max_abs_difference": 5.511090684251485e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-011",
+      "case": 33,
+      "max_abs_difference": 4.842935240390034e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-012",
+      "case": 33,
+      "max_abs_difference": 5.046580533019096e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-013",
+      "case": 33,
+      "max_abs_difference": 7.169730018574683e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-014",
+      "case": 33,
+      "max_abs_difference": 8.679370232300698e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-015",
+      "case": 33,
+      "max_abs_difference": 4.356143953998526e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-016",
+      "case": 33,
+      "max_abs_difference": 8.922372934705436e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-017",
+      "case": 33,
+      "max_abs_difference": 4.328530799568853e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-018",
+      "case": 33,
+      "max_abs_difference": 4.528896994315801e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-019",
+      "case": 33,
+      "max_abs_difference": 3.4804901112295283e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-020",
+      "case": 33,
+      "max_abs_difference": 8.653988977869176e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-021",
+      "case": 33,
+      "max_abs_difference": 8.338029260812618e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-022",
+      "case": 33,
+      "max_abs_difference": 6.65177340408718e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-023",
+      "case": 33,
+      "max_abs_difference": 4.811266030912975e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-024",
+      "case": 33,
+      "max_abs_difference": 5.594308966294648e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-025",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-026",
+      "case": 33,
+      "max_abs_difference": 4.5072571879245515e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-027",
+      "case": 33,
+      "max_abs_difference": 3.630261574016913e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-028",
+      "case": 33,
+      "max_abs_difference": 4.926346264255699e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-029",
+      "case": 33,
+      "max_abs_difference": 1.1376601875667802e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-030",
+      "case": 33,
+      "max_abs_difference": 5.2217960941902675e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-031",
+      "case": 33,
+      "max_abs_difference": 5.391078520489145e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-032",
+      "case": 33,
+      "max_abs_difference": 3.111074619255305e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-033",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-034",
+      "case": 33,
+      "max_abs_difference": 8.108935098505299e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-035",
+      "case": 33,
+      "max_abs_difference": 9.361849421907209e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-036",
+      "case": 33,
+      "max_abs_difference": 5.42075143528109e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-037",
+      "case": 33,
+      "max_abs_difference": 5.855408161892228e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-038",
+      "case": 33,
+      "max_abs_difference": 4.681825430452591e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-039",
+      "case": 33,
+      "max_abs_difference": 9.01802786756889e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-040",
+      "case": 33,
+      "max_abs_difference": 5.521130582053502e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-041",
+      "case": 33,
+      "max_abs_difference": 6.897373715730737e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-042",
+      "case": 33,
+      "max_abs_difference": 8.072615152343587e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-043",
+      "case": 33,
+      "max_abs_difference": 9.113683773875891e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-044",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-045",
+      "case": 33,
+      "max_abs_difference": 4.130998895846005e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-046",
+      "case": 33,
+      "max_abs_difference": 5.624299220130524e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-047",
+      "case": 33,
+      "max_abs_difference": 3.95535305131034e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-048",
+      "case": 33,
+      "max_abs_difference": 4.859131379930659e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-049",
+      "case": 33,
+      "max_abs_difference": 5.605096355054684e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-050",
+      "case": 33,
+      "max_abs_difference": 4.4240261800609915e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-051",
+      "case": 33,
+      "max_abs_difference": 5.273415993656272e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-052",
+      "case": 33,
+      "max_abs_difference": 6.5275365557226905e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-053",
+      "case": 33,
+      "max_abs_difference": 5.774408961656263e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-054",
+      "case": 33,
+      "max_abs_difference": 7.775903142714924e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-055",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-056",
+      "case": 33,
+      "max_abs_difference": 5.0145717764849e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-057",
+      "case": 33,
+      "max_abs_difference": 4.892962294889003e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-058",
+      "case": 33,
+      "max_abs_difference": 6.574098442513332e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-059",
+      "case": 33,
+      "max_abs_difference": 5.454073352950672e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-060",
+      "case": 33,
+      "max_abs_difference": 1.0638932167239545e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-061",
+      "case": 33,
+      "max_abs_difference": 3.4475280443757583e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-062",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-063",
+      "case": 33,
+      "max_abs_difference": 8.138281224034927e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-064",
+      "case": 33,
+      "max_abs_difference": 6.5275365557226905e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-065",
+      "case": 33,
+      "max_abs_difference": 4.3553074213775744e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-066",
+      "case": 33,
+      "max_abs_difference": 7.798372699596712e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-067",
+      "case": 33,
+      "max_abs_difference": 4.163561964531937e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-068",
+      "case": 33,
+      "max_abs_difference": 3.4786248193086067e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-069",
+      "case": 33,
+      "max_abs_difference": 4.588489787238359e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-070",
+      "case": 33,
+      "max_abs_difference": 2.5718576814881544e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-071",
+      "case": 33,
+      "max_abs_difference": 7.100572467777511e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-072",
+      "case": 33,
+      "max_abs_difference": 1.2292278945835733e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-073",
+      "case": 33,
+      "max_abs_difference": 5.91891888035434e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-074",
+      "case": 33,
+      "max_abs_difference": 5.3531259212036275e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-075",
+      "case": 33,
+      "max_abs_difference": 6.501019946369979e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-076",
+      "case": 33,
+      "max_abs_difference": 5.9768792795011905e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-077",
+      "case": 33,
+      "max_abs_difference": 6.90997804753124e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-078",
+      "case": 33,
+      "max_abs_difference": 5.531377873069232e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-079",
+      "case": 33,
+      "max_abs_difference": 4.087936162022743e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-080",
+      "case": 33,
+      "max_abs_difference": 4.3776180547183685e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-081",
+      "case": 33,
+      "max_abs_difference": 8.564161767310452e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-082",
+      "case": 33,
+      "max_abs_difference": 3.395531457783818e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-083",
+      "case": 33,
+      "max_abs_difference": 6.8099396628440445e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-084",
+      "case": 33,
+      "max_abs_difference": 3.6103346729987607e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-085",
+      "case": 33,
+      "max_abs_difference": 5.108305941803337e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-086",
+      "case": 33,
+      "max_abs_difference": 5.4707385146457455e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-087",
+      "case": 33,
+      "max_abs_difference": 4.742541790392352e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-088",
+      "case": 33,
+      "max_abs_difference": 4.580903727458008e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-089",
+      "case": 33,
+      "max_abs_difference": 8.680528694071654e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-090",
+      "case": 33,
+      "max_abs_difference": 5.925041151044752e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-091",
+      "case": 33,
+      "max_abs_difference": 3.573123862565808e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-092",
+      "case": 33,
+      "max_abs_difference": 6.31946520712745e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-093",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-094",
+      "case": 33,
+      "max_abs_difference": 7.424026513547233e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-095",
+      "case": 33,
+      "max_abs_difference": 4.52094517555679e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-096",
+      "case": 33,
+      "max_abs_difference": 4.617685640084801e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-097",
+      "case": 33,
+      "max_abs_difference": 3.866695713838908e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-098",
+      "case": 33,
+      "max_abs_difference": 6.451750103053655e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-099",
+      "case": 33,
+      "max_abs_difference": 8.289362597224681e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-100",
+      "case": 33,
+      "max_abs_difference": 3.214891457048452e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-101",
+      "case": 33,
+      "max_abs_difference": 5.040926772892362e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-102",
+      "case": 33,
+      "max_abs_difference": 4.211639684115198e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-103",
+      "case": 33,
+      "max_abs_difference": 6.580648388876398e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-104",
+      "case": 33,
+      "max_abs_difference": 6.537800786077241e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-105",
+      "case": 33,
+      "max_abs_difference": 2.904843661610812e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-106",
+      "case": 33,
+      "max_abs_difference": 1.2521195529302531e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-107",
+      "case": 33,
+      "max_abs_difference": 5.451282930835077e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-108",
+      "case": 33,
+      "max_abs_difference": 8.49602902519564e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-109",
+      "case": 33,
+      "max_abs_difference": 5.140927093805203e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-110",
+      "case": 33,
+      "max_abs_difference": 3.74888073295665e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-111",
+      "case": 33,
+      "max_abs_difference": 3.177160870393436e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-112",
+      "case": 33,
+      "max_abs_difference": 5.950087235362389e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-113",
+      "case": 33,
+      "max_abs_difference": 4.813318234653252e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-114",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-115",
+      "case": 33,
+      "max_abs_difference": 1.0304873690358818e-05,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-116",
+      "case": 33,
+      "max_abs_difference": 4.4941433081646665e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-117",
+      "case": 33,
+      "max_abs_difference": 6.738283353513452e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-118",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-119",
+      "case": 33,
+      "max_abs_difference": 6.20719669797154e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-120",
+      "case": 33,
+      "max_abs_difference": 4.3679922754336076e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-121",
+      "case": 33,
+      "max_abs_difference": 3.943280241003322e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-122",
+      "case": 33,
+      "max_abs_difference": 5.821467290445526e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-123",
+      "case": 33,
+      "max_abs_difference": 4.309149773007448e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-124",
+      "case": 33,
+      "max_abs_difference": 3.3651942636936383e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-125",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-126",
+      "case": 33,
+      "max_abs_difference": 4.52510466431022e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    },
+    {
+      "id": "dev-33-127",
+      "case": 33,
+      "max_abs_difference": 7.5273802622177755e-06,
+      "frozen_tolerance_pass": true,
+      "all_argmax_equal": true
+    }
+  ],
+  "cells": [
+    {
+      "case": 8,
+      "cut": 0,
+      "n": 128,
+      "exact": {
+        "Y00": 128,
+        "Y10": 128,
+        "Y11": 128,
+        "Y01": 128,
+        "Y1wrong": 128
+      },
+      "mean_contrasts": {
+        "D": 2.4690853933861945e-05,
+        "R": 2.1864821974304505e-05,
+        "I": 5.0811393521144055e-05,
+        "S": 4.489413436203904e-05
+      }
+    },
+    {
+      "case": 8,
+      "cut": 1,
+      "n": 128,
+      "exact": {
+        "Y00": 128,
+        "Y10": 128,
+        "Y11": 128,
+        "Y01": 128,
+        "Y1wrong": 128
+      },
+      "mean_contrasts": {
+        "D": 0.0005052131944012217,
+        "R": 0.00030981440113464487,
+        "I": 0.0004143150454183342,
+        "S": 0.00019901813902833965
+      }
+    },
+    {
+      "case": 33,
+      "cut": 0,
+      "n": 128,
+      "exact": {
+        "Y00": 128,
+        "Y10": 128,
+        "Y11": 128,
+        "Y01": 128,
+        "Y1wrong": 128
+      },
+      "mean_contrasts": {
+        "D": 0.0,
+        "R": 0.0,
+        "I": 0.0,
+        "S": 0.0
+      }
+    },
+    {
+      "case": 33,
+      "cut": 1,
+      "n": 128,
+      "exact": {
+        "Y00": 128,
+        "Y10": 128,
+        "Y11": 128,
+        "Y01": 128,
+        "Y1wrong": 128
+      },
+      "mean_contrasts": {
+        "D": 0.0,
+        "R": -3.1733233515907067e-07,
+        "I": -3.1733233515907067e-07,
+        "S": -1.8317725067329427e-07
+      }
+    }
+  ],
+  "official_loader_parity_not_established": true,
+  "reserved_tasks_executed": []
+}

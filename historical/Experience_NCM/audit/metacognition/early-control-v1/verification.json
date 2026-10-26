@@ -1,0 +1,240 @@
+{
+  "status": "passed",
+  "utc": "2026-10-24T12:10:16.037906+00:00",
+  "n": 1000,
+  "scope": "same-environment independent arithmetic, not external confirmation",
+  "stage_means": {
+    "none": {
+      "first9": 0.4549707176105585,
+      "score": 2.947883331216872e-07,
+      "tail": 0.30348984783195193,
+      "verify": 0.0012899656561785378,
+      "total": 0.759750825887022
+    },
+    "codes": {
+      "first9": 0.4803604973771144,
+      "score": 0.00018545629718573763,
+      "tail": 0.3123437864109292,
+      "verify": 0.0012786390085238962,
+      "total": 0.7941683790937532
+    },
+    "hidden": {
+      "first9": 0.4635820109964698,
+      "score": 0.0003603734148782678,
+      "tail": 0.30296643750189106,
+      "verify": 0.0012614139821380376,
+      "total": 0.7681702358953771
+    },
+    "codes_hidden": {
+      "first9": 0.4357779708239832,
+      "score": 0.00033979948202613743,
+      "tail": 0.28577813330484786,
+      "verify": 0.0012133859025198035,
+      "total": 0.723109289513377
+    },
+    "summary_archived": {
+      "first9": 0.5247731270093936,
+      "score": 0.0001790136011550203,
+      "tail": 0.29329107289522655,
+      "verify": 0.0012551453022751958,
+      "total": 0.8194983588080504
+    }
+  },
+  "auc_and_frontiers": {
+    "codes": {
+      "auc": 0.8848948245384036,
+      "frontiers": {
+        "0": {
+          "lost_resolutions": 0,
+          "rejected": 2,
+          "threshold": 2.0820053178270306,
+          "true_failures_rejected": 2
+        },
+        "10": {
+          "lost_resolutions": 10,
+          "rejected": 32,
+          "threshold": 0.21815605643061176,
+          "true_failures_rejected": 22
+        },
+        "3": {
+          "lost_resolutions": 3,
+          "rejected": 8,
+          "threshold": 1.1380718612469156,
+          "true_failures_rejected": 5
+        }
+      }
+    },
+    "codes_hidden": {
+      "auc": 0.891322918693067,
+      "frontiers": {
+        "0": {
+          "lost_resolutions": 0,
+          "rejected": 3,
+          "threshold": 2.0080681285936337,
+          "true_failures_rejected": 3
+        },
+        "10": {
+          "lost_resolutions": 10,
+          "rejected": 40,
+          "threshold": 0.12675519411700487,
+          "true_failures_rejected": 30
+        },
+        "3": {
+          "lost_resolutions": 3,
+          "rejected": 9,
+          "threshold": 1.0898189841922705,
+          "true_failures_rejected": 6
+        }
+      }
+    },
+    "hidden": {
+      "auc": 0.9044582216170041,
+      "frontiers": {
+        "0": {
+          "lost_resolutions": 0,
+          "rejected": 4,
+          "threshold": -1.3147923592427926,
+          "true_failures_rejected": 4
+        },
+        "10": {
+          "lost_resolutions": 10,
+          "rejected": 56,
+          "threshold": -1.5266917004866907,
+          "true_failures_rejected": 46
+        },
+        "3": {
+          "lost_resolutions": 3,
+          "rejected": 36,
+          "threshold": -1.4908066235560282,
+          "true_failures_rejected": 33
+        }
+      }
+    },
+    "summary_archived": {
+      "auc": 0.8667185425142306,
+      "frontiers": {
+        "0": {
+          "lost_resolutions": 0,
+          "rejected": 5,
+          "threshold": 2.001439350186582,
+          "true_failures_rejected": 5
+        },
+        "10": {
+          "lost_resolutions": 10,
+          "rejected": 26,
+          "threshold": 0.6266374974514859,
+          "true_failures_rejected": 16
+        },
+        "3": {
+          "lost_resolutions": 3,
+          "rejected": 12,
+          "threshold": 1.1133377468744774,
+          "true_failures_rejected": 9
+        }
+      }
+    }
+  },
+  "tail_share_median": 0.4095780367231159,
+  "tail_share_max": 0.4634573763455447,
+  "runtime": [
+    {
+      "mode": "codes_hidden",
+      "repeat": 0,
+      "seconds": 101.05447099998128,
+      "relative_saving": -0.28197513778244354,
+      "relative_saving_vs_staged": 0.19627404679587712,
+      "verified_resolutions": 860,
+      "lost_resolutions": 3,
+      "retained": 991
+    },
+    {
+      "mode": "summary_archived",
+      "repeat": 0,
+      "seconds": 77.15292699995916,
+      "relative_saving": 0.021239404428629594,
+      "relative_saving_vs_staged": 0.3863724268514376,
+      "verified_resolutions": 860,
+      "lost_resolutions": 3,
+      "retained": 988
+    },
+    {
+      "mode": "codes",
+      "repeat": 0,
+      "seconds": 68.05578766693361,
+      "relative_saving": 0.13664554464664802,
+      "relative_saving_vs_staged": 0.4587255539275077,
+      "verified_resolutions": 860,
+      "lost_resolutions": 3,
+      "retained": 992
+    },
+    {
+      "mode": "fixed",
+      "repeat": 0,
+      "seconds": 78.82716912496835,
+      "relative_saving": 0.0,
+      "relative_saving_vs_staged": 0.3730565207415758
+    },
+    {
+      "mode": "keep_all",
+      "repeat": 0,
+      "seconds": 125.73249699990265,
+      "relative_saving": -0.5950401161885328,
+      "relative_saving_vs_staged": 0.0,
+      "verified_resolutions": 863,
+      "lost_resolutions": 0,
+      "retained": 1000
+    },
+    {
+      "mode": "random",
+      "repeat": 0,
+      "seconds": 137.4799570000032,
+      "relative_saving": -0.7440681750482485,
+      "relative_saving_vs_staged": -0.09343216972863932,
+      "verified_resolutions": 856,
+      "lost_resolutions": 7,
+      "retained": 991
+    },
+    {
+      "mode": "hidden",
+      "repeat": 0,
+      "seconds": 133.93622874992434,
+      "relative_saving": -0.6991125044410647,
+      "relative_saving_vs_staged": -0.06524750518577571,
+      "verified_resolutions": 860,
+      "lost_resolutions": 3,
+      "retained": 964
+    }
+  ],
+  "decision": "stop_no_new_corpus",
+  "source_sha256": "256f8fa84c206aa44786a5698f75789117f9f5a778f0d711bef6e828921a390e",
+  "profile_sha256": "221bf882cf245c473475d7d060acc9a2322e4919eda0e073249d11d5efeed66f",
+  "evidence_sha256": {
+    "audit/metacognition/early-control-v1/checks.json": "e8758df996657f712bfd5218fc2381e368428c5739c3a9912e17792b7028f880",
+    "audit/metacognition/early-control-v1/development-scores.npz": "a74a31be97a71dd36e5e7bfdaa54750b963d55bdc779bfac22bdcb43f21274e9",
+    "audit/metacognition/early-control-v1/development.json": "980a0ac286e68d9bb87438eeddb0e353817b7979c94f3ad60df048b2340fe512",
+    "audit/metacognition/early-control-v1/environment.json": "082f78a8c597ccd50dc82533d1ba30f0f5ba9f9689416b57a42d3028b5cd31f4",
+    "audit/metacognition/early-control-v1/models/fold0-codes.npz": "96b13495cb629c973a241d2516d6aae5da1e19526532c71856bdb47aef9e728d",
+    "audit/metacognition/early-control-v1/models/fold0-codes_hidden.npz": "1628da28e08c6dcd80a38c50107a1a0a9f22226f2c45be40416771662c3d3bbc",
+    "audit/metacognition/early-control-v1/models/fold0-hidden.npz": "3405b4d886e33f8ea8c0a854b2f6306eba948710bb9db2198a9c0481f24febae",
+    "audit/metacognition/early-control-v1/models/fold1-codes.npz": "81d52942c46dfbb142a74f252370ba1d643ee2e85da499eb50afe27345271040",
+    "audit/metacognition/early-control-v1/models/fold1-codes_hidden.npz": "0774df41f503c8abc13e863e96921b20aa2213fe9c1784596b0fa8ae3e9ba054",
+    "audit/metacognition/early-control-v1/models/fold1-hidden.npz": "d316c5d9b4d7e7a17fac25a4d3c896b4bb3734e880942afe4374918fff9713f4",
+    "audit/metacognition/early-control-v1/models/fold2-codes.npz": "488518c05526fc73e37fdc83490f561d1bb91d2a52b21fe7de6687cb00c91ecd",
+    "audit/metacognition/early-control-v1/models/fold2-codes_hidden.npz": "be97aeeb48e00754f6dec4c71bae56368c15fdb7eef3ed3406a0e9b3d611942f",
+    "audit/metacognition/early-control-v1/models/fold2-hidden.npz": "0cd228980c2923a43dfaac2b9741f5097b12d00fa05b50cb8f3a0431001dd8c7",
+    "audit/metacognition/early-control-v1/models/fold3-codes.npz": "186e999fd3870543fd1b36e798a86a002ded5d874c606a9b622c723d57611b8c",
+    "audit/metacognition/early-control-v1/models/fold3-codes_hidden.npz": "68be21fb18679fba5206441fe71c548ce864a7b48b4f498dfce515d880c80f7a",
+    "audit/metacognition/early-control-v1/models/fold3-hidden.npz": "614690b604195fa5e5ac4dc2a8f01b111ee91dd646ff520e9ef7a92f08e990fe",
+    "audit/metacognition/early-control-v1/models/fold4-codes.npz": "cc399755bb63e825f505ed6b2de6cbe943d595c80eaa31eb7cde8182b7e4627d",
+    "audit/metacognition/early-control-v1/models/fold4-codes_hidden.npz": "8a3beaa593afa98a4a69586129e923609d417d0f8fa270661e5d7303188787d1",
+    "audit/metacognition/early-control-v1/models/fold4-hidden.npz": "6004770c0f870d70d510c827c658e848457236d9f7da4fc2e468002ff7f481e1",
+    "audit/metacognition/early-control-v1/profiling/report.json": "221bf882cf245c473475d7d060acc9a2322e4919eda0e073249d11d5efeed66f",
+    "audit/metacognition/early-control-v1/profiling/retention-0-codes.npz": "732ecc83afd42111c99333fa61755d6b6d047ba3df3291921b9e2a099432f2ff",
+    "audit/metacognition/early-control-v1/profiling/retention-0-codes_hidden.npz": "9164bbc7c47adc3cf05d8d16c567f5bde5391276da69b9d876916c153ed0f7d8",
+    "audit/metacognition/early-control-v1/profiling/retention-0-hidden.npz": "d43561c58a22ae0f4e2ef011995e048512bee3657bcb564aa443d81c09accabb",
+    "audit/metacognition/early-control-v1/profiling/retention-0-keep_all.npz": "5371ba3825e319a02d12b5003a32cf3c7af261cb3203f6d24fc8399e64811515",
+    "audit/metacognition/early-control-v1/profiling/retention-0-random.npz": "e264b8e61057831c62ef7f61c9a35022c8356691e732717a22ed589096ebf11c",
+    "audit/metacognition/early-control-v1/profiling/retention-0-summary_archived.npz": "0d758a79a517fc0c7316b0ece6deb88cc059ac7d21d837c295efac59d5897fc7",
+    "audit/metacognition/early-control-v1/technical.json": "aacb6f1915f3a1f4828c45844a41d878ce6375f6ea85593c16364b2bf4e3409d"
+  }
+}

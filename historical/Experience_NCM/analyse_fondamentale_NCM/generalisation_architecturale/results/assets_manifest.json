@@ -1,0 +1,51 @@
+{
+  "artifacts/tinystories/tokenizer.pt": {
+    "url": "https://huggingface.co/hazyresearch/ncm-checkpoints/resolve/d342ce8aaea58830eef3b8ad473664673e41f692/tinystories/tokenizer.pt",
+    "commit": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "sha256": "76e26003719db32dc3d542518951c286be07d6a5881f29ad5152d299764b0f81",
+    "bytes": 221861835,
+    "official_lfs_sha256": "76e26003719db32dc3d542518951c286be07d6a5881f29ad5152d299764b0f81"
+  },
+  "artifacts/tinystories/config.yaml": {
+    "url": "https://huggingface.co/hazyresearch/ncm-checkpoints/resolve/d342ce8aaea58830eef3b8ad473664673e41f692/tinystories/config.yaml",
+    "commit": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "sha256": "4009baccad5a159bfc12cd48f3da17c22c4a281b86f71f2fc70b7c1bbb62004b",
+    "bytes": 2483,
+    "official_lfs_sha256": null
+  },
+  "artifacts/lm1b/small/config.yaml": {
+    "url": "https://huggingface.co/hazyresearch/ncm-checkpoints/resolve/d342ce8aaea58830eef3b8ad473664673e41f692/lm1b/small/config.yaml",
+    "commit": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "sha256": "4db04299a87f7eb1627de0abb2f0b257e50e5ea0138edda771ad287cdabd7edf",
+    "bytes": 2749,
+    "official_lfs_sha256": null
+  },
+  "artifacts/lm1b/tokenizer.pt": {
+    "url": "https://huggingface.co/hazyresearch/ncm-checkpoints/resolve/d342ce8aaea58830eef3b8ad473664673e41f692/lm1b/tokenizer.pt",
+    "commit": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "sha256": "d88aa17b66d730f2cb1fb31c5dbe63888a10da47ed8bea29dcb1f89423c3059c",
+    "bytes": 597840331,
+    "official_lfs_sha256": "d88aa17b66d730f2cb1fb31c5dbe63888a10da47ed8bea29dcb1f89423c3059c"
+  },
+  "data/lm1b/valid_bert_30522.bin": {
+    "url": "https://huggingface.co/datasets/hazyresearch/ncm-datasets/resolve/6580ba41a4b0a976dde876fbe84d25327617b0e6/lm1b/valid_bert_30522.bin",
+    "commit": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "sha256": "acfaa554bbb7ef67ee2369c87ae642a49d92f27cb2ac2cffdce3beafd2cbcf6e",
+    "bytes": 18387200,
+    "official_lfs_sha256": "acfaa554bbb7ef67ee2369c87ae642a49d92f27cb2ac2cffdce3beafd2cbcf6e"
+  },
+  "data/lm1b/valid_bert_30522_offsets.npy": {
+    "url": "https://huggingface.co/datasets/hazyresearch/ncm-datasets/resolve/6580ba41a4b0a976dde876fbe84d25327617b0e6/lm1b/valid_bert_30522_offsets.npy",
+    "commit": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "sha256": "d328d250987631bde5c98d107572b0da7e3da13f7de76968c9c3fefbc5ba8dd6",
+    "bytes": 574736,
+    "official_lfs_sha256": "d328d250987631bde5c98d107572b0da7e3da13f7de76968c9c3fefbc5ba8dd6"
+  },
+  "data/tinystories/valid_bpe_8192.bin": {
+    "url": "https://huggingface.co/datasets/hazyresearch/ncm-datasets/resolve/6580ba41a4b0a976dde876fbe84d25327617b0e6/tinystories/valid_bpe_8192.bin",
+    "commit": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "sha256": "e5c9825a84cf2db901f54bebaa738671c06e9844cc8ad213dad7d2f8d243b593",
+    "bytes": 10961964,
+    "official_lfs_sha256": "e5c9825a84cf2db901f54bebaa738671c06e9844cc8ad213dad7d2f8d243b593"
+  }
+}

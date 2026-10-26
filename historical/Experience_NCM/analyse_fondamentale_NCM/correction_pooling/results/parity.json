@@ -1,0 +1,10 @@
+{
+  "patched_encode_codes": true,
+  "encode_pool_calls": 1,
+  "generation_pool_calls": 0,
+  "generator_codes_identical": true,
+  "generator_logits_identical": true,
+  "generator_ids_identical": true,
+  "tokenizer_state_before": "a23a619f258ccdf47edab8c39eec04d467959c922e96a04d7c1c758efb4b4e53",
+  "tokenizer_state_after": "a23a619f258ccdf47edab8c39eec04d467959c922e96a04d7c1c758efb4b4e53"
+}

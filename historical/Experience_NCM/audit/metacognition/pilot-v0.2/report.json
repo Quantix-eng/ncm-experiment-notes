@@ -1,0 +1,323 @@
+{
+  "batch_size": 8,
+  "batches": [
+    {
+      "bitwise_cached_and_eager_equal": true,
+      "full_extraction_seconds": 1.7860921249957755,
+      "historical_answers_equal": true,
+      "hooks_and_cache_cleared": true,
+      "indices": [
+        1134,
+        225,
+        39,
+        90,
+        151,
+        570,
+        1270,
+        1422
+      ],
+      "instrumented_generation_and_final_decode_seconds": 1.4801125000230968,
+      "intermediate_decoder_seconds": [
+        0.013897625030949712,
+        0.021190291037783027,
+        0.010311166988685727,
+        0.012746874941512942,
+        0.008352166041731834,
+        0.012468333006836474,
+        0.014484499930404127,
+        0.010911166085861623,
+        0.011407624930143356,
+        0.009301208076067269,
+        0.009648374980315566,
+        0.008616875042207539
+      ],
+      "reconstruction_and_history_checks_seconds": 0.11376295809168369,
+      "reference_cached_seconds": 1.5574632090283558,
+      "snapshots_independent_and_replay_equal": true
+    },
+    {
+      "bitwise_cached_and_eager_equal": true,
+      "full_extraction_seconds": 1.756302124937065,
+      "historical_answers_equal": true,
+      "hooks_and_cache_cleared": true,
+      "indices": [
+        1296,
+        928,
+        344,
+        1541,
+        1922,
+        934,
+        353,
+        28
+      ],
+      "instrumented_generation_and_final_decode_seconds": 1.4662533750524744,
+      "intermediate_decoder_seconds": [
+        0.011655666981823742,
+        0.0117748340126127,
+        0.011749583994969726,
+        0.010031415964476764,
+        0.01232866698410362,
+        0.009366291924379766,
+        0.013806000002659857,
+        0.00880712503567338,
+        0.013462250004522502,
+        0.010323000024072826,
+        0.008603708003647625,
+        0.012265041936188936
+      ],
+      "reconstruction_and_history_checks_seconds": 0.11554108303971589,
+      "reference_cached_seconds": 1.4958162090042606,
+      "snapshots_independent_and_replay_equal": true
+    },
+    {
+      "bitwise_cached_and_eager_equal": true,
+      "full_extraction_seconds": 1.7114526669029146,
+      "historical_answers_equal": true,
+      "hooks_and_cache_cleared": true,
+      "indices": [
+        144,
+        1621,
+        1257,
+        1382,
+        607,
+        1077,
+        1349,
+        1572
+      ],
+      "instrumented_generation_and_final_decode_seconds": 1.4288353329757228,
+      "intermediate_decoder_seconds": [
+        0.016698500025086105,
+        0.009424874908290803,
+        0.012071375036612153,
+        0.012585625052452087,
+        0.016308458987623453,
+        0.010118749924004078,
+        0.016029000049456954,
+        0.012410124996677041,
+        0.007996791042387486,
+        0.01048475003335625,
+        0.012972665950655937,
+        0.00666516600176692
+      ],
+      "reconstruction_and_history_checks_seconds": 0.09105824993457645,
+      "reference_cached_seconds": 1.4478376670740545,
+      "snapshots_independent_and_replay_equal": true
+    },
+    {
+      "bitwise_cached_and_eager_equal": true,
+      "full_extraction_seconds": 1.7480392499128357,
+      "historical_answers_equal": true,
+      "hooks_and_cache_cleared": true,
+      "indices": [
+        1606,
+        1949,
+        431,
+        387,
+        172,
+        1141,
+        63,
+        1125
+      ],
+      "instrumented_generation_and_final_decode_seconds": 1.493758250027895,
+      "intermediate_decoder_seconds": [
+        0.009313874994404614,
+        0.011384750017896295,
+        0.00864187499973923,
+        0.00917779200244695,
+        0.011299500009045005,
+        0.010591708007268608,
+        0.012298041954636574,
+        0.009512708988040686,
+        0.007631707936525345,
+        0.007697875029407442,
+        0.012317624990828335,
+        0.008714791969396174
+      ],
+      "reconstruction_and_history_checks_seconds": 0.09449012496042997,
+      "reference_cached_seconds": 1.5308456670027226,
+      "snapshots_independent_and_replay_equal": true
+    }
+  ],
+  "confirmation_status": "not generated; no sample-size guarantee",
+  "disk_free_before": 5625540608,
+  "environment": {
+    "device": "cpu",
+    "dtype": "float32",
+    "numpy": "2.5.4",
+    "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.1",
+    "threads": 4,
+    "torch": "2.8.0"
+  },
+  "excluded_partitions": [
+    "calibration",
+    "test"
+  ],
+  "final_failures": 8,
+  "final_successes": 24,
+  "finite_predictors": true,
+  "full_traces_selected_before_inference": [
+    1134,
+    225
+  ],
+  "future_poison_check_passed": true,
+  "git_head": "4f573199127e208acb7090e43607604539924e2f",
+  "memory_scope": "whole process including model, captures, references and verification buffers; not single-model standalone memory",
+  "model_state_sha256_before_and_after": "df01686cbee64cf547b6c6e89934204681d0b5b6dac74aeefccffa7b5f5f710d",
+  "predictor_shapes": {
+    "hidden_raw": [
+      32,
+      1024
+    ],
+    "puzzle": [
+      32,
+      846
+    ],
+    "rich": [
+      32,
+      13877
+    ],
+    "summary": [
+      32,
+      1341
+    ]
+  },
+  "probe_training": "not started",
+  "process_peak_rss_bytes": 509181952,
+  "projected_uncompressed_trace_bytes_2000": 493032000.0,
+  "protocol_sha256": "2ecd154f048cdd25833a1629bb7090b072436325d5d81eb39e8ada6914825047",
+  "relative_reconstruction_change_level1": "zero sentinel: no previous state, not a meaningful relative difference",
+  "run_artifacts": {
+    "evaluation-training-only.json": {
+      "bytes": 352118,
+      "sha256": "1d69a30142eabe55fc238ad2bb0e3732054bf7f840655b6e4db7e5ff66fa58a1"
+    },
+    "full-traces-2.npz": {
+      "bytes": 3383998,
+      "sha256": "29279bd31c69b74659f0e78e546ddff11d1ef35d4c40dfe7229872f56242d424"
+    },
+    "traces-32.npz": {
+      "bytes": 6901448,
+      "sha256": "31061fbd4b7e77af8a61f7fba732f50fb230d3d6d6917e360c630af9217cbf46"
+    }
+  },
+  "scope": "training-only intentionally enriched technical pilot; not representative performance or probe evaluation",
+  "selected_indices": [
+    1134,
+    225,
+    39,
+    90,
+    151,
+    570,
+    1270,
+    1422,
+    1296,
+    928,
+    344,
+    1541,
+    1922,
+    934,
+    353,
+    28,
+    144,
+    1621,
+    1257,
+    1382,
+    607,
+    1077,
+    1349,
+    1572,
+    1606,
+    1949,
+    431,
+    387,
+    172,
+    1141,
+    63,
+    1125
+  ],
+  "source_files": {
+    "experiments/metacognition/design.py": "9b2819a0661d385988c32039866a8126567a968be215cdfef11d94b8e5e331d0",
+    "experiments/metacognition/features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "experiments/metacognition/protocol-v0.2.json": "2ecd154f048cdd25833a1629bb7090b072436325d5d81eb39e8ada6914825047",
+    "experiments/metacognition/run_pilot.py": "7c4cb8f2fc0cffaf7908f42d110b9b415c2885c323c4e5d00ac3914bf28365c8",
+    "experiments/metacognition/simulate_auc_design.py": "e7eea2d9aa22f250cfa4007f28da0ffd5c5c929bbc6626a608b24c4fbb839c78",
+    "experiments/metacognition/trace.py": "a4e47316ab2b1ccbe033d8ae0cff8e610d3c89c6f7a785a1bee9824564f0fa1f",
+    "src/ncm_mac/__init__.py": "c14785d41a74cae3945a42b61c9b0a391f21c93e1a0d7c2238c0b852a3b2143f",
+    "src/ncm_mac/_vendor/__init__.py": "3085687dd830df31ef385f8ebd09e3cce62af22ed44f411e493b52b5fda33b21",
+    "src/ncm_mac/_vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/models/common.py": "41b7c2c653d7ba312d583caca878ea3708d83da1a770b0b39651dbfd19754b73",
+    "src/ncm_mac/_vendor/models/next_concept.py": "f420d33e6b210d9a09b5e786bdc433eb961b20e2ab47f21ea4d337e0985fe263",
+    "src/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "src/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "src/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "src/ncm_mac/_vendor/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/tokenization/bpe_tokenizer.py": "ac423cb4a91ff1f6b249b68cbfcfc7cadab6820c4a00145095c788dc0a4b282b",
+    "src/ncm_mac/_vendor/tokenization/hf_tokenizer.py": "ce00ed791a743094019b652e14db97ced4483871d5983e4fc799c7e595863860",
+    "src/ncm_mac/_vendor/tokenization/sudoku_tokenizer.py": "cdc2f3ecd287fd1de30262288320253d939759bdac3c6bd8f1830d258c25f7d6",
+    "src/ncm_mac/_vendor/tokenization/tokenizer.py": "e527d47e4ed8634c673d48a872a07c9cc8828d30988331de2d4bd3b7c21ddcb7",
+    "src/ncm_mac/_vendor/tokenization/vqvae_tokenizer.py": "29ab3ec4af99a343da5c4be81c95165ea185b933649f1fff0b7f70b2a95302b5",
+    "src/ncm_mac/_vendor/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/utils/misc.py": "7e766c7ee036648f4959323ab671e6a7c5d3e873adb9ed60fbec83497728b452",
+    "src/ncm_mac/_vendor/utils/registry.py": "cf122d4cff4fa686be670f7b3dfdc91e1c63a56923253106e1ce22de462603ec",
+    "src/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "src/ncm_mac/cli.py": "a2d55fd82f6a950cfc367f49a000920228fe7b67afe2980bd7282841cf2775ff",
+    "src/ncm_mac/metal_experiment.py": "686ac716cbfa0217baf2ddb857841693cf20af6ca1f0eda8d816e45645f9db62",
+    "src/ncm_mac/parallel.py": "c00046b06c9e5b8dd2c49bfd7c608787808994a2bdabd7d7a4c75e27001df863",
+    "src/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76"
+  },
+  "split_sha256": "e9298238ffb693bb5914ce29b72d2e83707f80c8b6878540d3f7eea89f3e5e65",
+  "started_utc": "2026-10-22T23:48:38.483894+00:00",
+  "status": "complete",
+  "total_wall_seconds": 28.979866874986328,
+  "trace_arrays": {
+    "code_probs": {
+      "dtype": "float64",
+      "shape": [
+        32,
+        322,
+        16
+      ]
+    },
+    "codes": {
+      "dtype": "int64",
+      "shape": [
+        32,
+        322
+      ]
+    },
+    "decoded_ids": {
+      "dtype": "uint8",
+      "shape": [
+        32,
+        12,
+        89
+      ]
+    },
+    "decoder_probs": {
+      "dtype": "float64",
+      "shape": [
+        32,
+        12,
+        89,
+        12
+      ]
+    },
+    "hidden_summary": {
+      "dtype": "float64",
+      "shape": [
+        32,
+        12,
+        1024
+      ]
+    },
+    "reconstruction_relative_change": {
+      "dtype": "float64",
+      "shape": [
+        32,
+        12
+      ]
+    }
+  },
+  "uncompressed_trace_bytes": 7888512
+}

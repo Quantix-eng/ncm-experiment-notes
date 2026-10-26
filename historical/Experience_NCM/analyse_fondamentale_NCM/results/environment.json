@@ -1,0 +1,10 @@
+{
+  "python": "3.13.0 (v3.13.0:60403a5409f, Oct  7 2024, 00:37:40) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+  "torch": "2.8.0",
+  "numpy": "1.26.4",
+  "threads": 1,
+  "deterministic": true,
+  "device": "CPU",
+  "dtype": "float32"
+}

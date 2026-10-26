@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": {
+    "sudoku_families": 16,
+    "analytic_families": 36,
+    "closed_form_outputs": 13072,
+    "method_access_projections": 1376,
+    "native_trajectory_equivalence_groups": 52,
+    "crossed_nonidentifiability_groups": 52
+  },
+  "sources": 52,
+  "cases": 344,
+  "natural_conditions_per_case": 12,
+  "sudoku_solution_counts": "Two independent solvers with cap=3: base 2, both branches and redundant-clue control 1",
+  "summary_sha256": "0ae878c7756ddf7b6a069138dca7b04f748b309e338b102f9bda0fe02dcce908",
+  "raw_vectors_sha256": "7fd39d553299f4c8180c929f5c80fca7c52dd95f6944b1208cab3ee956a8ad1b",
+  "limitation": "Same research author; equations and software audited, not an independent external evaluation."
+}

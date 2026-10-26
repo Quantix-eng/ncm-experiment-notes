@@ -1,0 +1,143 @@
+{
+  "next": {
+    "baseline": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5475643382352942,
+        "logloss": 1.4292285865711876,
+        "macro_f1": 0.4619447814473072
+      },
+      "changed_only": {
+        "n_puzzles": 256,
+        "n_cells": 6031,
+        "accuracy": 0.029016746808157853,
+        "logloss": 2.900578266087035,
+        "macro_f1": 0.019408701658943688
+      }
+    },
+    "state": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.35355392156862747,
+        "logloss": 1.87299431578993,
+        "macro_f1": 0.30110934567492714
+      },
+      "changed_only": {
+        "n_puzzles": 256,
+        "n_cells": 6031,
+        "accuracy": 0.17078428121372907,
+        "logloss": 2.34696591246289,
+        "macro_f1": 0.12432474125119142
+      }
+    },
+    "combined": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5518535539215687,
+        "logloss": 1.42657687713011,
+        "macro_f1": 0.4648905639078311
+      },
+      "changed_only": {
+        "n_puzzles": 256,
+        "n_cells": 6031,
+        "accuracy": 0.04493450505720444,
+        "logloss": 2.880916592564531,
+        "macro_f1": 0.0303674279105831
+      }
+    },
+    "shuffled_states": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5495557598039216,
+        "logloss": 1.4315393888921408,
+        "macro_f1": 0.4633054475582328
+      },
+      "changed_only": {
+        "n_puzzles": 256,
+        "n_cells": 6031,
+        "accuracy": 0.036975625932681146,
+        "logloss": 2.900226351735723,
+        "macro_f1": 0.025153242327030315
+      }
+    },
+    "changed_contrast": {
+      "delta": 0.015917758249046593,
+      "ci95": [
+        0.011723977543230296,
+        0.020192900130539156
+      ],
+      "n_puzzles": 256,
+      "method": "paired ratio bootstrap by source puzzle"
+    }
+  },
+  "quality": {
+    "baseline": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5384497549019608,
+        "logloss": 1.14295904934936,
+        "macro_f1": 0.18605908781058436,
+        "corrected_auc": 0.5845920592216243,
+        "class_counts": [
+          7025,
+          3285,
+          1164,
+          1582
+        ]
+      }
+    },
+    "state": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5379901960784313,
+        "logloss": 1.1363319156594374,
+        "macro_f1": 0.19479115974414626,
+        "corrected_auc": 0.6020364988370674,
+        "class_counts": [
+          7025,
+          3285,
+          1164,
+          1582
+        ]
+      }
+    },
+    "combined": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5402113970588235,
+        "logloss": 1.1258763412579826,
+        "macro_f1": 0.21274586507365634,
+        "corrected_auc": 0.622218483640668,
+        "class_counts": [
+          7025,
+          3285,
+          1164,
+          1582
+        ]
+      }
+    },
+    "shuffled_states": {
+      "all": {
+        "n_puzzles": 256,
+        "n_cells": 13056,
+        "accuracy": 0.5377604166666666,
+        "logloss": 1.1275735542038405,
+        "macro_f1": 0.21363807264886048,
+        "corrected_auc": 0.6181061373956761,
+        "class_counts": [
+          7025,
+          3285,
+          1164,
+          1582
+        ]
+      }
+    }
+  }
+}

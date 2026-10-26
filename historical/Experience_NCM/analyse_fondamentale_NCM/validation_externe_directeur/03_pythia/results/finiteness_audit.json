@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-10-25T17:56:43.682147+00:00",
+  "model_loaded": false,
+  "arrays": {
+    "validation_native_cache.npz:h": {
+      "shape": [
+        128,
+        768
+      ],
+      "elements": 98304,
+      "nonfinite": 0
+    },
+    "validation_native_cache.npz:q": {
+      "shape": [
+        128,
+        768
+      ],
+      "elements": 98304,
+      "nonfinite": 0
+    },
+    "validation_native_cache.npz:attention": {
+      "shape": [
+        128,
+        768
+      ],
+      "elements": 98304,
+      "nonfinite": 0
+    },
+    "validation_native_cache.npz:mlp": {
+      "shape": [
+        128,
+        768
+      ],
+      "elements": 98304,
+      "nonfinite": 0
+    },
+    "validation_native_cache.npz:residual": {
+      "shape": [
+        128,
+        768
+      ],
+      "elements": 98304,
+      "nonfinite": 0
+    },
+    "validation_native_cache.npz:logits": {
+      "shape": [
+        128,
+        50304
+      ],
+      "elements": 6438912,
+      "nonfinite": 0
+    },
+    "validation_states.npz:states": {
+      "shape": [
+        512,
+        5,
+        768
+      ],
+      "elements": 1966080,
+      "nonfinite": 0
+    }
+  },
+  "scalar_nonfinite": 0,
+  "head_projection_differences_finite": true,
+  "self_repair_finite": true,
+  "n_head_measurements": 512
+}

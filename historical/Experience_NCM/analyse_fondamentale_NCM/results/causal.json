@@ -1,0 +1,1516 @@
+{
+  "level": 6,
+  "layer": 8,
+  "conditions": {
+    "sham": {
+      "metrics": {
+        "n": 600,
+        "solved": 516,
+        "solved_rate": 0.86,
+        "cell_accuracy": 0.9809876543209877,
+        "valid_and_clues_rate": 0.86,
+        "malformed": 0
+      },
+      "introduced_errors": 0,
+      "rescued": 0,
+      "changed_boards": 0,
+      "delta_solved": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "perturbation": []
+    },
+    "confidence": {
+      "metrics": {
+        "n": 600,
+        "solved": 519,
+        "solved_rate": 0.865,
+        "cell_accuracy": 0.9817078189300411,
+        "valid_and_clues_rate": 0.865,
+        "malformed": 0
+      },
+      "introduced_errors": 0,
+      "rescued": 3,
+      "changed_boards": 19,
+      "delta_solved": 0.005,
+      "delta_ci95": [
+        0.0,
+        0.011666666666666667
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233984291553497,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.1540039319443167e-07
+        },
+        {
+          "delta_rms": 0.17097841203212738,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 4.379882909688604e-07
+        },
+        {
+          "delta_rms": 0.24669459462165833,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 4.272818330264272e-07
+        },
+        {
+          "delta_rms": 0.26517170667648315,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 4.271334717032005e-07
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.4849778646494087e-07
+        },
+        {
+          "delta_rms": 0.18276555836200714,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 3.834251742773631e-07
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 3.996692043983785e-07
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 4.0274670709550264e-07
+        },
+        {
+          "delta_rms": 0.17246074974536896,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 4.145633738517063e-07
+        },
+        {
+          "delta_rms": 0.18721184134483337,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.2293908109058975e-07
+        },
+        {
+          "delta_rms": 0.2134523093700409,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.122169627862604e-07
+        },
+        {
+          "delta_rms": 0.2084343135356903,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.665834012484993e-07
+        },
+        {
+          "delta_rms": 0.2434380054473877,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 4.1893878233167925e-07
+        },
+        {
+          "delta_rms": 0.21380844712257385,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.4116993080933753e-07
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 3.934725043563958e-07
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 3.804895243320061e-07
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 4.4053277292732673e-07
+        },
+        {
+          "delta_rms": 0.21660460531711578,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.024507234134944e-07
+        },
+        {
+          "delta_rms": 0.23327356576919556,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 4.3758714696195966e-07
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.2078437445525196e-07
+        },
+        {
+          "delta_rms": 0.18807819485664368,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.0062062112156127e-07
+        },
+        {
+          "delta_rms": 0.19261084496974945,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.1665515482236515e-07
+        },
+        {
+          "delta_rms": 0.19126108288764954,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.1352140556227823e-07
+        },
+        {
+          "delta_rms": 0.20085354149341583,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.2601232053129934e-07
+        },
+        {
+          "delta_rms": 0.19850260019302368,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 3.992446409029071e-07
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.4744180627276364e-07
+        },
+        {
+          "delta_rms": 0.17484652996063232,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 4.464828577965818e-07
+        },
+        {
+          "delta_rms": 0.17804686725139618,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 3.9623151337764284e-07
+        },
+        {
+          "delta_rms": 0.17726930975914001,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 4.3658820914060925e-07
+        },
+        {
+          "delta_rms": 0.22650909423828125,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 4.3299866092638695e-07
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 4.1430320152358036e-07
+        },
+        {
+          "delta_rms": 0.2026248425245285,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.61937162299364e-07
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 4.2628911955944204e-07
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.840441079068114e-07
+        },
+        {
+          "delta_rms": 0.1866762787103653,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.3301716345922614e-07
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 4.4364773543748015e-07
+        },
+        {
+          "delta_rms": 0.20738524198532104,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.267430995241739e-07
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 3.9579617805429734e-07
+        }
+      ]
+    },
+    "random_0": {
+      "metrics": {
+        "n": 600,
+        "solved": 517,
+        "solved_rate": 0.8616666666666667,
+        "cell_accuracy": 0.9815637860082305,
+        "valid_and_clues_rate": 0.8616666666666667,
+        "malformed": 0
+      },
+      "introduced_errors": 0,
+      "rescued": 1,
+      "changed_boards": 13,
+      "delta_solved": 0.0016666666666666668,
+      "delta_ci95": [
+        0.0,
+        0.005
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233981311321259,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.527083396911621
+        },
+        {
+          "delta_rms": 0.17097841203212738,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 3.8433284759521484
+        },
+        {
+          "delta_rms": 0.24669459462165833,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 5.493532180786133
+        },
+        {
+          "delta_rms": 0.26517170667648315,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 5.904808044433594
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.845636367797852
+        },
+        {
+          "delta_rms": 0.18276554346084595,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 4.08145809173584
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 4.741167068481445
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 5.461865425109863
+        },
+        {
+          "delta_rms": 0.17246074974536896,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 3.871429443359375
+        },
+        {
+          "delta_rms": 0.18721185624599457,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.1791791915893555
+        },
+        {
+          "delta_rms": 0.2134522944688797,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.755274772644043
+        },
+        {
+          "delta_rms": 0.2084343135356903,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.646332740783691
+        },
+        {
+          "delta_rms": 0.2434380054473877,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 5.425512313842773
+        },
+        {
+          "delta_rms": 0.21380844712257385,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.774219512939453
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 4.504534721374512
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 5.186751365661621
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 4.923779010772705
+        },
+        {
+          "delta_rms": 0.21660462021827698,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.82861328125
+        },
+        {
+          "delta_rms": 0.23327356576919556,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 5.198201656341553
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.659355163574219
+        },
+        {
+          "delta_rms": 0.18807820975780487,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.204596996307373
+        },
+        {
+          "delta_rms": 0.19261083006858826,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.3099493980407715
+        },
+        {
+          "delta_rms": 0.19126106798648834,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.2832841873168945
+        },
+        {
+          "delta_rms": 0.20085354149341583,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.47798490524292
+        },
+        {
+          "delta_rms": 0.19850260019302368,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 4.424709320068359
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.321474075317383
+        },
+        {
+          "delta_rms": 0.17484652996063232,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 3.9077320098876953
+        },
+        {
+          "delta_rms": 0.17804685235023499,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 3.980611801147461
+        },
+        {
+          "delta_rms": 0.17726930975914001,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 3.976593255996704
+        },
+        {
+          "delta_rms": 0.22650909423828125,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 5.0457539558410645
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 3.9873239994049072
+        },
+        {
+          "delta_rms": 0.2026248425245285,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.532084941864014
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 3.799370050430298
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.780974388122559
+        },
+        {
+          "delta_rms": 0.1866762936115265,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.179529190063477
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 5.762433052062988
+        },
+        {
+          "delta_rms": 0.20738524198532104,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.629008769989014
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 4.597555637359619
+        }
+      ]
+    },
+    "random_1": {
+      "metrics": {
+        "n": 600,
+        "solved": 516,
+        "solved_rate": 0.86,
+        "cell_accuracy": 0.9812962962962963,
+        "valid_and_clues_rate": 0.86,
+        "malformed": 0
+      },
+      "introduced_errors": 1,
+      "rescued": 1,
+      "changed_boards": 15,
+      "delta_solved": 0.0,
+      "delta_ci95": [
+        -0.005,
+        0.005
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233981311321259,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.613510608673096
+        },
+        {
+          "delta_rms": 0.17097842693328857,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 3.8952202796936035
+        },
+        {
+          "delta_rms": 0.24669459462165833,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 5.653727054595947
+        },
+        {
+          "delta_rms": 0.26517170667648315,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 6.0830535888671875
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.966123580932617
+        },
+        {
+          "delta_rms": 0.18276554346084595,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 4.168325901031494
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 4.881906986236572
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 5.631185054779053
+        },
+        {
+          "delta_rms": 0.17246073484420776,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 3.9395110607147217
+        },
+        {
+          "delta_rms": 0.18721184134483337,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.2619500160217285
+        },
+        {
+          "delta_rms": 0.2134522944688797,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.876457214355469
+        },
+        {
+          "delta_rms": 0.2084343135356903,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.769635200500488
+        },
+        {
+          "delta_rms": 0.2434379905462265,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 5.556949615478516
+        },
+        {
+          "delta_rms": 0.21380843222141266,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.894364356994629
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 4.610274314880371
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 5.327414512634277
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 5.04815673828125
+        },
+        {
+          "delta_rms": 0.21660462021827698,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.958027362823486
+        },
+        {
+          "delta_rms": 0.23327356576919556,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 5.34783935546875
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.7703399658203125
+        },
+        {
+          "delta_rms": 0.18807820975780487,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.305253505706787
+        },
+        {
+          "delta_rms": 0.19261083006858826,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.41223669052124
+        },
+        {
+          "delta_rms": 0.19126106798648834,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.360516548156738
+        },
+        {
+          "delta_rms": 0.20085354149341583,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.593356609344482
+        },
+        {
+          "delta_rms": 0.1985025852918625,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 4.5297465324401855
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.436891078948975
+        },
+        {
+          "delta_rms": 0.17484652996063232,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 3.9909121990203857
+        },
+        {
+          "delta_rms": 0.1780468374490738,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 4.0592851638793945
+        },
+        {
+          "delta_rms": 0.17726930975914001,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 4.043997287750244
+        },
+        {
+          "delta_rms": 0.22650909423828125,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 5.184248447418213
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 4.065100193023682
+        },
+        {
+          "delta_rms": 0.2026248276233673,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.644750595092773
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 3.852684736251831
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.907761573791504
+        },
+        {
+          "delta_rms": 0.1866762787103653,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.2689104080200195
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 5.92920446395874
+        },
+        {
+          "delta_rms": 0.20738525688648224,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.747348785400391
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 4.7224650382995605
+        }
+      ]
+    },
+    "random_2": {
+      "metrics": {
+        "n": 600,
+        "solved": 519,
+        "solved_rate": 0.865,
+        "cell_accuracy": 0.9817901234567902,
+        "valid_and_clues_rate": 0.865,
+        "malformed": 0
+      },
+      "introduced_errors": 0,
+      "rescued": 3,
+      "changed_boards": 16,
+      "delta_solved": 0.005,
+      "delta_ci95": [
+        0.0,
+        0.011666666666666667
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233981311321259,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.637433052062988
+        },
+        {
+          "delta_rms": 0.17097841203212738,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 3.8936870098114014
+        },
+        {
+          "delta_rms": 0.24669459462165833,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 5.654023170471191
+        },
+        {
+          "delta_rms": 0.26517173647880554,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 6.0735697746276855
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.979997158050537
+        },
+        {
+          "delta_rms": 0.18276554346084595,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 4.175739288330078
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 4.862735271453857
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 5.636744499206543
+        },
+        {
+          "delta_rms": 0.17246074974536896,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 3.9616575241088867
+        },
+        {
+          "delta_rms": 0.18721184134483337,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.292060375213623
+        },
+        {
+          "delta_rms": 0.2134522944688797,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.923836708068848
+        },
+        {
+          "delta_rms": 0.2084343135356903,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.801366806030273
+        },
+        {
+          "delta_rms": 0.2434380054473877,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 5.57659912109375
+        },
+        {
+          "delta_rms": 0.21380843222141266,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.884854793548584
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 4.623456954956055
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 5.361220836639404
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 5.035374164581299
+        },
+        {
+          "delta_rms": 0.21660462021827698,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.959598064422607
+        },
+        {
+          "delta_rms": 0.23327356576919556,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 5.328043460845947
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.79217529296875
+        },
+        {
+          "delta_rms": 0.18807819485664368,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.2828898429870605
+        },
+        {
+          "delta_rms": 0.19261083006858826,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.435571193695068
+        },
+        {
+          "delta_rms": 0.19126106798648834,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.3484907150268555
+        },
+        {
+          "delta_rms": 0.20085354149341583,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.599355220794678
+        },
+        {
+          "delta_rms": 0.19850260019302368,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 4.583399295806885
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.456995010375977
+        },
+        {
+          "delta_rms": 0.17484652996063232,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 3.9931159019470215
+        },
+        {
+          "delta_rms": 0.1780468374490738,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 4.046677112579346
+        },
+        {
+          "delta_rms": 0.17726930975914001,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 4.048794746398926
+        },
+        {
+          "delta_rms": 0.22650910913944244,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 5.2059454917907715
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 4.082394599914551
+        },
+        {
+          "delta_rms": 0.2026248276233673,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.647006511688232
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 3.845670223236084
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.954546928405762
+        },
+        {
+          "delta_rms": 0.1866762787103653,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.25126314163208
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 5.966601848602295
+        },
+        {
+          "delta_rms": 0.20738524198532104,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.764836311340332
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 4.6885786056518555
+        }
+      ]
+    },
+    "random_3": {
+      "metrics": {
+        "n": 600,
+        "solved": 517,
+        "solved_rate": 0.8616666666666667,
+        "cell_accuracy": 0.9814609053497942,
+        "valid_and_clues_rate": 0.8616666666666667,
+        "malformed": 0
+      },
+      "introduced_errors": 1,
+      "rescued": 2,
+      "changed_boards": 17,
+      "delta_solved": 0.0016666666666666668,
+      "delta_ci95": [
+        -0.0033333333333333335,
+        0.008333333333333333
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233981311321259,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.453081130981445
+        },
+        {
+          "delta_rms": 0.17097842693328857,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 3.7122700214385986
+        },
+        {
+          "delta_rms": 0.24669460952281952,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 5.426083564758301
+        },
+        {
+          "delta_rms": 0.26517170667648315,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 5.842582702636719
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.73364782333374
+        },
+        {
+          "delta_rms": 0.18276554346084595,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 3.950916290283203
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 4.638063907623291
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 5.4692254066467285
+        },
+        {
+          "delta_rms": 0.17246074974536896,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 3.8745009899139404
+        },
+        {
+          "delta_rms": 0.18721185624599457,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.103718280792236
+        },
+        {
+          "delta_rms": 0.2134522944688797,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.641873359680176
+        },
+        {
+          "delta_rms": 0.2084343284368515,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.544106483459473
+        },
+        {
+          "delta_rms": 0.2434380054473877,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 5.299729824066162
+        },
+        {
+          "delta_rms": 0.21380844712257385,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.813986301422119
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 4.450536251068115
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 5.142760276794434
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 4.856293678283691
+        },
+        {
+          "delta_rms": 0.21660463511943817,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.8902812004089355
+        },
+        {
+          "delta_rms": 0.23327356576919556,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 5.109618186950684
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.66402530670166
+        },
+        {
+          "delta_rms": 0.18807820975780487,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.091741561889648
+        },
+        {
+          "delta_rms": 0.19261084496974945,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.2036566734313965
+        },
+        {
+          "delta_rms": 0.19126106798648834,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.207643032073975
+        },
+        {
+          "delta_rms": 0.20085355639457703,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.403227806091309
+        },
+        {
+          "delta_rms": 0.19850260019302368,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 4.470670700073242
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.2194085121154785
+        },
+        {
+          "delta_rms": 0.17484652996063232,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 3.845172166824341
+        },
+        {
+          "delta_rms": 0.17804685235023499,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 3.8668363094329834
+        },
+        {
+          "delta_rms": 0.17726930975914001,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 3.9625084400177
+        },
+        {
+          "delta_rms": 0.22650909423828125,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 5.039569854736328
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 3.961097002029419
+        },
+        {
+          "delta_rms": 0.2026248276233673,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.4149556159973145
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 3.783182144165039
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.762339115142822
+        },
+        {
+          "delta_rms": 0.1866762787103653,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.094603061676025
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 5.733373165130615
+        },
+        {
+          "delta_rms": 0.20738525688648224,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.645877838134766
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 4.556972503662109
+        }
+      ]
+    },
+    "random_4": {
+      "metrics": {
+        "n": 600,
+        "solved": 520,
+        "solved_rate": 0.8666666666666667,
+        "cell_accuracy": 0.982119341563786,
+        "valid_and_clues_rate": 0.8666666666666667,
+        "malformed": 0
+      },
+      "introduced_errors": 0,
+      "rescued": 4,
+      "changed_boards": 21,
+      "delta_solved": 0.006666666666666667,
+      "delta_ci95": [
+        0.0016666666666666668,
+        0.013333333333333334
+      ],
+      "perturbation": [
+        {
+          "delta_rms": 0.20233981311321259,
+          "state_rms": 3.028846263885498,
+          "confidence_projection_rms_before": 4.578427314758301,
+          "confidence_projection_rms_after": 4.572747707366943
+        },
+        {
+          "delta_rms": 0.17097842693328857,
+          "state_rms": 2.808316230773926,
+          "confidence_projection_rms_before": 3.8687996864318848,
+          "confidence_projection_rms_after": 3.8667187690734863
+        },
+        {
+          "delta_rms": 0.24669459462165833,
+          "state_rms": 3.1995933055877686,
+          "confidence_projection_rms_before": 5.582061290740967,
+          "confidence_projection_rms_after": 5.5741119384765625
+        },
+        {
+          "delta_rms": 0.26517170667648315,
+          "state_rms": 3.3846242427825928,
+          "confidence_projection_rms_before": 6.00015115737915,
+          "confidence_projection_rms_after": 5.993110656738281
+        },
+        {
+          "delta_rms": 0.21721267700195312,
+          "state_rms": 3.111409902572632,
+          "confidence_projection_rms_before": 4.914961814880371,
+          "confidence_projection_rms_after": 4.908148288726807
+        },
+        {
+          "delta_rms": 0.18276555836200714,
+          "state_rms": 2.984212875366211,
+          "confidence_projection_rms_before": 4.135512351989746,
+          "confidence_projection_rms_after": 4.131596088409424
+        },
+        {
+          "delta_rms": 0.2129109799861908,
+          "state_rms": 3.151231050491333,
+          "confidence_projection_rms_before": 4.817625522613525,
+          "confidence_projection_rms_after": 4.811306476593018
+        },
+        {
+          "delta_rms": 0.24544064700603485,
+          "state_rms": 3.2741036415100098,
+          "confidence_projection_rms_before": 5.553688049316406,
+          "confidence_projection_rms_after": 5.5460333824157715
+        },
+        {
+          "delta_rms": 0.17246074974536896,
+          "state_rms": 2.8516666889190674,
+          "confidence_projection_rms_before": 3.902341365814209,
+          "confidence_projection_rms_after": 3.8987693786621094
+        },
+        {
+          "delta_rms": 0.18721185624599457,
+          "state_rms": 3.070363759994507,
+          "confidence_projection_rms_before": 4.236120700836182,
+          "confidence_projection_rms_after": 4.231484413146973
+        },
+        {
+          "delta_rms": 0.2134523093700409,
+          "state_rms": 3.089200258255005,
+          "confidence_projection_rms_before": 4.829874515533447,
+          "confidence_projection_rms_after": 4.823374271392822
+        },
+        {
+          "delta_rms": 0.2084343284368515,
+          "state_rms": 3.1610631942749023,
+          "confidence_projection_rms_before": 4.716330051422119,
+          "confidence_projection_rms_after": 4.710354328155518
+        },
+        {
+          "delta_rms": 0.2434380054473877,
+          "state_rms": 3.212733268737793,
+          "confidence_projection_rms_before": 5.508373260498047,
+          "confidence_projection_rms_after": 5.5019450187683105
+        },
+        {
+          "delta_rms": 0.21380846202373505,
+          "state_rms": 3.067159652709961,
+          "confidence_projection_rms_before": 4.83793306350708,
+          "confidence_projection_rms_after": 4.831742286682129
+        },
+        {
+          "delta_rms": 0.2018170952796936,
+          "state_rms": 2.9969303607940674,
+          "confidence_projection_rms_before": 4.566599369049072,
+          "confidence_projection_rms_after": 4.562534332275391
+        },
+        {
+          "delta_rms": 0.23273420333862305,
+          "state_rms": 3.1213390827178955,
+          "confidence_projection_rms_before": 5.266173839569092,
+          "confidence_projection_rms_after": 5.259415626525879
+        },
+        {
+          "delta_rms": 0.22058066725730896,
+          "state_rms": 3.110384464263916,
+          "confidence_projection_rms_before": 4.991170883178711,
+          "confidence_projection_rms_after": 4.984401702880859
+        },
+        {
+          "delta_rms": 0.21660463511943817,
+          "state_rms": 3.0292303562164307,
+          "confidence_projection_rms_before": 4.90120267868042,
+          "confidence_projection_rms_after": 4.897075653076172
+        },
+        {
+          "delta_rms": 0.23327358067035675,
+          "state_rms": 3.0980212688446045,
+          "confidence_projection_rms_before": 5.278378486633301,
+          "confidence_projection_rms_after": 5.271260738372803
+        },
+        {
+          "delta_rms": 0.20848408341407776,
+          "state_rms": 3.140470027923584,
+          "confidence_projection_rms_before": 4.717456340789795,
+          "confidence_projection_rms_after": 4.711768627166748
+        },
+        {
+          "delta_rms": 0.18807820975780487,
+          "state_rms": 2.990532636642456,
+          "confidence_projection_rms_before": 4.25572395324707,
+          "confidence_projection_rms_after": 4.25277042388916
+        },
+        {
+          "delta_rms": 0.19261083006858826,
+          "state_rms": 2.996439218521118,
+          "confidence_projection_rms_before": 4.358285427093506,
+          "confidence_projection_rms_after": 4.353201389312744
+        },
+        {
+          "delta_rms": 0.19126108288764954,
+          "state_rms": 2.923841714859009,
+          "confidence_projection_rms_before": 4.327744007110596,
+          "confidence_projection_rms_after": 4.324562072753906
+        },
+        {
+          "delta_rms": 0.20085354149341583,
+          "state_rms": 3.0605251789093018,
+          "confidence_projection_rms_before": 4.544796943664551,
+          "confidence_projection_rms_after": 4.539927005767822
+        },
+        {
+          "delta_rms": 0.19850260019302368,
+          "state_rms": 2.994079113006592,
+          "confidence_projection_rms_before": 4.49160099029541,
+          "confidence_projection_rms_after": 4.487954616546631
+        },
+        {
+          "delta_rms": 0.19410879909992218,
+          "state_rms": 3.006006956100464,
+          "confidence_projection_rms_before": 4.392180442810059,
+          "confidence_projection_rms_after": 4.386643886566162
+        },
+        {
+          "delta_rms": 0.17484651505947113,
+          "state_rms": 2.9250848293304443,
+          "confidence_projection_rms_before": 3.956325054168701,
+          "confidence_projection_rms_after": 3.9509525299072266
+        },
+        {
+          "delta_rms": 0.1780468374490738,
+          "state_rms": 2.8971428871154785,
+          "confidence_projection_rms_before": 4.028740406036377,
+          "confidence_projection_rms_after": 4.025193214416504
+        },
+        {
+          "delta_rms": 0.17726929485797882,
+          "state_rms": 2.8908491134643555,
+          "confidence_projection_rms_before": 4.011146545410156,
+          "confidence_projection_rms_after": 4.007335186004639
+        },
+        {
+          "delta_rms": 0.22650909423828125,
+          "state_rms": 3.2156713008880615,
+          "confidence_projection_rms_before": 5.1253156661987305,
+          "confidence_projection_rms_after": 5.118819236755371
+        },
+        {
+          "delta_rms": 0.1781919002532959,
+          "state_rms": 2.9508421421051025,
+          "confidence_projection_rms_before": 4.032022476196289,
+          "confidence_projection_rms_after": 4.028331756591797
+        },
+        {
+          "delta_rms": 0.2026248276233673,
+          "state_rms": 3.007567882537842,
+          "confidence_projection_rms_before": 4.584877014160156,
+          "confidence_projection_rms_after": 4.579268932342529
+        },
+        {
+          "delta_rms": 0.16955776512622833,
+          "state_rms": 2.815518856048584,
+          "confidence_projection_rms_before": 3.8366544246673584,
+          "confidence_projection_rms_after": 3.8332247734069824
+        },
+        {
+          "delta_rms": 0.21463757753372192,
+          "state_rms": 3.1100375652313232,
+          "confidence_projection_rms_before": 4.856694221496582,
+          "confidence_projection_rms_after": 4.851137638092041
+        },
+        {
+          "delta_rms": 0.1866762787103653,
+          "state_rms": 2.9049365520477295,
+          "confidence_projection_rms_before": 4.224001884460449,
+          "confidence_projection_rms_after": 4.218577861785889
+        },
+        {
+          "delta_rms": 0.2591356337070465,
+          "state_rms": 3.255965232849121,
+          "confidence_projection_rms_before": 5.863569736480713,
+          "confidence_projection_rms_after": 5.854959487915039
+        },
+        {
+          "delta_rms": 0.20738525688648224,
+          "state_rms": 3.0298233032226562,
+          "confidence_projection_rms_before": 4.692592620849609,
+          "confidence_projection_rms_after": 4.686692237854004
+        },
+        {
+          "delta_rms": 0.20573286712169647,
+          "state_rms": 3.165374279022217,
+          "confidence_projection_rms_before": 4.655203342437744,
+          "confidence_projection_rms_after": 4.648675918579102
+        }
+      ]
+    }
+  },
+  "seconds": 1048.6368306670338,
+  "norm_matching": "same per-token absolute projection on confidence direction at the unmodified intervention state",
+  "caveat": "External probe direction; intervention tests influence on resolution, not endogenous metacognitive control. Five random directions do not support precise tail probabilities."
+}

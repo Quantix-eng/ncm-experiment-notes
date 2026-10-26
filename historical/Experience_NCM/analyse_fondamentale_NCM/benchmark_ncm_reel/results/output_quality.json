@@ -1,0 +1,257 @@
+{
+  "scope": "Descriptive post-processing of predeclared output-quality endpoints; no new inference or decision change",
+  "O": {
+    "A": {
+      "n": 16,
+      "exact": 16,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "B": {
+      "n": 16,
+      "exact": 16,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "Aplus": {
+      "n": 16,
+      "exact": 16,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    }
+  },
+  "C": {
+    "Y00": {
+      "n": 128,
+      "exact": 128,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "Y10": {
+      "n": 128,
+      "exact": 128,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "Y11": {
+      "n": 128,
+      "exact": 128,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "Y01": {
+      "n": 128,
+      "exact": 128,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    },
+    "Y1wrong": {
+      "n": 128,
+      "exact": 128,
+      "bad_digits": 0,
+      "bad_separators": 0,
+      "violated_clues": 0,
+      "invalid_units": 0
+    }
+  },
+  "E": {
+    "answer_change": {
+      "fixed_left": {
+        "recipient": {
+          "n": 32,
+          "exact": 16,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 16,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 16,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 16,
+          "invalid_units": 0
+        }
+      },
+      "fixed_right": {
+        "recipient": {
+          "n": 32,
+          "exact": 16,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 16,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 16,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 16,
+          "invalid_units": 0
+        }
+      },
+      "regenerated": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 0,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 32,
+          "invalid_units": 0
+        }
+      },
+      "frozen_recipient_native": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 0,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 32,
+          "invalid_units": 0
+        }
+      },
+      "frozen_donor_native": {
+        "recipient": {
+          "n": 32,
+          "exact": 0,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 32,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      }
+    },
+    "answer_preserve": {
+      "fixed_left": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      },
+      "fixed_right": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      },
+      "regenerated": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      },
+      "frozen_recipient_native": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      },
+      "frozen_donor_native": {
+        "recipient": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        },
+        "donor": {
+          "n": 32,
+          "exact": 32,
+          "bad_digits": 0,
+          "bad_separators": 0,
+          "violated_clues": 0,
+          "invalid_units": 0
+        }
+      }
+    }
+  }
+}

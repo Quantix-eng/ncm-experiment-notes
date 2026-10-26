@@ -1,0 +1,122 @@
+{
+  "action": "Keep v0.2 results; define a versioned development-only preprocessing amendment before any new fit. Do not interpret v0.2 AUC differences as robust evidence for or against internal information.",
+  "conclusion": "Nonzero but tiny training variances amplify rare validation probabilities. This is a failure mode of the specified preprocessing, not evidence of altered NCM outputs or train/test leakage.",
+  "folds": [
+    {
+      "fold": 0,
+      "largest_abs_single_feature_logit_contribution": 139.69291959559865,
+      "largest_abs_standardized_validation_value": 289052.2119791607,
+      "largest_abs_validation_logit": 348.43932164038495,
+      "most_amplified_feature": {
+        "column": 1690,
+        "meaning": {
+          "expected_row_separator": true,
+          "family": "current_decoder_probability",
+          "position": 29,
+          "token": 1,
+          "zero_based": true
+        },
+        "sample_index": 1261,
+        "training_max": 3.544108846592029e-13,
+        "training_min": 6.825902266590408e-21,
+        "training_std": 1.392127096871631e-14,
+        "validation_value": 4.023975197011164e-09
+      },
+      "retained_columns_std_below_1e_8": 429,
+      "retained_exactly_constant_columns": 0,
+      "retained_features": 10867
+    },
+    {
+      "fold": 1,
+      "largest_abs_single_feature_logit_contribution": 1125367.188384316,
+      "largest_abs_standardized_validation_value": 968220292.5703964,
+      "largest_abs_validation_logit": 2137258.2984337457,
+      "most_amplified_feature": {
+        "column": 1932,
+        "meaning": {
+          "expected_row_separator": true,
+          "family": "current_decoder_probability",
+          "position": 49,
+          "token": 3,
+          "zero_based": true
+        },
+        "sample_index": 1948,
+        "training_max": 2.291185723946223e-13,
+        "training_min": 1.514157068668836e-20,
+        "training_std": 1.0439249904030142e-14,
+        "validation_value": 1.0107493597124892e-05
+      },
+      "retained_columns_std_below_1e_8": 442,
+      "retained_exactly_constant_columns": 0,
+      "retained_features": 10855
+    },
+    {
+      "fold": 2,
+      "largest_abs_single_feature_logit_contribution": 2.22525487689295,
+      "largest_abs_standardized_validation_value": 405.423148921536,
+      "largest_abs_validation_logit": 6.876285081046161,
+      "most_amplified_feature": {
+        "column": 3742,
+        "meaning": {
+          "column": 3742,
+          "family": "code_probability"
+        },
+        "sample_index": 1397,
+        "training_max": 1.141240869299506e-06,
+        "training_min": 5.731793681933828e-15,
+        "training_std": 4.8952054775161756e-08,
+        "validation_value": 1.985180749269714e-05
+      },
+      "retained_columns_std_below_1e_8": 421,
+      "retained_exactly_constant_columns": 0,
+      "retained_features": 10870
+    },
+    {
+      "fold": 3,
+      "largest_abs_single_feature_logit_contribution": 23963370.340589933,
+      "largest_abs_standardized_validation_value": 8532067071.45299,
+      "largest_abs_validation_logit": 1679444.121843889,
+      "most_amplified_feature": {
+        "column": 2293,
+        "meaning": {
+          "expected_row_separator": true,
+          "family": "current_decoder_probability",
+          "position": 79,
+          "token": 4,
+          "zero_based": true
+        },
+        "sample_index": 89,
+        "training_max": 1.395403742564606e-14,
+        "training_min": 5.691337542612917e-21,
+        "training_std": 7.751754900531502e-16,
+        "validation_value": 6.613849273389148e-06
+      },
+      "retained_columns_std_below_1e_8": 433,
+      "retained_exactly_constant_columns": 0,
+      "retained_features": 10705
+    },
+    {
+      "fold": 4,
+      "largest_abs_single_feature_logit_contribution": 9.862519748907962,
+      "largest_abs_standardized_validation_value": 4527.329056563228,
+      "largest_abs_validation_logit": 11.577378073536941,
+      "most_amplified_feature": {
+        "column": 4014,
+        "meaning": {
+          "column": 4014,
+          "family": "code_probability"
+        },
+        "sample_index": 515,
+        "training_max": 1.0619965997006959e-08,
+        "training_min": 3.08565640691668e-16,
+        "training_std": 5.368816549659842e-10,
+        "validation_value": 2.430724162390682e-06
+      },
+      "retained_columns_std_below_1e_8": 422,
+      "retained_exactly_constant_columns": 0,
+      "retained_features": 10869
+    }
+  ],
+  "report_sha256": "be9523725e0fc00b91369a9df6980e129331c95fb2379b34afe8094681752fd0",
+  "status": "diagnosed_no_refit"
+}

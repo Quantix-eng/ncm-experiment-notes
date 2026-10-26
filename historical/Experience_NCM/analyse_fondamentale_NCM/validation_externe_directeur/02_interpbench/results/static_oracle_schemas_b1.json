@@ -1,0 +1,332 @@
+{
+  "scope": "static compilation only; no input or model application on reserved tasks",
+  "case_schemas": [
+    {
+      "case": 8,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "map_1"
+          ],
+          "rasp_labels_found": [
+            "map_1"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "compiled_residual_dims": 22,
+      "published_head_output_sites": [],
+      "compiled_head_sites": [],
+      "head_site_lists_equal": true,
+      "all_component_output_labels_have_rasp_nodes": true
+    },
+    {
+      "case": 33,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "map_2"
+          ],
+          "rasp_labels_found": [
+            "map_2"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        false,
+        true
+      ],
+      "compiled_residual_dims": 10,
+      "published_head_output_sites": [],
+      "compiled_head_sites": [],
+      "head_site_lists_equal": true,
+      "all_component_output_labels_have_rasp_nodes": true
+    },
+    {
+      "case": 13,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "attn",
+          "head": 0,
+          "output_labels": [
+            "shift_by(-1)_4"
+          ],
+          "rasp_labels_found": [
+            "shift_by(-1)_4"
+          ],
+          "all_labels_found": true
+        },
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "sequence_map_3"
+          ],
+          "rasp_labels_found": [
+            "sequence_map_3"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        "constant",
+        "decreasing",
+        "increasing"
+      ],
+      "compiled_residual_dims": 20,
+      "published_head_output_sites": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "compiled_head_sites": [
+        [
+          0,
+          0
+        ]
+      ],
+      "head_site_lists_equal": false,
+      "all_component_output_labels_have_rasp_nodes": true
+    },
+    {
+      "case": 18,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "attn",
+          "head": 0,
+          "output_labels": [
+            "hist_7_selector_width_attn_output"
+          ],
+          "rasp_labels_found": [],
+          "all_labels_found": false
+        },
+        {
+          "layer": 0,
+          "kind": "attn",
+          "head": 1,
+          "output_labels": [
+            "length_8_selector_width_attn_output"
+          ],
+          "rasp_labels_found": [],
+          "all_labels_found": false
+        },
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "hist_7",
+            "hist_7_selector_width_attn_output",
+            "length_8",
+            "length_8_selector_width_attn_output"
+          ],
+          "rasp_labels_found": [
+            "hist_7",
+            "length_8"
+          ],
+          "all_labels_found": false
+        },
+        {
+          "layer": 1,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "sequence_map_6"
+          ],
+          "rasp_labels_found": [
+            "sequence_map_6"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        "common",
+        "frequent",
+        "rare"
+      ],
+      "compiled_residual_dims": 32,
+      "published_head_output_sites": [],
+      "compiled_head_sites": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "head_site_lists_equal": false,
+      "all_component_output_labels_have_rasp_nodes": false
+    },
+    {
+      "case": 19,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "attn",
+          "head": 0,
+          "output_labels": [
+            "shift_by(1)_12"
+          ],
+          "rasp_labels_found": [
+            "shift_by(1)_12"
+          ],
+          "all_labels_found": true
+        },
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "sequential_duplicate_removal_11"
+          ],
+          "rasp_labels_found": [
+            "sequential_duplicate_removal_11"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "compiled_residual_dims": 25,
+      "published_head_output_sites": [
+        [
+          0,
+          0
+        ]
+      ],
+      "compiled_head_sites": [
+        [
+          0,
+          0
+        ]
+      ],
+      "head_site_lists_equal": true,
+      "all_component_output_labels_have_rasp_nodes": true
+    },
+    {
+      "case": 21,
+      "schema": [
+        {
+          "layer": 0,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "sequence_map_19"
+          ],
+          "rasp_labels_found": [
+            "sequence_map_19"
+          ],
+          "all_labels_found": true
+        },
+        {
+          "layer": 1,
+          "kind": "attn",
+          "head": 0,
+          "output_labels": [
+            "selector_width_17_selector_width_attn_output"
+          ],
+          "rasp_labels_found": [],
+          "all_labels_found": false
+        },
+        {
+          "layer": 1,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "selector_width_17",
+            "selector_width_17_selector_width_attn_output"
+          ],
+          "rasp_labels_found": [
+            "selector_width_17"
+          ],
+          "all_labels_found": false
+        },
+        {
+          "layer": 2,
+          "kind": "mlp",
+          "head": null,
+          "output_labels": [
+            "sequence_map_16"
+          ],
+          "rasp_labels_found": [
+            "sequence_map_16"
+          ],
+          "all_labels_found": true
+        },
+        {
+          "layer": 3,
+          "kind": "attn",
+          "head": 0,
+          "output_labels": [
+            "unique_tokens_14"
+          ],
+          "rasp_labels_found": [
+            "unique_tokens_14"
+          ],
+          "all_labels_found": true
+        }
+      ],
+      "output_classes": [
+        "a",
+        "b",
+        "c"
+      ],
+      "compiled_residual_dims": 65,
+      "published_head_output_sites": [
+        [
+          3,
+          0
+        ]
+      ],
+      "compiled_head_sites": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_site_lists_equal": false,
+      "all_component_output_labels_have_rasp_nodes": false
+    }
+  ],
+  "jax_imported": false,
+  "haiku_imported": false,
+  "chex_imported": false,
+  "reserved_network_forwards": 0
+}

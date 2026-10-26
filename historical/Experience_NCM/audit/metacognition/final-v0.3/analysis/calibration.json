@@ -1,0 +1,95 @@
+{
+  "lock_sha256": "9a8a07cc5a44a9487cdce89795580d64abcede5fb96c6b74e03f95a2ef271b58",
+  "metrics": {
+    "rich": {
+      "calibrated": {
+        "auc": 0.8227579945526077,
+        "failure_average_precision": 0.4820400266300038,
+        "failures": 69,
+        "log_loss": 0.3128637709781059,
+        "n": 500,
+        "uncalibrated_brier": 0.09379536369685278
+      },
+      "raw": {
+        "auc": 0.8227579945526077,
+        "failure_average_precision": 0.4820400266300038,
+        "failures": 69,
+        "log_loss": 0.32088495719280324,
+        "n": 500,
+        "uncalibrated_brier": 0.09638796502429445
+      }
+    },
+    "rich_hidden_primary": {
+      "calibrated": {
+        "auc": 0.8320387370120046,
+        "failure_average_precision": 0.49223953968639916,
+        "failures": 69,
+        "log_loss": 0.3085075562067684,
+        "n": 500,
+        "uncalibrated_brier": 0.09272627289928866
+      },
+      "raw": {
+        "auc": 0.8320387370120046,
+        "failure_average_precision": 0.49223953968639916,
+        "failures": 69,
+        "log_loss": 0.31673166114431783,
+        "n": 500,
+        "uncalibrated_brier": 0.09545844143059136
+      }
+    },
+    "rich_noise_control": {
+      "calibrated": {
+        "auc": 0.8226234910387032,
+        "failure_average_precision": 0.48136492636808814,
+        "failures": 69,
+        "log_loss": 0.3130341235533327,
+        "n": 500,
+        "uncalibrated_brier": 0.09384309333796653
+      },
+      "raw": {
+        "auc": 0.8226234910387032,
+        "failure_average_precision": 0.48136492636808814,
+        "failures": 69,
+        "log_loss": 0.3210912446749943,
+        "n": 500,
+        "uncalibrated_brier": 0.09643752924084761
+      }
+    },
+    "summary": {
+      "calibrated": {
+        "auc": 0.8875550623760047,
+        "failure_average_precision": 0.5910233939638382,
+        "failures": 69,
+        "log_loss": 0.27144330772381325,
+        "n": 500,
+        "uncalibrated_brier": 0.08043540670708388
+      },
+      "raw": {
+        "auc": 0.8875550623760047,
+        "failure_average_precision": 0.5910233939638382,
+        "failures": 69,
+        "log_loss": 0.27912845512259377,
+        "n": 500,
+        "uncalibrated_brier": 0.0833780075369449
+      }
+    }
+  },
+  "platt": {
+    "rich": {
+      "intercept": 0.5175017199421734,
+      "slope": 1.048293691107348
+    },
+    "rich_hidden_primary": {
+      "intercept": 0.55808058860546,
+      "slope": 1.0681985190646974
+    },
+    "rich_noise_control": {
+      "intercept": 0.5162953968186601,
+      "slope": 1.0470368033706923
+    },
+    "summary": {
+      "intercept": 0.675312738531669,
+      "slope": 1.373326392669617
+    }
+  }
+}

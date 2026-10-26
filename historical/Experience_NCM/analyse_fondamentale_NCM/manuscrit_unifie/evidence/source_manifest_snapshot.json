@@ -1,0 +1,38 @@
+{
+  "scope": "Retrospective manuscript synthesis, not a new experimental freeze",
+  "date": "2026-10-24",
+  "campaigns": {
+    "base": {
+      "path": "results/final_manifest.json",
+      "sha256": "54cc9919afc8de6a92362d196429c7faf0a9c891ad6e53a35a3e571ac806100c"
+    },
+    "mechanistic": {
+      "path": "directions_mecanistes/results/final_manifest.json",
+      "sha256": "13f410ba458426796caf4899a718b34dae31b4adf2f1e95156ec861d97c6f41b"
+    },
+    "generalization": {
+      "path": "generalisation_architecturale/results/final_manifest.json",
+      "sha256": "f1914ec843712c1105187170082419313e45c2b50efc38c620b91616c3546d04"
+    },
+    "repair": {
+      "path": "correction_pooling/results/final_manifest.json",
+      "sha256": "9d8249af1311c302e23f5f0be2843ce8022c0bc204ac287149c94a7823f47895"
+    },
+    "temporal": {
+      "path": "dynamique_temporelle/results/final_manifest.json",
+      "sha256": "5c37c4c07e40b6bafd5e57b8ee2b37e23dea7e88766137bac68453c67eb512e5"
+    },
+    "oracle": {
+      "path": "mecanismes_revision/results/final_manifest.json",
+      "sha256": "ad280f8c4d95571845f2133b3e7833d7b57b7f9a0aa122e96dec908ddfa52048"
+    },
+    "crossed": {
+      "path": "compensation_conditionnelle/results/final_manifest.json",
+      "sha256": "63bbf4c6d3505e4acef847e639b0fdcace82192916ef6151ae4df5c8fe12f82c"
+    },
+    "terminal": {
+      "path": "recherche_positive/results/final_manifest.json",
+      "sha256": "e4ed05432153fb70342443d3dcf77cc48182e655819cb5d322c1d8a857b3d438"
+    }
+  }
+}

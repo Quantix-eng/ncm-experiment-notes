@@ -1,0 +1,15 @@
+{
+ "version":"native-stress-1","date":"2026-10-23",
+ "motivation":"Follow-up after single-code external intervention produced only six adaptive/fixed discordances in1500 puzzles; previous endpoint retained, not replaced.",
+ "calibration":{"n":128,"selection":"first16 archived batches in original training extraction; no new or old held-out outcomes","level":8,"counts":[1,4,8,13,26],"replacements":"uniform other code, nested seeded positions and values per puzzle","seed":20261210,"dose_selection":"smallest count causing >=0.10 absolute decrease in fixed-tail verified resolution relative to clean, on training only; if none, stop without new stress corpus","no_adaptive_generation_for_dose_choice":true},
+ "external":{"n":1000,"seed":20261211,"groups_start":300000,"clues":30,"exclude":"official solutions, generator pilot32, old correction external1000 and native-dynamics external2000, plus within-corpus digit and dihedral transformations","attempt_cap":100000,"no_outcome_selection_or_extension":true},
+ "primary":"adaptive verified resolution rate minus fixed-clean-tail verified resolution rate after the selected level8 corruption",
+ "reference":{"device":"cpu","dtype":"float32","threads":4,"batch":8,"weights":"unchanged"},
+ "intervention":"one fixed number of level8 codes replaced with random alternatives from the same codebook, same positions/replacements for adaptive and fixed-tail; subsequent levels9..12 adaptive versus original clean codes",
+ "controls":["clean reference","sham forces original selected codes and must be bitwise equal","codes1..7 unchanged, exactly selected level8 codes altered","no native forward or decoded gold solution given to generator","fixed-tail reconstruction checked independently"],
+ "secondary":["clean verified resolution","adaptive-minus-clean resolution","gain in initially blank cell accuracy","future code changes","latent directional compensation and final-distance ratio","fixed-tail error induction and adaptive recovery among clean solved puzzles"],
+ "interval":"10000 paired puzzle bootstrap,99 percent two-sided for primary,seed20261212; exact paired sign/McNemar test also reported",
+ "practical_gain":0.03,"power":"fixed n1000, sensitivity calculated from training fixed-tail damage before new outputs, no universal power or training-variance guarantee",
+ "status":"new locally specified exploratory follow-up after prior results, own reserved corpus, not a single confirmatory family with previous studies",
+ "limits":["strong artificial corruption may be out of distribution","training code corruption described in source paper; no checkpoint without corruption to identify its effect","first-order robustness and error correction not sufficient for second-order reliability monitoring","subset conditioned on clean success only secondary"]
+}

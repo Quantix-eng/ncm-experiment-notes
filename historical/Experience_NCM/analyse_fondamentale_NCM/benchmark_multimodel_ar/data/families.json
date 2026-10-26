@@ -1,0 +1,789 @@
+{
+  "status": "Chosen before model outputs; tokenization-only checks",
+  "rows": [
+    {
+      "source_id": "copy-000",
+      "words": [
+        "red",
+        "blue"
+      ],
+      "prompts": [
+        "The code is red. The code is",
+        "The code is blue. The code is",
+        "My code is red. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          2266,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          4171,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          2266,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        2266,
+        4171,
+        2266
+      ]
+    },
+    {
+      "source_id": "copy-001",
+      "words": [
+        "black",
+        "white"
+      ],
+      "prompts": [
+        "The code is black. The code is",
+        "The code is white. The code is",
+        "My code is black. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          2042,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          2330,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          2042,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        2042,
+        2330,
+        2042
+      ]
+    },
+    {
+      "source_id": "copy-002",
+      "words": [
+        "green",
+        "yellow"
+      ],
+      "prompts": [
+        "The code is green. The code is",
+        "The code is yellow. The code is",
+        "My code is green. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          4077,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          7872,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          4077,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        4077,
+        7872,
+        4077
+      ]
+    },
+    {
+      "source_id": "copy-003",
+      "words": [
+        "gold",
+        "silver"
+      ],
+      "prompts": [
+        "The code is gold. The code is",
+        "The code is silver. The code is",
+        "My code is gold. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          3869,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          8465,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          3869,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        3869,
+        8465,
+        3869
+      ]
+    },
+    {
+      "source_id": "copy-004",
+      "words": [
+        "cat",
+        "dog"
+      ],
+      "prompts": [
+        "The code is cat. The code is",
+        "The code is dog. The code is",
+        "My code is cat. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          3797,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          3290,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          3797,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        3797,
+        3290,
+        3797
+      ]
+    },
+    {
+      "source_id": "copy-005",
+      "words": [
+        "horse",
+        "bird"
+      ],
+      "prompts": [
+        "The code is horse. The code is",
+        "The code is bird. The code is",
+        "My code is horse. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          8223,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          6512,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          8223,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        8223,
+        6512,
+        8223
+      ]
+    },
+    {
+      "source_id": "copy-006",
+      "words": [
+        "fish",
+        "bear"
+      ],
+      "prompts": [
+        "The code is fish. The code is",
+        "The code is bear. The code is",
+        "My code is fish. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          5916,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          6842,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          5916,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        5916,
+        6842,
+        5916
+      ]
+    },
+    {
+      "source_id": "copy-007",
+      "words": [
+        "lion",
+        "tiger"
+      ],
+      "prompts": [
+        "The code is lion. The code is",
+        "The code is tiger. The code is",
+        "My code is lion. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          18744,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          26241,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          18744,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        18744,
+        26241,
+        18744
+      ]
+    },
+    {
+      "source_id": "copy-008",
+      "words": [
+        "apple",
+        "orange"
+      ],
+      "prompts": [
+        "The code is apple. The code is",
+        "The code is orange. The code is",
+        "My code is apple. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          17180,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          10912,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          17180,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        17180,
+        10912,
+        17180
+      ]
+    },
+    {
+      "source_id": "copy-009",
+      "words": [
+        "bread",
+        "cheese"
+      ],
+      "prompts": [
+        "The code is bread. The code is",
+        "The code is cheese. The code is",
+        "My code is bread. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          8509,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          9891,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          8509,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        8509,
+        9891,
+        8509
+      ]
+    },
+    {
+      "source_id": "copy-010",
+      "words": [
+        "water",
+        "milk"
+      ],
+      "prompts": [
+        "The code is water. The code is",
+        "The code is milk. The code is",
+        "My code is water. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          1660,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          7545,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          1660,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        1660,
+        7545,
+        1660
+      ]
+    },
+    {
+      "source_id": "copy-011",
+      "words": [
+        "coffee",
+        "tea"
+      ],
+      "prompts": [
+        "The code is coffee. The code is",
+        "The code is tea. The code is",
+        "My code is coffee. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          6891,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          8887,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          6891,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        6891,
+        8887,
+        6891
+      ]
+    },
+    {
+      "source_id": "copy-012",
+      "words": [
+        "summer",
+        "winter"
+      ],
+      "prompts": [
+        "The code is summer. The code is",
+        "The code is winter. The code is",
+        "My code is summer. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          3931,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          7374,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          3931,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        3931,
+        7374,
+        3931
+      ]
+    },
+    {
+      "source_id": "copy-013",
+      "words": [
+        "spring",
+        "autumn"
+      ],
+      "prompts": [
+        "The code is spring. The code is",
+        "The code is autumn. The code is",
+        "My code is spring. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          6076,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          23608,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          6076,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        6076,
+        23608,
+        6076
+      ]
+    },
+    {
+      "source_id": "copy-014",
+      "words": [
+        "north",
+        "south"
+      ],
+      "prompts": [
+        "The code is north. The code is",
+        "The code is south. The code is",
+        "My code is north. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          5093,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          5366,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          5093,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        5093,
+        5366,
+        5093
+      ]
+    },
+    {
+      "source_id": "copy-015",
+      "words": [
+        "east",
+        "west"
+      ],
+      "prompts": [
+        "The code is east. The code is",
+        "The code is west. The code is",
+        "My code is east. The code is"
+      ],
+      "tokens": [
+        [
+          464,
+          2438,
+          318,
+          7627,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          464,
+          2438,
+          318,
+          7421,
+          13,
+          383,
+          2438,
+          318
+        ],
+        [
+          3666,
+          2438,
+          318,
+          7627,
+          13,
+          383,
+          2438,
+          318
+        ]
+      ],
+      "reference": [
+        7627,
+        7421,
+        7627
+      ]
+    }
+  ]
+}

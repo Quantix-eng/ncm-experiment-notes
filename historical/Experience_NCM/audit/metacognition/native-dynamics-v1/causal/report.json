@@ -1,0 +1,2934 @@
+{
+  "batches": [
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200000,
+        200001,
+        200002,
+        200003,
+        200004,
+        200005,
+        200006,
+        200007
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200008,
+        200009,
+        200010,
+        200011,
+        200012,
+        200013,
+        200014,
+        200015
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200016,
+        200017,
+        200018,
+        200019,
+        200020,
+        200021,
+        200022,
+        200023
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200024,
+        200025,
+        200026,
+        200027,
+        200028,
+        200029,
+        200030,
+        200031
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200032,
+        200033,
+        200034,
+        200035,
+        200036,
+        200037,
+        200038,
+        200039
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200040,
+        200041,
+        200042,
+        200043,
+        200044,
+        200045,
+        200046,
+        200047
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200048,
+        200049,
+        200050,
+        200051,
+        200052,
+        200053,
+        200054,
+        200055
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200056,
+        200057,
+        200058,
+        200059,
+        200060,
+        200061,
+        200062,
+        200063
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200064,
+        200065,
+        200066,
+        200067,
+        200068,
+        200069,
+        200070,
+        200071
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200072,
+        200073,
+        200074,
+        200075,
+        200076,
+        200077,
+        200078,
+        200079
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200080,
+        200081,
+        200082,
+        200083,
+        200084,
+        200085,
+        200086,
+        200087
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200088,
+        200089,
+        200090,
+        200091,
+        200092,
+        200093,
+        200094,
+        200095
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200096,
+        200097,
+        200098,
+        200099,
+        200100,
+        200101,
+        200102,
+        200103
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200104,
+        200105,
+        200106,
+        200107,
+        200108,
+        200109,
+        200110,
+        200111
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200112,
+        200113,
+        200114,
+        200115,
+        200116,
+        200117,
+        200118,
+        200119
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200120,
+        200121,
+        200122,
+        200123,
+        200124,
+        200125,
+        200126,
+        200127
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200128,
+        200129,
+        200130,
+        200131,
+        200132,
+        200133,
+        200134,
+        200135
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200136,
+        200137,
+        200138,
+        200139,
+        200140,
+        200141,
+        200142,
+        200143
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200144,
+        200145,
+        200146,
+        200147,
+        200148,
+        200149,
+        200150,
+        200151
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200152,
+        200153,
+        200154,
+        200155,
+        200156,
+        200157,
+        200158,
+        200159
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200160,
+        200161,
+        200162,
+        200163,
+        200164,
+        200165,
+        200166,
+        200167
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200168,
+        200169,
+        200170,
+        200171,
+        200172,
+        200173,
+        200174,
+        200175
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200176,
+        200177,
+        200178,
+        200179,
+        200180,
+        200181,
+        200182,
+        200183
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200184,
+        200185,
+        200186,
+        200187,
+        200188,
+        200189,
+        200190,
+        200191
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200192,
+        200193,
+        200194,
+        200195,
+        200196,
+        200197,
+        200198,
+        200199
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200200,
+        200201,
+        200202,
+        200203,
+        200204,
+        200205,
+        200206,
+        200207
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200208,
+        200209,
+        200210,
+        200211,
+        200212,
+        200213,
+        200214,
+        200215
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200216,
+        200217,
+        200218,
+        200219,
+        200220,
+        200221,
+        200222,
+        200223
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200224,
+        200225,
+        200226,
+        200227,
+        200228,
+        200229,
+        200230,
+        200231
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200232,
+        200233,
+        200234,
+        200235,
+        200236,
+        200237,
+        200238,
+        200239
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200240,
+        200241,
+        200242,
+        200243,
+        200244,
+        200245,
+        200246,
+        200247
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200248,
+        200249,
+        200250,
+        200251,
+        200252,
+        200253,
+        200254,
+        200255
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200256,
+        200257,
+        200258,
+        200259,
+        200260,
+        200261,
+        200262,
+        200263
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200264,
+        200265,
+        200266,
+        200267,
+        200268,
+        200269,
+        200270,
+        200271
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200272,
+        200273,
+        200274,
+        200275,
+        200276,
+        200277,
+        200278,
+        200279
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200280,
+        200281,
+        200282,
+        200283,
+        200284,
+        200285,
+        200286,
+        200287
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200288,
+        200289,
+        200290,
+        200291,
+        200292,
+        200293,
+        200294,
+        200295
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200296,
+        200297,
+        200298,
+        200299,
+        200300,
+        200301,
+        200302,
+        200303
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200304,
+        200305,
+        200306,
+        200307,
+        200308,
+        200309,
+        200310,
+        200311
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200312,
+        200313,
+        200314,
+        200315,
+        200316,
+        200317,
+        200318,
+        200319
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200320,
+        200321,
+        200322,
+        200323,
+        200324,
+        200325,
+        200326,
+        200327
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200328,
+        200329,
+        200330,
+        200331,
+        200332,
+        200333,
+        200334,
+        200335
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200336,
+        200337,
+        200338,
+        200339,
+        200340,
+        200341,
+        200342,
+        200343
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200344,
+        200345,
+        200346,
+        200347,
+        200348,
+        200349,
+        200350,
+        200351
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200352,
+        200353,
+        200354,
+        200355,
+        200356,
+        200357,
+        200358,
+        200359
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200360,
+        200361,
+        200362,
+        200363,
+        200364,
+        200365,
+        200366,
+        200367
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200368,
+        200369,
+        200370,
+        200371,
+        200372,
+        200373,
+        200374,
+        200375
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200376,
+        200377,
+        200378,
+        200379,
+        200380,
+        200381,
+        200382,
+        200383
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200384,
+        200385,
+        200386,
+        200387,
+        200388,
+        200389,
+        200390,
+        200391
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200392,
+        200393,
+        200394,
+        200395,
+        200396,
+        200397,
+        200398,
+        200399
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200400,
+        200401,
+        200402,
+        200403,
+        200404,
+        200405,
+        200406,
+        200407
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200408,
+        200409,
+        200410,
+        200411,
+        200412,
+        200413,
+        200414,
+        200415
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200416,
+        200417,
+        200418,
+        200419,
+        200420,
+        200421,
+        200422,
+        200423
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200424,
+        200425,
+        200426,
+        200427,
+        200428,
+        200429,
+        200430,
+        200431
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200432,
+        200433,
+        200434,
+        200435,
+        200436,
+        200437,
+        200438,
+        200439
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200440,
+        200441,
+        200442,
+        200443,
+        200444,
+        200445,
+        200446,
+        200447
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200448,
+        200449,
+        200450,
+        200451,
+        200452,
+        200453,
+        200454,
+        200455
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200456,
+        200457,
+        200458,
+        200459,
+        200460,
+        200461,
+        200462,
+        200463
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200464,
+        200465,
+        200466,
+        200467,
+        200468,
+        200469,
+        200470,
+        200471
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200472,
+        200473,
+        200474,
+        200475,
+        200476,
+        200477,
+        200478,
+        200479
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200480,
+        200481,
+        200482,
+        200483,
+        200484,
+        200485,
+        200486,
+        200487
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200488,
+        200489,
+        200490,
+        200491,
+        200492,
+        200493,
+        200494,
+        200495
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200496,
+        200497,
+        200498,
+        200499,
+        200500,
+        200501,
+        200502,
+        200503
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200504,
+        200505,
+        200506,
+        200507,
+        200508,
+        200509,
+        200510,
+        200511
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200512,
+        200513,
+        200514,
+        200515,
+        200516,
+        200517,
+        200518,
+        200519
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200520,
+        200521,
+        200522,
+        200523,
+        200524,
+        200525,
+        200526,
+        200527
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200528,
+        200529,
+        200530,
+        200531,
+        200532,
+        200533,
+        200534,
+        200535
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200536,
+        200537,
+        200538,
+        200539,
+        200540,
+        200541,
+        200542,
+        200543
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200544,
+        200545,
+        200546,
+        200547,
+        200548,
+        200549,
+        200550,
+        200551
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200552,
+        200553,
+        200554,
+        200555,
+        200556,
+        200557,
+        200558,
+        200559
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200560,
+        200561,
+        200562,
+        200563,
+        200564,
+        200565,
+        200566,
+        200567
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200568,
+        200569,
+        200570,
+        200571,
+        200572,
+        200573,
+        200574,
+        200575
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200576,
+        200577,
+        200578,
+        200579,
+        200580,
+        200581,
+        200582,
+        200583
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200584,
+        200585,
+        200586,
+        200587,
+        200588,
+        200589,
+        200590,
+        200591
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200592,
+        200593,
+        200594,
+        200595,
+        200596,
+        200597,
+        200598,
+        200599
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200600,
+        200601,
+        200602,
+        200603,
+        200604,
+        200605,
+        200606,
+        200607
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200608,
+        200609,
+        200610,
+        200611,
+        200612,
+        200613,
+        200614,
+        200615
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200616,
+        200617,
+        200618,
+        200619,
+        200620,
+        200621,
+        200622,
+        200623
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200624,
+        200625,
+        200626,
+        200627,
+        200628,
+        200629,
+        200630,
+        200631
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200632,
+        200633,
+        200634,
+        200635,
+        200636,
+        200637,
+        200638,
+        200639
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200640,
+        200641,
+        200642,
+        200643,
+        200644,
+        200645,
+        200646,
+        200647
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200648,
+        200649,
+        200650,
+        200651,
+        200652,
+        200653,
+        200654,
+        200655
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200656,
+        200657,
+        200658,
+        200659,
+        200660,
+        200661,
+        200662,
+        200663
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200664,
+        200665,
+        200666,
+        200667,
+        200668,
+        200669,
+        200670,
+        200671
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200672,
+        200673,
+        200674,
+        200675,
+        200676,
+        200677,
+        200678,
+        200679
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200680,
+        200681,
+        200682,
+        200683,
+        200684,
+        200685,
+        200686,
+        200687
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200688,
+        200689,
+        200690,
+        200691,
+        200692,
+        200693,
+        200694,
+        200695
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200696,
+        200697,
+        200698,
+        200699,
+        200700,
+        200701,
+        200702,
+        200703
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200704,
+        200705,
+        200706,
+        200707,
+        200708,
+        200709,
+        200710,
+        200711
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200712,
+        200713,
+        200714,
+        200715,
+        200716,
+        200717,
+        200718,
+        200719
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200720,
+        200721,
+        200722,
+        200723,
+        200724,
+        200725,
+        200726,
+        200727
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200728,
+        200729,
+        200730,
+        200731,
+        200732,
+        200733,
+        200734,
+        200735
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200736,
+        200737,
+        200738,
+        200739,
+        200740,
+        200741,
+        200742,
+        200743
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200744,
+        200745,
+        200746,
+        200747,
+        200748,
+        200749,
+        200750,
+        200751
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200752,
+        200753,
+        200754,
+        200755,
+        200756,
+        200757,
+        200758,
+        200759
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200760,
+        200761,
+        200762,
+        200763,
+        200764,
+        200765,
+        200766,
+        200767
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200768,
+        200769,
+        200770,
+        200771,
+        200772,
+        200773,
+        200774,
+        200775
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200776,
+        200777,
+        200778,
+        200779,
+        200780,
+        200781,
+        200782,
+        200783
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200784,
+        200785,
+        200786,
+        200787,
+        200788,
+        200789,
+        200790,
+        200791
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200792,
+        200793,
+        200794,
+        200795,
+        200796,
+        200797,
+        200798,
+        200799
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200800,
+        200801,
+        200802,
+        200803,
+        200804,
+        200805,
+        200806,
+        200807
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200808,
+        200809,
+        200810,
+        200811,
+        200812,
+        200813,
+        200814,
+        200815
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200816,
+        200817,
+        200818,
+        200819,
+        200820,
+        200821,
+        200822,
+        200823
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200824,
+        200825,
+        200826,
+        200827,
+        200828,
+        200829,
+        200830,
+        200831
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200832,
+        200833,
+        200834,
+        200835,
+        200836,
+        200837,
+        200838,
+        200839
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200840,
+        200841,
+        200842,
+        200843,
+        200844,
+        200845,
+        200846,
+        200847
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200848,
+        200849,
+        200850,
+        200851,
+        200852,
+        200853,
+        200854,
+        200855
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200856,
+        200857,
+        200858,
+        200859,
+        200860,
+        200861,
+        200862,
+        200863
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200864,
+        200865,
+        200866,
+        200867,
+        200868,
+        200869,
+        200870,
+        200871
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200872,
+        200873,
+        200874,
+        200875,
+        200876,
+        200877,
+        200878,
+        200879
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200880,
+        200881,
+        200882,
+        200883,
+        200884,
+        200885,
+        200886,
+        200887
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200888,
+        200889,
+        200890,
+        200891,
+        200892,
+        200893,
+        200894,
+        200895
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200896,
+        200897,
+        200898,
+        200899,
+        200900,
+        200901,
+        200902,
+        200903
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200904,
+        200905,
+        200906,
+        200907,
+        200908,
+        200909,
+        200910,
+        200911
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200912,
+        200913,
+        200914,
+        200915,
+        200916,
+        200917,
+        200918,
+        200919
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200920,
+        200921,
+        200922,
+        200923,
+        200924,
+        200925,
+        200926,
+        200927
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200928,
+        200929,
+        200930,
+        200931,
+        200932,
+        200933,
+        200934,
+        200935
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200936,
+        200937,
+        200938,
+        200939,
+        200940,
+        200941,
+        200942,
+        200943
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200944,
+        200945,
+        200946,
+        200947,
+        200948,
+        200949,
+        200950,
+        200951
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200952,
+        200953,
+        200954,
+        200955,
+        200956,
+        200957,
+        200958,
+        200959
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200960,
+        200961,
+        200962,
+        200963,
+        200964,
+        200965,
+        200966,
+        200967
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200968,
+        200969,
+        200970,
+        200971,
+        200972,
+        200973,
+        200974,
+        200975
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200976,
+        200977,
+        200978,
+        200979,
+        200980,
+        200981,
+        200982,
+        200983
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200984,
+        200985,
+        200986,
+        200987,
+        200988,
+        200989,
+        200990,
+        200991
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        200992,
+        200993,
+        200994,
+        200995,
+        200996,
+        200997,
+        200998,
+        200999
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201000,
+        201001,
+        201002,
+        201003,
+        201004,
+        201005,
+        201006,
+        201007
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201008,
+        201009,
+        201010,
+        201011,
+        201012,
+        201013,
+        201014,
+        201015
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201016,
+        201017,
+        201018,
+        201019,
+        201020,
+        201021,
+        201022,
+        201023
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201024,
+        201025,
+        201026,
+        201027,
+        201028,
+        201029,
+        201030,
+        201031
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201032,
+        201033,
+        201034,
+        201035,
+        201036,
+        201037,
+        201038,
+        201039
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201040,
+        201041,
+        201042,
+        201043,
+        201044,
+        201045,
+        201046,
+        201047
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201048,
+        201049,
+        201050,
+        201051,
+        201052,
+        201053,
+        201054,
+        201055
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201056,
+        201057,
+        201058,
+        201059,
+        201060,
+        201061,
+        201062,
+        201063
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201064,
+        201065,
+        201066,
+        201067,
+        201068,
+        201069,
+        201070,
+        201071
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201072,
+        201073,
+        201074,
+        201075,
+        201076,
+        201077,
+        201078,
+        201079
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201080,
+        201081,
+        201082,
+        201083,
+        201084,
+        201085,
+        201086,
+        201087
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201088,
+        201089,
+        201090,
+        201091,
+        201092,
+        201093,
+        201094,
+        201095
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201096,
+        201097,
+        201098,
+        201099,
+        201100,
+        201101,
+        201102,
+        201103
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201104,
+        201105,
+        201106,
+        201107,
+        201108,
+        201109,
+        201110,
+        201111
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201112,
+        201113,
+        201114,
+        201115,
+        201116,
+        201117,
+        201118,
+        201119
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201120,
+        201121,
+        201122,
+        201123,
+        201124,
+        201125,
+        201126,
+        201127
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201128,
+        201129,
+        201130,
+        201131,
+        201132,
+        201133,
+        201134,
+        201135
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201136,
+        201137,
+        201138,
+        201139,
+        201140,
+        201141,
+        201142,
+        201143
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201144,
+        201145,
+        201146,
+        201147,
+        201148,
+        201149,
+        201150,
+        201151
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201152,
+        201153,
+        201154,
+        201155,
+        201156,
+        201157,
+        201158,
+        201159
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201160,
+        201161,
+        201162,
+        201163,
+        201164,
+        201165,
+        201166,
+        201167
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201168,
+        201169,
+        201170,
+        201171,
+        201172,
+        201173,
+        201174,
+        201175
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201176,
+        201177,
+        201178,
+        201179,
+        201180,
+        201181,
+        201182,
+        201183
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201184,
+        201185,
+        201186,
+        201187,
+        201188,
+        201189,
+        201190,
+        201191
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201192,
+        201193,
+        201194,
+        201195,
+        201196,
+        201197,
+        201198,
+        201199
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201200,
+        201201,
+        201202,
+        201203,
+        201204,
+        201205,
+        201206,
+        201207
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201208,
+        201209,
+        201210,
+        201211,
+        201212,
+        201213,
+        201214,
+        201215
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201216,
+        201217,
+        201218,
+        201219,
+        201220,
+        201221,
+        201222,
+        201223
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201224,
+        201225,
+        201226,
+        201227,
+        201228,
+        201229,
+        201230,
+        201231
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201232,
+        201233,
+        201234,
+        201235,
+        201236,
+        201237,
+        201238,
+        201239
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201240,
+        201241,
+        201242,
+        201243,
+        201244,
+        201245,
+        201246,
+        201247
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201248,
+        201249,
+        201250,
+        201251,
+        201252,
+        201253,
+        201254,
+        201255
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201256,
+        201257,
+        201258,
+        201259,
+        201260,
+        201261,
+        201262,
+        201263
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201264,
+        201265,
+        201266,
+        201267,
+        201268,
+        201269,
+        201270,
+        201271
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201272,
+        201273,
+        201274,
+        201275,
+        201276,
+        201277,
+        201278,
+        201279
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201280,
+        201281,
+        201282,
+        201283,
+        201284,
+        201285,
+        201286,
+        201287
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201288,
+        201289,
+        201290,
+        201291,
+        201292,
+        201293,
+        201294,
+        201295
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201296,
+        201297,
+        201298,
+        201299,
+        201300,
+        201301,
+        201302,
+        201303
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201304,
+        201305,
+        201306,
+        201307,
+        201308,
+        201309,
+        201310,
+        201311
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201312,
+        201313,
+        201314,
+        201315,
+        201316,
+        201317,
+        201318,
+        201319
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201320,
+        201321,
+        201322,
+        201323,
+        201324,
+        201325,
+        201326,
+        201327
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201328,
+        201329,
+        201330,
+        201331,
+        201332,
+        201333,
+        201334,
+        201335
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201336,
+        201337,
+        201338,
+        201339,
+        201340,
+        201341,
+        201342,
+        201343
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201344,
+        201345,
+        201346,
+        201347,
+        201348,
+        201349,
+        201350,
+        201351
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201352,
+        201353,
+        201354,
+        201355,
+        201356,
+        201357,
+        201358,
+        201359
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201360,
+        201361,
+        201362,
+        201363,
+        201364,
+        201365,
+        201366,
+        201367
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201368,
+        201369,
+        201370,
+        201371,
+        201372,
+        201373,
+        201374,
+        201375
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201376,
+        201377,
+        201378,
+        201379,
+        201380,
+        201381,
+        201382,
+        201383
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201384,
+        201385,
+        201386,
+        201387,
+        201388,
+        201389,
+        201390,
+        201391
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201392,
+        201393,
+        201394,
+        201395,
+        201396,
+        201397,
+        201398,
+        201399
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201400,
+        201401,
+        201402,
+        201403,
+        201404,
+        201405,
+        201406,
+        201407
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201408,
+        201409,
+        201410,
+        201411,
+        201412,
+        201413,
+        201414,
+        201415
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201416,
+        201417,
+        201418,
+        201419,
+        201420,
+        201421,
+        201422,
+        201423
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201424,
+        201425,
+        201426,
+        201427,
+        201428,
+        201429,
+        201430,
+        201431
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201432,
+        201433,
+        201434,
+        201435,
+        201436,
+        201437,
+        201438,
+        201439
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201440,
+        201441,
+        201442,
+        201443,
+        201444,
+        201445,
+        201446,
+        201447
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201448,
+        201449,
+        201450,
+        201451,
+        201452,
+        201453,
+        201454,
+        201455
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201456,
+        201457,
+        201458,
+        201459,
+        201460,
+        201461,
+        201462,
+        201463
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201464,
+        201465,
+        201466,
+        201467,
+        201468,
+        201469,
+        201470,
+        201471
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201472,
+        201473,
+        201474,
+        201475,
+        201476,
+        201477,
+        201478,
+        201479
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201480,
+        201481,
+        201482,
+        201483,
+        201484,
+        201485,
+        201486,
+        201487
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201488,
+        201489,
+        201490,
+        201491,
+        201492,
+        201493,
+        201494,
+        201495
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    },
+    {
+      "exactly_one_forced_code": true,
+      "groups": [
+        201496,
+        201497,
+        201498,
+        201499
+      ],
+      "past_equal": true,
+      "sham_bitwise_equal": true
+    }
+  ],
+  "caveat": "Fixed-tail counterfactual is not an alternative deployed solver. Positive adaptation tests response to code interventions, not second-order error monitoring.",
+  "clean_resolutions": 1293,
+  "latent_checks": {
+    "latent-check-matched.npz": "d08b452ac422bf9d64e8cfe61e7440a1df38626e0a99d6b77964fe393a2c1828",
+    "latent-check-runner_up.npz": "9e61d9c83f1f1ff6b7e2fdebaec6b5bd88b48e63bf3c7397befcfcd0c23c2a78"
+  },
+  "lock_sha256": "5a027e0e3d45bc3f0498eb3a3efbb8d21d26e851cbe5111ba1c1674d825ce96e",
+  "model_state_sha256_before_and_after": "df01686cbee64cf547b6c6e89934204681d0b5b6dac74aeefccffa7b5f5f710d",
+  "n": 1500,
+  "norm_match_relative_mismatch_quantiles": [
+    9.905249585440146e-06,
+    0.013174312588695503,
+    0.08130419168830388,
+    0.22712193364884325
+  ],
+  "outcomes_sha256": "221774b5c5f74d4a68fcd16059ac1fbc4236b2b58a842c7afc2edc0d5ebe1868",
+  "primary": "runner_up adaptive minus fixed tail verified resolution",
+  "results": {
+    "matched": {
+      "active_resolutions": 1294,
+      "adaptive_only": 3,
+      "blank_accuracy_gain": 0.00016993464052287552,
+      "blank_accuracy_interval_95": [
+        -0.0002352941176470591,
+        0.0005490196078431371
+      ],
+      "compensation_interval_95": [
+        0.04260790825935228,
+        0.05996409615443174
+      ],
+      "compensation_mean": 0.05112888534131554,
+      "cosine_mean": 0.034726546203323674,
+      "fixed_only": 1,
+      "fixed_resolutions": 1292,
+      "forced_code_probability_mean": 0.00100184521081041,
+      "interval_97_5": [
+        -0.0013333333333333333,
+        0.004666666666666667
+      ],
+      "lost_clean_success": 2,
+      "mean_future_codes_changed": 1.6533333333333333,
+      "recovered_from_clean_failure": 3,
+      "relative_final_latent_norm_mean": 1.3998344038233224,
+      "resolution_gain": 0.0013333333333333333
+    },
+    "runner_up": {
+      "active_resolutions": 1296,
+      "adaptive_only": 4,
+      "blank_accuracy_gain": 0.00019607843137254898,
+      "blank_accuracy_interval_95": [
+        -0.0002614379084967319,
+        0.000627450980392157
+      ],
+      "compensation_interval_95": [
+        0.23543025527893915,
+        0.2715688855641375
+      ],
+      "compensation_mean": 0.2535342072671254,
+      "cosine_mean": 0.15748662252355944,
+      "fixed_only": 2,
+      "fixed_resolutions": 1294,
+      "forced_code_probability_mean": 0.06862491813953363,
+      "interval_97_5": [
+        -0.002,
+        0.005333333333333333
+      ],
+      "lost_clean_success": 2,
+      "mean_future_codes_changed": 2.9993333333333334,
+      "recovered_from_clean_failure": 5,
+      "relative_final_latent_norm_mean": 1.5522130559309322,
+      "resolution_gain": 0.0013333333333333333
+    }
+  },
+  "seconds": 1003.3143510000082,
+  "source_files": {
+    "assets.lock.json": "89cbdc24badeac8176e58c204f5a72bc51c19a5d8d69fadf9a9d5f43794939e7",
+    "experiments/metacognition/confirmation_corpus.py": "ae597c3dc6bde5fc6a98b5876dba3b619c24d3eb1a34d0ef3e88b96b3b79c595",
+    "experiments/metacognition/correction/cell_features.py": "dc32caf888bdae7a7865bec53bca1dee99b8408478cb2432dab7da08739408ba",
+    "experiments/metacognition/correction/learning.py": "2cba62e94291da21a8d6d0c04bcc654af71cfb3dfa96c411561374ff06ca4a7f",
+    "experiments/metacognition/design.py": "9b2819a0661d385988c32039866a8126567a968be215cdfef11d94b8e5e331d0",
+    "experiments/metacognition/dynamics/native.py": "435b36037d380dc6c73095bf3c0db08f21164873f983502538451e2f731b5d64",
+    "experiments/metacognition/dynamics/protocol-v1.json": "11b22342db741b578cc8635edb31e112b52539c9c46f92d3ac532af7a5f2db9b",
+    "experiments/metacognition/dynamics/study.py": "a0a344475d54d40d3a0c8a4f7ec4391328501818431aaf27bfede2306e168b7a",
+    "experiments/metacognition/dynamics/verify.py": "9277eb62a5056edaf8782fa6dd08a150090430444ce6ab01621dc2762c4107da",
+    "experiments/metacognition/features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "experiments/metacognition/probes.py": "d646f50aab1f8909741a49aba726507499867025b604346d361311670c3c26df",
+    "experiments/metacognition/run_pilot.py": "7c4cb8f2fc0cffaf7908f42d110b9b415c2885c323c4e5d00ac3914bf28365c8",
+    "experiments/metacognition/study_v03.py": "fa6488677a450f34b566473f47443a21782027cff80f11fe8fdfd5178dcbd4ca",
+    "experiments/metacognition/trace.py": "a4e47316ab2b1ccbe033d8ae0cff8e610d3c89c6f7a785a1bee9824564f0fa1f",
+    "src/ncm_mac/__init__.py": "c14785d41a74cae3945a42b61c9b0a391f21c93e1a0d7c2238c0b852a3b2143f",
+    "src/ncm_mac/_vendor/__init__.py": "3085687dd830df31ef385f8ebd09e3cce62af22ed44f411e493b52b5fda33b21",
+    "src/ncm_mac/_vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/models/common.py": "41b7c2c653d7ba312d583caca878ea3708d83da1a770b0b39651dbfd19754b73",
+    "src/ncm_mac/_vendor/models/next_concept.py": "f420d33e6b210d9a09b5e786bdc433eb961b20e2ab47f21ea4d337e0985fe263",
+    "src/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "src/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "src/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "src/ncm_mac/_vendor/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/tokenization/bpe_tokenizer.py": "ac423cb4a91ff1f6b249b68cbfcfc7cadab6820c4a00145095c788dc0a4b282b",
+    "src/ncm_mac/_vendor/tokenization/hf_tokenizer.py": "ce00ed791a743094019b652e14db97ced4483871d5983e4fc799c7e595863860",
+    "src/ncm_mac/_vendor/tokenization/sudoku_tokenizer.py": "cdc2f3ecd287fd1de30262288320253d939759bdac3c6bd8f1830d258c25f7d6",
+    "src/ncm_mac/_vendor/tokenization/tokenizer.py": "e527d47e4ed8634c673d48a872a07c9cc8828d30988331de2d4bd3b7c21ddcb7",
+    "src/ncm_mac/_vendor/tokenization/vqvae_tokenizer.py": "29ab3ec4af99a343da5c4be81c95165ea185b933649f1fff0b7f70b2a95302b5",
+    "src/ncm_mac/_vendor/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/utils/misc.py": "7e766c7ee036648f4959323ab671e6a7c5d3e873adb9ed60fbec83497728b452",
+    "src/ncm_mac/_vendor/utils/registry.py": "cf122d4cff4fa686be670f7b3dfdc91e1c63a56923253106e1ce22de462603ec",
+    "src/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "src/ncm_mac/cli.py": "a2d55fd82f6a950cfc367f49a000920228fe7b67afe2980bd7282841cf2775ff",
+    "src/ncm_mac/metal_experiment.py": "686ac716cbfa0217baf2ddb857841693cf20af6ca1f0eda8d816e45645f9db62",
+    "src/ncm_mac/parallel.py": "c00046b06c9e5b8dd2c49bfd7c608787808994a2bdabd7d7a4c75e27001df863",
+    "src/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76"
+  },
+  "status": "complete",
+  "utc": "2026-10-23T16:21:39.486298+00:00"
+}

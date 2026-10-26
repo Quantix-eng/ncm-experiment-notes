@@ -1,0 +1,134 @@
+{
+  "official_test": {
+    "fixed_code11_keep_residual": {
+      "metrics": {
+        "n": 600,
+        "solved": 516,
+        "solved_rate": 0.86,
+        "cell_accuracy": 0.9809876543209877,
+        "valid_and_clues_rate": 0.86,
+        "malformed": 0
+      },
+      "changed_grids": 0,
+      "changed_codes": 0,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "success_status_change_wilson95": [
+        4.336808689942018e-19,
+        0.00636170101370071
+      ],
+      "delta_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 600,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "generator_calls_per_batch": [
+        11
+      ],
+      "wall_seconds": 162.13472366321366,
+      "caveat": "Runtime is descriptive; conditions not randomized/interleaved, concurrent workloads may differ."
+    },
+    "zero_residual_regenerate": {
+      "metrics": {
+        "n": 600,
+        "solved": 516,
+        "solved_rate": 0.86,
+        "cell_accuracy": 0.9810082304526749,
+        "valid_and_clues_rate": 0.86,
+        "malformed": 0
+      },
+      "changed_grids": 13,
+      "changed_codes": 364,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "success_status_change_wilson95": [
+        4.336808689942018e-19,
+        0.00636170101370071
+      ],
+      "delta_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 600,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "generator_calls_per_batch": [
+        12
+      ],
+      "wall_seconds": 163.33397570741363,
+      "caveat": "Runtime is descriptive; conditions not randomized/interleaved, concurrent workloads may differ."
+    }
+  },
+  "external": {
+    "fixed_code11_keep_residual": {
+      "metrics": {
+        "n": 256,
+        "solved": 219,
+        "solved_rate": 0.85546875,
+        "cell_accuracy": 0.9780574845679012,
+        "valid_and_clues_rate": 0.85546875,
+        "malformed": 0
+      },
+      "changed_grids": 0,
+      "changed_codes": 0,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "success_status_change_wilson95": [
+        0.0,
+        0.01478385642587143
+      ],
+      "delta_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 256,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "generator_calls_per_batch": [
+        11
+      ],
+      "wall_seconds": 72.60413745779078,
+      "caveat": "Runtime is descriptive; conditions not randomized/interleaved, concurrent workloads may differ."
+    },
+    "zero_residual_regenerate": {
+      "metrics": {
+        "n": 256,
+        "solved": 219,
+        "solved_rate": 0.85546875,
+        "cell_accuracy": 0.9778163580246914,
+        "valid_and_clues_rate": 0.85546875,
+        "malformed": 0
+      },
+      "changed_grids": 3,
+      "changed_codes": 129,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "success_status_change_wilson95": [
+        0.0,
+        0.01478385642587143
+      ],
+      "delta_success": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_puzzles": 256,
+        "method": "paired percentile bootstrap by puzzle, fixed models"
+      },
+      "generator_calls_per_batch": [
+        12
+      ],
+      "wall_seconds": 63.83944937668275,
+      "caveat": "Runtime is descriptive; conditions not randomized/interleaved, concurrent workloads may differ."
+    }
+  }
+}

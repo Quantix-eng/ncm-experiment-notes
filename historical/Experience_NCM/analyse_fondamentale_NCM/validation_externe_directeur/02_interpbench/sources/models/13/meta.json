@@ -1,0 +1,1 @@
+{"atol": 0.05, "lr": 0.01, "use_single_loss": false, "iit_weight": 1.0, "behavior_weight": 1.0, "strict_weight": 0.4, "epochs": 500, "act_fn": "gelu", "wandb_suffix": "strict_13", "device": "cpu", "clip_grad_norm": 1.0, "lr_scheduler": ""}

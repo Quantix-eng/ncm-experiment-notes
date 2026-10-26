@@ -1,0 +1,604 @@
+{
+  "artifacts": {
+    "calibration.json": "ef01445c40c6705e6210fdc313dfcc06468fe68590db400613664206796ba86f",
+    "test-predictions.npz": "3d151404e6ea958aa3b602f8f6e7f8856489cd2615c44b952471a6de4af37b5a"
+  },
+  "caveat": "Exploratory held-out result under amendment v0.3; fixed-predictor conditional bootstrap, not independent confirmation or native metacognition proof",
+  "evidence_above_zero": true,
+  "failures": 68,
+  "lock_sha256": "9a8a07cc5a44a9487cdce89795580d64abcede5fb96c6b74e03f95a2ef271b58",
+  "n": 500,
+  "primary_delta_auc": 0.004255174291939112,
+  "primary_paired_bootstrap_95": [
+    0.0020084422657951047,
+    0.006808278867102335
+  ],
+  "results": {
+    "rich": {
+      "calibrated": {
+        "auc": 0.883510348583878,
+        "failure_average_precision": 0.6735317506637242,
+        "failures": 68,
+        "log_loss": 0.2634179017959608,
+        "n": 500,
+        "uncalibrated_brier": 0.07523391018656074
+      },
+      "diagnostics": {
+        "reliability_bins": [
+          {
+            "failure_rate": 0.028169014084507043,
+            "lower": 0.0,
+            "mean_probability": 0.051995819759011776,
+            "n": 284,
+            "upper": 0.1
+          },
+          {
+            "failure_rate": 0.07216494845360824,
+            "lower": 0.1,
+            "mean_probability": 0.1384234478789621,
+            "n": 97,
+            "upper": 0.2
+          },
+          {
+            "failure_rate": 0.22727272727272727,
+            "lower": 0.2,
+            "mean_probability": 0.24049669852486372,
+            "n": 44,
+            "upper": 0.3
+          },
+          {
+            "failure_rate": 0.32142857142857145,
+            "lower": 0.3,
+            "mean_probability": 0.35288719661902723,
+            "n": 28,
+            "upper": 0.4
+          },
+          {
+            "failure_rate": 0.6,
+            "lower": 0.4,
+            "mean_probability": 0.4510142454495242,
+            "n": 25,
+            "upper": 0.5
+          },
+          {
+            "failure_rate": 0.8571428571428571,
+            "lower": 0.5,
+            "mean_probability": 0.5512337808152459,
+            "n": 7,
+            "upper": 0.6
+          },
+          {
+            "failure_rate": 0.0,
+            "lower": 0.6,
+            "mean_probability": 0.6671101167081643,
+            "n": 1,
+            "upper": 0.7
+          },
+          {
+            "failure_rate": 0.875,
+            "lower": 0.7,
+            "mean_probability": 0.7462888998692776,
+            "n": 8,
+            "upper": 0.8
+          },
+          {
+            "failure_rate": 1.0,
+            "lower": 0.8,
+            "mean_probability": 0.8519459516763535,
+            "n": 6,
+            "upper": 0.9
+          },
+          {
+            "failure_rate": null,
+            "lower": 0.9,
+            "mean_probability": null,
+            "n": 0,
+            "upper": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "coverage": 0.1,
+            "failure_risk": 0.02,
+            "retained": 50
+          },
+          {
+            "coverage": 0.2,
+            "failure_risk": 0.02,
+            "retained": 100
+          },
+          {
+            "coverage": 0.3,
+            "failure_risk": 0.013333333333333334,
+            "retained": 150
+          },
+          {
+            "coverage": 0.4,
+            "failure_risk": 0.015,
+            "retained": 200
+          },
+          {
+            "coverage": 0.5,
+            "failure_risk": 0.028,
+            "retained": 250
+          },
+          {
+            "coverage": 0.6,
+            "failure_risk": 0.02666666666666667,
+            "retained": 300
+          },
+          {
+            "coverage": 0.7,
+            "failure_risk": 0.02857142857142857,
+            "retained": 350
+          },
+          {
+            "coverage": 0.8,
+            "failure_risk": 0.0475,
+            "retained": 400
+          },
+          {
+            "coverage": 0.9,
+            "failure_risk": 0.06888888888888889,
+            "retained": 450
+          },
+          {
+            "coverage": 1.0,
+            "failure_risk": 0.136,
+            "retained": 500
+          }
+        ]
+      },
+      "max_abs_feature": 9.99,
+      "max_abs_raw_logit": 5.082026425608056,
+      "raw": {
+        "auc": 0.883510348583878,
+        "failure_average_precision": 0.6735317506637242,
+        "failures": 68,
+        "log_loss": 0.2680663484566114,
+        "n": 500,
+        "uncalibrated_brier": 0.07944749371625048
+      }
+    },
+    "rich_hidden_primary": {
+      "calibrated": {
+        "auc": 0.8877655228758171,
+        "failure_average_precision": 0.680853752980837,
+        "failures": 68,
+        "log_loss": 0.25899214544949734,
+        "n": 500,
+        "uncalibrated_brier": 0.0737897225800643
+      },
+      "diagnostics": {
+        "reliability_bins": [
+          {
+            "failure_rate": 0.024390243902439025,
+            "lower": 0.0,
+            "mean_probability": 0.05049274608565073,
+            "n": 287,
+            "upper": 0.1
+          },
+          {
+            "failure_rate": 0.08333333333333333,
+            "lower": 0.1,
+            "mean_probability": 0.13860748962869152,
+            "n": 96,
+            "upper": 0.2
+          },
+          {
+            "failure_rate": 0.21951219512195122,
+            "lower": 0.2,
+            "mean_probability": 0.24243075187162264,
+            "n": 41,
+            "upper": 0.3
+          },
+          {
+            "failure_rate": 0.28,
+            "lower": 0.3,
+            "mean_probability": 0.34702829821550774,
+            "n": 25,
+            "upper": 0.4
+          },
+          {
+            "failure_rate": 0.56,
+            "lower": 0.4,
+            "mean_probability": 0.44586217704455483,
+            "n": 25,
+            "upper": 0.5
+          },
+          {
+            "failure_rate": 0.9,
+            "lower": 0.5,
+            "mean_probability": 0.5447053789614326,
+            "n": 10,
+            "upper": 0.6
+          },
+          {
+            "failure_rate": 0.6666666666666666,
+            "lower": 0.6,
+            "mean_probability": 0.6601660777172739,
+            "n": 3,
+            "upper": 0.7
+          },
+          {
+            "failure_rate": 1.0,
+            "lower": 0.7,
+            "mean_probability": 0.7542887966398065,
+            "n": 5,
+            "upper": 0.8
+          },
+          {
+            "failure_rate": 0.875,
+            "lower": 0.8,
+            "mean_probability": 0.8514589473729295,
+            "n": 8,
+            "upper": 0.9
+          },
+          {
+            "failure_rate": null,
+            "lower": 0.9,
+            "mean_probability": null,
+            "n": 0,
+            "upper": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "coverage": 0.1,
+            "failure_risk": 0.02,
+            "retained": 50
+          },
+          {
+            "coverage": 0.2,
+            "failure_risk": 0.02,
+            "retained": 100
+          },
+          {
+            "coverage": 0.3,
+            "failure_risk": 0.013333333333333334,
+            "retained": 150
+          },
+          {
+            "coverage": 0.4,
+            "failure_risk": 0.01,
+            "retained": 200
+          },
+          {
+            "coverage": 0.5,
+            "failure_risk": 0.028,
+            "retained": 250
+          },
+          {
+            "coverage": 0.6,
+            "failure_risk": 0.02666666666666667,
+            "retained": 300
+          },
+          {
+            "coverage": 0.7,
+            "failure_risk": 0.02857142857142857,
+            "retained": 350
+          },
+          {
+            "coverage": 0.8,
+            "failure_risk": 0.0425,
+            "retained": 400
+          },
+          {
+            "coverage": 0.9,
+            "failure_risk": 0.07111111111111111,
+            "retained": 450
+          },
+          {
+            "coverage": 1.0,
+            "failure_risk": 0.136,
+            "retained": 500
+          }
+        ]
+      },
+      "max_abs_feature": 9.99,
+      "max_abs_raw_logit": 5.1318305478708535,
+      "raw": {
+        "auc": 0.8877655228758171,
+        "failure_average_precision": 0.680853752980837,
+        "failures": 68,
+        "log_loss": 0.2646834747443089,
+        "n": 500,
+        "uncalibrated_brier": 0.07839579931378798
+      }
+    },
+    "rich_noise_control": {
+      "calibrated": {
+        "auc": 0.8837145969498911,
+        "failure_average_precision": 0.6733172912278979,
+        "failures": 68,
+        "log_loss": 0.26345413104843124,
+        "n": 500,
+        "uncalibrated_brier": 0.07528049535749737
+      },
+      "diagnostics": {
+        "reliability_bins": [
+          {
+            "failure_rate": 0.028368794326241134,
+            "lower": 0.0,
+            "mean_probability": 0.05170419394606682,
+            "n": 282,
+            "upper": 0.1
+          },
+          {
+            "failure_rate": 0.0707070707070707,
+            "lower": 0.1,
+            "mean_probability": 0.13779374368742173,
+            "n": 99,
+            "upper": 0.2
+          },
+          {
+            "failure_rate": 0.20454545454545456,
+            "lower": 0.2,
+            "mean_probability": 0.23981087817413405,
+            "n": 44,
+            "upper": 0.3
+          },
+          {
+            "failure_rate": 0.3448275862068966,
+            "lower": 0.3,
+            "mean_probability": 0.3534557150177735,
+            "n": 29,
+            "upper": 0.4
+          },
+          {
+            "failure_rate": 0.6086956521739131,
+            "lower": 0.4,
+            "mean_probability": 0.4493604154686821,
+            "n": 23,
+            "upper": 0.5
+          },
+          {
+            "failure_rate": 0.875,
+            "lower": 0.5,
+            "mean_probability": 0.5442191774571452,
+            "n": 8,
+            "upper": 0.6
+          },
+          {
+            "failure_rate": 0.0,
+            "lower": 0.6,
+            "mean_probability": 0.6680647809099369,
+            "n": 1,
+            "upper": 0.7
+          },
+          {
+            "failure_rate": 0.8888888888888888,
+            "lower": 0.7,
+            "mean_probability": 0.7508768512683721,
+            "n": 9,
+            "upper": 0.8
+          },
+          {
+            "failure_rate": 1.0,
+            "lower": 0.8,
+            "mean_probability": 0.8619558185342964,
+            "n": 5,
+            "upper": 0.9
+          },
+          {
+            "failure_rate": null,
+            "lower": 0.9,
+            "mean_probability": null,
+            "n": 0,
+            "upper": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "coverage": 0.1,
+            "failure_risk": 0.02,
+            "retained": 50
+          },
+          {
+            "coverage": 0.2,
+            "failure_risk": 0.02,
+            "retained": 100
+          },
+          {
+            "coverage": 0.3,
+            "failure_risk": 0.013333333333333334,
+            "retained": 150
+          },
+          {
+            "coverage": 0.4,
+            "failure_risk": 0.015,
+            "retained": 200
+          },
+          {
+            "coverage": 0.5,
+            "failure_risk": 0.028,
+            "retained": 250
+          },
+          {
+            "coverage": 0.6,
+            "failure_risk": 0.02666666666666667,
+            "retained": 300
+          },
+          {
+            "coverage": 0.7,
+            "failure_risk": 0.03142857142857143,
+            "retained": 350
+          },
+          {
+            "coverage": 0.8,
+            "failure_risk": 0.0475,
+            "retained": 400
+          },
+          {
+            "coverage": 0.9,
+            "failure_risk": 0.06888888888888889,
+            "retained": 450
+          },
+          {
+            "coverage": 1.0,
+            "failure_risk": 0.136,
+            "retained": 500
+          }
+        ]
+      },
+      "max_abs_feature": 9.99,
+      "max_abs_raw_logit": 5.085816879875987,
+      "raw": {
+        "auc": 0.8837145969498911,
+        "failure_average_precision": 0.6733172912278979,
+        "failures": 68,
+        "log_loss": 0.2681459661262169,
+        "n": 500,
+        "uncalibrated_brier": 0.07951846189572671
+      }
+    },
+    "summary": {
+      "calibrated": {
+        "auc": 0.9102328431372549,
+        "failure_average_precision": 0.732377538877119,
+        "failures": 68,
+        "log_loss": 0.2259609124100788,
+        "n": 500,
+        "uncalibrated_brier": 0.06274236419412992
+      },
+      "diagnostics": {
+        "reliability_bins": [
+          {
+            "failure_rate": 0.026627218934911243,
+            "lower": 0.0,
+            "mean_probability": 0.044342566970359515,
+            "n": 338,
+            "upper": 0.1
+          },
+          {
+            "failure_rate": 0.0625,
+            "lower": 0.1,
+            "mean_probability": 0.13490605186075197,
+            "n": 64,
+            "upper": 0.2
+          },
+          {
+            "failure_rate": 0.2222222222222222,
+            "lower": 0.2,
+            "mean_probability": 0.23369642542959687,
+            "n": 18,
+            "upper": 0.3
+          },
+          {
+            "failure_rate": 0.36363636363636365,
+            "lower": 0.3,
+            "mean_probability": 0.35290922093846555,
+            "n": 22,
+            "upper": 0.4
+          },
+          {
+            "failure_rate": 0.5555555555555556,
+            "lower": 0.4,
+            "mean_probability": 0.4463979436671296,
+            "n": 9,
+            "upper": 0.5
+          },
+          {
+            "failure_rate": 0.5294117647058824,
+            "lower": 0.5,
+            "mean_probability": 0.5396126090425115,
+            "n": 17,
+            "upper": 0.6
+          },
+          {
+            "failure_rate": 1.0,
+            "lower": 0.6,
+            "mean_probability": 0.6445622529460434,
+            "n": 7,
+            "upper": 0.7
+          },
+          {
+            "failure_rate": 1.0,
+            "lower": 0.7,
+            "mean_probability": 0.7445432733494176,
+            "n": 7,
+            "upper": 0.8
+          },
+          {
+            "failure_rate": 0.7777777777777778,
+            "lower": 0.8,
+            "mean_probability": 0.865670077056998,
+            "n": 9,
+            "upper": 0.9
+          },
+          {
+            "failure_rate": 0.8888888888888888,
+            "lower": 0.9,
+            "mean_probability": 0.9351839894285516,
+            "n": 9,
+            "upper": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "coverage": 0.1,
+            "failure_risk": 0.0,
+            "retained": 50
+          },
+          {
+            "coverage": 0.2,
+            "failure_risk": 0.01,
+            "retained": 100
+          },
+          {
+            "coverage": 0.3,
+            "failure_risk": 0.006666666666666667,
+            "retained": 150
+          },
+          {
+            "coverage": 0.4,
+            "failure_risk": 0.01,
+            "retained": 200
+          },
+          {
+            "coverage": 0.5,
+            "failure_risk": 0.024,
+            "retained": 250
+          },
+          {
+            "coverage": 0.6,
+            "failure_risk": 0.02,
+            "retained": 300
+          },
+          {
+            "coverage": 0.7,
+            "failure_risk": 0.02857142857142857,
+            "retained": 350
+          },
+          {
+            "coverage": 0.8,
+            "failure_risk": 0.03,
+            "retained": 400
+          },
+          {
+            "coverage": 0.9,
+            "failure_risk": 0.06666666666666667,
+            "retained": 450
+          },
+          {
+            "coverage": 1.0,
+            "failure_risk": 0.136,
+            "retained": 500
+          }
+        ]
+      },
+      "max_abs_feature": 9.482040440173764,
+      "max_abs_raw_logit": 4.056057917078398,
+      "raw": {
+        "auc": 0.9102328431372549,
+        "failure_average_precision": 0.732377538877119,
+        "failures": 68,
+        "log_loss": 0.2425151024240698,
+        "n": 500,
+        "uncalibrated_brier": 0.06835875088555221
+      }
+    }
+  },
+  "status": "complete",
+  "upper_bound_below_practical_0_03": true
+}

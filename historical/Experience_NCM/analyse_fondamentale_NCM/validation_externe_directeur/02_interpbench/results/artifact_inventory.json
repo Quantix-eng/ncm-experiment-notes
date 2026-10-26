@@ -1,0 +1,644 @@
+{
+  "timestamp_utc": "2026-10-25T17:44:03.228837+00:00",
+  "github_revision": "220791e4a9cd29957ed5edfa445e7c09152d7298",
+  "hf_revision": "a1242a84f8a4d07d1be9a8f5ec710415198016b2",
+  "tracr_revision": "98f4910e3966805c83d80eb087c7a4e3328171c6",
+  "metadata_version": "1.0.0",
+  "metadata_cases": 86,
+  "cases": [
+    {
+      "case": 8,
+      "partition": "development",
+      "task": "Identity",
+      "config": {
+        "n_layers": 2,
+        "d_model": 4,
+        "n_ctx": 10,
+        "d_head": 1,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 16,
+        "act_fn": "gelu",
+        "d_vocab": 13,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "causal",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.1392621247645583,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 11,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 384,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false,
+        "load_in_4bit": false,
+        "num_experts": null,
+        "experts_per_token": null
+      },
+      "edges": [
+        [
+          "hook_embed",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "blocks.0.hook_mlp_in",
+          "blocks.0.hook_mlp_out"
+        ],
+        [
+          "blocks.0.hook_mlp_out",
+          "blocks.0.hook_resid_post"
+        ]
+      ],
+      "attention_nodes_in_labels": [],
+      "weights_bytes": 14698,
+      "sha256": {
+        "edges.pkl": "9a2cb02e0518a50c2b53be59ea3c3788ec80c0d3c6c1e70070bd7115abdfae77",
+        "ll_model.pth": "ddb4db579c13e1bf510ead6a01c343582eedff2f1d799f4d733d72f5f9da50ab",
+        "meta.json": "dadbe80a5dfa53e706bf28117b499905d7c23b3c19ef1f389061f01bbd2afaf9",
+        "ll_model_cfg.pkl": "db76917a80935813594508b1d79b7a0836a20daf67e263161432430b095fd111"
+      }
+    },
+    {
+      "case": 33,
+      "partition": "development",
+      "task": "Checks if each token's length is odd or even.",
+      "config": {
+        "n_layers": 2,
+        "d_model": 4,
+        "n_ctx": 10,
+        "d_head": 1,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 16,
+        "act_fn": "gelu",
+        "d_vocab": 10,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "causal",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.17457431218879393,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 2,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 384,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false
+      },
+      "edges": [
+        [
+          "hook_embed",
+          "blocks.0.hook_mlp_in"
+        ]
+      ],
+      "attention_nodes_in_labels": [],
+      "weights_bytes": 14058,
+      "sha256": {
+        "edges.pkl": "dbcb23fed3540b528343189d49f3b9da7933037bc0182e9d297ffbd006a49ecf",
+        "ll_model.pth": "8646ac414b144961c078e16a3ebfb4f393c8323e06d803cb64fe4d73d7fc8712",
+        "meta.json": "47e1630a1055d9ffa482a4b49557d8746e93d0ed838aa710eb896caf0a9aec17",
+        "ll_model_cfg.pkl": "552f3270651c907ede2338d58c36747ed12723e58dd8c622e608db76658532a1"
+      }
+    },
+    {
+      "case": 13,
+      "partition": "reserved",
+      "task": "Analyzes the trend (increasing, decreasing, constant) of numeric tokens.",
+      "config": {
+        "n_layers": 2,
+        "d_model": 20,
+        "n_ctx": 10,
+        "d_head": 5,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 80,
+        "act_fn": "gelu",
+        "d_vocab": 5,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "bidirectional",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.1460593486680443,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 3,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 9600,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false
+      },
+      "edges": [
+        [
+          "blocks.1.hook_mlp_out",
+          "blocks.1.hook_resid_post"
+        ],
+        [
+          "blocks.0.hook_mlp_out",
+          "blocks.1.hook_mlp_in"
+        ],
+        [
+          "blocks.0.attn.hook_result[1]",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "blocks.0.attn.hook_result[0]",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_q_input[1]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_q_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_k_input[1]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_k_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_v_input[1]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_v_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_q_input[1]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_q_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_k_input[1]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_k_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_v_input[1]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_v_input[0]"
+        ],
+        [
+          "blocks.0.hook_q_input[1]",
+          "blocks.0.attn.hook_q[1]"
+        ],
+        [
+          "blocks.0.hook_q_input[0]",
+          "blocks.0.attn.hook_q[0]"
+        ],
+        [
+          "blocks.0.hook_k_input[1]",
+          "blocks.0.attn.hook_k[1]"
+        ],
+        [
+          "blocks.0.hook_k_input[0]",
+          "blocks.0.attn.hook_k[0]"
+        ],
+        [
+          "blocks.0.hook_v_input[1]",
+          "blocks.0.attn.hook_v[1]"
+        ],
+        [
+          "blocks.0.hook_v_input[0]",
+          "blocks.0.attn.hook_v[0]"
+        ]
+      ],
+      "attention_nodes_in_labels": [
+        "blocks.0.attn.hook_result[0]",
+        "blocks.0.attn.hook_result[1]"
+      ],
+      "weights_bytes": 53162,
+      "sha256": {
+        "edges.pkl": "8726b598e2b2fb81bf1b18ad601cb37b54ec61d528b3f70b19ea4812d4fb8cc6",
+        "ll_model.pth": "ef7e1c8effd58e4fdb7c05e6a0117048ef32ef0eb82ec2ee2b727e32ac164f79",
+        "meta.json": "c83f943248aefea454dec73917973f38f554d5a307e664445beea7657dc46798",
+        "ll_model_cfg.pkl": "12e9924e5c037c5866059ec5b4f59311e6a8d9c15481600cf7b8d119d7830856"
+      }
+    },
+    {
+      "case": 18,
+      "partition": "reserved",
+      "task": "Classify each token based on its frequency as 'rare', 'common', or 'frequent'.",
+      "config": {
+        "n_layers": 2,
+        "d_model": 26,
+        "n_ctx": 10,
+        "d_head": 6,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 104,
+        "act_fn": "gelu",
+        "d_vocab": 7,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "bidirectional",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.12344267996967354,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 3,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 15808,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false
+      },
+      "edges": [
+        [
+          "blocks.1.hook_mlp_out",
+          "blocks.1.hook_resid_post"
+        ],
+        [
+          "blocks.0.hook_mlp_out",
+          "blocks.1.hook_mlp_in"
+        ]
+      ],
+      "attention_nodes_in_labels": [],
+      "weights_bytes": 79246,
+      "sha256": {
+        "edges.pkl": "5b356eadc2e22b2746020454f254f6a13819fda1968f6244982c68ea7127b0e2",
+        "ll_model.pth": "3c91d2a8f711a06a751e83c74b5832ef145faef15b58e2c4e4de7da2ba88878b",
+        "meta.json": "f65736e0390d73525ec9b4d00063ad5372637242a855173157d2e95e8876c14a",
+        "ll_model_cfg.pkl": "7ebb30c87093f0b87f9e08a103ad651aeacc3098e6d04f2fa546f4319c7eb9a7"
+      }
+    },
+    {
+      "case": 19,
+      "partition": "reserved",
+      "task": "Removes consecutive duplicate tokens from a sequence.",
+      "config": {
+        "n_layers": 2,
+        "d_model": 32,
+        "n_ctx": 15,
+        "d_head": 8,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 128,
+        "act_fn": "gelu",
+        "d_vocab": 5,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "causal",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.15689290811054724,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 3,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 24576,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false
+      },
+      "edges": [
+        [
+          "blocks.0.attn.hook_result[0]",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_q_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_k_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_v_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_q_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_k_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_v_input[0]"
+        ],
+        [
+          "blocks.0.hook_q_input[0]",
+          "blocks.0.attn.hook_q[0]"
+        ],
+        [
+          "blocks.0.hook_k_input[0]",
+          "blocks.0.attn.hook_k[0]"
+        ],
+        [
+          "blocks.0.hook_v_input[0]",
+          "blocks.0.attn.hook_v[0]"
+        ]
+      ],
+      "attention_nodes_in_labels": [
+        "blocks.0.attn.hook_result[0]"
+      ],
+      "weights_bytes": 116010,
+      "sha256": {
+        "edges.pkl": "ba1cd9ca699ad23e4646136ae193aaa94c75eb35e2ff01036c9f5f2d64cf43a5",
+        "ll_model.pth": "6d8369ae29947464bd222023f62f45e6bc4575684e82a3e0ca91b1a1602c46e4",
+        "meta.json": "8218e31117bc6a08d1eaca0382adcadcbaae20052b292b9314f599f9581d5e8b",
+        "ll_model_cfg.pkl": "ec7cf21b18f4d89acee932d53fa4850ac823391a9e6803aa1d2df33407737510"
+      }
+    },
+    {
+      "case": 21,
+      "partition": "reserved",
+      "task": "Extract unique tokens from a string",
+      "config": {
+        "n_layers": 4,
+        "d_model": 50,
+        "n_ctx": 10,
+        "d_head": 12,
+        "model_name": "custom",
+        "n_heads": 4,
+        "d_mlp": 200,
+        "act_fn": "gelu",
+        "d_vocab": 5,
+        "eps": 1e-05,
+        "use_attn_result": true,
+        "use_attn_scale": true,
+        "use_split_qkv_input": true,
+        "use_hook_mlp_in": true,
+        "use_attn_in": false,
+        "use_local_attn": false,
+        "original_architecture": null,
+        "from_checkpoint": false,
+        "checkpoint_index": null,
+        "checkpoint_label_type": null,
+        "checkpoint_value": null,
+        "tokenizer_name": null,
+        "window_size": null,
+        "attn_types": null,
+        "init_mode": "gpt2",
+        "normalization_type": null,
+        "n_devices": 1,
+        "attention_dir": "causal",
+        "attn_only": false,
+        "seed": 0,
+        "initializer_range": 0.09847319278346618,
+        "init_weights": true,
+        "scale_attn_by_inverse_layer_idx": false,
+        "positional_embedding_type": "standard",
+        "final_rms": false,
+        "d_vocab_out": 3,
+        "parallel_attn_mlp": false,
+        "rotary_dim": null,
+        "n_params": 118400,
+        "use_hook_tokens": false,
+        "gated_mlp": false,
+        "default_prepend_bos": true,
+        "dtype": "torch.float32",
+        "tokenizer_prepends_bos": null,
+        "n_key_value_heads": null,
+        "post_embedding_ln": false,
+        "rotary_base": 10000,
+        "trust_remote_code": false,
+        "rotary_adjacent_pairs": false
+      },
+      "edges": [
+        [
+          "blocks.3.attn.hook_result[0]",
+          "blocks.3.hook_resid_post"
+        ],
+        [
+          "blocks.2.hook_mlp_out",
+          "blocks.3.hook_q_input[0]"
+        ],
+        [
+          "blocks.2.hook_mlp_out",
+          "blocks.3.hook_k_input[0]"
+        ],
+        [
+          "blocks.2.hook_mlp_out",
+          "blocks.3.hook_v_input[0]"
+        ],
+        [
+          "blocks.1.hook_mlp_out",
+          "blocks.2.hook_mlp_in"
+        ],
+        [
+          "hook_embed",
+          "blocks.3.hook_q_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.3.hook_k_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.3.hook_v_input[0]"
+        ],
+        [
+          "hook_embed",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.3.hook_q_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.3.hook_k_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.3.hook_v_input[0]"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.2.hook_mlp_in"
+        ],
+        [
+          "hook_pos_embed",
+          "blocks.0.hook_mlp_in"
+        ],
+        [
+          "blocks.3.hook_q_input[0]",
+          "blocks.3.attn.hook_q[0]"
+        ],
+        [
+          "blocks.3.hook_k_input[0]",
+          "blocks.3.attn.hook_k[0]"
+        ],
+        [
+          "blocks.3.hook_v_input[0]",
+          "blocks.3.attn.hook_v[0]"
+        ]
+      ],
+      "attention_nodes_in_labels": [
+        "blocks.3.attn.hook_result[0]"
+      ],
+      "weights_bytes": 507554,
+      "sha256": {
+        "edges.pkl": "a284ff6ddccac91bf12f0f28a6786e739428c948c111ef6ad524e481f5d1461d",
+        "ll_model.pth": "42e739d16ee075d148c5b8a65b71422da53b90a32d706821708240c75124e4af",
+        "meta.json": "0562bcfe88845e70dc8a41c98953f60577ab635ffcb07104ddde8ff3dc23316f",
+        "ll_model_cfg.pkl": "0199972dece30ed03433dd2e1cb712e7e718d94ff3cd4e2ca9c662253dc9f495"
+      }
+    }
+  ],
+  "initial_environment": {
+    "torch": "/opt/homebrew/lib/python3.14/site-packages/torch/__init__.py",
+    "transformer_lens": null,
+    "tracr": null,
+    "iit": null,
+    "jax": null,
+    "haiku": null
+  }
+}

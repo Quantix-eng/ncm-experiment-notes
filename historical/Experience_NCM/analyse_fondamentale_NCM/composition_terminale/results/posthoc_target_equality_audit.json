@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "scope": "Post-hoc descriptive breakdown; no new inference or change to frozen decision",
+  "by_stratum": [
+    {
+      "stratum": "adjacent",
+      "by_equal_target": {
+        "same": {
+          "trials": 224,
+          "matched": 130,
+          "retained": 9,
+          "loss": 121,
+          "collateral": 1,
+          "retention": 0.06923076923076923
+        },
+        "different": {
+          "trials": 1824,
+          "matched": 1052,
+          "retained": 963,
+          "loss": 89,
+          "collateral": 3,
+          "retention": 0.9153992395437263
+        }
+      }
+    },
+    {
+      "stratum": "row_distant",
+      "by_equal_target": {
+        "same": {
+          "trials": 224,
+          "matched": 113,
+          "retained": 72,
+          "loss": 41,
+          "collateral": 4,
+          "retention": 0.6371681415929203
+        },
+        "different": {
+          "trials": 1824,
+          "matched": 899,
+          "retained": 883,
+          "loss": 16,
+          "collateral": 1,
+          "retention": 0.982202447163515
+        }
+      }
+    },
+    {
+      "stratum": "column_other_block",
+      "by_equal_target": {
+        "same": {
+          "trials": 224,
+          "matched": 108,
+          "retained": 106,
+          "loss": 2,
+          "collateral": 8,
+          "retention": 0.9814814814814815
+        },
+        "different": {
+          "trials": 1824,
+          "matched": 906,
+          "retained": 901,
+          "loss": 5,
+          "collateral": 64,
+          "retention": 0.9944812362030905
+        }
+      }
+    },
+    {
+      "stratum": "block_only",
+      "by_equal_target": {
+        "same": {
+          "trials": 224,
+          "matched": 132,
+          "retained": 115,
+          "loss": 17,
+          "collateral": 1,
+          "retention": 0.8712121212121212
+        },
+        "different": {
+          "trials": 1824,
+          "matched": 1083,
+          "retained": 1082,
+          "loss": 1,
+          "collateral": 7,
+          "retention": 0.9990766389658357
+        }
+      }
+    },
+    {
+      "stratum": "unrelated",
+      "by_equal_target": {
+        "same": {
+          "trials": 226,
+          "matched": 120,
+          "retained": 115,
+          "loss": 5,
+          "collateral": 0,
+          "retention": 0.9583333333333334
+        },
+        "different": {
+          "trials": 1822,
+          "matched": 961,
+          "retained": 960,
+          "loss": 1,
+          "collateral": 0,
+          "retention": 0.9989594172736732
+        }
+      }
+    }
+  ]
+}

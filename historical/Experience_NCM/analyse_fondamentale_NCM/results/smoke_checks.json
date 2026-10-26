@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "independent_exact_solver_valid_grid",
+    "independent_backtracking_valid_grid",
+    "duplicate_grid_rejected",
+    "candidate_target_single",
+    "group_key_digit_invariant",
+    "group_key_rotation_invariant",
+    "constant_auc_half",
+    "constant_brier",
+    "tied_coverage_whole_group",
+    "position_entropy_not_global_entropy"
+  ]
+}

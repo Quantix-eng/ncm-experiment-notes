@@ -1,0 +1,23 @@
+{
+  "enc_positional": true,
+  "encoder_blocks": 0,
+  "encoder_conv_blocks": 0,
+  "learned_l1_sampling": true,
+  "learned_l1_cascade": true,
+  "learned_all_sampling": false,
+  "levels": [
+    1,
+    8,
+    16,
+    24,
+    32,
+    40,
+    52,
+    64,
+    76,
+    92,
+    108,
+    128
+  ],
+  "embed_dim": 384
+}

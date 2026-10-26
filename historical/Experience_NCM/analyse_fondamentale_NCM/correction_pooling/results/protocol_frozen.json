@@ -1,0 +1,51 @@
+{
+  "protocol": {
+    "version": 1,
+    "seed": 95131,
+    "batch_size": 16,
+    "bootstrap": 2000,
+    "validation_n": 128,
+    "test_n": 600,
+    "external_n": 256,
+    "variants": [
+      "native",
+      "weighted_0",
+      "weighted_0.05",
+      "weighted_0.25",
+      "weighted_1",
+      "weighted_2",
+      "shift_0.25",
+      "shift_1",
+      "max_0.1",
+      "max_1",
+      "fixed_bias_0.25"
+    ],
+    "selected_scope": "Level 5 downsampling only; 9 output positions; original weights, upsampling, decoder and other levels unchanged",
+    "selection": "On first 128 hard validation solutions, exclude native/sham/fixed_bias. Require no introduced exact reconstruction failures vs native and higher positional code entropy. Maximize positional entropy, then minimize RMS quantizer-input change, then lexical name. If none qualifies, select highest entropy as diagnostic only and explicitly reject a free repair claim.",
+    "heldout_variants": "native, selected variant, weighted_1, max_1 (deduplicate)",
+    "replication": "Selected variant and native on 600 easy and medium test solutions with shared solution families",
+    "symmetries_n": 128,
+    "robustness": {
+      "n_puzzles": 128,
+      "seeds": [
+        95132,
+        95133,
+        95134,
+        95135,
+        95136
+      ],
+      "sigma_relative_to_train_encoder_rms": [
+        0.05,
+        0.2,
+        0.5
+      ]
+    },
+    "generator_parity_n": 8,
+    "limits": "Exploratory intervention prompted by prior inspected Sudoku results. Reconstruction uses known solutions, not solving puzzles. Increased variance or occupancy is not improved task robustness. Generator encoder-pool changes can be inactive at inference."
+  },
+  "protocol_sha256": "32994de3f8a2d552057c4d5d1ae743a18b4816cd4b56ee4e2d4074387e60ace3",
+  "objectives_sha256": "9e771d7cddc4c6a620e572be5d89faccfb821377fd8f1210d36c4399c5939687",
+  "previous_manifest_sha256": "54cc9919afc8de6a92362d196429c7faf0a9c891ad6e53a35a3e571ac806100c",
+  "split_sha256": "f92bf995a0417fbacdd8eb706f27f69725d41fe40f5dc6f3326eaf4b91af0e4b",
+  "utc": "2026-10-24T17:43:46Z"
+}

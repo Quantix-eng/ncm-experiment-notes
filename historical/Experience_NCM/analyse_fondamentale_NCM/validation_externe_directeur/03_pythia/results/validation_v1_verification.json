@@ -1,0 +1,8 @@
+{
+  "scalar_loss_checks": 160,
+  "max_error": 0.0,
+  "scalar_contrast_checks": 2048,
+  "correct_counts_verified": true,
+  "no_new_network_inference": true,
+  "independent_scientific_validation": false
+}

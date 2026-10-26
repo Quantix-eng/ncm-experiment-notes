@@ -1,0 +1,12 @@
+{
+  "version": 1, "seed": 84117, "batch_size": 4, "bootstrap": 2000,
+  "text_random_n": 256, "text_long_n": 128, "text_controls_n": 32,
+  "sudoku_screen_n": 96, "sudoku_test_n": 600,
+  "scope": "Exploratory extension; published validation text; earlier Sudoku test already inspected",
+  "text_dead_definition": "One empirical code at every position throughout a stratum; unseen codebook entries alone do not count as a dead level",
+  "sudoku_selection": "Train-derived positional modal templates; screen individual fixed-template interventions on first 96 validation puzzles. Rank by changed success status, then changed final grids, then level number. Freeze best three before evaluating their joint 9-pass intervention on test.",
+  "sudoku_test_conditions": "Selected three individually and jointly, plus joint best two (10 passes), on 600 test and 256 external; contributions retained",
+  "text_primary": "Per-level empirical code diversity and positional entropy; variance before/after native pooling; reconstruction over non-padding tokens",
+  "text_controls": "Within-four-token-block permutation versus global permutation, same 32 sources; distinguish raw pooled embeddings from residual quantizer inputs and full tokenizer codes",
+  "limits": "Two text tokenizers do not establish a universal NCM claim; no text generator is evaluated; no historical training causality or speed benchmark"
+}

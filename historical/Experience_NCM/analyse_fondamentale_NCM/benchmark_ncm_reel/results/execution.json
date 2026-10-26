@@ -1,0 +1,19 @@
+{
+  "status": "executed_pending_independent_script_audit",
+  "utc": "2026-10-25T13:58:57Z",
+  "elapsed_seconds": 48.32225179101806,
+  "families": 16,
+  "native_entries": 48,
+  "C_anchor_trials": 128,
+  "E_conditions": 384,
+  "environment": {
+    "python": "3.13.0",
+    "numpy": "1.26.4",
+    "torch": "2.8.0",
+    "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+    "device": "cpu",
+    "inference_dtype": "float32",
+    "threads": 1
+  },
+  "frozen_manifest_sha256": "8cb8694935e9ac4af8f28a2caad2ec8e199e2265d34464aa8b7b005c4de738fa"
+}

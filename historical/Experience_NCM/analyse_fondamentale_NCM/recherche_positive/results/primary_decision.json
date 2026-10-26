@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "207fc79d8a3ddc0ebbe74841d16eeddec642decef00a80af618ddaadd412458e",
+  "interval_level": 0.975,
+  "adjustment": "Bonferroni for two co-primary effects; source-puzzle percentile bootstrap",
+  "writing": {
+    "threshold": 0.0,
+    "estimate": 0.765625,
+    "interval": [
+      0.716796875,
+      0.8095825195312503
+    ],
+    "criterion_satisfied": true
+  },
+  "coverage": {
+    "threshold": 0.3,
+    "estimate": 0.5390625,
+    "interval": [
+      0.5029296875,
+      0.5732421875
+    ],
+    "criterion_satisfied": true
+  },
+  "both_co_primary_criteria_satisfied": true
+}

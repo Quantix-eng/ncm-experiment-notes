@@ -1,0 +1,32 @@
+{
+  "native": {
+    "exact": 128,
+    "token_errors": 0,
+    "changed_grids_vs_native": 0,
+    "cell_accuracy4": 0.2113233024691358,
+    "cell_accuracy5": 0.2119020061728395
+  },
+  "reencoded": {
+    "exact": 128,
+    "token_errors": 0,
+    "changed_grids_vs_native": 0,
+    "cell_accuracy4": 0.2113233024691358,
+    "cell_accuracy5": 0.18306327160493827
+  },
+  "hybrid": {
+    "exact": 128,
+    "token_errors": 0,
+    "changed_grids_vs_native": 0
+  },
+  "paired_delta_level5_cell_accuracy": {
+    "mean": -0.028838734567901238,
+    "ci95": [
+      -0.03645833333333333,
+      -0.021122685185185182
+    ],
+    "n_puzzles": 128,
+    "method": "paired percentile bootstrap by puzzle, fixed models"
+  },
+  "changed_fine_codes": 6039,
+  "amendment_sha256": "89c9ba948ceecb68b104fab7b083ae97db7c624d4e9968ebc4ce923796e872e6"
+}

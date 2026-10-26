@@ -1,0 +1,13 @@
+{
+  "attempts": 2000,
+  "corpus_sha256": "0aca6c58a870cd738b7f261e03e4903adcc7f2f633d570c16c94f935ba5e0249",
+  "n": 2000,
+  "no_ncm_inference": true,
+  "protocol_sha256": "11b22342db741b578cc8635edb31e112b52539c9c46f92d3ac532af7a5f2db9b",
+  "rejections": [],
+  "seconds": 111.22315787500702,
+  "seed": 20261201,
+  "status": "complete",
+  "uniqueness_independent_exact_cover": true,
+  "utc": "2026-10-23T15:55:53.214639+00:00"
+}

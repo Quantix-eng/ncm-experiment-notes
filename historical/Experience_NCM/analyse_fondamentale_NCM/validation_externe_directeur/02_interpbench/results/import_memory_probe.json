@@ -1,0 +1,6 @@
+{
+  "scope": "import_only_no_model_or_forward",
+  "platform": "darwin",
+  "max_rss_bytes_macos": 417169408,
+  "optional_stack_import_seconds_after_torch_numpy_import": 3.4359263750957325
+}

@@ -1,0 +1,2278 @@
+{
+  "hard": {
+    "transitions": [
+      {
+        "level": 2,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 138346,
+          "previously_correct": 23654,
+          "corrected": 2664,
+          "broken": 2724,
+          "changed": 20857,
+          "wrong_to_other_wrong": 15469,
+          "repair_rate_given_wrong": 0.019256068119063798,
+          "damage_rate_given_correct": 0.1151602266001522,
+          "net_accuracy_gain": -0.00037037037037037035,
+          "fraction_of_changes_that_correct": 0.12772690223905644,
+          "puzzles_with_correction": 1500,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.75,
+            1.0,
+            2.0,
+            8.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 87412,
+          "previously_correct": 14588,
+          "corrected": 1681,
+          "broken": 1685,
+          "changed": 13127,
+          "wrong_to_other_wrong": 9761,
+          "repair_rate_given_wrong": 0.019230769230769232,
+          "damage_rate_given_correct": 0.1155058952563751,
+          "net_accuracy_gain": -3.9215686274509805e-05,
+          "fraction_of_changes_that_correct": 0.12805667707777862,
+          "puzzles_with_correction": 1158,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            6.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 50934,
+          "previously_correct": 9066,
+          "corrected": 983,
+          "broken": 1039,
+          "changed": 7730,
+          "wrong_to_other_wrong": 5708,
+          "repair_rate_given_wrong": 0.01929948560882711,
+          "damage_rate_given_correct": 0.11460401500110302,
+          "net_accuracy_gain": -0.0009333333333333333,
+          "fraction_of_changes_that_correct": 0.12716688227684347,
+          "puzzles_with_correction": 785,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 138406,
+          "previously_correct": 23594,
+          "corrected": 9146,
+          "broken": 5304,
+          "changed": 51735,
+          "wrong_to_other_wrong": 37285,
+          "repair_rate_given_wrong": 0.06608095024782162,
+          "damage_rate_given_correct": 0.2248029159955921,
+          "net_accuracy_gain": 0.02371604938271605,
+          "fraction_of_changes_that_correct": 0.17678554170290905,
+          "puzzles_with_correction": 1983,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            4.0,
+            6.0,
+            18.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 87416,
+          "previously_correct": 14584,
+          "corrected": 5734,
+          "broken": 3285,
+          "changed": 32689,
+          "wrong_to_other_wrong": 23670,
+          "repair_rate_given_wrong": 0.06559439919465544,
+          "damage_rate_given_correct": 0.22524684585847504,
+          "net_accuracy_gain": 0.024009803921568627,
+          "fraction_of_changes_that_correct": 0.1754106886108477,
+          "puzzles_with_correction": 1902,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            2.0,
+            3.0,
+            4.0,
+            13.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 50990,
+          "previously_correct": 9010,
+          "corrected": 3412,
+          "broken": 2019,
+          "changed": 19046,
+          "wrong_to_other_wrong": 13615,
+          "repair_rate_given_wrong": 0.06691508138850755,
+          "damage_rate_given_correct": 0.22408435072142063,
+          "net_accuracy_gain": 0.023216666666666667,
+          "fraction_of_changes_that_correct": 0.17914522734432425,
+          "puzzles_with_correction": 1661,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            2.0,
+            9.0
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 134564,
+          "previously_correct": 27436,
+          "corrected": 12468,
+          "broken": 7067,
+          "changed": 60760,
+          "wrong_to_other_wrong": 41225,
+          "repair_rate_given_wrong": 0.09265479623078982,
+          "damage_rate_given_correct": 0.25758128006998104,
+          "net_accuracy_gain": 0.033339506172839505,
+          "fraction_of_changes_that_correct": 0.20520078999341673,
+          "puzzles_with_correction": 1992,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            16.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 84967,
+          "previously_correct": 17033,
+          "corrected": 7802,
+          "broken": 4385,
+          "changed": 38251,
+          "wrong_to_other_wrong": 26064,
+          "repair_rate_given_wrong": 0.09182388456694952,
+          "damage_rate_given_correct": 0.2574414372101215,
+          "net_accuracy_gain": 0.0335,
+          "fraction_of_changes_that_correct": 0.20396852369872684,
+          "puzzles_with_correction": 1949,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            4.0,
+            5.0,
+            12.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 49597,
+          "previously_correct": 10403,
+          "corrected": 4666,
+          "broken": 2682,
+          "changed": 22509,
+          "wrong_to_other_wrong": 15161,
+          "repair_rate_given_wrong": 0.09407827086315705,
+          "damage_rate_given_correct": 0.25781024704412187,
+          "net_accuracy_gain": 0.03306666666666667,
+          "fraction_of_changes_that_correct": 0.20729485983384424,
+          "puzzles_with_correction": 1836,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            8.0
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 129163,
+          "previously_correct": 32837,
+          "corrected": 1144,
+          "broken": 1184,
+          "changed": 7178,
+          "wrong_to_other_wrong": 4850,
+          "repair_rate_given_wrong": 0.008857025618791758,
+          "damage_rate_given_correct": 0.036056887048146906,
+          "net_accuracy_gain": -0.0002469135802469136,
+          "fraction_of_changes_that_correct": 0.1593758707160769,
+          "puzzles_with_correction": 865,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            5.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 81550,
+          "previously_correct": 20450,
+          "corrected": 697,
+          "broken": 745,
+          "changed": 4419,
+          "wrong_to_other_wrong": 2977,
+          "repair_rate_given_wrong": 0.008546903740036787,
+          "damage_rate_given_correct": 0.036430317848410755,
+          "net_accuracy_gain": -0.00047058823529411766,
+          "fraction_of_changes_that_correct": 0.15772799275854266,
+          "puzzles_with_correction": 579,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            4.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 47613,
+          "previously_correct": 12387,
+          "corrected": 447,
+          "broken": 439,
+          "changed": 2759,
+          "wrong_to_other_wrong": 1873,
+          "repair_rate_given_wrong": 0.009388192300422154,
+          "damage_rate_given_correct": 0.03544038104464358,
+          "net_accuracy_gain": 0.00013333333333333334,
+          "fraction_of_changes_that_correct": 0.1620152229068503,
+          "puzzles_with_correction": 403,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 129203,
+          "previously_correct": 32797,
+          "corrected": 25642,
+          "broken": 13325,
+          "changed": 92743,
+          "wrong_to_other_wrong": 53776,
+          "repair_rate_given_wrong": 0.19846288398876188,
+          "damage_rate_given_correct": 0.4062871604110132,
+          "net_accuracy_gain": 0.07603086419753087,
+          "fraction_of_changes_that_correct": 0.2764844786129411,
+          "puzzles_with_correction": 1998,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            11.0,
+            13.0,
+            15.0,
+            23.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 81598,
+          "previously_correct": 20402,
+          "corrected": 15889,
+          "broken": 8361,
+          "changed": 58275,
+          "wrong_to_other_wrong": 34025,
+          "repair_rate_given_wrong": 0.19472290987524205,
+          "damage_rate_given_correct": 0.4098127634545633,
+          "net_accuracy_gain": 0.07380392156862745,
+          "fraction_of_changes_that_correct": 0.27265551265551263,
+          "puzzles_with_correction": 1998,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            6.0,
+            8.0,
+            10.0,
+            16.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 47605,
+          "previously_correct": 12395,
+          "corrected": 9753,
+          "broken": 4964,
+          "changed": 34468,
+          "wrong_to_other_wrong": 19751,
+          "repair_rate_given_wrong": 0.20487343766411092,
+          "damage_rate_given_correct": 0.400484066155708,
+          "net_accuracy_gain": 0.07981666666666666,
+          "fraction_of_changes_that_correct": 0.2829581060693977,
+          "puzzles_with_correction": 1990,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            5.0,
+            6.0,
+            12.0
+          ]
+        }
+      },
+      {
+        "level": 7,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 116886,
+          "previously_correct": 45114,
+          "corrected": 24655,
+          "broken": 15978,
+          "changed": 84539,
+          "wrong_to_other_wrong": 43906,
+          "repair_rate_given_wrong": 0.2109320192324145,
+          "damage_rate_given_correct": 0.3541694374251895,
+          "net_accuracy_gain": 0.05356172839506173,
+          "fraction_of_changes_that_correct": 0.2916405446007168,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            10.0,
+            12.0,
+            14.0,
+            24.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 74070,
+          "previously_correct": 27930,
+          "corrected": 15426,
+          "broken": 9971,
+          "changed": 53249,
+          "wrong_to_other_wrong": 27852,
+          "repair_rate_given_wrong": 0.20826245443499392,
+          "damage_rate_given_correct": 0.356999641962048,
+          "net_accuracy_gain": 0.05348039215686275,
+          "fraction_of_changes_that_correct": 0.28969558113767396,
+          "puzzles_with_correction": 1999,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            6.0,
+            8.0,
+            9.0,
+            18.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 42816,
+          "previously_correct": 17184,
+          "corrected": 9229,
+          "broken": 6007,
+          "changed": 31290,
+          "wrong_to_other_wrong": 16054,
+          "repair_rate_given_wrong": 0.21555026158445442,
+          "damage_rate_given_correct": 0.3495693668528864,
+          "net_accuracy_gain": 0.0537,
+          "fraction_of_changes_that_correct": 0.2949504634068392,
+          "puzzles_with_correction": 1988,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            5.0,
+            6.0,
+            14.0
+          ]
+        }
+      },
+      {
+        "level": 8,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 108209,
+          "previously_correct": 53791,
+          "corrected": 36130,
+          "broken": 16241,
+          "changed": 85439,
+          "wrong_to_other_wrong": 33068,
+          "repair_rate_given_wrong": 0.33389089632100843,
+          "damage_rate_given_correct": 0.3019278317934227,
+          "net_accuracy_gain": 0.1227716049382716,
+          "fraction_of_changes_that_correct": 0.42287479956460167,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            6.0,
+            16.0,
+            18.0,
+            20.0,
+            31.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 68615,
+          "previously_correct": 33385,
+          "corrected": 22513,
+          "broken": 10205,
+          "changed": 53941,
+          "wrong_to_other_wrong": 21223,
+          "repair_rate_given_wrong": 0.32810609924943523,
+          "damage_rate_given_correct": 0.30567620188707506,
+          "net_accuracy_gain": 0.12066666666666667,
+          "fraction_of_changes_that_correct": 0.4173634155836933,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            9.0,
+            11.0,
+            13.0,
+            21.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 39594,
+          "previously_correct": 20406,
+          "corrected": 13617,
+          "broken": 6036,
+          "changed": 31498,
+          "wrong_to_other_wrong": 11845,
+          "repair_rate_given_wrong": 0.3439157448098197,
+          "damage_rate_given_correct": 0.2957953543075566,
+          "net_accuracy_gain": 0.12635,
+          "fraction_of_changes_that_correct": 0.4323131627404915,
+          "puzzles_with_correction": 1999,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            7.0,
+            8.0,
+            16.0
+          ]
+        }
+      },
+      {
+        "level": 9,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 88320,
+          "previously_correct": 73680,
+          "corrected": 41620,
+          "broken": 14770,
+          "changed": 74383,
+          "wrong_to_other_wrong": 17993,
+          "repair_rate_given_wrong": 0.47124094202898553,
+          "damage_rate_given_correct": 0.2004614549402823,
+          "net_accuracy_gain": 0.16574074074074074,
+          "fraction_of_changes_that_correct": 0.5595364532218383,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            8.0,
+            18.0,
+            21.0,
+            23.0,
+            35.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 56307,
+          "previously_correct": 45693,
+          "corrected": 26107,
+          "broken": 9239,
+          "changed": 47034,
+          "wrong_to_other_wrong": 11688,
+          "repair_rate_given_wrong": 0.4636546077752322,
+          "damage_rate_given_correct": 0.20219727310528965,
+          "net_accuracy_gain": 0.16537254901960785,
+          "fraction_of_changes_that_correct": 0.555066547603861,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            4.0,
+            11.0,
+            13.0,
+            15.0,
+            23.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 32013,
+          "previously_correct": 27987,
+          "corrected": 15513,
+          "broken": 5531,
+          "changed": 27349,
+          "wrong_to_other_wrong": 6305,
+          "repair_rate_given_wrong": 0.4845843875925405,
+          "damage_rate_given_correct": 0.19762746989673777,
+          "net_accuracy_gain": 0.16636666666666666,
+          "fraction_of_changes_that_correct": 0.5672236644849903,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            6.0,
+            8.0,
+            9.0,
+            15.0
+          ]
+        }
+      },
+      {
+        "level": 10,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 61470,
+          "previously_correct": 100530,
+          "corrected": 35493,
+          "broken": 12787,
+          "changed": 55438,
+          "wrong_to_other_wrong": 7158,
+          "repair_rate_given_wrong": 0.5774036115178136,
+          "damage_rate_given_correct": 0.12719586193176166,
+          "net_accuracy_gain": 0.1401604938271605,
+          "fraction_of_changes_that_correct": 0.6402287239799416,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            7.0,
+            15.0,
+            18.0,
+            20.0,
+            32.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 39439,
+          "previously_correct": 62561,
+          "corrected": 22163,
+          "broken": 8062,
+          "changed": 35079,
+          "wrong_to_other_wrong": 4854,
+          "repair_rate_given_wrong": 0.5619564390577855,
+          "damage_rate_given_correct": 0.12886622656287464,
+          "net_accuracy_gain": 0.1382450980392157,
+          "fraction_of_changes_that_correct": 0.6318025029219762,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            9.0,
+            11.0,
+            13.0,
+            23.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 22031,
+          "previously_correct": 37969,
+          "corrected": 13330,
+          "broken": 4725,
+          "changed": 20359,
+          "wrong_to_other_wrong": 2304,
+          "repair_rate_given_wrong": 0.6050565112795606,
+          "damage_rate_given_correct": 0.12444362506255102,
+          "net_accuracy_gain": 0.14341666666666666,
+          "fraction_of_changes_that_correct": 0.6547472862124859,
+          "puzzles_with_correction": 1999,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            7.0,
+            8.0,
+            14.0
+          ]
+        }
+      },
+      {
+        "level": 11,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 38764,
+          "previously_correct": 123236,
+          "corrected": 23110,
+          "broken": 13728,
+          "changed": 40311,
+          "wrong_to_other_wrong": 3473,
+          "repair_rate_given_wrong": 0.5961717057063255,
+          "damage_rate_given_correct": 0.11139602064331851,
+          "net_accuracy_gain": 0.05791358024691358,
+          "fraction_of_changes_that_correct": 0.5732926496489792,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            9.0,
+            11.0,
+            14.0,
+            23.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 25338,
+          "previously_correct": 76662,
+          "corrected": 14473,
+          "broken": 8552,
+          "changed": 25480,
+          "wrong_to_other_wrong": 2455,
+          "repair_rate_given_wrong": 0.5711974110032363,
+          "damage_rate_given_correct": 0.11155461636795283,
+          "net_accuracy_gain": 0.05804901960784314,
+          "fraction_of_changes_that_correct": 0.5680141287284144,
+          "puzzles_with_correction": 1998,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            6.0,
+            7.0,
+            9.0,
+            17.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 13426,
+          "previously_correct": 46574,
+          "corrected": 8637,
+          "broken": 5176,
+          "changed": 14831,
+          "wrong_to_other_wrong": 1018,
+          "repair_rate_given_wrong": 0.6433040369432445,
+          "damage_rate_given_correct": 0.1111349680079014,
+          "net_accuracy_gain": 0.057683333333333336,
+          "fraction_of_changes_that_correct": 0.582361270312184,
+          "puzzles_with_correction": 1981,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            4.0,
+            6.0,
+            12.0
+          ]
+        }
+      },
+      {
+        "level": 12,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 29382,
+          "previously_correct": 132618,
+          "corrected": 26938,
+          "broken": 225,
+          "changed": 27669,
+          "wrong_to_other_wrong": 506,
+          "repair_rate_given_wrong": 0.9168198216595195,
+          "damage_rate_given_correct": 0.001696602271184907,
+          "net_accuracy_gain": 0.16489506172839505,
+          "fraction_of_changes_that_correct": 0.9735805414001228,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            4.0,
+            11.0,
+            13.0,
+            16.0,
+            26.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 102000,
+          "previously_wrong": 19417,
+          "previously_correct": 82583,
+          "corrected": 16973,
+          "broken": 223,
+          "changed": 17702,
+          "wrong_to_other_wrong": 506,
+          "repair_rate_given_wrong": 0.8741309162074471,
+          "damage_rate_given_correct": 0.0027003136238693192,
+          "net_accuracy_gain": 0.1642156862745098,
+          "fraction_of_changes_that_correct": 0.958818212631341,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            7.0,
+            8.0,
+            10.0,
+            17.0
+          ]
+        },
+        "given": {
+          "cells": 60000,
+          "previously_wrong": 9965,
+          "previously_correct": 50035,
+          "corrected": 9965,
+          "broken": 2,
+          "changed": 9967,
+          "wrong_to_other_wrong": 0,
+          "repair_rate_given_wrong": 1.0,
+          "damage_rate_given_correct": 3.99720195862896e-05,
+          "net_accuracy_gain": 0.16605,
+          "fraction_of_changes_that_correct": 0.9997993378147888,
+          "puzzles_with_correction": 1994,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            5.0,
+            6.0,
+            12.0
+          ]
+        }
+      }
+    ],
+    "level8_to9": {
+      "persist_next_value_accuracy": 0.5388823529411765,
+      "next_value_equals_final_value_on_changed_blanks": 0.5646978781307139,
+      "fraction_of_initially_blank_cells_changed": 0.4611176470588235
+    }
+  },
+  "easy": {
+    "transitions": [
+      {
+        "level": 2,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 138032,
+          "previously_correct": 23968,
+          "corrected": 2596,
+          "broken": 2594,
+          "changed": 21006,
+          "wrong_to_other_wrong": 15816,
+          "repair_rate_given_wrong": 0.01880723310536687,
+          "damage_rate_given_correct": 0.10822763684913217,
+          "net_accuracy_gain": 1.2345679012345678e-05,
+          "fraction_of_changes_that_correct": 0.12358373797962487,
+          "puzzles_with_correction": 1443,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            19.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 69909,
+          "previously_correct": 12091,
+          "corrected": 1334,
+          "broken": 1326,
+          "changed": 10695,
+          "wrong_to_other_wrong": 8035,
+          "repair_rate_given_wrong": 0.019081949391351615,
+          "damage_rate_given_correct": 0.10966834835828303,
+          "net_accuracy_gain": 9.75609756097561e-05,
+          "fraction_of_changes_that_correct": 0.12473118279569892,
+          "puzzles_with_correction": 973,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            10.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 68123,
+          "previously_correct": 11877,
+          "corrected": 1262,
+          "broken": 1268,
+          "changed": 10311,
+          "wrong_to_other_wrong": 7781,
+          "repair_rate_given_wrong": 0.018525314504646007,
+          "damage_rate_given_correct": 0.10676096657405068,
+          "net_accuracy_gain": -7.5e-05,
+          "fraction_of_changes_that_correct": 0.12239356027543401,
+          "puzzles_with_correction": 934,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            9.0
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 138030,
+          "previously_correct": 23970,
+          "corrected": 8892,
+          "broken": 5212,
+          "changed": 53154,
+          "wrong_to_other_wrong": 39050,
+          "repair_rate_given_wrong": 0.06442077809171919,
+          "damage_rate_given_correct": 0.21743846474760117,
+          "net_accuracy_gain": 0.02271604938271605,
+          "fraction_of_changes_that_correct": 0.1672875042329834,
+          "puzzles_with_correction": 1959,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            4.0,
+            6.0,
+            12.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 69901,
+          "previously_correct": 12099,
+          "corrected": 4461,
+          "broken": 2591,
+          "changed": 26676,
+          "wrong_to_other_wrong": 19624,
+          "repair_rate_given_wrong": 0.06381882948741792,
+          "damage_rate_given_correct": 0.21414992974626001,
+          "net_accuracy_gain": 0.022804878048780487,
+          "fraction_of_changes_that_correct": 0.1672289698605488,
+          "puzzles_with_correction": 1780,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            9.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 68129,
+          "previously_correct": 11871,
+          "corrected": 4431,
+          "broken": 2621,
+          "changed": 26478,
+          "wrong_to_other_wrong": 19426,
+          "repair_rate_given_wrong": 0.06503838306741623,
+          "damage_rate_given_correct": 0.2207901608963019,
+          "net_accuracy_gain": 0.022625,
+          "fraction_of_changes_that_correct": 0.16734647631996374,
+          "puzzles_with_correction": 1785,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            8.0
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 134350,
+          "previously_correct": 27650,
+          "corrected": 12560,
+          "broken": 6663,
+          "changed": 61702,
+          "wrong_to_other_wrong": 42479,
+          "repair_rate_given_wrong": 0.09348716040193525,
+          "damage_rate_given_correct": 0.2409764918625678,
+          "net_accuracy_gain": 0.03640123456790124,
+          "fraction_of_changes_that_correct": 0.20355904184629348,
+          "puzzles_with_correction": 1983,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            16.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 68031,
+          "previously_correct": 13969,
+          "corrected": 6334,
+          "broken": 3341,
+          "changed": 31115,
+          "wrong_to_other_wrong": 21440,
+          "repair_rate_given_wrong": 0.09310461407299614,
+          "damage_rate_given_correct": 0.2391724532894266,
+          "net_accuracy_gain": 0.0365,
+          "fraction_of_changes_that_correct": 0.20356741121645508,
+          "puzzles_with_correction": 1914,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            2.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 66319,
+          "previously_correct": 13681,
+          "corrected": 6226,
+          "broken": 3322,
+          "changed": 30587,
+          "wrong_to_other_wrong": 21039,
+          "repair_rate_given_wrong": 0.09387958202023552,
+          "damage_rate_given_correct": 0.2428185074190483,
+          "net_accuracy_gain": 0.0363,
+          "fraction_of_changes_that_correct": 0.2035505280020924,
+          "puzzles_with_correction": 1900,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            2.0,
+            3.0,
+            4.0,
+            10.0
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 128453,
+          "previously_correct": 33547,
+          "corrected": 2077,
+          "broken": 2465,
+          "changed": 13496,
+          "wrong_to_other_wrong": 8954,
+          "repair_rate_given_wrong": 0.01616933820152118,
+          "damage_rate_given_correct": 0.07347899961248398,
+          "net_accuracy_gain": -0.0023950617283950617,
+          "fraction_of_changes_that_correct": 0.15389745109662123,
+          "puzzles_with_correction": 1259,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            6.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 65038,
+          "previously_correct": 16962,
+          "corrected": 1053,
+          "broken": 1279,
+          "changed": 6830,
+          "wrong_to_other_wrong": 4498,
+          "repair_rate_given_wrong": 0.016190534764291643,
+          "damage_rate_given_correct": 0.07540384388633416,
+          "net_accuracy_gain": -0.0027560975609756096,
+          "fraction_of_changes_that_correct": 0.15417276720351392,
+          "puzzles_with_correction": 826,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            4.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 63415,
+          "previously_correct": 16585,
+          "corrected": 1024,
+          "broken": 1186,
+          "changed": 6666,
+          "wrong_to_other_wrong": 4456,
+          "repair_rate_given_wrong": 0.01614759914846645,
+          "damage_rate_given_correct": 0.07151040096472716,
+          "net_accuracy_gain": -0.002025,
+          "fraction_of_changes_that_correct": 0.15361536153615363,
+          "puzzles_with_correction": 792,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 128841,
+          "previously_correct": 33159,
+          "corrected": 25695,
+          "broken": 12193,
+          "changed": 90117,
+          "wrong_to_other_wrong": 52229,
+          "repair_rate_given_wrong": 0.19943185787132978,
+          "damage_rate_given_correct": 0.3677131397207395,
+          "net_accuracy_gain": 0.08334567901234569,
+          "fraction_of_changes_that_correct": 0.28512933186857087,
+          "puzzles_with_correction": 1983,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            11.0,
+            13.0,
+            15.0,
+            22.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 65264,
+          "previously_correct": 16736,
+          "corrected": 13075,
+          "broken": 6173,
+          "changed": 45609,
+          "wrong_to_other_wrong": 26361,
+          "repair_rate_given_wrong": 0.20034015690120127,
+          "damage_rate_given_correct": 0.36884560229445507,
+          "net_accuracy_gain": 0.08417073170731708,
+          "fraction_of_changes_that_correct": 0.2866758753754741,
+          "puzzles_with_correction": 1983,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            7.0,
+            8.0,
+            14.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 63577,
+          "previously_correct": 16423,
+          "corrected": 12620,
+          "broken": 6020,
+          "changed": 44508,
+          "wrong_to_other_wrong": 25868,
+          "repair_rate_given_wrong": 0.1984994573509288,
+          "damage_rate_given_correct": 0.36655909395360164,
+          "net_accuracy_gain": 0.0825,
+          "fraction_of_changes_that_correct": 0.2835445313202121,
+          "puzzles_with_correction": 1981,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            15.0
+          ]
+        }
+      },
+      {
+        "level": 7,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 115339,
+          "previously_correct": 46661,
+          "corrected": 25732,
+          "broken": 13799,
+          "changed": 78664,
+          "wrong_to_other_wrong": 39133,
+          "repair_rate_given_wrong": 0.22309886508466348,
+          "damage_rate_given_correct": 0.29572876706457213,
+          "net_accuracy_gain": 0.0736604938271605,
+          "fraction_of_changes_that_correct": 0.32711278348418593,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            11.0,
+            13.0,
+            15.0,
+            24.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 58362,
+          "previously_correct": 23638,
+          "corrected": 12974,
+          "broken": 6887,
+          "changed": 39585,
+          "wrong_to_other_wrong": 19724,
+          "repair_rate_given_wrong": 0.22230218292724718,
+          "damage_rate_given_correct": 0.2913529063372536,
+          "net_accuracy_gain": 0.07423170731707317,
+          "fraction_of_changes_that_correct": 0.3277504105090312,
+          "puzzles_with_correction": 1998,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            18.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 56977,
+          "previously_correct": 23023,
+          "corrected": 12758,
+          "broken": 6912,
+          "changed": 39079,
+          "wrong_to_other_wrong": 19409,
+          "repair_rate_given_wrong": 0.22391491303508435,
+          "damage_rate_given_correct": 0.30022151761282195,
+          "net_accuracy_gain": 0.073075,
+          "fraction_of_changes_that_correct": 0.32646690038127896,
+          "puzzles_with_correction": 1996,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            14.0
+          ]
+        }
+      },
+      {
+        "level": 8,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 103406,
+          "previously_correct": 58594,
+          "corrected": 36836,
+          "broken": 15698,
+          "changed": 81081,
+          "wrong_to_other_wrong": 28547,
+          "repair_rate_given_wrong": 0.3562269113977912,
+          "damage_rate_given_correct": 0.267911390244735,
+          "net_accuracy_gain": 0.13048148148148148,
+          "fraction_of_changes_that_correct": 0.45431112097778764,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            8.0,
+            16.0,
+            18.0,
+            21.0,
+            34.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 52275,
+          "previously_correct": 29725,
+          "corrected": 18519,
+          "broken": 7926,
+          "changed": 40883,
+          "wrong_to_other_wrong": 14438,
+          "repair_rate_given_wrong": 0.35426111908177904,
+          "damage_rate_given_correct": 0.26664423885618166,
+          "net_accuracy_gain": 0.1291829268292683,
+          "fraction_of_changes_that_correct": 0.4529755644155272,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            7.0,
+            9.0,
+            11.0,
+            18.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 51131,
+          "previously_correct": 28869,
+          "corrected": 18317,
+          "broken": 7772,
+          "changed": 40198,
+          "wrong_to_other_wrong": 14109,
+          "repair_rate_given_wrong": 0.35823668615908155,
+          "damage_rate_given_correct": 0.26921611417090996,
+          "net_accuracy_gain": 0.1318125,
+          "fraction_of_changes_that_correct": 0.4556694362903627,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            7.0,
+            9.0,
+            11.0,
+            18.0
+          ]
+        }
+      },
+      {
+        "level": 9,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 82268,
+          "previously_correct": 79732,
+          "corrected": 39790,
+          "broken": 13817,
+          "changed": 69145,
+          "wrong_to_other_wrong": 15538,
+          "repair_rate_given_wrong": 0.48366314970583946,
+          "damage_rate_given_correct": 0.17329303165604776,
+          "net_accuracy_gain": 0.16032716049382717,
+          "fraction_of_changes_that_correct": 0.5754573721888785,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            8.0,
+            17.75,
+            20.0,
+            22.0,
+            31.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 41682,
+          "previously_correct": 40318,
+          "corrected": 20032,
+          "broken": 6986,
+          "changed": 34931,
+          "wrong_to_other_wrong": 7913,
+          "repair_rate_given_wrong": 0.48059114245957485,
+          "damage_rate_given_correct": 0.17327248375415447,
+          "net_accuracy_gain": 0.15909756097560976,
+          "fraction_of_changes_that_correct": 0.57347341902608,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            8.0,
+            10.0,
+            12.0,
+            19.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 40586,
+          "previously_correct": 39414,
+          "corrected": 19758,
+          "broken": 6831,
+          "changed": 34214,
+          "wrong_to_other_wrong": 7625,
+          "repair_rate_given_wrong": 0.4868181146208052,
+          "damage_rate_given_correct": 0.17331405084487744,
+          "net_accuracy_gain": 0.1615875,
+          "fraction_of_changes_that_correct": 0.5774829017361314,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            8.0,
+            10.0,
+            12.0,
+            21.0
+          ]
+        }
+      },
+      {
+        "level": 10,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 56295,
+          "previously_correct": 105705,
+          "corrected": 36203,
+          "broken": 9646,
+          "changed": 51181,
+          "wrong_to_other_wrong": 5332,
+          "repair_rate_given_wrong": 0.6430944133582023,
+          "damage_rate_given_correct": 0.09125396149661795,
+          "net_accuracy_gain": 0.1639320987654321,
+          "fraction_of_changes_that_correct": 0.7073523377815987,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            6.0,
+            16.0,
+            18.0,
+            21.0,
+            29.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 28636,
+          "previously_correct": 53364,
+          "corrected": 18354,
+          "broken": 4868,
+          "changed": 25978,
+          "wrong_to_other_wrong": 2756,
+          "repair_rate_given_wrong": 0.6409414722726637,
+          "damage_rate_given_correct": 0.09122254703545461,
+          "net_accuracy_gain": 0.16446341463414635,
+          "fraction_of_changes_that_correct": 0.7065209023019478,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            7.0,
+            9.0,
+            11.0,
+            19.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 27659,
+          "previously_correct": 52341,
+          "corrected": 17849,
+          "broken": 4778,
+          "changed": 25203,
+          "wrong_to_other_wrong": 2576,
+          "repair_rate_given_wrong": 0.645323402870675,
+          "damage_rate_given_correct": 0.0912859899505168,
+          "net_accuracy_gain": 0.1633875,
+          "fraction_of_changes_that_correct": 0.7082093401579177,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            7.0,
+            9.0,
+            11.0,
+            18.0
+          ]
+        }
+      },
+      {
+        "level": 11,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 29738,
+          "previously_correct": 132262,
+          "corrected": 19237,
+          "broken": 11225,
+          "changed": 32396,
+          "wrong_to_other_wrong": 1934,
+          "repair_rate_given_wrong": 0.6468827762458806,
+          "damage_rate_given_correct": 0.08486942583659705,
+          "net_accuracy_gain": 0.04945679012345679,
+          "fraction_of_changes_that_correct": 0.5938078775157427,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            8.0,
+            9.0,
+            11.0,
+            21.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 15150,
+          "previously_correct": 66850,
+          "corrected": 9710,
+          "broken": 5646,
+          "changed": 16372,
+          "wrong_to_other_wrong": 1016,
+          "repair_rate_given_wrong": 0.640924092409241,
+          "damage_rate_given_correct": 0.08445774121166791,
+          "net_accuracy_gain": 0.0495609756097561,
+          "fraction_of_changes_that_correct": 0.5930857561690691,
+          "puzzles_with_correction": 1991,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            5.0,
+            6.0,
+            12.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 14588,
+          "previously_correct": 65412,
+          "corrected": 9527,
+          "broken": 5579,
+          "changed": 16024,
+          "wrong_to_other_wrong": 918,
+          "repair_rate_given_wrong": 0.6530710172744721,
+          "damage_rate_given_correct": 0.08529016082675962,
+          "net_accuracy_gain": 0.04935,
+          "fraction_of_changes_that_correct": 0.5945456814777833,
+          "puzzles_with_correction": 1990,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            5.0,
+            6.0,
+            13.0
+          ]
+        }
+      },
+      {
+        "level": 12,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 21726,
+          "previously_correct": 140274,
+          "corrected": 21692,
+          "broken": 8,
+          "changed": 21712,
+          "wrong_to_other_wrong": 12,
+          "repair_rate_given_wrong": 0.9984350547730829,
+          "damage_rate_given_correct": 5.703123886108616e-05,
+          "net_accuracy_gain": 0.13385185185185186,
+          "fraction_of_changes_that_correct": 0.9990788504053059,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            9.0,
+            11.0,
+            13.0,
+            24.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 82000,
+          "previously_wrong": 11086,
+          "previously_correct": 70914,
+          "corrected": 11054,
+          "broken": 8,
+          "changed": 11074,
+          "wrong_to_other_wrong": 12,
+          "repair_rate_given_wrong": 0.9971134764567924,
+          "damage_rate_given_correct": 0.00011281270271032518,
+          "net_accuracy_gain": 0.13470731707317074,
+          "fraction_of_changes_that_correct": 0.9981939678526278,
+          "puzzles_with_correction": 1997,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            5.0,
+            7.0,
+            14.0
+          ]
+        },
+        "given": {
+          "cells": 80000,
+          "previously_wrong": 10640,
+          "previously_correct": 69360,
+          "corrected": 10638,
+          "broken": 0,
+          "changed": 10638,
+          "wrong_to_other_wrong": 0,
+          "repair_rate_given_wrong": 0.9998120300751879,
+          "damage_rate_given_correct": 0.0,
+          "net_accuracy_gain": 0.132975,
+          "fraction_of_changes_that_correct": 1.0,
+          "puzzles_with_correction": 1996,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            5.0,
+            7.0,
+            15.0
+          ]
+        }
+      }
+    ],
+    "level8_to9": {
+      "persist_next_value_accuracy": 0.5740121951219512,
+      "next_value_equals_final_value_on_changed_blanks": 0.5735306747588103,
+      "fraction_of_initially_blank_cells_changed": 0.42598780487804877
+    }
+  },
+  "medium": {
+    "transitions": [
+      {
+        "level": 2,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 137803,
+          "previously_correct": 24197,
+          "corrected": 3704,
+          "broken": 3920,
+          "changed": 29796,
+          "wrong_to_other_wrong": 22172,
+          "repair_rate_given_wrong": 0.026878950385695523,
+          "damage_rate_given_correct": 0.16200355415960657,
+          "net_accuracy_gain": -0.0013333333333333333,
+          "fraction_of_changes_that_correct": 0.12431198818633374,
+          "puzzles_with_correction": 1693,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            7.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 78468,
+          "previously_correct": 13532,
+          "corrected": 2158,
+          "broken": 2188,
+          "changed": 16939,
+          "wrong_to_other_wrong": 12593,
+          "repair_rate_given_wrong": 0.027501656726308814,
+          "damage_rate_given_correct": 0.16169080697605676,
+          "net_accuracy_gain": -0.00032608695652173916,
+          "fraction_of_changes_that_correct": 0.1273983115886416,
+          "puzzles_with_correction": 1330,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            6.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 59335,
+          "previously_correct": 10665,
+          "corrected": 1546,
+          "broken": 1732,
+          "changed": 12857,
+          "wrong_to_other_wrong": 9579,
+          "repair_rate_given_wrong": 0.02605544788067751,
+          "damage_rate_given_correct": 0.1624003750586029,
+          "net_accuracy_gain": -0.002657142857142857,
+          "fraction_of_changes_that_correct": 0.12024578050867232,
+          "puzzles_with_correction": 1085,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 138019,
+          "previously_correct": 23981,
+          "corrected": 8931,
+          "broken": 5035,
+          "changed": 51097,
+          "wrong_to_other_wrong": 37131,
+          "repair_rate_given_wrong": 0.06470848216549896,
+          "damage_rate_given_correct": 0.2099578833242984,
+          "net_accuracy_gain": 0.024049382716049384,
+          "fraction_of_changes_that_correct": 0.17478521243908646,
+          "puzzles_with_correction": 1967,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            3.0,
+            4.0,
+            6.0,
+            13.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 78498,
+          "previously_correct": 13502,
+          "corrected": 5050,
+          "broken": 2886,
+          "changed": 29136,
+          "wrong_to_other_wrong": 21200,
+          "repair_rate_given_wrong": 0.06433284924456674,
+          "damage_rate_given_correct": 0.21374611168715746,
+          "net_accuracy_gain": 0.023521739130434784,
+          "fraction_of_changes_that_correct": 0.17332509610104338,
+          "puzzles_with_correction": 1837,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            11.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 59521,
+          "previously_correct": 10479,
+          "corrected": 3881,
+          "broken": 2149,
+          "changed": 21961,
+          "wrong_to_other_wrong": 15931,
+          "repair_rate_given_wrong": 0.0652038776230238,
+          "damage_rate_given_correct": 0.20507682030728122,
+          "net_accuracy_gain": 0.024742857142857143,
+          "fraction_of_changes_that_correct": 0.17672237147670872,
+          "puzzles_with_correction": 1720,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            7.0
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 134123,
+          "previously_correct": 27877,
+          "corrected": 12147,
+          "broken": 7149,
+          "changed": 61345,
+          "wrong_to_other_wrong": 42049,
+          "repair_rate_given_wrong": 0.09056612214161627,
+          "damage_rate_given_correct": 0.25644796785880836,
+          "net_accuracy_gain": 0.030851851851851853,
+          "fraction_of_changes_that_correct": 0.19801124786046131,
+          "puzzles_with_correction": 1986,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            16.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 76334,
+          "previously_correct": 15666,
+          "corrected": 6843,
+          "broken": 4083,
+          "changed": 34837,
+          "wrong_to_other_wrong": 23911,
+          "repair_rate_given_wrong": 0.08964550527942987,
+          "damage_rate_given_correct": 0.26062811183454615,
+          "net_accuracy_gain": 0.03,
+          "fraction_of_changes_that_correct": 0.19642908401986395,
+          "puzzles_with_correction": 1932,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            2.0,
+            3.0,
+            5.0,
+            11.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 57789,
+          "previously_correct": 12211,
+          "corrected": 5304,
+          "broken": 3066,
+          "changed": 26508,
+          "wrong_to_other_wrong": 18138,
+          "repair_rate_given_wrong": 0.0917821730779214,
+          "damage_rate_given_correct": 0.2510850872164442,
+          "net_accuracy_gain": 0.031971428571428574,
+          "fraction_of_changes_that_correct": 0.20009053870529653,
+          "puzzles_with_correction": 1863,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            2.0,
+            2.0,
+            4.0,
+            9.0
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 129125,
+          "previously_correct": 32875,
+          "corrected": 2943,
+          "broken": 2741,
+          "changed": 16840,
+          "wrong_to_other_wrong": 11156,
+          "repair_rate_given_wrong": 0.0227918683446273,
+          "damage_rate_given_correct": 0.0833764258555133,
+          "net_accuracy_gain": 0.0012469135802469136,
+          "fraction_of_changes_that_correct": 0.1747624703087886,
+          "puzzles_with_correction": 1525,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            7.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 73574,
+          "previously_correct": 18426,
+          "corrected": 1649,
+          "broken": 1525,
+          "changed": 9493,
+          "wrong_to_other_wrong": 6319,
+          "repair_rate_given_wrong": 0.022412808872699596,
+          "damage_rate_given_correct": 0.08276348637794421,
+          "net_accuracy_gain": 0.0013478260869565217,
+          "fraction_of_changes_that_correct": 0.17370694195723163,
+          "puzzles_with_correction": 1109,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            6.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 55551,
+          "previously_correct": 14449,
+          "corrected": 1294,
+          "broken": 1216,
+          "changed": 7347,
+          "wrong_to_other_wrong": 4837,
+          "repair_rate_given_wrong": 0.02329391010062825,
+          "damage_rate_given_correct": 0.08415807322306042,
+          "net_accuracy_gain": 0.0011142857142857144,
+          "fraction_of_changes_that_correct": 0.1761263100585273,
+          "puzzles_with_correction": 958,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 128923,
+          "previously_correct": 33077,
+          "corrected": 26298,
+          "broken": 13037,
+          "changed": 92060,
+          "wrong_to_other_wrong": 52725,
+          "repair_rate_given_wrong": 0.20398222194643315,
+          "damage_rate_given_correct": 0.3941409438582701,
+          "net_accuracy_gain": 0.08185802469135803,
+          "fraction_of_changes_that_correct": 0.2856615250923311,
+          "puzzles_with_correction": 1993,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            11.0,
+            13.0,
+            15.0,
+            23.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 73450,
+          "previously_correct": 18550,
+          "corrected": 14946,
+          "broken": 7349,
+          "changed": 52412,
+          "wrong_to_other_wrong": 30117,
+          "repair_rate_given_wrong": 0.2034853641933288,
+          "damage_rate_given_correct": 0.3961725067385445,
+          "net_accuracy_gain": 0.08257608695652174,
+          "fraction_of_changes_that_correct": 0.2851637029687858,
+          "puzzles_with_correction": 1992,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            6.0,
+            7.0,
+            9.0,
+            18.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 55473,
+          "previously_correct": 14527,
+          "corrected": 11352,
+          "broken": 5688,
+          "changed": 39648,
+          "wrong_to_other_wrong": 22608,
+          "repair_rate_given_wrong": 0.2046400951814396,
+          "damage_rate_given_correct": 0.39154677497074414,
+          "net_accuracy_gain": 0.08091428571428572,
+          "fraction_of_changes_that_correct": 0.286319612590799,
+          "puzzles_with_correction": 1991,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            6.0,
+            7.0,
+            12.0
+          ]
+        }
+      },
+      {
+        "level": 7,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 115662,
+          "previously_correct": 46338,
+          "corrected": 24457,
+          "broken": 15856,
+          "changed": 82100,
+          "wrong_to_other_wrong": 41787,
+          "repair_rate_given_wrong": 0.21145233525271914,
+          "damage_rate_given_correct": 0.3421813630281842,
+          "net_accuracy_gain": 0.053092592592592594,
+          "fraction_of_changes_that_correct": 0.2978928136419001,
+          "puzzles_with_correction": 1999,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            10.0,
+            12.0,
+            14.0,
+            23.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 65853,
+          "previously_correct": 26147,
+          "corrected": 13781,
+          "broken": 9048,
+          "changed": 46776,
+          "wrong_to_other_wrong": 23947,
+          "repair_rate_given_wrong": 0.2092691297283343,
+          "damage_rate_given_correct": 0.3460435231575324,
+          "net_accuracy_gain": 0.051445652173913045,
+          "fraction_of_changes_that_correct": 0.29461689755430137,
+          "puzzles_with_correction": 1995,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            7.0,
+            9.0,
+            16.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 49809,
+          "previously_correct": 20191,
+          "corrected": 10676,
+          "broken": 6808,
+          "changed": 35324,
+          "wrong_to_other_wrong": 17840,
+          "repair_rate_given_wrong": 0.21433877411712743,
+          "damage_rate_given_correct": 0.33717993165271654,
+          "net_accuracy_gain": 0.05525714285714286,
+          "fraction_of_changes_that_correct": 0.302230777941343,
+          "puzzles_with_correction": 1996,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            5.0,
+            7.0,
+            12.0
+          ]
+        }
+      },
+      {
+        "level": 8,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 107061,
+          "previously_correct": 54939,
+          "corrected": 35221,
+          "broken": 16688,
+          "changed": 83873,
+          "wrong_to_other_wrong": 31964,
+          "repair_rate_given_wrong": 0.32898067456870383,
+          "damage_rate_given_correct": 0.30375507380913375,
+          "net_accuracy_gain": 0.11440123456790123,
+          "fraction_of_changes_that_correct": 0.4199325170197799,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            5.0,
+            15.0,
+            18.0,
+            20.0,
+            31.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 61120,
+          "previously_correct": 30880,
+          "corrected": 19912,
+          "broken": 9411,
+          "changed": 47652,
+          "wrong_to_other_wrong": 18329,
+          "repair_rate_given_wrong": 0.32578534031413614,
+          "damage_rate_given_correct": 0.3047603626943005,
+          "net_accuracy_gain": 0.11414130434782609,
+          "fraction_of_changes_that_correct": 0.4178628389154705,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            8.0,
+            10.0,
+            12.0,
+            19.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 45941,
+          "previously_correct": 24059,
+          "corrected": 15309,
+          "broken": 7277,
+          "changed": 36221,
+          "wrong_to_other_wrong": 13635,
+          "repair_rate_given_wrong": 0.3332317537711412,
+          "damage_rate_given_correct": 0.3024647740970115,
+          "net_accuracy_gain": 0.11474285714285715,
+          "fraction_of_changes_that_correct": 0.4226553656718478,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            6.0,
+            8.0,
+            9.0,
+            16.0
+          ]
+        }
+      },
+      {
+        "level": 9,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 88528,
+          "previously_correct": 73472,
+          "corrected": 40290,
+          "broken": 15162,
+          "changed": 74312,
+          "wrong_to_other_wrong": 18860,
+          "repair_rate_given_wrong": 0.4551102476052774,
+          "damage_rate_given_correct": 0.20636432926829268,
+          "net_accuracy_gain": 0.15511111111111112,
+          "fraction_of_changes_that_correct": 0.5421735385940359,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            8.0,
+            18.0,
+            20.0,
+            23.0,
+            32.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 50619,
+          "previously_correct": 41381,
+          "corrected": 23018,
+          "broken": 8482,
+          "changed": 42252,
+          "wrong_to_other_wrong": 10752,
+          "repair_rate_given_wrong": 0.4547304371876173,
+          "damage_rate_given_correct": 0.20497329692370894,
+          "net_accuracy_gain": 0.158,
+          "fraction_of_changes_that_correct": 0.5447789453753669,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            4.0,
+            10.0,
+            11.0,
+            13.0,
+            21.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 37909,
+          "previously_correct": 32091,
+          "corrected": 17272,
+          "broken": 6680,
+          "changed": 32060,
+          "wrong_to_other_wrong": 8108,
+          "repair_rate_given_wrong": 0.4556173995621093,
+          "damage_rate_given_correct": 0.20815805054376615,
+          "net_accuracy_gain": 0.1513142857142857,
+          "fraction_of_changes_that_correct": 0.53873986275733,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            7.0,
+            9.0,
+            10.0,
+            18.0
+          ]
+        }
+      },
+      {
+        "level": 10,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 63400,
+          "previously_correct": 98600,
+          "corrected": 37517,
+          "broken": 14053,
+          "changed": 59265,
+          "wrong_to_other_wrong": 7695,
+          "repair_rate_given_wrong": 0.5917507886435331,
+          "damage_rate_given_correct": 0.14252535496957403,
+          "net_accuracy_gain": 0.1448395061728395,
+          "fraction_of_changes_that_correct": 0.6330380494389606,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            9.0,
+            16.0,
+            19.0,
+            21.0,
+            32.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 36083,
+          "previously_correct": 55917,
+          "corrected": 21256,
+          "broken": 7969,
+          "changed": 33656,
+          "wrong_to_other_wrong": 4431,
+          "repair_rate_given_wrong": 0.5890862733143032,
+          "damage_rate_given_correct": 0.14251479871953074,
+          "net_accuracy_gain": 0.14442391304347826,
+          "fraction_of_changes_that_correct": 0.6315664368908961,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            2.0,
+            9.0,
+            11.0,
+            12.0,
+            21.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 27317,
+          "previously_correct": 42683,
+          "corrected": 16261,
+          "broken": 6084,
+          "changed": 25609,
+          "wrong_to_other_wrong": 3264,
+          "repair_rate_given_wrong": 0.595270344474137,
+          "damage_rate_given_correct": 0.14253918421854134,
+          "net_accuracy_gain": 0.14538571428571428,
+          "fraction_of_changes_that_correct": 0.6349720801280799,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            7.0,
+            8.0,
+            10.0,
+            17.0
+          ]
+        }
+      },
+      {
+        "level": 11,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 39936,
+          "previously_correct": 122064,
+          "corrected": 24970,
+          "broken": 14615,
+          "changed": 43231,
+          "wrong_to_other_wrong": 3646,
+          "repair_rate_given_wrong": 0.6252504006410257,
+          "damage_rate_given_correct": 0.11973227159522873,
+          "net_accuracy_gain": 0.06391975308641976,
+          "fraction_of_changes_that_correct": 0.5775947815225185,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            4.0,
+            10.0,
+            12.0,
+            14.0,
+            25.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 22796,
+          "previously_correct": 69204,
+          "corrected": 14106,
+          "broken": 8396,
+          "changed": 24655,
+          "wrong_to_other_wrong": 2153,
+          "repair_rate_given_wrong": 0.6187927706615196,
+          "damage_rate_given_correct": 0.1213224669094272,
+          "net_accuracy_gain": 0.06206521739130435,
+          "fraction_of_changes_that_correct": 0.5721354694788076,
+          "puzzles_with_correction": 1999,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            7.0,
+            9.0,
+            15.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 17140,
+          "previously_correct": 52860,
+          "corrected": 10864,
+          "broken": 6219,
+          "changed": 18576,
+          "wrong_to_other_wrong": 1493,
+          "repair_rate_given_wrong": 0.6338389731621937,
+          "damage_rate_given_correct": 0.11765039727582292,
+          "net_accuracy_gain": 0.06635714285714285,
+          "fraction_of_changes_that_correct": 0.5848406546080964,
+          "puzzles_with_correction": 1995,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            4.0,
+            5.0,
+            7.0,
+            12.0
+          ]
+        }
+      },
+      {
+        "level": 12,
+        "all": {
+          "cells": 162000,
+          "previously_wrong": 29581,
+          "previously_correct": 132419,
+          "corrected": 29273,
+          "broken": 26,
+          "changed": 29378,
+          "wrong_to_other_wrong": 79,
+          "repair_rate_given_wrong": 0.98958791115919,
+          "damage_rate_given_correct": 0.00019634644575174259,
+          "net_accuracy_gain": 0.18053703703703702,
+          "fraction_of_changes_that_correct": 0.9964258969296753,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            5.0,
+            12.0,
+            15.0,
+            17.0,
+            37.0
+          ]
+        },
+        "initially_blank": {
+          "cells": 92000,
+          "previously_wrong": 17086,
+          "previously_correct": 74914,
+          "corrected": 16785,
+          "broken": 26,
+          "changed": 16888,
+          "wrong_to_other_wrong": 77,
+          "repair_rate_given_wrong": 0.9823832377384993,
+          "damage_rate_given_correct": 0.0003470646341137838,
+          "net_accuracy_gain": 0.18216304347826087,
+          "fraction_of_changes_that_correct": 0.9939009947891995,
+          "puzzles_with_correction": 2000,
+          "corrections_per_puzzle_quantiles": [
+            1.0,
+            7.0,
+            8.0,
+            10.0,
+            23.0
+          ]
+        },
+        "given": {
+          "cells": 70000,
+          "previously_wrong": 12495,
+          "previously_correct": 57505,
+          "corrected": 12488,
+          "broken": 0,
+          "changed": 12490,
+          "wrong_to_other_wrong": 2,
+          "repair_rate_given_wrong": 0.9994397759103641,
+          "damage_rate_given_correct": 0.0,
+          "net_accuracy_gain": 0.1784,
+          "fraction_of_changes_that_correct": 0.999839871897518,
+          "puzzles_with_correction": 1997,
+          "corrections_per_puzzle_quantiles": [
+            0.0,
+            5.0,
+            6.0,
+            8.0,
+            17.0
+          ]
+        }
+      }
+    ],
+    "level8_to9": {
+      "persist_next_value_accuracy": 0.5407391304347826,
+      "next_value_equals_final_value_on_changed_blanks": 0.5461043264224179,
+      "fraction_of_initially_blank_cells_changed": 0.4592608695652174
+    }
+  },
+  "constant_level_ablation": {
+    "status": "exploratory_posthoc",
+    "n": 128,
+    "level": 5,
+    "conditions": {
+      "sham": {
+        "metrics": {
+          "n": 128,
+          "solved": 105,
+          "solved_rate": 0.8203125,
+          "cell_accuracy": 0.9795524691358025,
+          "valid_and_clues_rate": 0.8203125,
+          "malformed": 0
+        },
+        "changed_boards": 0,
+        "introduced_errors": 0,
+        "rescued": 0,
+        "delta_solved": 0.0,
+        "delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_status_changes": 0,
+        "success_status_change_wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "remove_level5_residual": {
+        "metrics": {
+          "n": 128,
+          "solved": 105,
+          "solved_rate": 0.8203125,
+          "cell_accuracy": 0.9792631172839507,
+          "valid_and_clues_rate": 0.8203125,
+          "malformed": 0
+        },
+        "changed_boards": 4,
+        "introduced_errors": 0,
+        "rescued": 0,
+        "delta_solved": 0.0,
+        "delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "success_status_changes": 0,
+        "success_status_change_wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      }
+    },
+    "residual_rms_per_batch": [
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413,
+      0.007872111164033413
+    ],
+    "intervention": "Replace the full residual contribution of VQ level 5 with zero before generation of finer levels; regenerate all downstream codes",
+    "caveat": "Selected after observing constant VQ codes; tests contribution of a common learned offset, not sample-specific information or metacognitive control."
+  },
+  "notes": [
+    "All counts describe offline decoder readouts, not an explicit grid state fed back to the generator.",
+    "Transition analyses count individual cells; inferential resampling must group by puzzle.",
+    "A prospective probe must exclude all step-9 codes, logits and decoded predictions if its observation time is before step 9.",
+    "This is post-hoc assessment of hypotheses; no confirmatory testing or causal learning-history conclusion."
+  ]
+}

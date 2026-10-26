@@ -1,0 +1,17 @@
+{
+  "stage": "frozen_after_development_pilot", "seed": 202610248, "bootstrap": 4000,
+  "fresh_n": 1024, "clues": 30, "batch_size": 16,
+  "causal_n": 128, "replication_n": 256, "benchmark_n": 64,
+  "benchmark_repeats": 3, "decoder_inner_repeats": 16,
+  "co_primary": ["mean within-puzzle target-writing advantage over local per-position norm-matched Gaussian perturbation > 0", "hard-checkpoint certificate acceptance fraction > 0.30"],
+  "primary_inference": "Two paired/source-puzzle percentile bootstrap 97.5% intervals (Bonferroni for two endpoints); 95% descriptive intervals; four thousand draws. No changes after fresh corpus generation.",
+  "tables": "Fit lookup per checkpoint using only original 1000 train puzzles, generated terminal codes and native decoder digits. Mapping for each code is argmax across digits 1..9. Writing alphabet per digit is code with maximal training count for that digit. Both fixed in discovery_tables.json before fresh data.",
+  "causal_cell": "One initially blank Sudoku cell per puzzle, uniformly chosen using seed+source_index; selection independent of final predictions or intervention outcomes.",
+  "causal_targets": "All digits 1..9; primary trials exclude target equal to pre-intervention native digit. Average within each source puzzle. Substitute that digit's frozen terminal code, keeping all other codes and levels unchanged.",
+  "causal_control": "Independent Gaussian directions at each full-resolution position, scaled to exactly the per-position L2 norms of the code-substitution latent delta; same support, including any convolutional neighbors. Not a distribution-matched codebook control.",
+  "certificate": "All 27 Sudoku units must contain 1..9, clues must be preserved, all separators fixed to 10. If lookup candidate passes return it, else run native decoder on identical single-puzzle latent input. Unique-solution theorem conditional on sound checker.",
+  "decoding_baseline": "Singleton decoder calls for both native baseline and fallback, with shared generated codes and z. Record agreement vs batched native prediction. End-to-end benchmark uses singleton native cached generator in both arms.",
+  "replications": "Easy/medium checkpoints on first 256 of the same fresh puzzles; per-checkpoint train lookup; correlated solution families, secondary.",
+  "benchmark": "CPU FP32 one thread, fixed first 64 fresh puzzles, no accept-based selection. Three randomized AB/BA paired repeats of full native generation plus decoder/shortcut; stage-only readout uses 16 inner repeats. Warmups excluded. Bootstrap by puzzle after averaging log latency ratios across repeats. Secondary timing evidence only.",
+  "scope": "Exploratory direction selected on old train/validation plus 32-puzzle causal pilot. New test generated only after freeze, excluding prior official/external/fresh family keys under audited D4/digit normalization. No training of NCM; no universal architecture, human-concept, arbitrary edit locality, or multicandidate reference theorem claim."
+}

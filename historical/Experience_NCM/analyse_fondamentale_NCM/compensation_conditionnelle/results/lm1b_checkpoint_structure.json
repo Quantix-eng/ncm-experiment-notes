@@ -1,0 +1,23 @@
+{
+  "checkpoint_keys": [
+    "model",
+    "inference"
+  ],
+  "inference": {
+    "token_unigram": {
+      "shape": [
+        30528
+      ],
+      "dtype": "torch.float32"
+    },
+    "level0_unigram": {
+      "shape": [
+        8192
+      ],
+      "dtype": "torch.float32"
+    }
+  },
+  "n_generator_parameters": 97065600,
+  "all_state_tensors_equal_checkpoint": true,
+  "shared_head_views_bound_to_loaded_biases": true
+}

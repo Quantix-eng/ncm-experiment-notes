@@ -1,0 +1,795 @@
+{
+  "status": "Executed second learned architecture, no mechanistic ground truth",
+  "families": 16,
+  "O": {
+    "A": {
+      "final_exact": 12,
+      "n": 16,
+      "exact_by_readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        8,
+        12,
+        12,
+        12
+      ],
+      "corrections_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        6,
+        5,
+        0,
+        0
+      ],
+      "degradations_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "B": {
+      "final_exact": 8,
+      "n": 16,
+      "exact_by_readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        7,
+        12,
+        9,
+        8
+      ],
+      "corrections_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        6,
+        7,
+        0,
+        0
+      ],
+      "degradations_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "Aplus": {
+      "final_exact": 13,
+      "n": 16,
+      "exact_by_readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        12,
+        13
+      ],
+      "corrections_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        5,
+        3,
+        2
+      ],
+      "degradations_by_transition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "C": {
+    "D": {
+      "mean": 0.0018111479795661339,
+      "ci95": [
+        0.0015017715564700459,
+        0.002076972100029986
+      ],
+      "ci_adjusted": [
+        0.0014152226118493102,
+        0.0021367292471446927
+      ],
+      "n_families": 16
+    },
+    "R": {
+      "mean": 0.007815550558070478,
+      "ci95": [
+        0.0023722643000271444,
+        0.013576775562381635
+      ],
+      "ci_adjusted": [
+        0.0008875752837409774,
+        0.015196742412956352
+      ],
+      "n_families": 16
+    },
+    "I": {
+      "mean": 0.0018195868855718535,
+      "ci95": [
+        0.0013037535313351288,
+        0.00230372241584893
+      ],
+      "ci_adjusted": [
+        0.001137425269272644,
+        0.0024206204804750973
+      ],
+      "n_families": 16
+    },
+    "S": {
+      "mean": 0.0016867040229958524,
+      "ci95": [
+        0.0009211052334024367,
+        0.0024652288986261833
+      ],
+      "ci_adjusted": [
+        0.0007011626504563265,
+        0.0026845909116732258
+      ],
+      "n_families": 16
+    },
+    "decision": "mean_frozen_damage_equivalent_within_prespecified_margin",
+    "margin_nats": 0.01,
+    "quality": {
+      "Y00": {
+        "n": 128,
+        "exact": 80
+      },
+      "Y10": {
+        "n": 128,
+        "exact": 80
+      },
+      "Y11": {
+        "n": 128,
+        "exact": 78
+      },
+      "Y01": {
+        "n": 128,
+        "exact": 78
+      },
+      "Y1wrong": {
+        "n": 128,
+        "exact": 78
+      }
+    },
+    "loss_by_condition": {
+      "Y00": 2.0310133005703834,
+      "Y10": 2.0328244485499494,
+      "Y11": 2.0250088979918788,
+      "Y01": 2.0250173368978843,
+      "Y1wrong": 2.026695602014875
+    }
+  },
+  "E": {
+    "input_effect": {
+      "mean": 3.7685706615448,
+      "ci95": [
+        1.2327059864997865,
+        6.39620446562766
+      ],
+      "ci_adjusted": [
+        0.5564782246947289,
+        7.114685346186174
+      ],
+      "n_families": 16
+    },
+    "state_effect": {
+      "mean": 0.3056666851043702,
+      "ci95": [
+        0.1942335665225984,
+        0.4240164041519166
+      ],
+      "ci_adjusted": [
+        0.1647044017910959,
+        0.4565165355801588
+      ],
+      "n_families": 16
+    },
+    "interaction": {
+      "mean": 0.01608228683471659,
+      "ci95": [
+        -0.21121108531951904,
+        0.22945898771285975
+      ],
+      "ci_adjusted": [
+        -0.27622337341308595,
+        0.28438988327980036
+      ],
+      "n_families": 16
+    },
+    "native_span": {
+      "mean": 4.07423734664917,
+      "ci95": [
+        1.4564555287361145,
+        6.7561845541000345
+      ],
+      "ci_adjusted": [
+        0.7889448225498199,
+        7.482321891188628
+      ],
+      "n_families": 16
+    },
+    "label_counts": {
+      "non_identifiable_native_anchor_failure": 8,
+      "input_dominant_response_preference_in_this_test": 8
+    },
+    "per_family": [
+      {
+        "source_id": "copy-000",
+        "native_exact_A": false,
+        "native_exact_B": false,
+        "input_effect": -2.724140167236328,
+        "state_effect": 0.336833953857422,
+        "interaction": -0.5032424926757812,
+        "native_span": -2.3873062133789062,
+        "input_ratio": 1.1410937365176457,
+        "interaction_ratio": 0.21079930586847934,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-001",
+        "native_exact_A": true,
+        "native_exact_B": false,
+        "input_effect": -0.6998519897460936,
+        "state_effect": 0.23767852783203114,
+        "interaction": -0.4161987304687502,
+        "native_span": -0.4621734619140625,
+        "input_ratio": 1.5142626035854598,
+        "interaction_ratio": 0.900524943048632,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-002",
+        "native_exact_A": false,
+        "native_exact_B": false,
+        "input_effect": -0.9257698059082031,
+        "state_effect": 0.4267158508300781,
+        "interaction": -0.09642791748046875,
+        "native_span": -0.499053955078125,
+        "input_ratio": 1.8550495321959273,
+        "interaction_ratio": 0.193221427261053,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-003",
+        "native_exact_A": true,
+        "native_exact_B": false,
+        "input_effect": 0.5885963439941404,
+        "state_effect": 0.21606063842773438,
+        "interaction": -0.01854705810546875,
+        "native_span": 0.8046569824218748,
+        "input_ratio": 0.7314872757613683,
+        "interaction_ratio": -0.023049645390070927,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-004",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 7.203155517578125,
+        "state_effect": 0.7345046997070312,
+        "interaction": -1.148590087890625,
+        "native_span": 7.937660217285156,
+        "input_ratio": 0.9074658426285918,
+        "interaction_ratio": -0.1447013422657523,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-005",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 9.018165588378906,
+        "state_effect": 0.3929443359375,
+        "interaction": 0.87530517578125,
+        "native_span": 9.411109924316406,
+        "input_ratio": 0.9582467595110954,
+        "interaction_ratio": 0.09300764551900922,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-006",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 14.40780258178711,
+        "state_effect": 0.3105278015136723,
+        "interaction": 0.5039443969726536,
+        "native_span": 14.718330383300781,
+        "input_ratio": 0.9789019682649608,
+        "interaction_ratio": 0.03423923664225,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-007",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 5.364627838134766,
+        "state_effect": 0.32112503051757835,
+        "interaction": 0.1881790161132808,
+        "native_span": 5.685752868652344,
+        "input_ratio": 0.9435211065384043,
+        "interaction_ratio": 0.0330965872876363,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-008",
+        "native_exact_A": true,
+        "native_exact_B": false,
+        "input_effect": 11.011356353759766,
+        "state_effect": 0.7913475036621094,
+        "interaction": -0.15193939208984375,
+        "native_span": 11.802703857421875,
+        "input_ratio": 0.9329520156379686,
+        "interaction_ratio": -0.012873269881655122,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-009",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 6.888427734375,
+        "state_effect": 0.147430419921875,
+        "interaction": 0.14727783203125,
+        "native_span": 7.035858154296875,
+        "input_ratio": 0.979045851026454,
+        "interaction_ratio": 0.02093246179804035,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-010",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 8.32626724243164,
+        "state_effect": 0.16127395629882812,
+        "interaction": 0.18044281005859375,
+        "native_span": 8.487541198730469,
+        "input_ratio": 0.9809987424481721,
+        "interaction_ratio": 0.02125972714990575,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-011",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 3.0709075927734375,
+        "state_effect": 0.28185272216796897,
+        "interaction": 0.2441253662109375,
+        "native_span": 3.3527603149414062,
+        "input_ratio": 0.9159341271990407,
+        "interaction_ratio": 0.07281324737799036,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-012",
+        "native_exact_A": true,
+        "native_exact_B": false,
+        "input_effect": 0.4636116027832029,
+        "state_effect": 0.13571548461914085,
+        "interaction": -0.11653900146484375,
+        "native_span": 0.5993270874023438,
+        "input_ratio": 0.7735535611991594,
+        "interaction_ratio": -0.1944497485837948,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-013",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "input_effect": 5.049625396728516,
+        "state_effect": 0.5688591003417969,
+        "interaction": -0.20079803466796875,
+        "native_span": 5.6184844970703125,
+        "input_ratio": 0.8987522167875659,
+        "interaction_ratio": -0.03573882508222143,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-014",
+        "native_exact_A": false,
+        "native_exact_B": false,
+        "input_effect": -2.6096420288085938,
+        "state_effect": -0.113311767578125,
+        "interaction": 0.4114532470703125,
+        "native_span": -2.7229537963867188,
+        "input_ratio": 0.9583864523413925,
+        "interaction_ratio": -0.15110548244200805,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "copy-015",
+        "native_exact_A": false,
+        "native_exact_B": false,
+        "input_effect": -4.136009216308594,
+        "state_effect": -0.05889129638671864,
+        "interaction": 0.3588714599609375,
+        "native_span": -4.1949005126953125,
+        "input_ratio": 0.9859612173856109,
+        "interaction_ratio": -0.0855494567451267,
+        "functional_label": "non_identifiable_native_anchor_failure",
+        "mechanistic_conclusion": "non_identified"
+      }
+    ],
+    "quality": {
+      "answer_change": {
+        "fixed_left": {
+          "n": 32,
+          "recipient_exact": 14,
+          "donor_exact": 16,
+          "other": 2,
+          "changed_from_native_recipient": 13
+        },
+        "fixed_right": {
+          "n": 32,
+          "recipient_exact": 13,
+          "donor_exact": 15,
+          "other": 4,
+          "changed_from_native_recipient": 13
+        },
+        "regenerated": {
+          "n": 32,
+          "recipient_exact": 19,
+          "donor_exact": 10,
+          "other": 3,
+          "changed_from_native_recipient": 1
+        },
+        "frozen_recipient_native": {
+          "n": 32,
+          "recipient_exact": 18,
+          "donor_exact": 11,
+          "other": 3,
+          "changed_from_native_recipient": 2
+        },
+        "frozen_donor_native": {
+          "n": 32,
+          "recipient_exact": 9,
+          "donor_exact": 20,
+          "other": 3,
+          "changed_from_native_recipient": 24
+        }
+      },
+      "answer_preserve": {
+        "fixed_left": {
+          "n": 32,
+          "recipient_exact": 24,
+          "donor_exact": 24,
+          "other": 8,
+          "changed_from_native_recipient": 3
+        },
+        "fixed_right": {
+          "n": 32,
+          "recipient_exact": 27,
+          "donor_exact": 27,
+          "other": 5,
+          "changed_from_native_recipient": 4
+        },
+        "regenerated": {
+          "n": 32,
+          "recipient_exact": 25,
+          "donor_exact": 25,
+          "other": 7,
+          "changed_from_native_recipient": 2
+        },
+        "frozen_recipient_native": {
+          "n": 32,
+          "recipient_exact": 26,
+          "donor_exact": 26,
+          "other": 6,
+          "changed_from_native_recipient": 1
+        },
+        "frozen_donor_native": {
+          "n": 32,
+          "recipient_exact": 25,
+          "donor_exact": 25,
+          "other": 7,
+          "changed_from_native_recipient": 6
+        }
+      }
+    },
+    "answer_preserving": [
+      {
+        "source_id": "copy-000",
+        "recipient": 0,
+        "nll_difference": -0.09906867474604164,
+        "probability_TV": 0.06389511302487978,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-000",
+        "recipient": 1,
+        "nll_difference": -0.022143973696759023,
+        "probability_TV": 0.06616271122304543,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-001",
+        "recipient": 0,
+        "nll_difference": 0.058572534140098,
+        "probability_TV": 0.04589039250568303,
+        "argmax_changed": true
+      },
+      {
+        "source_id": "copy-001",
+        "recipient": 1,
+        "nll_difference": 0.006566415875729259,
+        "probability_TV": 0.03760589399558124,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-002",
+        "recipient": 0,
+        "nll_difference": 0.08934429609998373,
+        "probability_TV": 0.04311615186005721,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-002",
+        "recipient": 1,
+        "nll_difference": -0.12425592627538151,
+        "probability_TV": 0.053642454340003684,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-003",
+        "recipient": 0,
+        "nll_difference": -0.030104383743127405,
+        "probability_TV": 0.03230074911602341,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-003",
+        "recipient": 1,
+        "nll_difference": -0.06466414968132206,
+        "probability_TV": 0.04297590187326257,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-004",
+        "recipient": 0,
+        "nll_difference": 0.023461592420394695,
+        "probability_TV": 0.05300400681297008,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-004",
+        "recipient": 1,
+        "nll_difference": 0.04610750918371265,
+        "probability_TV": 0.05876196887783561,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-005",
+        "recipient": 0,
+        "nll_difference": 0.11931349584282236,
+        "probability_TV": 0.041917213204626644,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-005",
+        "recipient": 1,
+        "nll_difference": -0.09676750960068725,
+        "probability_TV": 0.04158662434699961,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-006",
+        "recipient": 0,
+        "nll_difference": 0.01422466474930606,
+        "probability_TV": 0.03615819904236048,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-006",
+        "recipient": 1,
+        "nll_difference": -0.11811817691420567,
+        "probability_TV": 0.05903264619000319,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-007",
+        "recipient": 0,
+        "nll_difference": 0.09504575388725378,
+        "probability_TV": 0.03107937864839114,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-007",
+        "recipient": 1,
+        "nll_difference": -0.1253200463997497,
+        "probability_TV": 0.03436942458538505,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-008",
+        "recipient": 0,
+        "nll_difference": 0.28464592957083346,
+        "probability_TV": 0.06572691487764894,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-008",
+        "recipient": 1,
+        "nll_difference": -0.44583328621849283,
+        "probability_TV": 0.06949661192575488,
+        "argmax_changed": true
+      },
+      {
+        "source_id": "copy-009",
+        "recipient": 0,
+        "nll_difference": 0.05647896778529082,
+        "probability_TV": 0.027896109359028077,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-009",
+        "recipient": 1,
+        "nll_difference": -0.060503284777487565,
+        "probability_TV": 0.029868286978663713,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-010",
+        "recipient": 0,
+        "nll_difference": 0.1352816420470806,
+        "probability_TV": 0.04936485875188942,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-010",
+        "recipient": 1,
+        "nll_difference": -0.23651819259518825,
+        "probability_TV": 0.06648404779867143,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-011",
+        "recipient": 0,
+        "nll_difference": 0.10066072287039063,
+        "probability_TV": 0.03516773262297149,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-011",
+        "recipient": 1,
+        "nll_difference": -0.17298264715343348,
+        "probability_TV": 0.05008527715051863,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-012",
+        "recipient": 0,
+        "nll_difference": 0.09704410852218737,
+        "probability_TV": 0.049031189035573824,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-012",
+        "recipient": 1,
+        "nll_difference": -0.22223113200485045,
+        "probability_TV": 0.05921889661703619,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-013",
+        "recipient": 0,
+        "nll_difference": 0.04734998836623161,
+        "probability_TV": 0.04124366772205076,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-013",
+        "recipient": 1,
+        "nll_difference": -0.09643716572383321,
+        "probability_TV": 0.04386041135483793,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-014",
+        "recipient": 0,
+        "nll_difference": -0.2511634509824394,
+        "probability_TV": 0.04286303475455361,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-014",
+        "recipient": 1,
+        "nll_difference": 0.16973464308345276,
+        "probability_TV": 0.18364469494572527,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-015",
+        "recipient": 0,
+        "nll_difference": -0.20446969844058493,
+        "probability_TV": 0.031439277215836225,
+        "argmax_changed": false
+      },
+      {
+        "source_id": "copy-015",
+        "recipient": 1,
+        "nll_difference": 0.14084231384493773,
+        "probability_TV": 0.10347354561354187,
+        "argmax_changed": false
+      }
+    ]
+  },
+  "scope": "Within-forward next-token computation; recipient retains earlier-position context; no emitted-past revision"
+}

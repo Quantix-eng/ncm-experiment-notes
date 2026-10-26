@@ -1,0 +1,20 @@
+{
+  "parent_manifest_sha256": "54cc9919afc8de6a92362d196429c7faf0a9c891ad6e53a35a3e571ac806100c",
+  "files": {
+    "results/hard.npz": "65e9e3eca02e5b9d6327eef2ddcc357ce5981ee074ff6b9dd809a5f0806977be",
+    "results/easy.npz": "20f543cc747a89bfb98b296b17ba9d3025c5096d9c132a79abd224d93ec1b3fc",
+    "results/medium.npz": "9a55a57826f7fc13918731f02955531a82b7b5c16ba914669299a46b35767241",
+    "results/splits.json": "f92bf995a0417fbacdd8eb706f27f69725d41fe40f5dc6f3326eaf4b91af0e4b",
+    "scripts/extract.py": "d8aff0a8425badcd64e2adccc7e3130bd844428933f27316412583f7922425c9",
+    "scripts/common.py": "005b8d3957a27bf03fc606ec053157fb7db08062fd6b615e17a102ab961b5184",
+    "vendor/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "vendor/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76",
+    "vendor/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "vendor/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "vendor/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "artifacts/sudoku/hard/config.yaml": "8d58c49e6fe52e60191e06df4061937d5bb84f97c5ffbcd93ed9830c32f8df2f",
+    "artifacts/sudoku/hard/tokenizer.pt": "3bc6aecad8e15820f9d9bb09750e3c59bdf91ca953f1f11dbd109aaed1d80c0b",
+    "artifacts/sudoku/hard/generator.pt": "9e0bfe44abc1ca3930b7a63cd56cd0b9564b95e29edfe12dd0903207b89df8b8",
+    "sources/paper.txt": "82db3be218544c1d0717ed921204cdfb68e43945116498596cda62daa748423f"
+  }
+}

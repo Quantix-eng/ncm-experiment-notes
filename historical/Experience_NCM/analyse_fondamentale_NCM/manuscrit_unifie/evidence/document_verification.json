@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-25",
+  "scope": "Document assembly, pointer consistency and file integrity only; no model execution, bootstrap or scientific replication",
+  "mode": "copies plus original workspace",
+  "groups": {
+    "historical_manifests": 8,
+    "copied_artifacts": 335,
+    "original_artifacts": 335,
+    "compact_archives": 44,
+    "original_trace_archives": 22,
+    "verbatim_trace_members": 343,
+    "number_sources": 149,
+    "number_pointers": 149,
+    "document_numbers": 108,
+    "raw_latex_blocks": 3,
+    "rendered_documents": 2,
+    "claim_record_links": 49,
+    "claim_code_links": 34,
+    "claim_trace_links": 26,
+    "claim_section_links": 14,
+    "claim_mentions": 14,
+    "unmodified_official_style": 7,
+    "document_only_imports": 7,
+    "latex": 3,
+    "pdf": 1,
+    "navigation_links": 118
+  },
+  "software_assertions": 1771,
+  "original_checks_skipped": [],
+  "pdf_sha256": "7337486f029653276f5ec21bde92c74d5e67a5c1d507c864f8b5b7d98bda90ab",
+  "not_established": [
+    "Scientific validity or novelty",
+    "Absence of all research selection or p-hacking",
+    "Independent replication",
+    "Any new model result"
+  ]
+}

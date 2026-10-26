@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "entries": [
+    {
+      "family": 0,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 0,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 0,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 1,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 1,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 1,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 2,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 2,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 2,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 3,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 3,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 3,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 4,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 4,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 4,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 5,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 5,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 5,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 6,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 6,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 6,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 7,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 7,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 7,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 8,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 8,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 8,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 9,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 9,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 9,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 10,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 10,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 10,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 11,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 11,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 11,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 12,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 12,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 12,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 13,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 13,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 13,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 14,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 14,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 14,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 15,
+      "variant": 0,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 15,
+      "variant": 1,
+      "status": "bitwise_native_and_sham_passed"
+    },
+    {
+      "family": 15,
+      "variant": 2,
+      "status": "bitwise_native_and_sham_passed"
+    }
+  ]
+}

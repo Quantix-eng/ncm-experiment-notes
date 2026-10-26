@@ -1,0 +1,110 @@
+{
+  "easy_on_easy": {
+    "n": 256,
+    "solved": 255,
+    "solved_rate": 0.99609375,
+    "cell_accuracy": 0.9998553240740741,
+    "valid_and_clues_rate": 0.99609375,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9782090246194175,
+      0.9993101178330381
+    ]
+  },
+  "easy_on_medium": {
+    "n": 256,
+    "solved": 227,
+    "solved_rate": 0.88671875,
+    "cell_accuracy": 0.9907889660493827,
+    "valid_and_clues_rate": 0.88671875,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.842043833343102,
+      0.9199592777025132
+    ]
+  },
+  "easy_on_hard": {
+    "n": 256,
+    "solved": 114,
+    "solved_rate": 0.4453125,
+    "cell_accuracy": 0.9281442901234568,
+    "valid_and_clues_rate": 0.4453125,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.38568587527356124,
+      0.5065561090230184
+    ]
+  },
+  "medium_on_easy": {
+    "n": 256,
+    "solved": 252,
+    "solved_rate": 0.984375,
+    "cell_accuracy": 0.9998070987654321,
+    "valid_and_clues_rate": 0.984375,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9605207372908033,
+      0.9939074017966336
+    ]
+  },
+  "medium_on_medium": {
+    "n": 256,
+    "solved": 246,
+    "solved_rate": 0.9609375,
+    "cell_accuracy": 0.9977334104938271,
+    "valid_and_clues_rate": 0.9609375,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9296001682001327,
+      0.9786459641572671
+    ]
+  },
+  "medium_on_hard": {
+    "n": 256,
+    "solved": 170,
+    "solved_rate": 0.6640625,
+    "cell_accuracy": 0.9640239197530864,
+    "valid_and_clues_rate": 0.6640625,
+    "malformed": 1,
+    "solved_wilson95": [
+      0.6041573113671239,
+      0.719116735743137
+    ]
+  },
+  "hard_on_easy": {
+    "n": 256,
+    "solved": 256,
+    "solved_rate": 1.0,
+    "cell_accuracy": 1.0,
+    "valid_and_clues_rate": 1.0,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9852161435741286,
+      0.9999999999999999
+    ]
+  },
+  "hard_on_medium": {
+    "n": 256,
+    "solved": 253,
+    "solved_rate": 0.98828125,
+    "cell_accuracy": 0.9991801697530864,
+    "valid_and_clues_rate": 0.98828125,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.9661184273321177,
+      0.9960067128769923
+    ]
+  },
+  "hard_on_hard": {
+    "n": 256,
+    "solved": 221,
+    "solved_rate": 0.86328125,
+    "cell_accuracy": 0.9856770833333334,
+    "valid_and_clues_rate": 0.86328125,
+    "malformed": 0,
+    "solved_wilson95": [
+      0.8157948225987579,
+      0.9000262817168199
+    ]
+  }
+}

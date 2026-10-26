@@ -1,0 +1,26 @@
+{
+  "easy": {
+    "n": 16,
+    "codes_equal": true,
+    "outputs_equal": true,
+    "logits_max_abs": 0.0,
+    "code_disagreements": 0,
+    "output_disagreements": 0
+  },
+  "medium": {
+    "n": 16,
+    "codes_equal": true,
+    "outputs_equal": true,
+    "logits_max_abs": 0.0,
+    "code_disagreements": 0,
+    "output_disagreements": 0
+  },
+  "hard": {
+    "n": 16,
+    "codes_equal": true,
+    "outputs_equal": true,
+    "logits_max_abs": 0.0,
+    "code_disagreements": 0,
+    "output_disagreements": 0
+  }
+}

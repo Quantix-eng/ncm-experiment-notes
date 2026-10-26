@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "pdf_sha256": "7337486f029653276f5ec21bde92c74d5e67a5c1d507c864f8b5b7d98bda90ab",
+  "pages": 14,
+  "main_and_references_pages": 7,
+  "supplement_pages": 7,
+  "visual_review": "All 14 rendered pages reviewed through contact sheets, with full-page inspection of the opening schematic and terminal-intervention/readout page. No observed clipping, overlap, malformed LaTeX block or illegible primary figure in the final layout.",
+  "corrections": [
+    "Raw table environment escaped by Markdown corrected before final rendering",
+    "Primary intervention figure enlarged",
+    "Pooling and repair diagnostic images enlarged",
+    "Conceptual figure uses numbered annotations rather than ambiguous crossed connectors"
+  ],
+  "scope": "Document appearance and readability only; not independent scientific review or an experimental check."
+}

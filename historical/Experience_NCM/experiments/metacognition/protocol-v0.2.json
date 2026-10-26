@@ -1,0 +1,103 @@
+{
+  "version": "0.2",
+  "date": "2026-10-23",
+  "status": "design_specification_before_NCM_trace_extraction_not_preregistered",
+  "task": "sudoku-hard",
+  "reference": {"device": "cpu", "dtype": "float32", "batch_size": 8, "threads": 4, "temperature": 0},
+  "level_numbering": "one_based_generation_levels_distinct_from_zero_based_Transformer_blocks",
+  "primary_level": 9,
+  "secondary_levels": [3, 6, 11],
+  "level_lengths": [1, 2, 4, 6, 9, 13, 18, 26, 37, 50, 67, 89],
+  "target": "final_exact_failure_equals_one",
+  "split": {"unit": "solution_group", "fractions": [0.5, 0.25, 0.25], "stratify": "historical_exact_failure", "seed": 20261023, "materialized": false},
+  "hidden_readout": {
+    "module": "net.transformer.blocks[7]",
+    "point": "block_output_before_transformer.ln_f",
+    "call": "generation_call_for_current_level_only_skip_prefix_prefill",
+    "positions": "all_current_level_target_positions_excluding_all_prefix_tokens",
+    "tensor_shape": "batch_by_level_length_by_512",
+    "capture_dtype": "original_float32_cloned_without_mutating_model",
+    "aggregation_dtype": "float64_after_capture",
+    "pooling": ["mean_over_target_positions_per_channel", "population_standard_deviation_over_target_positions_per_channel_ddof_0"],
+    "flattened_dimension": 1024,
+    "reduction": {"method": "PCA_after_training_only_channel_standardization", "components": 16, "fit_scope": "training_fold_only_then_full_training_for_final_model", "component_sign": "largest_absolute_loading_positive", "score_scaling": "training_only_mean_and_population_std"}
+  },
+  "feature_schema": {
+    "diagnostic_softmax_temperature": 1.0,
+    "scalar_summary": ["mean", "population_std_ddof_0", "quantile_0.1", "quantile_0.5", "quantile_0.9"],
+    "quantile_interpolation": "linear",
+    "probability_log_floor": 1e-12,
+    "cell_positions": "i in 0..88 with i modulo 10 != 9; expected row separators at modulo 10 == 9",
+    "puzzle": ["81_cell_token_ids_one_hot_0_to_9", "row_column_box_clue_counts_divided_by_9", "given_digit_frequencies_divided_by_30"],
+    "summary_each_level_up_to_current": [
+      "scalar_summary_of_code_entropy_divided_by_log_16",
+      "scalar_summary_of_code_top1_minus_top2_probability_margin",
+      "scalar_summary_of_code_max_probability",
+      "scalar_summary_of_selected_code_log_probability",
+      "scalar_summary_of_decoder_entropy_divided_by_log_12_on_51_initially_blank_cells",
+      "scalar_summary_of_decoder_top1_minus_top2_probability_margin_on_51_initially_blank_cells",
+      "scalar_summary_of_decoder_max_probability_on_51_initially_blank_cells",
+      "scalar_summary_of_probability_of_given_value_on_30_clue_cells",
+      "scalar_summary_of_probability_of_separator_token_10_at_8_expected_separator_positions",
+      "invalid_digit_count_at_81_expected_cell_positions_divided_by_81",
+      "invalid_separator_count_at_8_expected_separator_positions_divided_by_8",
+      "violated_clue_count_divided_by_30",
+      "duplicate_digit_pair_counts_for_rows_columns_boxes_separately_each_divided_by_324",
+      "valid_format_and_sudoku_constraints_and_clues_boolean",
+      "fraction_changed_initially_blank_cells_since_previous_level",
+      "fraction_changed_clue_cells_since_previous_level",
+      "previous_level_available_boolean_first_level_changes_zero"
+    ],
+    "duplicate_pairs": "sum over units and digits 1..9 of count*(count-1)/2; invalid tokens counted separately",
+    "rich_extra_features": [
+      "all_decoder_probabilities_at_current_level_89_positions_by_12_tokens",
+      "all_code_probabilities_for_each_level_1_through_current_in_level_position_token_order",
+      "decoded_token_one_hot_0_through_11_at_all_89_positions_for_every_level_up_to_current"
+    ],
+    "forbidden_predictors": ["gold_solution", "historical_success_label", "final_or_future_state", "gold_current_cell_error_indicator", "full_run_timing"]
+  },
+  "models": {
+    "constant": "training_failure_rate",
+    "puzzle": "puzzle_features_only",
+    "summary": "puzzle_and_all_defined_summary_features_up_to_current",
+    "rich": "summary_plus_all_defined_rich_extra_features",
+    "rich_hidden_primary": "rich_plus_16_hidden_PCA_coordinates",
+    "rich_noise_control": "rich_plus_16_independent_standard_normal_features_seed_20261024",
+    "hidden_shuffle_control": "permute_hidden_rows_within_each_partition_and_same_level_seed_20261025; diagnostic_not_a_conditional_independence_test"
+  },
+  "fit": {
+    "family": "binary_logistic_regression",
+    "objective": "mean_binary_cross_entropy_plus_lambda_times_squared_L2_weight_norm_divided_by_2",
+    "intercept_penalized": false,
+    "lambda_grid": [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0],
+    "preprocessing": "remove_training_constant_columns_then_training_mean_population_std_scaling; recompute_within_each_CV_fold",
+    "cv": "5_folds_stratified_by_failure_grouped_by_solution_within_training_only_seed_20261026",
+    "selection": "lowest_mean_validation_log_loss_ties_within_1e-8_choose_larger_lambda",
+    "optimizer": "torch.optim.LBFGS_float64_CPU",
+    "optimizer_settings": {"lr": 1.0, "max_iter": 500, "tolerance_grad": 1e-7, "tolerance_change": 1e-9, "line_search_fn": "strong_wolfe"},
+    "class_weight": "none_natural_failure_prevalence",
+    "failure_policy": "report_nonconvergence_or_nonfinite_values; no_test_driven_tuning",
+    "posthoc_calibration": "Platt_logistic_on_frozen_predictor_logit_using_calibration_partition_only_with_L2_lambda_0.001; report_raw_and_calibrated; AUC_uses_raw_logit"
+  },
+  "evaluation": {
+    "primary": "paired_AUC_difference_rich_hidden_primary_minus_rich_on_final_failure_at_level_9",
+    "test_scope": "held_out_solution_groups_not_used_to_choose_level_features_lambda_or_calibration",
+    "interval": "stratified_paired_percentile_bootstrap_within_failure_success_solution_groups_5000_replicates_seed_20261027",
+    "confidence_level": 0.95,
+    "secondary": ["failure_AUPRC", "Brier_failure_probability", "reliability_diagram_10_fixed_equal_width_bins", "risk_coverage", "secondary_levels", "future_cell_correction"],
+    "practical_delta_reference": 0.03,
+    "interpretation": "separate_CI_evidence_above_zero_from_point_estimate_at_least_0.03; no_80_percent_power_claim_for_combined_rule_at_true_delta_0.03",
+    "training_variability": "test_bootstrap_is_conditional_on_fitted_predictors; separate_training_resampling_sensitivity_required_before_confirmation",
+    "negative_result": "CI_upper_below_0.03_limits_useful_gain_for_this_probe; interval_spanning_0.03_is_inconclusive_about_useful_gain"
+  },
+  "confirmation": {
+    "status": "planned_not_generated",
+    "source": "fresh_randomized_backtracking_complete_grids_then_uniqueness_preserving_clue_removal_to_30; record_generator_version_seeds_rejections_and_solver_solution_count_capped_at_2",
+    "independence": "exclude_exact_solution_overlap_and_known_transformations_with_development_groups; do_not_claim_exhaustive_isomorphism_or_pretraining_contamination_audit",
+    "reservation": "freeze_and_hash_candidate_puzzles_solutions_and_selection_rule_before_confirmatory_NCM_scoring; do_not_select_on_NCM_success",
+    "size": "choose_from_design_sensitivity_and_training_only_estimates_after_explicit_compute_budget; if_target_power_not_feasible_keep_exploratory_status",
+    "caution": "new_generation_distribution_is_external_validation_not_guaranteed_official_IID; failure_prevalence_unknown",
+    "freeze": "predictors_and_metrics_locked_before_confirmation; no_optional_stopping_or_outcome_driven_sample_extension"
+  },
+  "scope": "this_specification_does_not_implement_extract_fit_confirm_or_modify_reference_inference"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "training-only damage calibration and descriptive decoder ablation; no external stress experiment",
+  "selected_count": null,
+  "stop_gate_respected": true,
+  "n": 128,
+  "pilot_sha256": "8b8c14ad049ea9fac01825ac3bfb045e538a8719caf0cbb6368cdd111b8f1a23",
+  "codec_sha256": "83a5f3617f68e48a3a4e3f44f6d44ed9f3f7686bb180d2c33cf09ca3f0242fa7",
+  "no_refit_or_generation": true
+}

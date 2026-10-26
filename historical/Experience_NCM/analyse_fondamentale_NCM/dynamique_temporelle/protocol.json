@@ -1,0 +1,13 @@
+{
+  "version": 1, "seed": 106127, "batch_size": 16, "bootstrap": 2000,
+  "intervention_n": 128, "susceptibility_n": 64,
+  "omit_levels": [8,9,10,11,12],
+  "reader_gamma": [0.0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,1.0],
+  "continuation_gamma": [0.0,0.5,1.0,1.5],
+  "susceptibility_strengths": [0.01,0.05],
+  "susceptibility_seeds": [106128,106129,106130],
+  "primary_observation": "Rate of cells incorrect at 8 and corrected at 9 that become incorrect again at any native level 10..12, paired by puzzle; strict locking is refuted by a native counterexample.",
+  "secondary_acceleration": "Test-puzzle mean of net correctness gain 8->9 minus mean net gains 7->8 and 9->10; paired puzzle bootstrap.",
+  "curve_fits": "Descriptive continuous piecewise-linear least-squares fits on 12 points; internal knots 3..10, separately against step and cumulative generated-code count. Bootstrap knot preferences, not phase-transition significance.",
+  "scope": "Exploratory second direction; all existing datasets already inspected in previous campaigns. No proof of thermodynamic phase transition from finite fixed-depth checkpoints."
+}

@@ -1,0 +1,15 @@
+{
+  "attempts": 32,
+  "caveat": "Randomized backtracking plus greedy clue removal is not uniform and may differ from official distribution; no exhaustive isomorphism or pretraining-contamination exclusion",
+  "independent_exact_cover_uniqueness_verified": true,
+  "n": 32,
+  "ncm_inference": false,
+  "nm_clues": 30,
+  "purpose": "technical generator pilot, not scored confirmation",
+  "puzzles_sha256": "43b4ff41dd28a52658b8cb9c463dc6462c60794d3aedf2be4c9092825af81dae",
+  "rejections": [],
+  "seed": 20261030,
+  "source_sha256": "ae597c3dc6bde5fc6a98b5876dba3b619c24d3eb1a34d0ef3e88b96b3b79c595",
+  "status": "complete",
+  "wall_seconds": 1.87422566593159
+}

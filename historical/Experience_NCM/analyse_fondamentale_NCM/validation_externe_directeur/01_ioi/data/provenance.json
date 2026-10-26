@@ -1,0 +1,9 @@
+{
+  "dataset": "mib-bench/ioi",
+  "revision": "e5f3468f3af4c0883be35cd3bced8c711c95d286",
+  "source": "https://huggingface.co/datasets/mib-bench/ioi",
+  "files": {
+    "official_test.json": "030354654ea1b0b0147eb07f427be0f1ac71beed63a784a76d1581f52e722ebc",
+    "official_dev.json": "721d6e7a26962c9cc3008029c7327522cb72b9b03e1fa7a9c2da51ab86372c72"
+  }
+}

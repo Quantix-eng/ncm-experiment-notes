@@ -1,0 +1,14 @@
+{
+  "cut_block": 6,
+  "seed": 20261025,
+  "families": 16,
+  "delta_relative_norm": 0.1,
+  "margin_nats": 0.01,
+  "bootstrap_samples": 20000,
+  "input_ratio_threshold": 0.8,
+  "state_ratio_threshold": 0.2,
+  "span_min": 0.1,
+  "interaction_ratio_max": 0.2,
+  "replay_audit_families": 2,
+  "scope": "Within-forward next-token computation; recipient retains earlier-position context; no emitted-past revision"
+}

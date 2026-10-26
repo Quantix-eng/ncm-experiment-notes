@@ -1,0 +1,108 @@
+{
+  "status": "complete",
+  "utc": "2026-10-24T12:10:18.197875+00:00",
+  "scope": "local native study and stopped training-only stress follow-up",
+  "environment": {
+    "python": "3.13.1 (main, Dec  3 2024, 17:59:52) [Clang 16.0.0 (clang-1600.0.26.4)]",
+    "torch": "2.8.0",
+    "numpy": "2.5.4",
+    "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+    "inference": "CPU FP32,4 threads,batch8"
+  },
+  "units": {
+    "new_unique_puzzles": 2000,
+    "causal_subset_puzzles": 1500,
+    "training_stress_puzzles": 128,
+    "new_external_stress_puzzles": 0
+  },
+  "primary_prediction": {
+    "delta": -0.0031582299781945356,
+    "interval_97_5": [
+      -0.008631291048452285,
+      0.0016051541530678988
+    ],
+    "mixed_puzzles": 258,
+    "paired_sd": 0.0361939442538861
+  },
+  "primary_causal": {
+    "active_resolutions": 1296,
+    "adaptive_only": 4,
+    "blank_accuracy_gain": 0.00019607843137254898,
+    "blank_accuracy_interval_95": [
+      -0.0002614379084967319,
+      0.000627450980392157
+    ],
+    "compensation_interval_95": [
+      0.23543025527893915,
+      0.2715688855641375
+    ],
+    "compensation_mean": 0.2535342072671254,
+    "cosine_mean": 0.15748662252355944,
+    "fixed_only": 2,
+    "fixed_resolutions": 1294,
+    "forced_code_probability_mean": 0.06862491813953363,
+    "interval_97_5": [
+      -0.002,
+      0.005333333333333333
+    ],
+    "lost_clean_success": 2,
+    "mean_future_codes_changed": 2.9993333333333334,
+    "recovered_from_clean_failure": 5,
+    "relative_final_latent_norm_mean": 1.5522130559309322,
+    "resolution_gain": 0.0013333333333333333
+  },
+  "stress_status": "stop_insufficient_damage_before_new_corpus",
+  "tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests",
+    "last_observed_passed": 29
+  },
+  "numerical_replay_status": "passed",
+  "previous_consolidation_status": "passed",
+  "evidence_sha256": {
+    "audit/metacognition/native-dynamics-v1/lock.json": "5a027e0e3d45bc3f0498eb3a3efbb8d21d26e851cbe5111ba1c1674d825ce96e",
+    "audit/metacognition/native-dynamics-v1/technical.json": "f449e2f998b20ab51fd9dc552fe651e6e4b97f3fafe6f09492b39cd28f7f8f66",
+    "audit/metacognition/native-dynamics-v1/technical-replication-final-source/technical.json": "6cc399e8cd875020a3a92c33710a1bf250703879d6c65ef9d23fd72d0f5d9002",
+    "audit/metacognition/native-dynamics-v1/training/report.json": "aff9dcde61efb517fc2052e6fd8bc1e9645159f2f2f46322a9d1ad318ba2b74e",
+    "audit/metacognition/native-dynamics-v1/fit.json": "8da4f6de102733495003e07295b051da3fa266d222ad1cccb9090d77ab3b6635",
+    "audit/metacognition/native-dynamics-v1/external/manifest.json": "a5b6b50c3fa2c3c56119b9d2f28f852b9eada2ead28a719a3e3213f5692d8b37",
+    "audit/metacognition/native-dynamics-v1/external/traces/report.json": "9a03750641142e35cb6eff996cef57d947801ccefe60bc9c69e4153ea51bc7cd",
+    "audit/metacognition/native-dynamics-v1/external/analysis/report.json": "01763521f105e00a2c83560e35783a5d6cd118cbce3a381d4d3ff3186e326092",
+    "audit/metacognition/native-dynamics-v1/causal/report.json": "7949b996569efb7b1802d2c844103932823c37632ab573f987a9fca7fc9f6a60",
+    "audit/metacognition/native-dynamics-v1/causal/descriptive-diagnostics.json": "93a8ecf407ead248810a96044f83e10f7e267669b4f39351fac17a54eeb6c0c4",
+    "audit/metacognition/native-dynamics-v1/verification.json": "a8e22f0b5aa5693847f78347451edfab8e4fedb60aff60a91c57329090ae7b49",
+    "audit/metacognition/native-dynamics-v1/verification-attempt-01.json": "34be4d2b02d85603a6365a66a7c709d348c04928c1891493b19807da9f2adefa",
+    "audit/metacognition/native-dynamics-v1/resource-observations.json": "071cd35a50e180100861128533b393d97efa24049b6c24ba394264aa388ecb12",
+    "audit/metacognition/native-dynamics-v1/storage-compression.json": "d29431a7dc134cc94f3a99d26e3af4fb78456ff42276a3f85625cfc701b75a81",
+    "audit/metacognition/native-stress-v1/pilot.json": "8b8c14ad049ea9fac01825ac3bfb045e538a8719caf0cbb6368cdd111b8f1a23",
+    "audit/metacognition/native-stress-v1/codec-training.json": "83a5f3617f68e48a3a4e3f44f6d44ed9f3f7686bb180d2c33cf09ca3f0242fa7",
+    "audit/metacognition/native-stress-v1/verification.json": "c712afa2f208de606996cdef01150d5de1292dbd1a4add5d60b4440a514c6f0c",
+    "audit/metacognition/consolidation-v1.json": "2dcce429631278e78bcca66b7d39eff05ce1a97bfb1fd0f3f81c250a83b002ca"
+  },
+  "documentation_sha256": {
+    "RAPPORT_DYNAMIQUE_NATIVE.md": "aace2cf246e58273734e8cdb32723ff7f58c32d10f0debe344d3dbbf7592cf30",
+    "SYNTHESE_METACOGNITION.md": "6fbdda2507ef6dd4f3dd62df28f41e1641c457dcb3651314be0fbfbd3a838eb3",
+    "PLAN_RECHERCHE_METACOGNITION.md": "e1493a7d9b095eff056ce6006ed4fb7646759882f37b583d46e2f297c0636552",
+    "FEUILLE_DE_ROUTE.md": "75460eb198b6ea7a39ca64b2bd2cbf5a58482ab423e124eb86611552e6a823a1",
+    "ANALYSE_CRITIQUE_SYNTHESE.md": "f98eb31da9794536ff9caa6fc607b42f05cc277968bfa5ff2d058c7cc6228807",
+    "experiments/metacognition/dynamics/README.md": "af293f2d4c3e43f60c0f3e0a1a031fc70d81798a821a96e0e7e03465703496bf",
+    "experiments/metacognition/dynamics_stress/README.md": "ee47347364cee06720ea11739df3590038bec5ab453eec63154b12f7de39ab9a"
+  },
+  "additional_source_sha256": {
+    "scripts/verify_native_dynamics_bounded.py": "feb0c9b08359d4804292075fd7f17cbfda83d6e829e887428cfe4309736866f5",
+    "scripts/summarize_native_dynamics_diagnostics.py": "20c9edcd27e46af348b56265497ef7c82a975159360e6c5a89016fe143e4ceda",
+    "scripts/diagnose_native_codec.py": "9d604652293b0850f0500c8aad4f553df9145ddae1da67f45ebe285ad537f2cd",
+    "scripts/close_native_campaign.py": "6c5c9e0a05473b1c49b9593b56906439c8bf5094bc308095291174d7c336314a",
+    "tests/test_native_dynamics.py": "0a16eacef6e1c4d8fd70f585eeda565b96ed475d5dcb427f09c4191b7383acea"
+  },
+  "free_disk_bytes_at_close": 8370044928,
+  "conclusion": "No useful improvement from selected dynamic readout; directional compensation under weak code perturbations, functional benefit not established; native metacognition not demonstrated.",
+  "caveats": [
+    "fixed-predictor intervals",
+    "oracle current-error cohort",
+    "generated distribution",
+    "weak functional stress",
+    "training-only posthoc dose/decoder diagnostics",
+    "no native second-order monitoring identification",
+    "system resource pressure"
+  ]
+}

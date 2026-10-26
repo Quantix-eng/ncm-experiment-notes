@@ -1,0 +1,47 @@
+{
+  "version": "1.2",
+  "created_utc": "2026-10-25T17:44:51.339077+00:00",
+  "model": "EleutherAI/pythia-160m",
+  "model_revision": "50f5173d932e8e61f858120bcb800b97af589f46",
+  "dataset": "Salesforce/wikitext",
+  "config": "wikitext-2-raw-v1",
+  "sampling": "one first-33-token window per eligible nonduplicate row, deterministic random sample without replacement",
+  "dev": "128 official validation rows",
+  "test": "512 official test rows",
+  "length_context": 32,
+  "target": "token33",
+  "layers": [
+    11
+  ],
+  "heads": [
+    2,
+    10
+  ],
+  "donors_per_sequence": 2,
+  "conditions": [
+    "Y00",
+    "Y10",
+    "Y11",
+    "Y01",
+    "Y1wrong"
+  ],
+  "readout_contrast": "same residual crossed with native / own-corruption / other-donor final-LN denominator",
+  "neural_continuation": "empty after final parallel attention contribution; MLP independent of intervention",
+  "metrics": [
+    "NLL",
+    "whole-vocabulary exactness",
+    "centered target logit",
+    "published raw self-repair",
+    "LN scale ratio"
+  ],
+  "high_direct_effect_selection": false,
+  "ratio_clipping": false,
+  "bootstrap": "10000 sequence-family resamples; descriptive95%; shared donor dependence not removed",
+  "stop": "technical parity >2e-4 logit abs, residual max >1e-5, or nonzero downstream-MLP change; preserve failures",
+  "classification": "No universal-class prediction. Separate learned continuation from final reader.",
+  "test_gate": "development technical checks pass; no damage or recovery favorable-effect gate for structural falsifier",
+  "software_amendment": "AMENDEMENT_LOGICIEL.md: native LayerNorm kernel plus denominator ratio; fixed thresholds unchanged",
+  "amended_utc": "2026-10-25T17:49:25.529556+00:00",
+  "software_amendment_fp64": "AMENDEMENT_FP64.md: direct-effect measurement only; native model FP32 and scientific criteria unchanged",
+  "amended_fp64_utc": "2026-10-25T17:59:13.384678+00:00"
+}

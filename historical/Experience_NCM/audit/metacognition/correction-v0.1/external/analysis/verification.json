@@ -1,0 +1,9 @@
+{
+  "bootstrap_recomputed": true,
+  "fitting": false,
+  "group_disjointness_verified": true,
+  "max_abs_replay_error": 0.0,
+  "model_execution": false,
+  "report_sha256": "86695fb0957e1fe302774cfc8f561fad4361a72974ced018a5c3a87fc131fbca",
+  "status": "passed"
+}

@@ -1,0 +1,8019 @@
+{
+  "all_current_errors_corrected_groups": 864,
+  "extraction_report_sha256": "765c806bd04de4bcac1d2ab7cc6e3d40daaf38debb809e5d3f6131c62ab60a89",
+  "groups_with_current_errors": 1000,
+  "mixed_outcome_groups": 136,
+  "n": 1000,
+  "no_current_error_corrected_groups": 0,
+  "primary_level": 9,
+  "records": [
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 0,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 5,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 9,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 11,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 13,
+      "new_final_errors": 3,
+      "persistent": 9
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 15,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 16,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 17,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 19,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 20,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 21,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 24,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 26,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 27,
+      "new_final_errors": 0,
+      "persistent": 3
+    },
+    {
+      "corrected": 13,
+      "current_errors": 33,
+      "final_success": false,
+      "index": 28,
+      "new_final_errors": 1,
+      "persistent": 20
+    },
+    {
+      "corrected": 21,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 30,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 33,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 36,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 6,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 37,
+      "new_final_errors": 3,
+      "persistent": 20
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 38,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 39,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 45,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 51,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 57,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 60,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 63,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 66,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 68,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 69,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 70,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 72,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 79,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 82,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 83,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 84,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 85,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 86,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 87,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 89,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 90,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 92,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 94,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 95,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 98,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 99,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 102,
+      "new_final_errors": 0,
+      "persistent": 2
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 106,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 107,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 108,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 109,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 111,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 114,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 9,
+      "current_errors": 16,
+      "final_success": false,
+      "index": 115,
+      "new_final_errors": 2,
+      "persistent": 7
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 120,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 122,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 124,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 125,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 126,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 128,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 130,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 131,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 134,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 136,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 139,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 142,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 144,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 145,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 29,
+      "final_success": false,
+      "index": 146,
+      "new_final_errors": 3,
+      "persistent": 13
+    },
+    {
+      "corrected": 27,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 148,
+      "new_final_errors": 1,
+      "persistent": 3
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 149,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 151,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 153,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 155,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 156,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 157,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 158,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 159,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 161,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 162,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 163,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 164,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 167,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 168,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 172,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 173,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 29,
+      "final_success": false,
+      "index": 174,
+      "new_final_errors": 1,
+      "persistent": 17
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 176,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 182,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 183,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 184,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 186,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 189,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 191,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 21,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 192,
+      "new_final_errors": 1,
+      "persistent": 5
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 200,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 201,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 205,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 206,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 207,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 208,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 209,
+      "new_final_errors": 0,
+      "persistent": 8
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 210,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 211,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 212,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 213,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 214,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 215,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 217,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 218,
+      "new_final_errors": 0,
+      "persistent": 8
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 219,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 222,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 223,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 224,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 225,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 227,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 229,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 234,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 235,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 236,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 238,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 243,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 244,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 246,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 251,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 253,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 254,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 256,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 257,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 258,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 262,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 263,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 270,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 273,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 274,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 276,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 277,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 279,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 281,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 282,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 284,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 285,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 287,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 298,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 301,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 302,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 18,
+      "final_success": false,
+      "index": 305,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 309,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 310,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 311,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 312,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 314,
+      "new_final_errors": 0,
+      "persistent": 8
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 316,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 319,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 321,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 323,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 324,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 330,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 331,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 332,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 333,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 36,
+      "final_success": false,
+      "index": 334,
+      "new_final_errors": 1,
+      "persistent": 22
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 335,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 337,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 341,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 344,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 349,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 27,
+      "current_errors": 27,
+      "final_success": true,
+      "index": 350,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 351,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 352,
+      "new_final_errors": 0,
+      "persistent": 14
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 353,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 356,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 357,
+      "new_final_errors": 1,
+      "persistent": 8
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 359,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 364,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 367,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 368,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 370,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 371,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 374,
+      "new_final_errors": 2,
+      "persistent": 9
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 379,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 380,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 381,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 382,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 383,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 385,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 387,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 392,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 393,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 396,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 401,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 407,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 409,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 412,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 415,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 420,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 422,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 423,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 424,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 425,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 428,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 431,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 432,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 7,
+      "current_errors": 7,
+      "final_success": true,
+      "index": 433,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 436,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 439,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 441,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 442,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 444,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 445,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 449,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 452,
+      "new_final_errors": 0,
+      "persistent": 12
+    },
+    {
+      "corrected": 21,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 453,
+      "new_final_errors": 0,
+      "persistent": 3
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 456,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 460,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 461,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 463,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 464,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 466,
+      "new_final_errors": 1,
+      "persistent": 11
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 467,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 470,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 473,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 474,
+      "new_final_errors": 1,
+      "persistent": 9
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 475,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 476,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 479,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 481,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 483,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 486,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 488,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 491,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 492,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 493,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 497,
+      "new_final_errors": 0,
+      "persistent": 9
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 499,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 500,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 501,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 502,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 31,
+      "final_success": false,
+      "index": 504,
+      "new_final_errors": 0,
+      "persistent": 19
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 505,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 506,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 507,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 508,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 511,
+      "new_final_errors": 2,
+      "persistent": 15
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 515,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 518,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 519,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 524,
+      "new_final_errors": 1,
+      "persistent": 8
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 525,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 526,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 527,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 529,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 531,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 532,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 534,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 536,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 537,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 538,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 540,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 14,
+      "final_success": false,
+      "index": 542,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 544,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 546,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 549,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 551,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 552,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 553,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 554,
+      "new_final_errors": 0,
+      "persistent": 8
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 557,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 558,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 560,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 562,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 563,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 565,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 566,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 568,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 569,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 570,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 575,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 576,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 577,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 580,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 581,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 582,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 585,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 588,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 590,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 593,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 594,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 595,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 596,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 600,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 601,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 604,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 605,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 29,
+      "final_success": false,
+      "index": 607,
+      "new_final_errors": 0,
+      "persistent": 11
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 608,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 609,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 610,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 27,
+      "current_errors": 27,
+      "final_success": true,
+      "index": 613,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 614,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 615,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 618,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 620,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 626,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 627,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 628,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 631,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 633,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 635,
+      "new_final_errors": 2,
+      "persistent": 11
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 636,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 637,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 638,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 28,
+      "final_success": false,
+      "index": 639,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 19,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 640,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 641,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 642,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 645,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 646,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 648,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 650,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 651,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 652,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 654,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 665,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 668,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 671,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 672,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 673,
+      "new_final_errors": 1,
+      "persistent": 16
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 674,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 675,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 678,
+      "new_final_errors": 3,
+      "persistent": 7
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 680,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 683,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 686,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 687,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 688,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 689,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 691,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 692,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 693,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 694,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 695,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 28,
+      "final_success": false,
+      "index": 697,
+      "new_final_errors": 1,
+      "persistent": 10
+    },
+    {
+      "corrected": 11,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 698,
+      "new_final_errors": 0,
+      "persistent": 9
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 699,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 701,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 702,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 704,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 706,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 707,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 708,
+      "new_final_errors": 1,
+      "persistent": 18
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 709,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 715,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 718,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 719,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 720,
+      "new_final_errors": 2,
+      "persistent": 16
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 722,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 724,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 731,
+      "new_final_errors": 1,
+      "persistent": 10
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 732,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 733,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 736,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 9,
+      "current_errors": 17,
+      "final_success": false,
+      "index": 740,
+      "new_final_errors": 0,
+      "persistent": 8
+    },
+    {
+      "corrected": 15,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 742,
+      "new_final_errors": 1,
+      "persistent": 11
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 743,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 744,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 746,
+      "new_final_errors": 0,
+      "persistent": 2
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 747,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 749,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 750,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 751,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 752,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 754,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 755,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 756,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 757,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 758,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 759,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 760,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 761,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 763,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 764,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 765,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 766,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 768,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 774,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 775,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 776,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 779,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 780,
+      "new_final_errors": 0,
+      "persistent": 9
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 784,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 785,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 786,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 787,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 788,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 790,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 791,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 792,
+      "new_final_errors": 2,
+      "persistent": 9
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 793,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 2,
+      "current_errors": 38,
+      "final_success": false,
+      "index": 795,
+      "new_final_errors": 4,
+      "persistent": 36
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 798,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 800,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 801,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 806,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 33,
+      "final_success": false,
+      "index": 807,
+      "new_final_errors": 1,
+      "persistent": 10
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 808,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 811,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 812,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 813,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 820,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 824,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 825,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 17,
+      "final_success": false,
+      "index": 826,
+      "new_final_errors": 5,
+      "persistent": 7
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 829,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 830,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 831,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 833,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 838,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 839,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 840,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 841,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 842,
+      "new_final_errors": 1,
+      "persistent": 9
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 845,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 846,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 848,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 850,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 851,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 852,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 857,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 859,
+      "new_final_errors": 0,
+      "persistent": 11
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 860,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 861,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 865,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 866,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 867,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 869,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 873,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 874,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 875,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 877,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 881,
+      "new_final_errors": 1,
+      "persistent": 7
+    },
+    {
+      "corrected": 12,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 882,
+      "new_final_errors": 0,
+      "persistent": 11
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 887,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 888,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 891,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 893,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 894,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 28,
+      "final_success": false,
+      "index": 895,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 896,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 897,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 898,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 899,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 902,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 905,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 907,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 17,
+      "final_success": false,
+      "index": 908,
+      "new_final_errors": 0,
+      "persistent": 3
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 910,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 911,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 912,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 916,
+      "new_final_errors": 0,
+      "persistent": 6
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 918,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 919,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 924,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 928,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 929,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 930,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 932,
+      "new_final_errors": 0,
+      "persistent": 13
+    },
+    {
+      "corrected": 10,
+      "current_errors": 32,
+      "final_success": false,
+      "index": 933,
+      "new_final_errors": 8,
+      "persistent": 22
+    },
+    {
+      "corrected": 22,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 934,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 940,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 941,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 943,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 944,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 947,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 948,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 950,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 952,
+      "new_final_errors": 1,
+      "persistent": 15
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 954,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 955,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 959,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 960,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 962,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 963,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 964,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 969,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 970,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 27,
+      "current_errors": 32,
+      "final_success": false,
+      "index": 971,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 973,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 975,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 980,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 982,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 986,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 988,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 989,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 990,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 991,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 994,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 996,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 997,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 998,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1000,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1002,
+      "new_final_errors": 0,
+      "persistent": 10
+    },
+    {
+      "corrected": 28,
+      "current_errors": 28,
+      "final_success": true,
+      "index": 1004,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1006,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1007,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1009,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1012,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1014,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1015,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1016,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1017,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1018,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1020,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1021,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1022,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1023,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1024,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 1025,
+      "new_final_errors": 1,
+      "persistent": 12
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1026,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1030,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1031,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1033,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1034,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1037,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1038,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1041,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1045,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 1046,
+      "new_final_errors": 0,
+      "persistent": 16
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1052,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1054,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1055,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1059,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1060,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1062,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 8,
+      "current_errors": 8,
+      "final_success": true,
+      "index": 1063,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1065,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1066,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1067,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1074,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1077,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1080,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1082,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 1086,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1087,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1088,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1091,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1093,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1095,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 1098,
+      "new_final_errors": 4,
+      "persistent": 14
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1099,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1104,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1105,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1106,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 1110,
+      "new_final_errors": 1,
+      "persistent": 10
+    },
+    {
+      "corrected": 12,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 1111,
+      "new_final_errors": 3,
+      "persistent": 9
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1112,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 1113,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1116,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1117,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1118,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1119,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1120,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1121,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1123,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1125,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1126,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1128,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1129,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1132,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 1134,
+      "new_final_errors": 2,
+      "persistent": 13
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1138,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1139,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1141,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1142,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1143,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1144,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1147,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1148,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1149,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1151,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1153,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1156,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1157,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1163,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1165,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 1166,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1167,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1169,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1171,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1172,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1173,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1176,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 1183,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 29,
+      "current_errors": 29,
+      "final_success": true,
+      "index": 1185,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1186,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1188,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1190,
+      "new_final_errors": 3,
+      "persistent": 10
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1194,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1195,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1196,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1199,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1201,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1203,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 16,
+      "final_success": false,
+      "index": 1204,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1206,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1209,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1210,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1211,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1213,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1215,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1217,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1219,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1222,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1224,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1225,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1227,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1232,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1233,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1237,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1240,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1246,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 28,
+      "final_success": false,
+      "index": 1247,
+      "new_final_errors": 0,
+      "persistent": 9
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1252,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1253,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1257,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 29,
+      "final_success": false,
+      "index": 1259,
+      "new_final_errors": 4,
+      "persistent": 19
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1260,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1261,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1263,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1265,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1266,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1267,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1270,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1272,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 1273,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1274,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1275,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1276,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 27,
+      "current_errors": 27,
+      "final_success": true,
+      "index": 1278,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1279,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1284,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1285,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1286,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1287,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1288,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1290,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1292,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 1293,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1296,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 31,
+      "final_success": false,
+      "index": 1297,
+      "new_final_errors": 1,
+      "persistent": 11
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1305,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1306,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1308,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1310,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1312,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1314,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1316,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1317,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1319,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1321,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1322,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1323,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 9,
+      "current_errors": 18,
+      "final_success": false,
+      "index": 1324,
+      "new_final_errors": 5,
+      "persistent": 9
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1325,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1327,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1328,
+      "new_final_errors": 0,
+      "persistent": 11
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1329,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1331,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1333,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1334,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1337,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1338,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1339,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1341,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1344,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1345,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1347,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1349,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1351,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 1353,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1354,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1355,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1356,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 1358,
+      "new_final_errors": 1,
+      "persistent": 2
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1359,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1360,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1362,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1363,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1364,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1365,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1366,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1367,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1368,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1370,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 1372,
+      "new_final_errors": 1,
+      "persistent": 8
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1373,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1374,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1375,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 36,
+      "final_success": false,
+      "index": 1376,
+      "new_final_errors": 2,
+      "persistent": 16
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1379,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1380,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1381,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1382,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1383,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1389,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1390,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1394,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1397,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1401,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": false,
+      "index": 1402,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1403,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1404,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1407,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 1409,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1411,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1412,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1414,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1415,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1416,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 27,
+      "current_errors": 27,
+      "final_success": true,
+      "index": 1417,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 1418,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1422,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1423,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1424,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 1425,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1426,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1427,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1428,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1429,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1431,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1432,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1433,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1435,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1436,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1437,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1438,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1439,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 7,
+      "current_errors": 33,
+      "final_success": false,
+      "index": 1440,
+      "new_final_errors": 4,
+      "persistent": 26
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1443,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1445,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1446,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1448,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1449,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1450,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1453,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1454,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1455,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1457,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1459,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1460,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1462,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1468,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1469,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1472,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1473,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1474,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1480,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1482,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1483,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1484,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1485,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1487,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1488,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 1489,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1490,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1491,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1495,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1499,
+      "new_final_errors": 2,
+      "persistent": 9
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1500,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1502,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1505,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 1509,
+      "new_final_errors": 0,
+      "persistent": 3
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1510,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1514,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1515,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1517,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 28,
+      "final_success": false,
+      "index": 1519,
+      "new_final_errors": 1,
+      "persistent": 10
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1520,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1523,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 1529,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1530,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1532,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1534,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1540,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 18,
+      "final_success": false,
+      "index": 1541,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1542,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 17,
+      "final_success": false,
+      "index": 1543,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1545,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1547,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 1548,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1550,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1552,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1553,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1554,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1557,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1558,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1559,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1561,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1562,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1567,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1569,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1570,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 1571,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1572,
+      "new_final_errors": 2,
+      "persistent": 11
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1581,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1583,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1584,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 23,
+      "final_success": false,
+      "index": 1586,
+      "new_final_errors": 2,
+      "persistent": 5
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1587,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1588,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1589,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1590,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1595,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1596,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1597,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1599,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1604,
+      "new_final_errors": 3,
+      "persistent": 12
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1605,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1606,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1607,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1609,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1616,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1617,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 34,
+      "final_success": false,
+      "index": 1618,
+      "new_final_errors": 0,
+      "persistent": 20
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1620,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1621,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 1623,
+      "new_final_errors": 1,
+      "persistent": 11
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1626,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1628,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1631,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1633,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1634,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1637,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1642,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1643,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1644,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1646,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1648,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 1650,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1651,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 1652,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 1654,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1658,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1659,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1660,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1661,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1664,
+      "new_final_errors": 0,
+      "persistent": 12
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1665,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1669,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1670,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1672,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1674,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1675,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1676,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1678,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 29,
+      "final_success": false,
+      "index": 1680,
+      "new_final_errors": 1,
+      "persistent": 13
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1681,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1682,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1683,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1688,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1696,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1697,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1699,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1700,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 1701,
+      "new_final_errors": 2,
+      "persistent": 8
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1705,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1713,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 1716,
+      "new_final_errors": 6,
+      "persistent": 13
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 1717,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1718,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1723,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1726,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1730,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1732,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1733,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1735,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1737,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1738,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1742,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1745,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1746,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1749,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1750,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1753,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 1754,
+      "new_final_errors": 0,
+      "persistent": 10
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1755,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1757,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1758,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1761,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1762,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1763,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1764,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1766,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1767,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1768,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1769,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1772,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1775,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1776,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1777,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1781,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1782,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1784,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1786,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 1787,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1788,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1789,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1790,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1791,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 25,
+      "current_errors": 25,
+      "final_success": true,
+      "index": 1792,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1796,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1797,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1803,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1804,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1805,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1807,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1808,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 31,
+      "final_success": false,
+      "index": 1809,
+      "new_final_errors": 2,
+      "persistent": 17
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1810,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1812,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1814,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1815,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1817,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1818,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 13,
+      "current_errors": 13,
+      "final_success": true,
+      "index": 1822,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1825,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1826,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 10,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 1827,
+      "new_final_errors": 3,
+      "persistent": 12
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1829,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1831,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1836,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 1838,
+      "new_final_errors": 0,
+      "persistent": 4
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1839,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1841,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1843,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1844,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1845,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1847,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 24,
+      "final_success": false,
+      "index": 1848,
+      "new_final_errors": 0,
+      "persistent": 5
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1849,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1853,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1854,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1856,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1858,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 1861,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1864,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1874,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 1875,
+      "new_final_errors": 3,
+      "persistent": 5
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1884,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1886,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1887,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1888,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 14,
+      "current_errors": 14,
+      "final_success": true,
+      "index": 1889,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1892,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1893,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1894,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 30,
+      "final_success": false,
+      "index": 1896,
+      "new_final_errors": 2,
+      "persistent": 11
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1901,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1903,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1907,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1908,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1909,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1910,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1913,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 18,
+      "final_success": false,
+      "index": 1914,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1915,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1916,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 16,
+      "current_errors": 16,
+      "final_success": true,
+      "index": 1917,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1919,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1920,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 25,
+      "final_success": false,
+      "index": 1922,
+      "new_final_errors": 0,
+      "persistent": 7
+    },
+    {
+      "corrected": 22,
+      "current_errors": 22,
+      "final_success": true,
+      "index": 1926,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1927,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1929,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 21,
+      "final_success": false,
+      "index": 1930,
+      "new_final_errors": 2,
+      "persistent": 4
+    },
+    {
+      "corrected": 12,
+      "current_errors": 12,
+      "final_success": true,
+      "index": 1931,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1932,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1933,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1940,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 23,
+      "current_errors": 27,
+      "final_success": false,
+      "index": 1941,
+      "new_final_errors": 1,
+      "persistent": 4
+    },
+    {
+      "corrected": 23,
+      "current_errors": 23,
+      "final_success": true,
+      "index": 1944,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1946,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 15,
+      "current_errors": 15,
+      "final_success": true,
+      "index": 1948,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1949,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 20,
+      "final_success": false,
+      "index": 1952,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1957,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 11,
+      "final_success": true,
+      "index": 1958,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1959,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1961,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 18,
+      "current_errors": 19,
+      "final_success": false,
+      "index": 1969,
+      "new_final_errors": 0,
+      "persistent": 1
+    },
+    {
+      "corrected": 24,
+      "current_errors": 24,
+      "final_success": true,
+      "index": 1976,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 11,
+      "current_errors": 22,
+      "final_success": false,
+      "index": 1977,
+      "new_final_errors": 2,
+      "persistent": 11
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1978,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 26,
+      "final_success": false,
+      "index": 1981,
+      "new_final_errors": 1,
+      "persistent": 6
+    },
+    {
+      "corrected": 18,
+      "current_errors": 18,
+      "final_success": true,
+      "index": 1982,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 17,
+      "current_errors": 17,
+      "final_success": true,
+      "index": 1991,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 19,
+      "current_errors": 19,
+      "final_success": true,
+      "index": 1994,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1995,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 26,
+      "current_errors": 26,
+      "final_success": true,
+      "index": 1996,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 21,
+      "current_errors": 21,
+      "final_success": true,
+      "index": 1998,
+      "new_final_errors": 0,
+      "persistent": 0
+    },
+    {
+      "corrected": 20,
+      "current_errors": 20,
+      "final_success": true,
+      "index": 1999,
+      "new_final_errors": 0,
+      "persistent": 0
+    }
+  ],
+  "scope": "training_only_no_model_fit_no_held_out_read",
+  "status": "complete",
+  "totals": {
+    "corrected": 18494,
+    "current_errors": 19691,
+    "new_final_errors": 142,
+    "persistent": 1197
+  }
+}

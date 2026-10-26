@@ -1,0 +1,32 @@
+{
+  "status": "stage_2_calibration_complete_stop_requested",
+  "frozen_files_unchanged": 72,
+  "files": {
+    "IDENTIFIABILITE.md": "f7ea0d1f75ea5287b8082def73fd7109a3deeabcb921a84a54cb4966d64b9a53",
+    "JOURNAL.md": "1137835e13d329f1a77ee2f58e62c1e2f2131094203080819e7491c73b8c15f8",
+    "PROTOCOLE.md": "94a94a1fef2515dcccbc98d3d57ab0daee7f2cecb7228bad0381fb658b1be8dc",
+    "RAPPORT.md": "3d8d14b7ddfe92d4823a6e77f27c1f48c49dcc6d2676fa7570ab6cff869cd62c",
+    "README.md": "3a6f2fc7f1ae3a5273db182ed086dbff94cdb07c4316179d696183d8f947da31",
+    "controls.py": "5dcbaf9d6c99aba2e0c5fa6793058d06fad37666b1a7dcb19fd6bb039ba0c4d1",
+    "data/evaluator_truth.json": "8cae064a4006641b1395d7826efafda5305297f83049bbcd2ee3787bf0e40f43",
+    "data/families.json": "601eb9d26745a42e45739759d3b58ee98d7a8930f59857ba93daa72494b1f85a",
+    "dataset.py": "6a666a8dd199ceff67ef8e89909fd8713afed801d98b837b9ec81f99a88c7949",
+    "methods.py": "eb955ee5c2618e9d634f14e92b13f4a06d0e6aab5680503168e24aeb10b1420e",
+    "protocol.json": "6ad77f4dc00a0b10fde6e70210e6502b2aa0e8c0816c5a70c3605dd68c7c3393",
+    "publish.py": "433d510639acccec03d60c8607d1e67cec4f763d5f186fb29bd54496700ee94f",
+    "results/exclusion_audit.json": "24c173f07560a5b38dc85ba291407c9266d7d49074c0de981033f42daa6aad04",
+    "results/nonidentifiability_examples.json": "15a775ee3c7b6d7bc7f3073813e2537f95ecabba87036e74040789d8ad95ab40",
+    "results/observations.json": "fe55da2166b19c132488c89e8e892bccf329af0ef22ce51f97442de8def59956",
+    "results/protocol_frozen.json": "a164b2cb0a03818bd2c9482eb59a892341a8971a999a939de02a36e8504f45a0",
+    "results/raw_vectors.npz": "7fd39d553299f4c8180c929f5c80fca7c52dd95f6944b1208cab3ee956a8ad1b",
+    "results/run.log": "323878dc61b18d09fdab8778f5452cf210d18e5313874c51bf2a4a03f147dd78",
+    "results/summary.json": "0ae878c7756ddf7b6a069138dca7b04f748b309e338b102f9bda0fe02dcce908",
+    "results/verification.json": "ef30f7839a741c2476a2b2ec2cddbc92cc6eafe1aa5e89282951d9a6ac2378e9",
+    "results/verification.log": "85ca9993be33d10e6dd6e39736f2cb98aa8d19162ef3fd4c92bfcd51e8e66001",
+    "run.py": "377daf2a5363cdbd5a3a05e2cd23fda0be99cbc789d2af56cd4f79265cf63239",
+    "support.py": "ab5dec1ad6e5a6d82fc35ff672b8082fcb8d479dc45269b0592dacf3a65d9bbc",
+    "verify.py": "c587f072038d3475b166afe45f7d343c4c7a995f9dfa38dfa20774830c69bbb5"
+  },
+  "limitations": "Constructed calibration; same research author; no learned-model attribution or independent validation",
+  "reports": "Markdown only; no visual artifact created"
+}

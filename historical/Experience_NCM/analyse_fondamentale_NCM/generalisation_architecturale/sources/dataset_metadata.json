@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "_id": "6ace20e522d7157d30be53cd",
+    "id": "hazyresearch/ncm-datasets",
+    "author": "hazyresearch",
+    "sha": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "lastModified": "2026-10-16T03:39:24.000Z",
+    "private": false,
+    "gated": false,
+    "disabled": false,
+    "tags": [
+      "task_categories:text-generation",
+      "license:mit",
+      "arxiv:2610.14162",
+      "region:us"
+    ],
+    "description": "\n\t\n\t\t\n\t\n\t\n\t\tNCM datasets\n\t\n\nEvaluation sets for the released NCM checkpoints.\n\nPaper: Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation\nProject page: Hazy Research blog post\nCode: GitHub repository\n\n\n\t\n\t\t\nfolder\nfiles\ncontents\n\n\n\t\t\nxsum/\npassages.pickle, reference_summaries.pickle\nthe complete XSum test set as tokenized article rows with summary slots, and the untruncated reference summaries as strings\n\n\nwmt14/\nsources.pickle, reference_translations.pickle\nthe WMT newstest… See the full description on the dataset page: https://huggingface.co/datasets/hazyresearch/ncm-datasets.",
+    "downloads": 1099,
+    "likes": 8,
+    "cardData": {
+      "license": "mit",
+      "task_categories": [
+        "text-generation"
+      ]
+    },
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "lm1b/README.md"
+      },
+      {
+        "rfilename": "lm1b/train_bert_30522.bin"
+      },
+      {
+        "rfilename": "lm1b/train_bert_30522_offsets.npy"
+      },
+      {
+        "rfilename": "lm1b/valid_bert_30522.bin"
+      },
+      {
+        "rfilename": "lm1b/valid_bert_30522_offsets.npy"
+      },
+      {
+        "rfilename": "owt/README.md"
+      },
+      {
+        "rfilename": "owt/train_gpt2.bin"
+      },
+      {
+        "rfilename": "owt/train_gpt2_offsets.npy"
+      },
+      {
+        "rfilename": "owt/valid_gpt2.bin"
+      },
+      {
+        "rfilename": "owt/valid_gpt2_offsets.npy"
+      },
+      {
+        "rfilename": "sudoku/easy/puzzles.pickle"
+      },
+      {
+        "rfilename": "sudoku/easy/solutions.pickle"
+      },
+      {
+        "rfilename": "sudoku/hard/puzzles.pickle"
+      },
+      {
+        "rfilename": "sudoku/hard/solutions.pickle"
+      },
+      {
+        "rfilename": "sudoku/medium/puzzles.pickle"
+      },
+      {
+        "rfilename": "sudoku/medium/solutions.pickle"
+      },
+      {
+        "rfilename": "tinystories/README.md"
+      },
+      {
+        "rfilename": "tinystories/bpe_merges_8192.pickle"
+      },
+      {
+        "rfilename": "tinystories/bpe_vocab_8192.pickle"
+      },
+      {
+        "rfilename": "tinystories/train_bpe_8192.bin"
+      },
+      {
+        "rfilename": "tinystories/train_bpe_8192.pickle"
+      },
+      {
+        "rfilename": "tinystories/train_bpe_8192_offsets.npy"
+      },
+      {
+        "rfilename": "tinystories/valid_bpe_8192.bin"
+      },
+      {
+        "rfilename": "tinystories/valid_bpe_8192.pickle"
+      },
+      {
+        "rfilename": "wmt14/reference_translations.pickle"
+      },
+      {
+        "rfilename": "wmt14/sources.pickle"
+      },
+      {
+        "rfilename": "xsum/passages.pickle"
+      },
+      {
+        "rfilename": "xsum/reference_summaries.pickle"
+      }
+    ],
+    "createdAt": "2026-10-13T12:15:33.000Z",
+    "usedStorage": 22740061687
+  },
+  "tree": [
+    {
+      "type": "directory",
+      "oid": "8dc7e7a83f2a4f2f2fa2c37619aa54af93c5b13e",
+      "size": 0,
+      "path": "lm1b"
+    },
+    {
+      "type": "directory",
+      "oid": "09b2bed9e5e83125de31a10ac1b62fd483b98986",
+      "size": 0,
+      "path": "owt"
+    },
+    {
+      "type": "directory",
+      "oid": "d0107bd21e7e7327160a26867e5b127eb6ec5b01",
+      "size": 0,
+      "path": "sudoku"
+    },
+    {
+      "type": "directory",
+      "oid": "8fc6849f3c809d5da3e88a72b6c65250a83de6ee",
+      "size": 0,
+      "path": "sudoku/easy"
+    },
+    {
+      "type": "directory",
+      "oid": "7e9d8c357361840d5b360af0959a6eecf59ddf7f",
+      "size": 0,
+      "path": "sudoku/hard"
+    },
+    {
+      "type": "directory",
+      "oid": "a2639bee7de0cceb9a23020a01af945766850680",
+      "size": 0,
+      "path": "sudoku/medium"
+    },
+    {
+      "type": "directory",
+      "oid": "46d9cf3bc87f8e3e59dcf39a87bba2cf3292be7d",
+      "size": 0,
+      "path": "tinystories"
+    },
+    {
+      "type": "directory",
+      "oid": "6160e759919ca9cb0cc6e3b27bce1ab6b68e4b00",
+      "size": 0,
+      "path": "wmt14"
+    },
+    {
+      "type": "directory",
+      "oid": "ba9366ebb5b1f26705095c72772808124bcbd1de",
+      "size": 0,
+      "path": "xsum"
+    },
+    {
+      "type": "file",
+      "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "424def5b91811da806eef6b8ece1e4091da6e7d5",
+      "size": 1977,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "169f7ffad437fd91de79495b4f0a1ea2abec126b",
+      "size": 155,
+      "path": "lm1b/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "03260836284e7f98a00dc4e4b30667f7c3e65108",
+      "size": 1814466304,
+      "lfs": {
+        "oid": "d434e454d3c6cd24fbaadd0e970b6ce08eec72a4655716e1f68d9c5195981a05",
+        "size": 1814466304,
+        "pointerSize": 135
+      },
+      "xetHash": "6cd61a1c8078b5b2ee94fb354bf8553193fb834b54651befc7b3a3b4b0c60081",
+      "path": "lm1b/train_bert_30522.bin"
+    },
+    {
+      "type": "file",
+      "oid": "3ec3960da838e94c487ecf570ec673e477bb4f52",
+      "size": 56702208,
+      "lfs": {
+        "oid": "454624ab4bbc856a4dde582f8b3e3521ac1b03b4ee565f4ceae8b9011947d80a",
+        "size": 56702208,
+        "pointerSize": 133
+      },
+      "xetHash": "1f4cc12565d7ddf6ec183d578846e20f568c86f52b8c82da8b628503d96bba3f",
+      "path": "lm1b/train_bert_30522_offsets.npy"
+    },
+    {
+      "type": "file",
+      "oid": "1018f9c8f8f8c309907a034d35b0e0f5acca8a40",
+      "size": 18387200,
+      "lfs": {
+        "oid": "acfaa554bbb7ef67ee2369c87ae642a49d92f27cb2ac2cffdce3beafd2cbcf6e",
+        "size": 18387200,
+        "pointerSize": 133
+      },
+      "xetHash": "2041662ef67ddd3755dbf57449be55af1df9ec4c3648f9544dccf29d14f45538",
+      "path": "lm1b/valid_bert_30522.bin"
+    },
+    {
+      "type": "file",
+      "oid": "18238cef87a641b7461a8237eaa3eeee5ab69964",
+      "size": 574736,
+      "lfs": {
+        "oid": "d328d250987631bde5c98d107572b0da7e3da13f7de76968c9c3fefbc5ba8dd6",
+        "size": 574736,
+        "pointerSize": 131
+      },
+      "xetHash": "0464ba6c45ce41ac6e59ff1cbf1025d409344b77b04eb949049fa373bb2bf603",
+      "path": "lm1b/valid_bert_30522_offsets.npy"
+    },
+    {
+      "type": "file",
+      "oid": "fc2f17c0fa099e2c52e6bd2711f9047c711ae5c3",
+      "size": 142,
+      "path": "owt/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "089af769fec461f46717ea5355274cd52b85fb8d",
+      "size": 18070847356,
+      "lfs": {
+        "oid": "b24b78a07f56974fd0c9855dc16f25b836d2cb172be23eb5d3c650cd6d73f56a",
+        "size": 18070847356,
+        "pointerSize": 136
+      },
+      "xetHash": "3e9f472a752c8d7fa41089bedd5f22183952be8bfcd45854d5a5353243eaad8d",
+      "path": "owt/train_gpt2.bin"
+    },
+    {
+      "type": "file",
+      "oid": "32d666c2ce2245736c82cfd1d00c70b2a731ce5b",
+      "size": 64078296,
+      "lfs": {
+        "oid": "7e84564946b8cf8190dbdc1e86bdf2fe8cfd9235a517328c80b4df038ea0028b",
+        "size": 64078296,
+        "pointerSize": 133
+      },
+      "xetHash": "1ae45b96c3f1fab6975901fbeabb34469afe6948400cbad81c7aad2f81a70589",
+      "path": "owt/train_gpt2_offsets.npy"
+    },
+    {
+      "type": "file",
+      "oid": "2c62ebf95b7c2114436728e5b2a613244145f2a7",
+      "size": 9186834,
+      "lfs": {
+        "oid": "1f2ee17e08327a39d4e2417948d02c7b998d626d2dcb2661197a6e208f58266f",
+        "size": 9186834,
+        "pointerSize": 132
+      },
+      "xetHash": "df4a93c9cf7e82db9ad9287a2ffaa85ecd4cb6ee175c1a805b97c5ccc34c27cb",
+      "path": "owt/valid_gpt2.bin"
+    },
+    {
+      "type": "file",
+      "oid": "1b589c7540da81bfd70f01a7f64e0cb2658fd2e9",
+      "size": 32128,
+      "lfs": {
+        "oid": "09a748ce1dcec7de36c77c48e39ccbf5c0293cc073689fa7c5f48bdfb9bb9445",
+        "size": 32128,
+        "pointerSize": 130
+      },
+      "xetHash": "d07e529e9889993bbcd568b88817de86d86bb2a668ef49035fa4323bc4bcd459",
+      "path": "owt/valid_gpt2_offsets.npy"
+    },
+    {
+      "type": "file",
+      "oid": "b4877d8dedb33122b50bd332d44b4161ddd855ab",
+      "size": 372063,
+      "lfs": {
+        "oid": "403353dd5d11e49d42627aee84c7b1ceb399fda03d01f6210ce78d0e61f2b29d",
+        "size": 372063,
+        "pointerSize": 131
+      },
+      "xetHash": "0c93b507af8918c92bd94b38c052e64357949ca82943056604d378ff6b46bdb1",
+      "path": "sudoku/easy/puzzles.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "c567d070dc540df63793a839da29071e5d7ccb96",
+      "size": 364063,
+      "lfs": {
+        "oid": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+        "size": 364063,
+        "pointerSize": 131
+      },
+      "xetHash": "2369024de155199d8bef17629169cf3e4d61e11b9b3c1510647f71db6c423315",
+      "path": "sudoku/easy/solutions.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "94f738a43d05ea970e55027140dc21a4beec3760",
+      "size": 372063,
+      "lfs": {
+        "oid": "dd7b6763e5594094a1366ac8423f87fc9431056721c61df52ce3490023f17d5e",
+        "size": 372063,
+        "pointerSize": 131
+      },
+      "xetHash": "fb92a4420fadfb758b02d3942c7faf10c122cfb6c87fb7152225a30cdb8cdf5e",
+      "path": "sudoku/hard/puzzles.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "c567d070dc540df63793a839da29071e5d7ccb96",
+      "size": 364063,
+      "lfs": {
+        "oid": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+        "size": 364063,
+        "pointerSize": 131
+      },
+      "xetHash": "2369024de155199d8bef17629169cf3e4d61e11b9b3c1510647f71db6c423315",
+      "path": "sudoku/hard/solutions.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "4b0de20f0eec9f3b99678e035ab5620b24bf36ed",
+      "size": 372063,
+      "lfs": {
+        "oid": "d49cd2b380bdce748b10a7f0847637b5e160bd107b67f91dca93670b15190871",
+        "size": 372063,
+        "pointerSize": 131
+      },
+      "xetHash": "4c8c0eadf00b59ca4f2fbc01f614bf3ea0cc096876e8783f46759e1cdcab8f51",
+      "path": "sudoku/medium/puzzles.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "c567d070dc540df63793a839da29071e5d7ccb96",
+      "size": 364063,
+      "lfs": {
+        "oid": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+        "size": 364063,
+        "pointerSize": 131
+      },
+      "xetHash": "2369024de155199d8bef17629169cf3e4d61e11b9b3c1510647f71db6c423315",
+      "path": "sudoku/medium/solutions.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "dd126f68eaac5c7f0ee604f623b5844d2611ab33",
+      "size": 245,
+      "path": "tinystories/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "0223648056757a741571d450dbc30b1c680bedd5",
+      "size": 108277,
+      "lfs": {
+        "oid": "0d4cab13f2e7b684b75eaa290a52e596ba87744ef13d943cf3a50a5a8e080ec1",
+        "size": 108277,
+        "pointerSize": 131
+      },
+      "xetHash": "86e604e7ba2d0e471bc103b8087dbae1e127ad5adb39e05c1e6330b050422f59",
+      "path": "tinystories/bpe_merges_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "ef6111c104e7ff5a1ddfe2cea4e24faab1e204e3",
+      "size": 95122,
+      "lfs": {
+        "oid": "fb176b4c68108e4b5ef61b9ff2af3731600124e3e160970a6bd78cd0a5d3ff6c",
+        "size": 95122,
+        "pointerSize": 130
+      },
+      "xetHash": "61b01b6cb72b645a767c47c0a05fe579861315879d9888569d39a7480f946e9a",
+      "path": "tinystories/bpe_vocab_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "4a49d0332c866f8330d4257dcae65bbaf415dc5d",
+      "size": 1085433672,
+      "lfs": {
+        "oid": "b1dccdf7562f20a8a02f5563cb92c62b7cfb7c2eab5379973e897b661f1df7db",
+        "size": 1085433672,
+        "pointerSize": 135
+      },
+      "xetHash": "45db3d140f8397dd93c993a2fa43ec5e2384a15b69e4ef50ddd8df8272e66d9e",
+      "path": "tinystories/train_bpe_8192.bin"
+    },
+    {
+      "type": "file",
+      "oid": "275e093a0cb913dc8f5643d61180a674408fcbdf",
+      "size": 1549580892,
+      "lfs": {
+        "oid": "278847cc2cd4a2d54a8db301a5c135ee7d84131ef7a3c9893b1517515cd63ffb",
+        "size": 1549580892,
+        "pointerSize": 135
+      },
+      "xetHash": "f3f623819bff21dad5bc9118f5feaf479f5debd0a08fe10c88064edad13b838f",
+      "path": "tinystories/train_bpe_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "be638db583988c2cb596c4df47a2eaf7a81c0d28",
+      "size": 21741736,
+      "lfs": {
+        "oid": "c45c0471bc3fd62c204819ffadd84f9c904c2ea4e42f8f2daa902aacf609f958",
+        "size": 21741736,
+        "pointerSize": 133
+      },
+      "xetHash": "8050b0d5ee187a5b044e348f7a58a684c9d353c6241e6b4cafa8c293cade5c00",
+      "path": "tinystories/train_bpe_8192_offsets.npy"
+    },
+    {
+      "type": "file",
+      "oid": "67b3c198501a05d31358d6af00ede85c1289ecc2",
+      "size": 10961964,
+      "lfs": {
+        "oid": "e5c9825a84cf2db901f54bebaa738671c06e9844cc8ad213dad7d2f8d243b593",
+        "size": 10961964,
+        "pointerSize": 133
+      },
+      "xetHash": "fc516f3538c94193068b4c567310c6d5ccaf4d0290d7e8cb2483dc543fd0022e",
+      "path": "tinystories/valid_bpe_8192.bin"
+    },
+    {
+      "type": "file",
+      "oid": "a49fda787f1136753fb6429306afd64f4c678675",
+      "size": 15649846,
+      "lfs": {
+        "oid": "f4723c2b0e4c36ac792e609dc50ddf7879ba4e33b7d794bc4ad44b952fde5c8d",
+        "size": 15649846,
+        "pointerSize": 133
+      },
+      "xetHash": "79304d541ed312c4aaa1d26434986847d20befb2c4b81d197877a7ac51c6cbbc",
+      "path": "tinystories/valid_bpe_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "519eded25c222c31a59c835aa1aef39b15c94133",
+      "size": 366263,
+      "lfs": {
+        "oid": "3dcef81d8aeded13f79917cd6b794d2ca9f33223bf35c1fff1c5643eae0df52b",
+        "size": 366263,
+        "pointerSize": 131
+      },
+      "xetHash": "9f06db95b8fc91d4c3bfdf4204aedc4b1c244a366e02c7ec41a3182b77e6efc2",
+      "path": "wmt14/reference_translations.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "a805acc424ac9ae7006f011478608b76a34f6a1a",
+      "size": 406100,
+      "lfs": {
+        "oid": "62254653c32ce9e8b93576797597381babaab301b10ee0a2a3babec89576ea43",
+        "size": 406100,
+        "pointerSize": 131
+      },
+      "xetHash": "5fcca0025f906efa839b54aa19134afa1d4ae5e8f33f509a902c9211d61eb4de",
+      "path": "wmt14/sources.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "bf218dfada0f14ca88fb973bafd608d9d3dca5f0",
+      "size": 18506302,
+      "lfs": {
+        "oid": "39b820f0a71ddd6ad178b2700eeae6d035729053b1b2f115d3a92810c6ebf4f8",
+        "size": 18506302,
+        "pointerSize": 133
+      },
+      "xetHash": "03038c2f892129b1e6dc1e0294b8c32a39cbd75ab223fe022300df9a4a2d993d",
+      "path": "xsum/passages.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "eddd3af7a518e9a2caf7483a0f1b12f6df1d0f31",
+      "size": 1456199,
+      "lfs": {
+        "oid": "db624e065b6685dfea25db9106752e837f06f26b799763593759efd150fe554a",
+        "size": 1456199,
+        "pointerSize": 132
+      },
+      "xetHash": "eca4870410ad27f47f52f0812f7d5441f9500723aa3ae079af024aac28519c7b",
+      "path": "xsum/reference_summaries.pickle"
+    }
+  ]
+}

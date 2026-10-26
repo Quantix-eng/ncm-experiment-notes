@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "native_parity": 48,
+  "shams": 48,
+  "C_trials": 128,
+  "E_conditions": 384,
+  "elapsed_seconds": 36.92788587498944,
+  "cache_policy": "No mutable KV cache; recipient earlier-token representations retained",
+  "scope": "Next-token within-forward intervention, not emitted-token revision"
+}

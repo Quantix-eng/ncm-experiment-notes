@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "local_links_checked": 52,
+  "native_successes_per_model": 120,
+  "trained_models": 6,
+  "primary_cells": 6,
+  "secondary_cells": 6,
+  "common_informative_corruption_calibration": "failed_as_reported",
+  "primary_donor_outputs_per_model": 80,
+  "all_whole_memory_input_effects_exact_zero": true,
+  "source_manuscripts_unchanged": "verified in frozen experiment audit",
+  "note": "Post-results editorial check of declared numbers and links; no new inference"
+}

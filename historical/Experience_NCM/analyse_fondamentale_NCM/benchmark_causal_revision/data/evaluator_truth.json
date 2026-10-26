@@ -1,0 +1,2410 @@
+{
+  "d6a845730c43065628d9": {
+    "source_id": "equality-000",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "0b445bf5e93bde8e69da": {
+    "source_id": "equality-000",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "7c80ec88069838d3a176": {
+    "source_id": "equality-000",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "1e9e2977703ae8855b49": {
+    "source_id": "equality-000",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "67907afa8b669f22ece4": {
+    "source_id": "equality-000",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "11934ebc53be4fd0626d": {
+    "source_id": "equality-001",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "02f5e28cfb31c60ab14d": {
+    "source_id": "equality-001",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "b6cdb8b1a98b6eab8fdf": {
+    "source_id": "equality-001",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "47272b180ad20dda6e04": {
+    "source_id": "equality-001",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "57015628ccad7d043172": {
+    "source_id": "equality-001",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "b6add6ca991138b6231f": {
+    "source_id": "equality-002",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "bbeabbb4e6dcf0cd0c6d": {
+    "source_id": "equality-002",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "d1a3c8adb5b87f51765e": {
+    "source_id": "equality-002",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "ccff9f17779314e52f31": {
+    "source_id": "equality-002",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "24757a889a4a47ebb127": {
+    "source_id": "equality-002",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "43257d69ff914965b431": {
+    "source_id": "equality-003",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "2d03b57656e7c6f78f7f": {
+    "source_id": "equality-003",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "eaaa2de08bd398b6f6bc": {
+    "source_id": "equality-003",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "f293127607020a814aae": {
+    "source_id": "equality-003",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "1f2d0d8fcbfb119cdc37": {
+    "source_id": "equality-003",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "e1f77a3b68e47f02ee03": {
+    "source_id": "equality-004",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "5c09b430b8bfd3e7bc1b": {
+    "source_id": "equality-004",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "5b048292a0aa9b15d00a": {
+    "source_id": "equality-004",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "d85daef2c82eaec5e196": {
+    "source_id": "equality-004",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "214d195f5e5af7ad43fd": {
+    "source_id": "equality-004",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "791972a603d047172183": {
+    "source_id": "equality-005",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "91cca5b3994323c98996": {
+    "source_id": "equality-005",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "5084b11a2fbf215c6e17": {
+    "source_id": "equality-005",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "bcb5f30faa312eaab1f3": {
+    "source_id": "equality-005",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "0c09f9d1a2c4d99293d5": {
+    "source_id": "equality-005",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "af321559f1833b6d94d4": {
+    "source_id": "equality-006",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "bff2b281c495f87806d8": {
+    "source_id": "equality-006",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "b82d76b91a2748f4eb14": {
+    "source_id": "equality-006",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "e06d4f85b023eb71d941": {
+    "source_id": "equality-006",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "e660967e1fa8700f15f7": {
+    "source_id": "equality-006",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "4ec5de7b197be269bb7e": {
+    "source_id": "equality-007",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "7037fe96d53e5927a6e6": {
+    "source_id": "equality-007",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "259c4f03f510aa2e19be": {
+    "source_id": "equality-007",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "e6492aca754c475c5fe7": {
+    "source_id": "equality-007",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "3036aeee3c58c2e59ed8": {
+    "source_id": "equality-007",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "c7c3d2247dca6f67ab67": {
+    "source_id": "equality-008",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "98910e2310541b8b62a7": {
+    "source_id": "equality-008",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "3e5c83701612191e2a65": {
+    "source_id": "equality-008",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "2ca405f2e713364abfb3": {
+    "source_id": "equality-008",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "567287a5328fdfe7190f": {
+    "source_id": "equality-008",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "372bb8dcb8f76a7815f6": {
+    "source_id": "equality-009",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "0e75aab032d1e5d660a0": {
+    "source_id": "equality-009",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "c3d2d11ad9cbdaa1d734": {
+    "source_id": "equality-009",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "4022734348f3036da1e9": {
+    "source_id": "equality-009",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "dfe245d8943a13bafeef": {
+    "source_id": "equality-009",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "334390153485db49b973": {
+    "source_id": "equality-010",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "901419970c1eabe9bdd7": {
+    "source_id": "equality-010",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "70af9322b613f9785434": {
+    "source_id": "equality-010",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "6cdcc83da68b5318e838": {
+    "source_id": "equality-010",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "b9a7d2651b5eefe9a8f5": {
+    "source_id": "equality-010",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "f00975253b973a70ff9d": {
+    "source_id": "equality-011",
+    "family": "equality",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "f11c8f5afcf10e5c7e05": {
+    "source_id": "equality-011",
+    "family": "equality",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "2cca72f82ba63d5e9617": {
+    "source_id": "equality-011",
+    "family": "equality",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "513f2016109aacd52760": {
+    "source_id": "equality-011",
+    "family": "equality",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "beebcc628839d3e516e8": {
+    "source_id": "equality-011",
+    "family": "equality",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "d1541b071511d6a751c2": {
+    "source_id": "parity-000",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "d3fe29ee05c045392ad9": {
+    "source_id": "parity-000",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "df136ee999fc43f81e31": {
+    "source_id": "parity-000",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "7407216f6f4873483cca": {
+    "source_id": "parity-000",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "389d3d82abd6dc375690": {
+    "source_id": "parity-000",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "8bf3a2f39e55ad648d21": {
+    "source_id": "parity-001",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "7a4e59e62dd5d422b7f0": {
+    "source_id": "parity-001",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "efcb66eb171ebc4c7592": {
+    "source_id": "parity-001",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "857b3924f4401758d55e": {
+    "source_id": "parity-001",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "11ec36910fb4c1bb2c1d": {
+    "source_id": "parity-001",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "3e0478b4dca72d6c25ba": {
+    "source_id": "parity-002",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "055c60c1bd01e8271a03": {
+    "source_id": "parity-002",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "4c0eb4da48a981a039e6": {
+    "source_id": "parity-002",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "578ceec04a1a8213996a": {
+    "source_id": "parity-002",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "b441cc1ee078db76babc": {
+    "source_id": "parity-002",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "800d74654aa35a8aa19c": {
+    "source_id": "parity-003",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "9f1b02f21f76d830687a": {
+    "source_id": "parity-003",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "ab6697c4eff43c1922b3": {
+    "source_id": "parity-003",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "4ad222dc1224b42adac8": {
+    "source_id": "parity-003",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "91640f8c8c877ccddf6a": {
+    "source_id": "parity-003",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "94665fc15116c8e636ce": {
+    "source_id": "parity-004",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "d93c52bdce77f9585835": {
+    "source_id": "parity-004",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "974806fd66cb658aab52": {
+    "source_id": "parity-004",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "b5f2e6eac2cf7eada30e": {
+    "source_id": "parity-004",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "44af57485871da041f12": {
+    "source_id": "parity-004",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "bd143a51ec612fe27cb6": {
+    "source_id": "parity-005",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "519268c8d913afeca0ae": {
+    "source_id": "parity-005",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "df6eec68e3de04df9722": {
+    "source_id": "parity-005",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "79b4eee0084a30850914": {
+    "source_id": "parity-005",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "8175c52b7c1db0ce70c9": {
+    "source_id": "parity-005",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "1bbf1cc35f64850f5bc8": {
+    "source_id": "parity-006",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "b4a4c2b95d27222ecbd1": {
+    "source_id": "parity-006",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "1f015d37f4ba0080a92c": {
+    "source_id": "parity-006",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "7079112d0d1d72153cdf": {
+    "source_id": "parity-006",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "aaeff9d41991c74bf556": {
+    "source_id": "parity-006",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "6312a47063c8604d0eba": {
+    "source_id": "parity-007",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "233a7f60523b0794d4cf": {
+    "source_id": "parity-007",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "03b47387c25b08d93a36": {
+    "source_id": "parity-007",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "73f64bf221956277f7f1": {
+    "source_id": "parity-007",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "8f2aec8238ca36cbacb1": {
+    "source_id": "parity-007",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "d6fe2b6a0e6bce087c6a": {
+    "source_id": "parity-008",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "9abc02006fcf6ffd9203": {
+    "source_id": "parity-008",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "382ff06dc5ee69d44b3a": {
+    "source_id": "parity-008",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "328e892bb48870d5a0bb": {
+    "source_id": "parity-008",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "95e264a16d74c957e53b": {
+    "source_id": "parity-008",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "bdf772162f53c5578738": {
+    "source_id": "parity-009",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "5e17cacdfa69ffce10a1": {
+    "source_id": "parity-009",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "f83aaa0d5858b189e460": {
+    "source_id": "parity-009",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "58477a701754b5438768": {
+    "source_id": "parity-009",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "80b6f30df2bf34239cfc": {
+    "source_id": "parity-009",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "4134e938cbbff3af05e1": {
+    "source_id": "parity-010",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "4db921e468b7a4338dc5": {
+    "source_id": "parity-010",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "19c9d6f940343de7b578": {
+    "source_id": "parity-010",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "41a8db06a0e0c6c4ef95": {
+    "source_id": "parity-010",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "cc47830029a80a1d2cc3": {
+    "source_id": "parity-010",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "74286a8a734a913e1a08": {
+    "source_id": "parity-011",
+    "family": "parity",
+    "split": "development",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "2491a04ffad1061477b6": {
+    "source_id": "parity-011",
+    "family": "parity",
+    "split": "development",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "3ed93ecf10cc177548e2": {
+    "source_id": "parity-011",
+    "family": "parity",
+    "split": "development",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "72b15d754f90eea72dbe": {
+    "source_id": "parity-011",
+    "family": "parity",
+    "split": "development",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "ba1a0ca5f1bb819a623d": {
+    "source_id": "parity-011",
+    "family": "parity",
+    "split": "development",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "5b571c3d73ddfa669469": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "a820afc55aa2a51cfd16": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "64837a94e210bdd8789e": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "6baa23a78b15ceecf3d2": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "c778681420a05738d206": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "b66a56c3bfdcab9af12f": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "4a3bce7ceaac7ce6f4c1": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "c5d12d6f0611bdb63852": {
+    "source_id": "permutation-000",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "89145646aa3df93d7fe8": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "4a0157d65384b3612977": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "18b2c0f280cab3196031": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "883ea1b33446b93bb6d2": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "e89b71f63d748004e587": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "bd51cd0ac22635e5fff0": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "a3a147c4bcb9788a562a": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "d9ddd457cfd093610a12": {
+    "source_id": "permutation-001",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "3341bef5b519acec0e3a": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "ecbed0a8a84c0f946ca5": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "23d94096063e9a4e452d": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "546d6608f2bb44b83859": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "b83a0ac65dbd310bc795": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "94409492c8ee7e7ebe0f": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "7882deb83fca184d4e31": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "81f49aafad2b41b4016a": {
+    "source_id": "permutation-002",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "6704f20c3bb78f4bf941": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "44b6efc82aa598d7d87f": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "73f0b19e08177463b295": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "af2c0b78484b26d56e80": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "f8799ba18007979af09c": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "f8cef22447d21b557202": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "36e29b9e8c6821c30055": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "1a43e594b2e148e3e249": {
+    "source_id": "permutation-003",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "31b6da8696c0fe672e6c": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "ec2262f4027b599d4b85": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "d26b4bc330c13d2bce6c": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "967bb65961b9de254439": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "53b0a2cf24dc7d188199": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "e23d8d025c25edc66b7f": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "e3797e34d6812932c10d": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "a1b66b630783f2544956": {
+    "source_id": "permutation-004",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "4463075ad2bf5bb25ce2": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "c0bc957b3036e113da1a": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "6268b209d9cb6dea0b2e": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "abe70ac6f36292e77531": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "81ce18cb326d11e61594": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "d39557d599212044c423": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "1ab6f4e615e25df5f723": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "5dfe2ec58a62024141ca": {
+    "source_id": "permutation-005",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "5dc396988d9a76f89ebf": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "b05db2773840844552c6": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "6e0bd12b996620fd1c2f": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "b26b4bd7925ad5c4657c": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "95359b666782071f3666": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "0780255510221f0f243c": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "d0360e1aa67c609dadd8": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "42de3a3200bacaae57ff": {
+    "source_id": "permutation-006",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "2d6e2eae36b0948f06eb": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "51084d5b6a76c9b6796c": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "694c8927dab9d140760f": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "70111b0ba92a4ae82539": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "411fd14ef91f94aa9029": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "37bfb652e6616f81cb07": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "32029bb1fa96bf7f7074": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "14a8c1a273272b67eef6": {
+    "source_id": "permutation-007",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "cba8077bded16ff43e05": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "ac9cedd108b0cafd99a1": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "01dbfbeb19d64f704f92": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "7eef49c874da312f9883": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "208140bdb5c4942d55c9": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "15abc5e96eb86db101b2": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "eab471fc94039265ca11": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "529f6abb8712789659c8": {
+    "source_id": "permutation-008",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "4ab449e1a8b549eda387": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "23aa3ee834a84d28b4d0": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "34c6676d276de29d9094": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "1f133d4825f8962b6531": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "8e0955738bae5432131c": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "389609c1b2be2e6527d6": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "d13846d6125a34a71fd6": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "7075f692796fe5a13c47": {
+    "source_id": "permutation-009",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "eb98649e91d876fcffa0": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "1ad1feb8d634d7c42db5": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "26c31d2f7ffb8f7d86ed": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "9ea07ea8c59138e8dd97": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "2d3adf28b0d2a9fc4493": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "086306d05a91a62ca13d": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "2ec17be426accb37d5b5": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "09d9ad2cc76a4aed912a": {
+    "source_id": "permutation-010",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "a7f0d9b6391ff88486b7": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "b919abcbbb7dbb089316": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "e342ab6788af76995d8d": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "7036ec2736985f988349": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "42fb5710389cd597fe23": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "130be74934085035e88d": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "3af367671c09195fb295": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "001cd5186f316b2e2387": {
+    "source_id": "permutation-011",
+    "family": "permutation",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "2d22616986a9effc8cfa": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "a5333277cc923029eb17": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "d524aec9e08f8b532300": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "fc16913fcb099bd1b8ad": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "619b3ab649899ce4b2e8": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "140e0b7f1a302269515f": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "6ae9b1cb8409ef673a58": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "bc4adb32b54059142e18": {
+    "source_id": "sudoku-000",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "d8ef4e1ebb26f0b1240b": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "703b1da0346be0777cc1": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "72dfbc8c186f186f22a1": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "4b12d9617fdd7af846de": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "da494cd433b636878f80": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "0645658fb33d652ffc92": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "44e1fa774b02ecddbc21": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "487d664e96e1aa8b16dd": {
+    "source_id": "sudoku-001",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "0c749c45b4deb9403bd0": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "35c521938bfb60d43680": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "6fe5e3eda553de19c0a4": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "6d2e1495c045021077d6": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "13970eeadb543aef0ea9": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "57ccf30666391ba16376": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "dd4da8258208b58f63bc": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "ac348b64a3e2bda08e20": {
+    "source_id": "sudoku-002",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "13a35d6b2795ee1a9bc6": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "2e433d152554eb4254db": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "8b0a7c1fcb09cb3b00f6": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "551a0635c4f5c3c5226a": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "d82deeea3edc455f4d0c": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "73f16cbb06c1d0761043": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "db71bffc825ddec60982": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "2b83f94265d6da797a43": {
+    "source_id": "sudoku-003",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "d62a16d98e08523824c8": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "2ea7314d7ae4638e86db": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "5cf835dea9da2204babb": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "75aced4f88ae2e049428": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "2df89b6f440192b69c8b": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "f9e6a1f1b0ad9c8b912a": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "e4b11b22576624ab56bb": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "b633cac4028825f41276": {
+    "source_id": "sudoku-004",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "bc58142bb2cd7fe7c803": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "423e6f517c0e4eb9f118": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "aec35f7ef264cf0869e7": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "cf70be983735a18927ef": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "3b00188616d25c2bd20d": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "0c7916a9cca07c4d6f91": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "bf53fbbc1c20d1374bbf": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "0828b082f116cf04bc80": {
+    "source_id": "sudoku-005",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "46e34e8c136eeee30ada": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "59020042e400b9a955d8": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "c7bd9c5b9c50ed78a70b": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "c40f4bf043364c789d18": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "7973deccbfe1de1f7ab2": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "d9786736c904cf8a963e": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "a74d462fbb10c06f7ff3": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "9be907791f8173e4c930": {
+    "source_id": "sudoku-006",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "c17e6988c312ca4cae20": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "5591a251db22214ed6f8": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "ea18f53c2d65b343222a": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "fecf01b7d5af9a342898": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "b00d1381b74e9d36bf60": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "f4f06a0a38b2d1ff187d": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "edbd0f58f760472b9d6a": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "331133e2840b9fcbaed9": {
+    "source_id": "sudoku-007",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "7f107ca6b4c6b7242258": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "656ec15a2faa833df6a9": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "7847685ccb6d6426ea9b": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "74ca0ae7c7ef3b79a41b": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "03f55d6a8ac04abc4d0f": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "396e3df8a5290008586a": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "8d37344d0cdf17c7477a": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "51404271bc4de13c5ac4": {
+    "source_id": "sudoku-008",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "1ec93c0365b65f8f5e10": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "f85a4dd52868328e3e89": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "efc091ee40b36b9a425f": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "c7d310b820ecf1a80c7b": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "89ba63bc01b4ab2e3a91": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "3e39de74f1d74f606a81": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "54c728ba1fff1fcb300f": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "9d9f78693129f4a7417e": {
+    "source_id": "sudoku-009",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "e9c8cc3447ca6e1eef56": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "518d5eb37749435caed8": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "c0f0737038e37b549e4c": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "fd08775ed10e7e2da5d4": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "eb1570c5f16be6851dd3": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "cc0728b592bdec80e8db": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "5328eb71ea09254d744d": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "3f3c71f954b04b8cf57b": {
+    "source_id": "sudoku-010",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "9b645e76c036cd9e21e7": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "fe1bf416a067ccef12f1": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "cf7123d1d3cb2251d397": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "12c743a58257943b0ee1": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "f20d8263f0bf39d71985": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "47a229f2b2f9714899b4": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "c963b9184e18e4842c12": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "de5938b4ceb55f0ee8e2": {
+    "source_id": "sudoku-011",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "3dd820e28ebf2a873123": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "3114d109d5cefb5aee2a": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "66fc02c7c49af2b4387e": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "2c9408b97db07a65c29b": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "6e0a0d021b65ff340a90": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "6008307a50d7a4b86e1a": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "067884cbe5e95b202972": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "ebc5828668f78150d9c1": {
+    "source_id": "sudoku-012",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "6d7ba26faec033c6e3b7": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "5d7c095b68be7098d2ca": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "2526f54ae9f6f6000bf8": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "b70b985071197567bfdb": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "2166ab7acfc0b2b9dc1e": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "7a15f0b8baafc009cffd": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "b08dbb8cf5e14b46b0f9": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "aeb20a17fa6c2fc4b8db": {
+    "source_id": "sudoku-013",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "96d53e618ba3a838f8f3": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "365298bac16d110fdeff": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "b50f12c258b01d9d0e40": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "c1381e229ae2b893d20b": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "3ebb4cf755f38bb8c5b8": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "8ad9873a8ddae94d2e30": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "fd715995bf783f00615f": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "fada0fb59b711b45841e": {
+    "source_id": "sudoku-014",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  },
+  "99028df989f8c94c0fb6": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "oracle_replay",
+    "alpha": null
+  },
+  "714c88c9a120d5bc4a7c": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "tolerant",
+    "alpha": null
+  },
+  "110b041fbf8ae10f6806": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "state_compensation",
+    "alpha": null
+  },
+  "4f699eec524765528537": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "input_recompute",
+    "alpha": null
+  },
+  "663f56775a85f3d88d23": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "fixed_response",
+    "alpha": null
+  },
+  "ad4c9c315a60b35b68dd": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.25
+  },
+  "be53f5514a8c730a121a": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.5
+  },
+  "18d701985d5f086cc739": {
+    "source_id": "sudoku-015",
+    "family": "sudoku",
+    "split": "evaluation",
+    "label": "mixed",
+    "alpha": 0.75
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-25T21:10:30.612347+00:00",
+  "posthoc_export": true,
+  "metrics_declared_prospectively": true,
+  "no_new_network_forward": true,
+  "partitions": {
+    "validation": {
+      "reader_accuracy_gains": 0,
+      "reader_accuracy_losses": 0,
+      "positive_SR_positive_R": 166,
+      "positive_SR_nonpositive_R": 98,
+      "nonpositive_SR_positive_R": 97
+    },
+    "test": {
+      "reader_accuracy_gains": 0,
+      "reader_accuracy_losses": 0,
+      "positive_SR_positive_R": 667,
+      "positive_SR_nonpositive_R": 386,
+      "nonpositive_SR_positive_R": 349
+    }
+  }
+}

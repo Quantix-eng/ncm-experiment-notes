@@ -1,0 +1,18 @@
+{
+  "status": "stopped_as_requested_after_primary_results",
+  "markdown_documents_checked": 42,
+  "missing_local_links": [],
+  "historical_integrity": {
+    "benchmark_tache_commune": 76,
+    "benchmark_multimodel_ar": 29,
+    "article_benchmark_coordination": 14,
+    "benchmark_ncm_reel": 28,
+    "benchmark_causal_revision": 24,
+    "composition_terminale": 15,
+    "recherche_positive": 62
+  },
+  "ioi_primary_audit_passed": true,
+  "secondary_ioi_executed": false,
+  "external_human_validation": false,
+  "new_campaigns_started_at_closure": false
+}

@@ -1,0 +1,63 @@
+{
+  "version": "early-control-1",
+  "date": "2026-10-24",
+  "status": "exploratory feasibility, old training OOF frontiers inspected before implementation, no claim of public preregistration",
+  "question": "Can a risk score at level9 reduce complete inference cost while preserving verified resolution, outperforming fixed continuation and a competitive observable policy?",
+  "scope": "stage1 feasibility only; independent evaluation allowed only after positive gate, sample-size design and frozen policy/comparators",
+  "reference": {
+    "checkpoint": "sudoku/hard",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 4,
+    "batch": 8,
+    "pause_after_level": 9
+  },
+  "engine": "prefix-only cached first9 stages; retained states pooled into batches8 for stages10..12; pad only final remainder to batch8; prefix KV sliced by example and concatenated; no input/ref/public-weight changes",
+  "controls": [
+    "unmodified model.predict batch8",
+    "staged keep-all",
+    "scripted keep-none and alternate retention for technical parity",
+    "random decision for timing control",
+    "random retention count matched to codes_hidden development-selected policy, fixed seed, independent of labels"
+  ],
+  "features": {
+    "codes": "puzzle onehot and clue counts plus each level1..9 code entropy/margin/max/log-argmax mean/std/q10/q50/q90",
+    "hidden": "16 PCs of mean/std of generator blocks[7] output at level9, before final norm",
+    "codes_hidden": "codes plus same16 PCs",
+    "summary_archived": "existing 1341 observable-summary features and immutable outer-fold classifiers, decoder history1..9 computed online and timed"
+  },
+  "fitting": {
+    "data": "original1000 training groups only",
+    "crossfit": "5 original group folds, fold-local normalization and PCA",
+    "penalty": 1,
+    "reason": "fixed ridge strength1 from prior H1 design, no posthoc grid exploration",
+    "scaler": "observable max(std,0.1), remove exact constants; hidden PCA existing train-only standardizer",
+    "target": "exact final failure, historical reference labels, outside feature construction",
+    "probabilities": "no claim of independent calibration at this feasibility stage; raw logits used for threshold choice"
+  },
+  "policy": "abort if failure score strictly above threshold; choose threshold on development OOF scores with at most3 discarded successful puzzles/1000 (0.3 pp loss target). Also report optimistic frontier allowing10/1000 success loss (1 pp). Neither frontier is independent evaluation.",
+  "success_candidate": {
+    "cost": "lower simultaneous confidence bound of relative complete cost saving >0.05 against fixed and best feasible observable comparator",
+    "resolution": "lower simultaneous bound for per-input verified-resolution difference >-0.01",
+    "warning": "these margins are practical design choices, not scientific norms; confirmatory sizing must assume true effects strictly inside the admissible region"
+  },
+  "gate": "Before new corpus: validate parity and cleanup, measure real score and split/queue overhead, and assess zero-overhead optimistic saving. Do not launch independent confirmation if none of the internal candidates reaches plausible5 percent saving even against fixed continuation under the1 pp development loss allowance.",
+  "profiling": {
+    "technical_n": 32,
+    "stage_timing_n": 128,
+    "stage_timing_repeats": 5,
+    "policy_timing_n": 1000,
+    "policy_timing_repeats": "3 if optimistic internal gate passes, otherwise 1 descriptive feasibility run",
+    "order": "seeded randomized condition order, paired workload; warmup excluded",
+    "include": "first9, transformations/score, KV slicing/packing, tail, final decoder, format/constraint/clue verifier; padding counted",
+    "not_a_benchmark_claim": "shared local machine, timings descriptive with paired sensitivity, not inference speed guarantee"
+  },
+  "new_data": "No intact prior evaluation exists for selecting this policy. Original unscored pilot32 is technical only. If gate passes, define new generator distribution, exclusion, precision/power, n and budget before its NCM outputs, then calibration/selection/evaluation separated.",
+  "limits": [
+    "abort is abstention, not an early solved-grid return",
+    "all costs count including score-related decoders",
+    "cannot infer native metacognition from an external policy benefit",
+    "development-selected thresholds optimistic",
+    "no changing5 percent/1pp margins after observed outcome to rescue signal"
+  ]
+}

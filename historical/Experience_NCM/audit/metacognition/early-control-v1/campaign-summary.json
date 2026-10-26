@@ -1,0 +1,16 @@
+{
+  "status": "closed",
+  "utc": "2026-10-24T12:10:18.268755+00:00",
+  "decision": "stop_no_new_corpus",
+  "independent_confirmation_started": false,
+  "verification_sha256": "0fd9534ebd0279bca6e71474881ff6d5e06603ec3d2ba8276996a18c15ab681d",
+  "documents_sha256": {
+    "RAPPORT_CONTROLE_PRECOCE.md": "6444a841f0aebb4c36af248702d1374cf564d8f074bc103665be003c7419c3f3",
+    "SYNTHESE_METACOGNITION.md": "6fbdda2507ef6dd4f3dd62df28f41e1641c457dcb3651314be0fbfbd3a838eb3",
+    "PLAN_RECHERCHE_METACOGNITION.md": "e1493a7d9b095eff056ce6006ed4fb7646759882f37b583d46e2f297c0636552",
+    "FEUILLE_DE_ROUTE.md": "75460eb198b6ea7a39ca64b2bd2cbf5a58482ab423e124eb86611552e6a823a1",
+    "experiments/metacognition/early_control/README.md": "b2f0920c749cfaa0d949637507a7aa36c7947981abcc8457986827e01e792075"
+  },
+  "closure_source_sha256": "ebd5c3f37f25440ce3ba6365b0a4f4b796b4467d93428c977404a0a53c556cfe",
+  "scope": "Exploratory training-only feasibility; no new corpus, calibrated product or native metacognition claim."
+}

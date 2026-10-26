@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "utc": "2026-10-23T16:28:31.367182+00:00",
+  "checked_files": 52,
+  "max_abs_score_replay_error": 0,
+  "block_size": 1024,
+  "auc_direct_pairwise_recomputed": true,
+  "bootstrap_recomputed": true,
+  "strict_causal_success_recomputed": true,
+  "latent_compensation_sample_recomputed": true,
+  "fixed_tail_rounding_max_abs": {
+    "runner_up": 7.301568984985352e-07,
+    "matched": 6.556510925292969e-07
+  },
+  "source_sha256": "feb0c9b08359d4804292075fd7f17cbfda83d6e829e887428cfe4309736866f5",
+  "report_sha256": "01763521f105e00a2c83560e35783a5d6cd118cbce3a381d4d3ff3186e326092",
+  "causal_report_sha256": "7949b996569efb7b1802d2c844103932823c37632ab573f987a9fca7fc9f6a60",
+  "fitting": false,
+  "model_execution": false,
+  "caveat": "Independent arithmetic implementation in same environment; not replication by another team. Bounded variant added for system resource pressure, primary frozen study unchanged."
+}

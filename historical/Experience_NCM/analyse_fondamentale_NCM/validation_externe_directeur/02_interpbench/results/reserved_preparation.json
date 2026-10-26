@@ -1,0 +1,19 @@
+{
+  "status": "prepared_not_evaluated_not_final_experiment_freeze",
+  "families": 1024,
+  "per_task": 256,
+  "cases": [
+    13,
+    18,
+    19,
+    21
+  ],
+  "outputs_computed": false,
+  "sha256": "0808599f797d07d21980b46b5e863a5236b4903df0ee74d17ca6ff5c919c47e8",
+  "notes": [
+    "Sources are unique within task; same input may act as donor in correlated queries.",
+    "Proposal and falsification donors differ within a query; this is not a claim of globally disjoint families.",
+    "Before any prediction fit, implement source-family split or prequential restrictions preventing donor-output leakage.",
+    "No reference outputs or learned model outputs are included."
+  ]
+}

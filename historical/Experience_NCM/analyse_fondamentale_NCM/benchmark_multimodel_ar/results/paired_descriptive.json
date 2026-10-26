@@ -1,0 +1,40 @@
+{
+  "status": "Post-hoc descriptive export added after primary results; no new model calls or label changes",
+  "C": {
+    "Y00": {
+      "losses_vs_Y00": 0,
+      "gains_vs_Y00": 0,
+      "argmax_changes_vs_Y00": 0
+    },
+    "Y10": {
+      "losses_vs_Y00": 0,
+      "gains_vs_Y00": 0,
+      "argmax_changes_vs_Y00": 0
+    },
+    "Y11": {
+      "losses_vs_Y00": 2,
+      "gains_vs_Y00": 0,
+      "argmax_changes_vs_Y00": 2
+    },
+    "Y01": {
+      "losses_vs_Y00": 2,
+      "gains_vs_Y00": 0,
+      "argmax_changes_vs_Y00": 2
+    },
+    "Y1wrong": {
+      "losses_vs_Y00": 2,
+      "gains_vs_Y00": 0,
+      "argmax_changes_vs_Y00": 2
+    }
+  },
+  "E_regenerated_vs_frozen_recipient": {
+    "gains": [
+      {
+        "source_id": "copy-013",
+        "recipient": 1
+      }
+    ],
+    "losses": [],
+    "n": 32
+  }
+}

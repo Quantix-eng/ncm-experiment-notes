@@ -1,0 +1,324 @@
+{
+  "stage": "dev",
+  "head": "L9H9",
+  "n_families": 128,
+  "n_resamples": 256,
+  "contrasts": {
+    "D": {
+      "mean": 2.461812932023644,
+      "ci95": [
+        2.3017720215447466,
+        2.6215955265596382
+      ],
+      "ci9875": [
+        2.2539377101363005,
+        2.6654654606951524
+      ]
+    },
+    "R": {
+      "mean": 1.7809319372329573,
+      "ci95": [
+        1.618848061582391,
+        1.9429627867203987
+      ],
+      "ci9875": [
+        1.572600542414406,
+        1.989138772164036
+      ]
+    },
+    "I": {
+      "mean": 1.1658855869436087,
+      "ci95": [
+        1.0390906567421851,
+        1.2957312599539494
+      ],
+      "ci9875": [
+        1.0054630778780589,
+        1.332588912142944
+      ]
+    },
+    "S": {
+      "mean": 0.06097390907591113,
+      "ci95": [
+        0.033728414831378825,
+        0.09362757743179165
+      ],
+      "ci9875": [
+        0.02761020471864084,
+        0.1049125622081628
+      ]
+    },
+    "B": {
+      "mean": 0.1278829091319841,
+      "ci95": [
+        0.09391270362602369,
+        0.1621131089200221
+      ],
+      "ci9875": [
+        0.08373103472399869,
+        0.17131705662307334
+      ]
+    },
+    "block_backups_minus_adapted": {
+      "mean": 0.18113576181476562,
+      "ci95": [
+        0.14590893223831172,
+        0.21555307910743268
+      ],
+      "ci9875": [
+        0.1350753336794702,
+        0.224878249396785
+      ]
+    },
+    "block_controls_minus_adapted": {
+      "mean": 0.053252852682781515,
+      "ci95": [
+        0.035774669523438885,
+        0.07115850878959243
+      ],
+      "ci9875": [
+        0.03056101276351626,
+        0.076545220752685
+      ]
+    },
+    "self_repair": {
+      "mean": 2.2208853880012667,
+      "ci95": [
+        2.0269868655323444,
+        2.409428931085989
+      ],
+      "ci9875": [
+        1.9707851938417222,
+        2.4641729541574167
+      ]
+    },
+    "delta_DE": {
+      "mean": -3.020828844129955,
+      "ci95": [
+        -3.202248495223893,
+        -2.83605825260334
+      ],
+      "ci9875": [
+        -3.252127651065656,
+        -2.78390758180466
+      ]
+    },
+    "ordinary_ablation_damage": {
+      "mean": 0.6808809947906866,
+      "ci95": [
+        0.6152119793863207,
+        0.7473865829629325
+      ],
+      "ci9875": [
+        0.5963827898667327,
+        0.7660904457043605
+      ]
+    }
+  },
+  "accuracy": {
+    "Y00": {
+      "correct_candidate": 252,
+      "correct_vocab": 226
+    },
+    "Y10": {
+      "correct_candidate": 142,
+      "correct_vocab": 13
+    },
+    "Y11": {
+      "correct_candidate": 239,
+      "correct_vocab": 145
+    },
+    "Y01": {
+      "correct_candidate": 253,
+      "correct_vocab": 240
+    },
+    "Y1wrong": {
+      "correct_candidate": 234,
+      "correct_vocab": 133
+    },
+    "block_backups": {
+      "correct_candidate": 233,
+      "correct_vocab": 119
+    },
+    "block_controls": {
+      "correct_candidate": 237,
+      "correct_vocab": 133
+    }
+  },
+  "operational_claims_adjusted": {
+    "D": true,
+    "R": true,
+    "S": true,
+    "B": true
+  },
+  "per_family_threshold_counts": {
+    "D": 127,
+    "R": 122,
+    "S": 65,
+    "B": 99
+  },
+  "claim_coverage": {
+    "complete": 62,
+    "without_specificity": 122,
+    "without_frozen": "cannot identify necessity of adaptation from Y00/Y11 alone",
+    "self_repair_positive": 122
+  },
+  "by_template": {
+    "After the lunch, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": {
+      "n": 9,
+      "D": 2.620639233761189,
+      "R": 2.010173427924785,
+      "I": 1.4037661946278013,
+      "S": 0.044236278371875194,
+      "B": 0.16118800609866174,
+      "block_backups_minus_adapted": 0.2176333246818728,
+      "block_controls_minus_adapted": 0.05644531858321105,
+      "self_repair": 2.4944637300831394,
+      "delta_DE": -3.2233174777942306,
+      "ordinary_ablation_damage": 0.610465805836404
+    },
+    "Afterwards, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": {
+      "n": 13,
+      "D": 2.2462213693012965,
+      "R": 1.5527084738443644,
+      "I": 0.9125394278705871,
+      "S": 0.026859830489017283,
+      "B": 0.05488136097420064,
+      "block_backups_minus_adapted": 0.14282030892259046,
+      "block_controls_minus_adapted": 0.08793894794838983,
+      "self_repair": 1.9375058958728066,
+      "delta_DE": -2.8121914469856444,
+      "ordinary_ablation_damage": 0.693512895456932
+    },
+    "Friends {name_A} and {name_B} found a {object} at the {place}. {name_C} gave it to": {
+      "n": 19,
+      "D": 2.6403178009570403,
+      "R": 2.156411674166524,
+      "I": 1.564792718036029,
+      "S": 0.05946562983399436,
+      "B": 0.15082537291584405,
+      "block_backups_minus_adapted": 0.19780140798459986,
+      "block_controls_minus_adapted": 0.046976035068755806,
+      "self_repair": 2.9278098398085923,
+      "delta_DE": -3.5008197038964974,
+      "ordinary_ablation_damage": 0.48390612679051664
+    },
+    "Later, {name_A} and {name_B} met at the {place}. {name_C} bought a {object} for": {
+      "n": 11,
+      "D": 2.8093647350212185,
+      "R": 2.222842708043536,
+      "I": 1.4651491116555055,
+      "S": 0.07135420746430428,
+      "B": 0.1108846570298648,
+      "block_backups_minus_adapted": 0.21055613509867432,
+      "block_controls_minus_adapted": 0.09967147806880951,
+      "self_repair": 2.4529967691468983,
+      "delta_DE": -3.127362924403356,
+      "ordinary_ablation_damage": 0.5865220269776827
+    },
+    "Once {name_A} and {name_B} finished at the {place}, {name_C} gave a {object} to": {
+      "n": 20,
+      "D": 2.041121026048317,
+      "R": 1.2873282505281902,
+      "I": 0.7628709229141377,
+      "S": 0.0831379406187022,
+      "B": 0.08686234862483584,
+      "block_backups_minus_adapted": 0.11304982817868314,
+      "block_controls_minus_adapted": 0.026187479553847304,
+      "self_repair": 1.620001158891138,
+      "delta_DE": -2.483719723502482,
+      "ordinary_ablation_damage": 0.7537927755201268
+    },
+    "Then, {name_A} and {name_B} had a long argument. Afterwards {name_C} said to": {
+      "n": 6,
+      "D": 2.133727523769599,
+      "R": 1.670416329525492,
+      "I": 1.20760060903498,
+      "S": 0.026569563934695378,
+      "B": 0.14919356937628217,
+      "block_backups_minus_adapted": 0.19154239754463376,
+      "block_controls_minus_adapted": 0.04234882816835158,
+      "self_repair": 2.360309415234957,
+      "delta_DE": -3.122111216402189,
+      "ordinary_ablation_damage": 0.4633111942441073
+    },
+    "Then, {name_A} and {name_B} were thinking about going to the {place}. {name_C} wanted to give a {object} to": {
+      "n": 15,
+      "D": 2.440298573826548,
+      "R": 1.736610170765069,
+      "I": 0.9010315558111069,
+      "S": 0.09577589338937832,
+      "B": 0.1614000216409546,
+      "block_backups_minus_adapted": 0.2137532429655894,
+      "block_controls_minus_adapted": 0.052353221324634804,
+      "self_repair": 2.067613485268659,
+      "delta_DE": -2.8010190714543057,
+      "ordinary_ablation_damage": 0.7036884030614791
+    },
+    "When {name_A} and {name_B} were done exploring the {place}, {name_C} decided to give a {object} to": {
+      "n": 15,
+      "D": 2.9422546948114046,
+      "R": 2.1517703178591363,
+      "I": 1.4595635740328055,
+      "S": 0.0321564626746247,
+      "B": 0.21365699875256183,
+      "block_backups_minus_adapted": 0.278138353595025,
+      "block_controls_minus_adapted": 0.06448135484246317,
+      "self_repair": 2.641525392322365,
+      "delta_DE": -3.6338773329556635,
+      "ordinary_ablation_damage": 0.7904843769522685
+    },
+    "While {name_A} and {name_B} relaxed at the {place}, {name_C} presented a {object} to": {
+      "n": 20,
+      "D": 2.344664469884425,
+      "R": 1.508232751989804,
+      "I": 1.0488397941883814,
+      "S": 0.0700725637058511,
+      "B": 0.0930592806977348,
+      "block_backups_minus_adapted": 0.12535222195579862,
+      "block_controls_minus_adapted": 0.03229294125806383,
+      "self_repair": 1.8412632598495193,
+      "delta_DE": -2.7625335780295073,
+      "ordinary_ablation_damage": 0.8364317178946209
+    }
+  },
+  "E": {
+    "other1_regenerated": {
+      "n": 256,
+      "recipient_candidate_correct": 16,
+      "recipient_vocab_correct": 6
+    },
+    "other1_recipient_native": {
+      "n": 256,
+      "recipient_candidate_correct": 12,
+      "recipient_vocab_correct": 1
+    },
+    "other1_donor_native": {
+      "n": 256,
+      "recipient_candidate_correct": 12,
+      "recipient_vocab_correct": 2
+    },
+    "other2_regenerated": {
+      "n": 256,
+      "recipient_candidate_correct": 146,
+      "recipient_vocab_correct": 104
+    },
+    "other2_recipient_native": {
+      "n": 256,
+      "recipient_candidate_correct": 214,
+      "recipient_vocab_correct": 173
+    },
+    "other2_donor_native": {
+      "n": 256,
+      "recipient_candidate_correct": 247,
+      "recipient_vocab_correct": 224
+    }
+  },
+  "gate": {
+    "mean_damage": 2.461812932023644,
+    "fraction_damage_over_001": 0.9921875,
+    "passed": true
+  },
+  "elapsed_seconds": 109.33764920802787,
+  "status": "development descriptive"
+}

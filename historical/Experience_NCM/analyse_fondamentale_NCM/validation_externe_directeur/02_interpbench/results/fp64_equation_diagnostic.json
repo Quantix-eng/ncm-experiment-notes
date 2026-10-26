@@ -1,0 +1,1032 @@
+{
+  "posthoc": true,
+  "purpose": "separate_float_precision_from_equation_disagreement",
+  "n": 256,
+  "maximum_fp64_difference": 4.263256414560601e-12,
+  "records": [
+    {
+      "id": "dev-8-000",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-001",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-002",
+      "max_difference_fp64": 1.2789769243681803e-12
+    },
+    {
+      "id": "dev-8-003",
+      "max_difference_fp64": 1.0089706847793423e-12
+    },
+    {
+      "id": "dev-8-004",
+      "max_difference_fp64": 1.9326762412674725e-12
+    },
+    {
+      "id": "dev-8-005",
+      "max_difference_fp64": 1.0089706847793423e-12
+    },
+    {
+      "id": "dev-8-006",
+      "max_difference_fp64": 8.810729923425242e-13
+    },
+    {
+      "id": "dev-8-007",
+      "max_difference_fp64": 1.2789769243681803e-12
+    },
+    {
+      "id": "dev-8-008",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-009",
+      "max_difference_fp64": 5.542233338928781e-13
+    },
+    {
+      "id": "dev-8-010",
+      "max_difference_fp64": 1.2079226507921703e-12
+    },
+    {
+      "id": "dev-8-011",
+      "max_difference_fp64": 6.252776074688882e-13
+    },
+    {
+      "id": "dev-8-012",
+      "max_difference_fp64": 4.405364961712621e-13
+    },
+    {
+      "id": "dev-8-013",
+      "max_difference_fp64": 8.952838470577262e-13
+    },
+    {
+      "id": "dev-8-014",
+      "max_difference_fp64": 1.1937117960769683e-12
+    },
+    {
+      "id": "dev-8-015",
+      "max_difference_fp64": 8.526512829121202e-13
+    },
+    {
+      "id": "dev-8-016",
+      "max_difference_fp64": 8.526512829121202e-13
+    },
+    {
+      "id": "dev-8-017",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-018",
+      "max_difference_fp64": 1.2505552149377763e-12
+    },
+    {
+      "id": "dev-8-019",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-020",
+      "max_difference_fp64": 8.810729923425242e-13
+    },
+    {
+      "id": "dev-8-021",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-022",
+      "max_difference_fp64": 1.2931877790833823e-12
+    },
+    {
+      "id": "dev-8-023",
+      "max_difference_fp64": 1.2505552149377763e-12
+    },
+    {
+      "id": "dev-8-024",
+      "max_difference_fp64": 9.521272659185342e-13
+    },
+    {
+      "id": "dev-8-025",
+      "max_difference_fp64": 7.673861546209082e-13
+    },
+    {
+      "id": "dev-8-026",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-027",
+      "max_difference_fp64": 6.536993168992922e-13
+    },
+    {
+      "id": "dev-8-028",
+      "max_difference_fp64": 1.1368683772161603e-12
+    },
+    {
+      "id": "dev-8-029",
+      "max_difference_fp64": 1.3358203432289883e-12
+    },
+    {
+      "id": "dev-8-030",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-031",
+      "max_difference_fp64": 7.389644451905042e-13
+    },
+    {
+      "id": "dev-8-032",
+      "max_difference_fp64": 7.815970093361102e-13
+    },
+    {
+      "id": "dev-8-033",
+      "max_difference_fp64": 9.663381206337363e-13
+    },
+    {
+      "id": "dev-8-034",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-035",
+      "max_difference_fp64": 9.521272659185342e-13
+    },
+    {
+      "id": "dev-8-036",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-037",
+      "max_difference_fp64": 1.0516032489249483e-12
+    },
+    {
+      "id": "dev-8-038",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-039",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-040",
+      "max_difference_fp64": 8.810729923425242e-13
+    },
+    {
+      "id": "dev-8-041",
+      "max_difference_fp64": 6.252776074688882e-13
+    },
+    {
+      "id": "dev-8-042",
+      "max_difference_fp64": 4.263256414560601e-12
+    },
+    {
+      "id": "dev-8-043",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-044",
+      "max_difference_fp64": 9.237055564881302e-13
+    },
+    {
+      "id": "dev-8-045",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-046",
+      "max_difference_fp64": 8.810729923425242e-13
+    },
+    {
+      "id": "dev-8-047",
+      "max_difference_fp64": 1.1652900866465643e-12
+    },
+    {
+      "id": "dev-8-048",
+      "max_difference_fp64": 1.1368683772161603e-12
+    },
+    {
+      "id": "dev-8-049",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-050",
+      "max_difference_fp64": 9.379164112033322e-13
+    },
+    {
+      "id": "dev-8-051",
+      "max_difference_fp64": 6.963318810448982e-13
+    },
+    {
+      "id": "dev-8-052",
+      "max_difference_fp64": 7.815970093361102e-13
+    },
+    {
+      "id": "dev-8-053",
+      "max_difference_fp64": 1.0516032489249483e-12
+    },
+    {
+      "id": "dev-8-054",
+      "max_difference_fp64": 9.663381206337363e-13
+    },
+    {
+      "id": "dev-8-055",
+      "max_difference_fp64": 1.2221335055073723e-12
+    },
+    {
+      "id": "dev-8-056",
+      "max_difference_fp64": 8.384404281969182e-13
+    },
+    {
+      "id": "dev-8-057",
+      "max_difference_fp64": 8.952838470577262e-13
+    },
+    {
+      "id": "dev-8-058",
+      "max_difference_fp64": 8.668621376273222e-13
+    },
+    {
+      "id": "dev-8-059",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-060",
+      "max_difference_fp64": 5.826450433232822e-13
+    },
+    {
+      "id": "dev-8-061",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-062",
+      "max_difference_fp64": 1.0800249583553523e-12
+    },
+    {
+      "id": "dev-8-063",
+      "max_difference_fp64": 6.536993168992922e-13
+    },
+    {
+      "id": "dev-8-064",
+      "max_difference_fp64": 5.115907697472721e-13
+    },
+    {
+      "id": "dev-8-065",
+      "max_difference_fp64": 1.1368683772161603e-12
+    },
+    {
+      "id": "dev-8-066",
+      "max_difference_fp64": 7.673861546209082e-13
+    },
+    {
+      "id": "dev-8-067",
+      "max_difference_fp64": 1.2221335055073723e-12
+    },
+    {
+      "id": "dev-8-068",
+      "max_difference_fp64": 1.0089706847793423e-12
+    },
+    {
+      "id": "dev-8-069",
+      "max_difference_fp64": 9.947598300641403e-13
+    },
+    {
+      "id": "dev-8-070",
+      "max_difference_fp64": 8.313350008393172e-13
+    },
+    {
+      "id": "dev-8-071",
+      "max_difference_fp64": 1.7763568394002505e-12
+    },
+    {
+      "id": "dev-8-072",
+      "max_difference_fp64": 7.673861546209082e-13
+    },
+    {
+      "id": "dev-8-073",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-074",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-075",
+      "max_difference_fp64": 8.384404281969182e-13
+    },
+    {
+      "id": "dev-8-076",
+      "max_difference_fp64": 8.384404281969182e-13
+    },
+    {
+      "id": "dev-8-077",
+      "max_difference_fp64": 1.4779288903810084e-12
+    },
+    {
+      "id": "dev-8-078",
+      "max_difference_fp64": 5.684341886080801e-13
+    },
+    {
+      "id": "dev-8-079",
+      "max_difference_fp64": 9.663381206337363e-13
+    },
+    {
+      "id": "dev-8-080",
+      "max_difference_fp64": 2.9274360713316128e-12
+    },
+    {
+      "id": "dev-8-081",
+      "max_difference_fp64": 7.815970093361102e-13
+    },
+    {
+      "id": "dev-8-082",
+      "max_difference_fp64": 8.526512829121202e-13
+    },
+    {
+      "id": "dev-8-083",
+      "max_difference_fp64": 1.0089706847793423e-12
+    },
+    {
+      "id": "dev-8-084",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-085",
+      "max_difference_fp64": 2.1458390619955026e-12
+    },
+    {
+      "id": "dev-8-086",
+      "max_difference_fp64": 6.394884621840902e-13
+    },
+    {
+      "id": "dev-8-087",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-088",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-089",
+      "max_difference_fp64": 5.258016244624741e-13
+    },
+    {
+      "id": "dev-8-090",
+      "max_difference_fp64": 5.968558980384842e-13
+    },
+    {
+      "id": "dev-8-091",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-092",
+      "max_difference_fp64": 9.663381206337363e-13
+    },
+    {
+      "id": "dev-8-093",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-094",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-095",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-096",
+      "max_difference_fp64": 4.263256414560601e-13
+    },
+    {
+      "id": "dev-8-097",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-098",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-099",
+      "max_difference_fp64": 8.810729923425242e-13
+    },
+    {
+      "id": "dev-8-100",
+      "max_difference_fp64": 9.521272659185342e-13
+    },
+    {
+      "id": "dev-8-101",
+      "max_difference_fp64": 6.963318810448982e-13
+    },
+    {
+      "id": "dev-8-102",
+      "max_difference_fp64": 6.821210263296962e-13
+    },
+    {
+      "id": "dev-8-103",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-104",
+      "max_difference_fp64": 8.242295734817162e-13
+    },
+    {
+      "id": "dev-8-105",
+      "max_difference_fp64": 7.389644451905042e-13
+    },
+    {
+      "id": "dev-8-106",
+      "max_difference_fp64": 5.542233338928781e-13
+    },
+    {
+      "id": "dev-8-107",
+      "max_difference_fp64": 5.400124791776761e-13
+    },
+    {
+      "id": "dev-8-108",
+      "max_difference_fp64": 1.0516032489249483e-12
+    },
+    {
+      "id": "dev-8-109",
+      "max_difference_fp64": 5.968558980384842e-13
+    },
+    {
+      "id": "dev-8-110",
+      "max_difference_fp64": 8.526512829121202e-13
+    },
+    {
+      "id": "dev-8-111",
+      "max_difference_fp64": 5.826450433232822e-13
+    },
+    {
+      "id": "dev-8-112",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-113",
+      "max_difference_fp64": 6.252776074688882e-13
+    },
+    {
+      "id": "dev-8-114",
+      "max_difference_fp64": 1.1084466677857563e-12
+    },
+    {
+      "id": "dev-8-115",
+      "max_difference_fp64": 7.105427357601002e-13
+    },
+    {
+      "id": "dev-8-116",
+      "max_difference_fp64": 6.110667527536862e-13
+    },
+    {
+      "id": "dev-8-117",
+      "max_difference_fp64": 9.094947017729282e-13
+    },
+    {
+      "id": "dev-8-118",
+      "max_difference_fp64": 1.1937117960769683e-12
+    },
+    {
+      "id": "dev-8-119",
+      "max_difference_fp64": 6.536993168992922e-13
+    },
+    {
+      "id": "dev-8-120",
+      "max_difference_fp64": 8.526512829121202e-13
+    },
+    {
+      "id": "dev-8-121",
+      "max_difference_fp64": 5.115907697472721e-13
+    },
+    {
+      "id": "dev-8-122",
+      "max_difference_fp64": 7.673861546209082e-13
+    },
+    {
+      "id": "dev-8-123",
+      "max_difference_fp64": 6.252776074688882e-13
+    },
+    {
+      "id": "dev-8-124",
+      "max_difference_fp64": 6.679101716144942e-13
+    },
+    {
+      "id": "dev-8-125",
+      "max_difference_fp64": 7.958078640513122e-13
+    },
+    {
+      "id": "dev-8-126",
+      "max_difference_fp64": 8.100187187665142e-13
+    },
+    {
+      "id": "dev-8-127",
+      "max_difference_fp64": 5.115907697472721e-13
+    },
+    {
+      "id": "dev-33-000",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-001",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-002",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-003",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-004",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-005",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-006",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-007",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-008",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-009",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-010",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-011",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-012",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-013",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-014",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-015",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-016",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-017",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-018",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-019",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-020",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-021",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-022",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-023",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-024",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-025",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-026",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-027",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-028",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-029",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-030",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-031",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-032",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-033",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-034",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-035",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-036",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-037",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-038",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-039",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-040",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-041",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-042",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-043",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-044",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-045",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-046",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-047",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-048",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-049",
+      "max_difference_fp64": 1.0658141036401503e-14
+    },
+    {
+      "id": "dev-33-050",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-051",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-052",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-053",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-054",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-055",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-056",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-057",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-058",
+      "max_difference_fp64": 1.0658141036401503e-14
+    },
+    {
+      "id": "dev-33-059",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-060",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-061",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-062",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-063",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-064",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-065",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-066",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-067",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-068",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-069",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-070",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-071",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-072",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-073",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-074",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-075",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-076",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-077",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-078",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-079",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-080",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-081",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-082",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-083",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-084",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-085",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-086",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-087",
+      "max_difference_fp64": 1.0658141036401503e-14
+    },
+    {
+      "id": "dev-33-088",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-089",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-090",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-091",
+      "max_difference_fp64": 1.0658141036401503e-14
+    },
+    {
+      "id": "dev-33-092",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-093",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-094",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-095",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-096",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-097",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-098",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-099",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-100",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-101",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-102",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-103",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-104",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-105",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-106",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-107",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-108",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-109",
+      "max_difference_fp64": 1.0658141036401503e-14
+    },
+    {
+      "id": "dev-33-110",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-111",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-112",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-113",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-114",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-115",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-116",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-117",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-118",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-119",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-120",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-121",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-122",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-123",
+      "max_difference_fp64": 1.4210854715202004e-14
+    },
+    {
+      "id": "dev-33-124",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-125",
+      "max_difference_fp64": 2.1316282072803006e-14
+    },
+    {
+      "id": "dev-33-126",
+      "max_difference_fp64": 7.105427357601002e-15
+    },
+    {
+      "id": "dev-33-127",
+      "max_difference_fp64": 1.4210854715202004e-14
+    }
+  ]
+}

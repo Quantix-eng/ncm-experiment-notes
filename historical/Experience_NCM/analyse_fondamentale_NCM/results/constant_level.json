@@ -1,0 +1,65 @@
+{
+  "status": "exploratory_posthoc",
+  "n": 128,
+  "level": 5,
+  "conditions": {
+    "sham": {
+      "metrics": {
+        "n": 128,
+        "solved": 105,
+        "solved_rate": 0.8203125,
+        "cell_accuracy": 0.9795524691358025,
+        "valid_and_clues_rate": 0.8203125,
+        "malformed": 0
+      },
+      "changed_boards": 0,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "delta_solved": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "success_status_changes": 0,
+      "success_status_change_wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    "remove_level5_residual": {
+      "metrics": {
+        "n": 128,
+        "solved": 105,
+        "solved_rate": 0.8203125,
+        "cell_accuracy": 0.9792631172839507,
+        "valid_and_clues_rate": 0.8203125,
+        "malformed": 0
+      },
+      "changed_boards": 4,
+      "introduced_errors": 0,
+      "rescued": 0,
+      "delta_solved": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "success_status_changes": 0,
+      "success_status_change_wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    }
+  },
+  "residual_rms_per_batch": [
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413,
+    0.007872111164033413
+  ],
+  "intervention": "Replace the full residual contribution of VQ level 5 with zero before generation of finer levels; regenerate all downstream codes",
+  "caveat": "Selected after observing constant VQ codes; tests contribution of a common learned offset, not sample-specific information or metacognitive control."
+}

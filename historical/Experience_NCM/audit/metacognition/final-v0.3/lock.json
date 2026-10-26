@@ -1,0 +1,122 @@
+{
+  "bootstrap": {
+    "interval": 0.95,
+    "method": "paired stratified percentile by unique solution group",
+    "repetitions": 5000,
+    "seed": 20261027
+  },
+  "calibration": "Platt, lambda .001, calibration500 only; raw logits for AUROC",
+  "choices": {
+    "rich": {
+      "cv_log_loss": {
+        "0.0001": 0.669347971752247,
+        "0.001": 0.5500428109958555,
+        "0.01": 0.44417878266424304,
+        "0.1": 0.35662332371325267,
+        "1.0": 0.3132050287358973,
+        "10.0": 0.35028167987852515
+      },
+      "iterations": 32,
+      "max_abs_gradient": 1.992519286036945e-06,
+      "strength": 1.0
+    },
+    "rich_hidden_primary": {
+      "cv_log_loss": {
+        "0.0001": 0.6499361475501435,
+        "0.001": 0.5389265443192112,
+        "0.01": 0.4359886119854516,
+        "0.1": 0.3510350366101601,
+        "1.0": 0.30969520197424105,
+        "10.0": 0.3484350964222186
+      },
+      "iterations": 32,
+      "max_abs_gradient": 1.1059140485091337e-06,
+      "strength": 1.0
+    },
+    "rich_noise_control": {
+      "cv_log_loss": {
+        "0.0001": 0.6687646338935593,
+        "0.001": 0.5510986852726004,
+        "0.01": 0.4449232990735005,
+        "0.1": 0.35711557307402375,
+        "1.0": 0.3134124542910282,
+        "10.0": 0.35029937030129743
+      },
+      "iterations": 31,
+      "max_abs_gradient": 1.2257343727363305e-06,
+      "strength": 1.0
+    },
+    "summary": {
+      "cv_log_loss": {
+        "0.0001": 0.7232685138974004,
+        "0.001": 0.5446887887653681,
+        "0.01": 0.3917020405960597,
+        "0.1": 0.29077873865702875,
+        "1.0": 0.2797292648615726,
+        "10.0": 0.34261534675979377
+      },
+      "iterations": 13,
+      "max_abs_gradient": 4.340132550167486e-06,
+      "strength": 1.0
+    }
+  },
+  "development_report_sha256": "3aca3d808d8fc3fddec2271d45fd3b58609b5e99a1748fc51da7cbae5cf12c79",
+  "expected_test_failures": 68,
+  "interpretation": "exploratory held-out evaluation after development amendment; not prospective confirmation; historical labels previously seen for stratification",
+  "model_files": {
+    "model-rich.npz": "b4acbf4ead422c9dc2c10cf23e0d84f5bc1211488fd00db2a85c08ff3768439d",
+    "model-rich_hidden_primary.npz": "62ad66f1a125ecaa05256799ef4f3aad516877f646e806dfaad5b9f1bc2cf7b9",
+    "model-rich_noise_control.npz": "78cd4210e4bcd2565a23458893661ac016f02332170776311c9afef6554daf48",
+    "model-summary.npz": "90daef707764833b736474c6d44b8f7be9eb14b9ba8599e4dcaf94a0960d39a0"
+  },
+  "models": [
+    "rich",
+    "rich_hidden_primary",
+    "summary",
+    "rich_noise_control"
+  ],
+  "n_test": 500,
+  "practical_delta": 0.03,
+  "primary": "AUROC(raw failure logit rich_hidden_primary) - AUROC(raw failure logit rich), level9, test500",
+  "sample_size_rule": "fixed original test500; no optional extension or 80% power claim",
+  "source_files": {
+    "assets.lock.json": "89cbdc24badeac8176e58c204f5a72bc51c19a5d8d69fadf9a9d5f43794939e7",
+    "audit/metacognition/split-v0.2.json": "e9298238ffb693bb5914ce29b72d2e83707f80c8b6878540d3f7eea89f3e5e65",
+    "experiments/metacognition/amendment-v0.3.json": "9e1f90f2bf77655ee573e0fbbd6874ac89e0a2130be0d05837e007f43300a554",
+    "experiments/metacognition/features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "experiments/metacognition/final_v03.py": "3626d5a7e4d0a206f451202d339cdbd58cbfbc452588dbef7049cfd8964b360d",
+    "experiments/metacognition/probes.py": "d646f50aab1f8909741a49aba726507499867025b604346d361311670c3c26df",
+    "experiments/metacognition/protocol-v0.2.json": "2ecd154f048cdd25833a1629bb7090b072436325d5d81eb39e8ada6914825047",
+    "experiments/metacognition/run_pilot.py": "7c4cb8f2fc0cffaf7908f42d110b9b415c2885c323c4e5d00ac3914bf28365c8",
+    "experiments/metacognition/stability-correction-v0.3.json": "4e15ad506749cc351bb19a15f3c4a8ac6bbf2e2ddbc6107344f6c9e13c48af21",
+    "experiments/metacognition/stability_v03.py": "38da22e03f23ce32253f0905e8d5dddf534ef26227832781c110db125d2837a9",
+    "experiments/metacognition/study_v03.py": "fa6488677a450f34b566473f47443a21782027cff80f11fe8fdfd5178dcbd4ca",
+    "experiments/metacognition/trace.py": "a4e47316ab2b1ccbe033d8ae0cff8e610d3c89c6f7a785a1bee9824564f0fa1f",
+    "experiments/metacognition/train_probes.py": "62d254c025c70a6a42d7926c3555327eafd5aef11c9d274336d69a2e2e48c20d",
+    "src/ncm_mac/__init__.py": "c14785d41a74cae3945a42b61c9b0a391f21c93e1a0d7c2238c0b852a3b2143f",
+    "src/ncm_mac/_vendor/__init__.py": "3085687dd830df31ef385f8ebd09e3cce62af22ed44f411e493b52b5fda33b21",
+    "src/ncm_mac/_vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/models/common.py": "41b7c2c653d7ba312d583caca878ea3708d83da1a770b0b39651dbfd19754b73",
+    "src/ncm_mac/_vendor/models/next_concept.py": "f420d33e6b210d9a09b5e786bdc433eb961b20e2ab47f21ea4d337e0985fe263",
+    "src/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "src/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "src/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "src/ncm_mac/_vendor/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/tokenization/bpe_tokenizer.py": "ac423cb4a91ff1f6b249b68cbfcfc7cadab6820c4a00145095c788dc0a4b282b",
+    "src/ncm_mac/_vendor/tokenization/hf_tokenizer.py": "ce00ed791a743094019b652e14db97ced4483871d5983e4fc799c7e595863860",
+    "src/ncm_mac/_vendor/tokenization/sudoku_tokenizer.py": "cdc2f3ecd287fd1de30262288320253d939759bdac3c6bd8f1830d258c25f7d6",
+    "src/ncm_mac/_vendor/tokenization/tokenizer.py": "e527d47e4ed8634c673d48a872a07c9cc8828d30988331de2d4bd3b7c21ddcb7",
+    "src/ncm_mac/_vendor/tokenization/vqvae_tokenizer.py": "29ab3ec4af99a343da5c4be81c95165ea185b933649f1fff0b7f70b2a95302b5",
+    "src/ncm_mac/_vendor/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/utils/misc.py": "7e766c7ee036648f4959323ab671e6a7c5d3e873adb9ed60fbec83497728b452",
+    "src/ncm_mac/_vendor/utils/registry.py": "cf122d4cff4fa686be670f7b3dfdc91e1c63a56923253106e1ce22de462603ec",
+    "src/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "src/ncm_mac/cli.py": "a2d55fd82f6a950cfc367f49a000920228fe7b67afe2980bd7282841cf2775ff",
+    "src/ncm_mac/metal_experiment.py": "686ac716cbfa0217baf2ddb857841693cf20af6ca1f0eda8d816e45645f9db62",
+    "src/ncm_mac/parallel.py": "c00046b06c9e5b8dd2c49bfd7c608787808994a2bdabd7d7a4c75e27001df863",
+    "src/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76"
+  },
+  "stability_report_sha256": "6f7b86950748aad54ac3cce3cbb71f1266204f157e07c2394ab2ba046a803c54",
+  "status": "locked_before_new_held_out_inference",
+  "timestamp_utc": "2026-10-23T00:22:23.278029+00:00"
+}

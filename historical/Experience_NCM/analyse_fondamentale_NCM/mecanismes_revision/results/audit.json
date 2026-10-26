@@ -1,0 +1,1124 @@
+{
+  "hard": {
+    "n": 600,
+    "scope": "fixed hard test",
+    "generator": {
+      "all_cells": {
+        "corrected9": 12333,
+        "reverted_later": 3088,
+        "rate": 0.25038514554447416,
+        "ci95": [
+          0.24278201051518628,
+          0.2581305385423442
+        ],
+        "n_puzzles": 600
+      },
+      "initially_blank": {
+        "corrected9": 7685,
+        "reverted_later": 1947,
+        "rate": 0.25335068314899156,
+        "ci95": [
+          0.2440513220596733,
+          0.2629443439645431
+        ],
+        "n_puzzles": 600
+      },
+      "cell_accuracy_by_level": [
+        0.14530864197530866,
+        0.14440329218106995,
+        0.16790123456790124,
+        0.20294238683127572,
+        0.20296296296296296,
+        0.2782304526748971,
+        0.3326337448559671,
+        0.45314814814814813,
+        0.615082304526749,
+        0.7593004115226337,
+        0.8167901234567901,
+        0.9809876543209877
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        516
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        516
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 772,
+          "degraded": 816
+        },
+        {
+          "level": 3,
+          "corrected": 2754,
+          "degraded": 1612
+        },
+        {
+          "level": 4,
+          "corrected": 3755,
+          "degraded": 2052
+        },
+        {
+          "level": 5,
+          "corrected": 336,
+          "degraded": 335
+        },
+        {
+          "level": 6,
+          "corrected": 7657,
+          "degraded": 3999
+        },
+        {
+          "level": 7,
+          "corrected": 7305,
+          "degraded": 4661
+        },
+        {
+          "level": 8,
+          "corrected": 10764,
+          "degraded": 4907
+        },
+        {
+          "level": 9,
+          "corrected": 12333,
+          "degraded": 4463
+        },
+        {
+          "level": 10,
+          "corrected": 10775,
+          "degraded": 3766
+        },
+        {
+          "level": 11,
+          "corrected": 6873,
+          "degraded": 4079
+        },
+        {
+          "level": 12,
+          "corrected": 8063,
+          "degraded": 83
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 12,
+          "reference": 7,
+          "values8_to12": [
+            6,
+            7,
+            7,
+            4,
+            7
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 16,
+          "reference": 8,
+          "values8_to12": [
+            5,
+            8,
+            8,
+            5,
+            8
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 19,
+          "reference": 7,
+          "values8_to12": [
+            9,
+            7,
+            7,
+            8,
+            7
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 27,
+          "reference": 4,
+          "values8_to12": [
+            6,
+            4,
+            6,
+            4,
+            4
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 51,
+          "reference": 7,
+          "values8_to12": [
+            3,
+            7,
+            7,
+            3,
+            7
+          ]
+        }
+      ]
+    },
+    "oracle_codec": {
+      "all_cells": {
+        "corrected9": 12717,
+        "reverted_later": 3176,
+        "rate": 0.24974443658095463,
+        "ci95": [
+          0.24256345027061876,
+          0.25727814621529954
+        ],
+        "n_puzzles": 600
+      },
+      "initially_blank": {
+        "corrected9": 8012,
+        "reverted_later": 2030,
+        "rate": 0.2533699450823764,
+        "ci95": [
+          0.24432548580463165,
+          0.26252494485700084
+        ],
+        "n_puzzles": 600
+      },
+      "cell_accuracy_by_level": [
+        0.14713991769547324,
+        0.14627572016460905,
+        0.17160493827160495,
+        0.20658436213991768,
+        0.20637860082304527,
+        0.28343621399176955,
+        0.3382098765432099,
+        0.4624691358024691,
+        0.632798353909465,
+        0.7770987654320988,
+        0.8377777777777777,
+        1.0
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        600
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        600
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 793,
+          "degraded": 835
+        },
+        {
+          "level": 3,
+          "corrected": 2807,
+          "degraded": 1576
+        },
+        {
+          "level": 4,
+          "corrected": 3806,
+          "degraded": 2106
+        },
+        {
+          "level": 5,
+          "corrected": 355,
+          "degraded": 365
+        },
+        {
+          "level": 6,
+          "corrected": 7790,
+          "degraded": 4045
+        },
+        {
+          "level": 7,
+          "corrected": 7456,
+          "degraded": 4794
+        },
+        {
+          "level": 8,
+          "corrected": 10986,
+          "degraded": 4947
+        },
+        {
+          "level": 9,
+          "corrected": 12717,
+          "degraded": 4439
+        },
+        {
+          "level": 10,
+          "corrected": 10897,
+          "degraded": 3884
+        },
+        {
+          "level": 11,
+          "corrected": 6953,
+          "degraded": 4004
+        },
+        {
+          "level": 12,
+          "corrected": 7884,
+          "degraded": 0
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 13,
+          "reference": 1,
+          "values8_to12": [
+            5,
+            1,
+            1,
+            7,
+            1
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 27,
+          "reference": 4,
+          "values8_to12": [
+            3,
+            4,
+            6,
+            4,
+            4
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 51,
+          "reference": 7,
+          "values8_to12": [
+            3,
+            7,
+            3,
+            3,
+            7
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 52,
+          "reference": 6,
+          "values8_to12": [
+            7,
+            6,
+            4,
+            4,
+            6
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 58,
+          "reference": 5,
+          "values8_to12": [
+            1,
+            5,
+            5,
+            3,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  "easy": {
+    "n": 2000,
+    "scope": "all official puzzles; shared solution families",
+    "generator": {
+      "all_cells": {
+        "corrected9": 39790,
+        "reverted_later": 7874,
+        "rate": 0.19788891681326967,
+        "ci95": [
+          0.19406725546625525,
+          0.20196661492187196
+        ],
+        "n_puzzles": 2000
+      },
+      "initially_blank": {
+        "corrected9": 20032,
+        "reverted_later": 3959,
+        "rate": 0.197633785942492,
+        "ci95": [
+          0.19203044790097468,
+          0.20310798728958337
+        ],
+        "n_puzzles": 2000
+      },
+      "cell_accuracy_by_level": [
+        0.14795061728395062,
+        0.14796296296296296,
+        0.170679012345679,
+        0.20708024691358023,
+        0.2046851851851852,
+        0.2880308641975309,
+        0.3616913580246914,
+        0.49217283950617285,
+        0.6525,
+        0.8164320987654321,
+        0.8658888888888889,
+        0.9997407407407407
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1988
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1988
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 2596,
+          "degraded": 2594
+        },
+        {
+          "level": 3,
+          "corrected": 8892,
+          "degraded": 5212
+        },
+        {
+          "level": 4,
+          "corrected": 12560,
+          "degraded": 6663
+        },
+        {
+          "level": 5,
+          "corrected": 2077,
+          "degraded": 2465
+        },
+        {
+          "level": 6,
+          "corrected": 25695,
+          "degraded": 12193
+        },
+        {
+          "level": 7,
+          "corrected": 25732,
+          "degraded": 13799
+        },
+        {
+          "level": 8,
+          "corrected": 36836,
+          "degraded": 15698
+        },
+        {
+          "level": 9,
+          "corrected": 39790,
+          "degraded": 13817
+        },
+        {
+          "level": 10,
+          "corrected": 36203,
+          "degraded": 9646
+        },
+        {
+          "level": 11,
+          "corrected": 19237,
+          "degraded": 11225
+        },
+        {
+          "level": 12,
+          "corrected": 21692,
+          "degraded": 8
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 43,
+          "reference": 2,
+          "values8_to12": [
+            6,
+            2,
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 53,
+          "reference": 9,
+          "values8_to12": [
+            1,
+            9,
+            4,
+            9,
+            9
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 64,
+          "reference": 9,
+          "values8_to12": [
+            6,
+            9,
+            9,
+            6,
+            9
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 73,
+          "reference": 4,
+          "values8_to12": [
+            3,
+            4,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "local_puzzle_index": 1,
+          "cell_index": 7,
+          "reference": 7,
+          "values8_to12": [
+            5,
+            7,
+            7,
+            8,
+            7
+          ]
+        }
+      ]
+    },
+    "oracle_codec": {
+      "all_cells": {
+        "corrected9": 39926,
+        "reverted_later": 7306,
+        "rate": 0.18298852877823973,
+        "ci95": [
+          0.1791946445316601,
+          0.1867998178962256
+        ],
+        "n_puzzles": 2000
+      },
+      "initially_blank": {
+        "corrected9": 20238,
+        "reverted_later": 3749,
+        "rate": 0.18524557762624766,
+        "ci95": [
+          0.18010970030480034,
+          0.19052519790673195
+        ],
+        "n_puzzles": 2000
+      },
+      "cell_accuracy_by_level": [
+        0.14642592592592593,
+        0.15129012345679013,
+        0.1736358024691358,
+        0.21101234567901234,
+        0.2088395061728395,
+        0.2918703703703704,
+        0.3675555555555556,
+        0.4994074074074074,
+        0.6592901234567902,
+        0.8253395061728395,
+        0.8793086419753087,
+        1.0
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2000
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2000
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 3361,
+          "degraded": 2573
+        },
+        {
+          "level": 3,
+          "corrected": 9042,
+          "degraded": 5422
+        },
+        {
+          "level": 4,
+          "corrected": 12800,
+          "degraded": 6745
+        },
+        {
+          "level": 5,
+          "corrected": 2092,
+          "degraded": 2444
+        },
+        {
+          "level": 6,
+          "corrected": 26011,
+          "degraded": 12560
+        },
+        {
+          "level": 7,
+          "corrected": 26287,
+          "degraded": 14026
+        },
+        {
+          "level": 8,
+          "corrected": 37295,
+          "degraded": 15935
+        },
+        {
+          "level": 9,
+          "corrected": 39926,
+          "degraded": 14025
+        },
+        {
+          "level": 10,
+          "corrected": 36246,
+          "degraded": 9346
+        },
+        {
+          "level": 11,
+          "corrected": 19086,
+          "degraded": 10343
+        },
+        {
+          "level": 12,
+          "corrected": 19552,
+          "degraded": 0
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 23,
+          "reference": 2,
+          "values8_to12": [
+            7,
+            2,
+            7,
+            2,
+            2
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 53,
+          "reference": 9,
+          "values8_to12": [
+            1,
+            9,
+            4,
+            9,
+            9
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 60,
+          "reference": 9,
+          "values8_to12": [
+            3,
+            9,
+            4,
+            9,
+            9
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 73,
+          "reference": 4,
+          "values8_to12": [
+            3,
+            4,
+            4,
+            5,
+            4
+          ]
+        },
+        {
+          "local_puzzle_index": 1,
+          "cell_index": 15,
+          "reference": 2,
+          "values8_to12": [
+            3,
+            2,
+            9,
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  "medium": {
+    "n": 2000,
+    "scope": "all official puzzles; shared solution families",
+    "generator": {
+      "all_cells": {
+        "corrected9": 40290,
+        "reverted_later": 11006,
+        "rate": 0.27316952097294617,
+        "ci95": [
+          0.268989863464852,
+          0.2773878944835685
+        ],
+        "n_puzzles": 2000
+      },
+      "initially_blank": {
+        "corrected9": 23018,
+        "reverted_later": 6285,
+        "rate": 0.27304718046746024,
+        "ci95": [
+          0.26745088765146574,
+          0.27858446920804025
+        ],
+        "n_puzzles": 2000
+      },
+      "cell_accuracy_by_level": [
+        0.1493641975308642,
+        0.14803086419753086,
+        0.17208024691358026,
+        0.2029320987654321,
+        0.204179012345679,
+        0.28603703703703703,
+        0.3391296296296296,
+        0.45353086419753086,
+        0.608641975308642,
+        0.7534814814814815,
+        0.8174012345679013,
+        0.9979382716049383
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1928
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1928
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 3704,
+          "degraded": 3920
+        },
+        {
+          "level": 3,
+          "corrected": 8931,
+          "degraded": 5035
+        },
+        {
+          "level": 4,
+          "corrected": 12147,
+          "degraded": 7149
+        },
+        {
+          "level": 5,
+          "corrected": 2943,
+          "degraded": 2741
+        },
+        {
+          "level": 6,
+          "corrected": 26298,
+          "degraded": 13037
+        },
+        {
+          "level": 7,
+          "corrected": 24457,
+          "degraded": 15856
+        },
+        {
+          "level": 8,
+          "corrected": 35221,
+          "degraded": 16688
+        },
+        {
+          "level": 9,
+          "corrected": 40290,
+          "degraded": 15162
+        },
+        {
+          "level": 10,
+          "corrected": 37517,
+          "degraded": 14053
+        },
+        {
+          "level": 11,
+          "corrected": 24970,
+          "degraded": 14615
+        },
+        {
+          "level": 12,
+          "corrected": 29273,
+          "degraded": 26
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 7,
+          "reference": 8,
+          "values8_to12": [
+            5,
+            8,
+            5,
+            8,
+            8
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 11,
+          "reference": 4,
+          "values8_to12": [
+            7,
+            4,
+            4,
+            6,
+            4
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 15,
+          "reference": 2,
+          "values8_to12": [
+            1,
+            2,
+            2,
+            9,
+            2
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 19,
+          "reference": 8,
+          "values8_to12": [
+            5,
+            8,
+            3,
+            8,
+            8
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 51,
+          "reference": 5,
+          "values8_to12": [
+            4,
+            5,
+            5,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    "oracle_codec": {
+      "all_cells": {
+        "corrected9": 40565,
+        "reverted_later": 11159,
+        "rate": 0.27508936275114015,
+        "ci95": [
+          0.2709455668930516,
+          0.27936206639071476
+        ],
+        "n_puzzles": 2000
+      },
+      "initially_blank": {
+        "corrected9": 23216,
+        "reverted_later": 6350,
+        "rate": 0.27351826326671264,
+        "ci95": [
+          0.2679931805217006,
+          0.2791641121743095
+        ],
+        "n_puzzles": 2000
+      },
+      "cell_accuracy_by_level": [
+        0.1498456790123457,
+        0.14838888888888888,
+        0.1729753086419753,
+        0.2049753086419753,
+        0.2052962962962963,
+        0.28890123456790123,
+        0.3429074074074074,
+        0.4584506172839506,
+        0.6142716049382716,
+        0.7585,
+        0.8256172839506173,
+        0.9999938271604938
+      ],
+      "exact_grids_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1999
+      ],
+      "exact_81cells_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1999
+      ],
+      "transitions": [
+        {
+          "level": 2,
+          "corrected": 3714,
+          "degraded": 3950
+        },
+        {
+          "level": 3,
+          "corrected": 9030,
+          "degraded": 5047
+        },
+        {
+          "level": 4,
+          "corrected": 12322,
+          "degraded": 7138
+        },
+        {
+          "level": 5,
+          "corrected": 2954,
+          "degraded": 2902
+        },
+        {
+          "level": 6,
+          "corrected": 26603,
+          "degraded": 13059
+        },
+        {
+          "level": 7,
+          "corrected": 24746,
+          "degraded": 15997
+        },
+        {
+          "level": 8,
+          "corrected": 35628,
+          "degraded": 16910
+        },
+        {
+          "level": 9,
+          "corrected": 40565,
+          "degraded": 15322
+        },
+        {
+          "level": 10,
+          "corrected": 37668,
+          "degraded": 14303
+        },
+        {
+          "level": 11,
+          "corrected": 25399,
+          "degraded": 14526
+        },
+        {
+          "level": 12,
+          "corrected": 28249,
+          "degraded": 0
+        }
+      ],
+      "examples": [
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 7,
+          "reference": 8,
+          "values8_to12": [
+            5,
+            8,
+            5,
+            8,
+            8
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 19,
+          "reference": 8,
+          "values8_to12": [
+            5,
+            8,
+            3,
+            8,
+            8
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 31,
+          "reference": 6,
+          "values8_to12": [
+            5,
+            6,
+            9,
+            9,
+            6
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 51,
+          "reference": 5,
+          "values8_to12": [
+            4,
+            5,
+            5,
+            4,
+            5
+          ]
+        },
+        {
+          "local_puzzle_index": 0,
+          "cell_index": 69,
+          "reference": 4,
+          "values8_to12": [
+            2,
+            4,
+            2,
+            5,
+            4
+          ]
+        }
+      ]
+    }
+  },
+  "architecture_audit": {
+    "decoder_layers": 1,
+    "encoder_layers": 0,
+    "fine_drop": {
+      "prob": 0.5,
+      "min_keep": 1
+    },
+    "no_decoder_feedback": "cached.generate_cached does not call decoder; sudoku.predict decodes after all codes are generated",
+    "inference_quantization": "generator logits argmax; nearest-codebook search is in encoding, not in native generator heads",
+    "warning": "Configured fine dropout and implemented training branch do not establish the exact historical training exposure."
+  },
+  "status": "exploratory existing-trace audit plus oracle replay; proposals in ANALYSE_ET_PISTES.md are not executed"
+}

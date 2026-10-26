@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "models": 6,
+  "evaluation_families": 40,
+  "cuts": [
+    2,
+    1
+  ],
+  "elapsed_seconds": 10.234189875074662,
+  "calibration_freeze_sha256": "dd003fcaa1a8be6279bb9b82137c92412040ea345b5147f390ca6e8c6a9b7da2"
+}

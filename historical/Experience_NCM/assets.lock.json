@@ -1,0 +1,137 @@
+[
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/easy/config.yaml",
+    "bytes": 1980,
+    "sha256": null,
+    "git_oid": "adef40fc50a296bf598ecf6fee092bc571715c34"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/easy/generator.pt",
+    "bytes": 102560203,
+    "sha256": "1cefebcd1eae0e210b7e991fdce0e86964d0e897e94a3b432d1008ab92d9926e",
+    "git_oid": "90f77db72c484dccbaf9677b6d7a0ac0b6951ac3"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/easy/tokenizer.pt",
+    "bytes": 59816209,
+    "sha256": "3f9c87e99fd49900929cd650181f55bf00530280416992b11ddc4ea869b39d68",
+    "git_oid": "6cb4b0295300ede3d9dfa137fe38c10f8a056e98"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/hard/config.yaml",
+    "bytes": 1980,
+    "sha256": null,
+    "git_oid": "c21f90e1eb874b09dbefed466c5292bdac756752"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/hard/generator.pt",
+    "bytes": 102560203,
+    "sha256": "9e0bfe44abc1ca3930b7a63cd56cd0b9564b95e29edfe12dd0903207b89df8b8",
+    "git_oid": "a7d4211c0db5dd856ff3c9660178e6a3f86c1826"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/hard/tokenizer.pt",
+    "bytes": 59816209,
+    "sha256": "3bc6aecad8e15820f9d9bb09750e3c59bdf91ca953f1f11dbd109aaed1d80c0b",
+    "git_oid": "9287828be99a9926c1c81dbdfccac5d960d6929c"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/medium/config.yaml",
+    "bytes": 1982,
+    "sha256": null,
+    "git_oid": "02bd6dd8ef5f7dcbe15206fef163d4d880fd9fc6"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/medium/generator.pt",
+    "bytes": 102560203,
+    "sha256": "8336b53fa3dcbddd9375374b8b7409feba2c2ae3b5a1fc5167ecd7852b26ae17",
+    "git_oid": "5d82fdad97fd707f341f99a94591d5126f8ebda9"
+  },
+  {
+    "kind": "model",
+    "repo": "hazyresearch/ncm-checkpoints",
+    "revision": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "path": "sudoku/medium/tokenizer.pt",
+    "bytes": 59816209,
+    "sha256": "aca5523a0c477a6f142bfd6c2ba157353c01b1e3f072bb0f75e34b3b75ebc211",
+    "git_oid": "ea86729b235c13fb3357ca9d40504db24f3be1d8"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/easy/puzzles.pickle",
+    "bytes": 372063,
+    "sha256": "403353dd5d11e49d42627aee84c7b1ceb399fda03d01f6210ce78d0e61f2b29d",
+    "git_oid": "b4877d8dedb33122b50bd332d44b4161ddd855ab"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/easy/solutions.pickle",
+    "bytes": 364063,
+    "sha256": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+    "git_oid": "c567d070dc540df63793a839da29071e5d7ccb96"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/hard/puzzles.pickle",
+    "bytes": 372063,
+    "sha256": "dd7b6763e5594094a1366ac8423f87fc9431056721c61df52ce3490023f17d5e",
+    "git_oid": "94f738a43d05ea970e55027140dc21a4beec3760"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/hard/solutions.pickle",
+    "bytes": 364063,
+    "sha256": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+    "git_oid": "c567d070dc540df63793a839da29071e5d7ccb96"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/medium/puzzles.pickle",
+    "bytes": 372063,
+    "sha256": "d49cd2b380bdce748b10a7f0847637b5e160bd107b67f91dca93670b15190871",
+    "git_oid": "4b0de20f0eec9f3b99678e035ab5620b24bf36ed"
+  },
+  {
+    "kind": "dataset",
+    "repo": "hazyresearch/ncm-datasets",
+    "revision": "6580ba41a4b0a976dde876fbe84d25327617b0e6",
+    "path": "sudoku/medium/solutions.pickle",
+    "bytes": 364063,
+    "sha256": "b52de75f5e4642adca58b18967bcd4bbcafa699c61b21ac33ee0fd7389e0d576",
+    "git_oid": "c567d070dc540df63793a839da29071e5d7ccb96"
+  }
+]

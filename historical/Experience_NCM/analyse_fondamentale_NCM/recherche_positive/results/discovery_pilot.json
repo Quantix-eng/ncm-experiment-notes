@@ -1,0 +1,8 @@
+{
+  "n": 32,
+  "terminal_only_cell_agreement": 0.9818672839506173,
+  "terminal_only_solved": 0,
+  "editing_hits": 208,
+  "editing_trials": 256,
+  "editing_rate": 0.8125
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "examples": 128,
+  "max_difference": 0.0,
+  "scope": "raw additive pooling identity with synthetic embeddings; not a checkpoint rerun"
+}

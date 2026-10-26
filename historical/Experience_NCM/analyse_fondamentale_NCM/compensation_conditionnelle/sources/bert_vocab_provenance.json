@@ -1,0 +1,6 @@
+{
+  "repo": "google-bert/bert-base-uncased",
+  "commit": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "url": "https://huggingface.co/google-bert/bert-base-uncased/resolve/86b5e0934494bd15c9632b12f734a8a67f723594/vocab.txt",
+  "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+}

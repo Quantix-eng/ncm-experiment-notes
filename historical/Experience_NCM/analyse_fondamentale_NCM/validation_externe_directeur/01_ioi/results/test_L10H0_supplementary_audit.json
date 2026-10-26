@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "stage": "test",
+  "head": "_L10H0",
+  "posthoc_software_audit": true,
+  "scientific_decision_rules_changed": false,
+  "full_official_forward_checks": 40,
+  "max_official_logit_error": 0.0,
+  "independent_linear_checks": 24,
+  "max_delta_DE_error": 4.440892098500626e-16,
+  "max_frozen_SR_minus_rounding_error": 5.62357868588427e-15,
+  "max_frozen_SR_rounding_magnitude": 3.1002595513029974e-07,
+  "max_reader_allocation_error": 4.440892098500626e-16,
+  "finite_official_logits_checked": 1206168,
+  "limitation": "internal audit, four fixed families, no external replication"
+}

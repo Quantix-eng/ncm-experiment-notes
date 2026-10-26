@@ -1,0 +1,15 @@
+{
+  "version": "0.3",
+  "scope": "development amendment after observed v0.2 scaling failure; not prospective preregistration",
+  "parent": "protocol-v0.2.json",
+  "reason": "Nonzero tiny probability variances amplify validation values by up to 8.53e9. All original results retained.",
+  "change": "For observable features only: remove columns exactly constant in the fitting sample using min==max; center on fitting mean; divide by max(population_std,0.1). No clipping of validation values or probabilities.",
+  "scale_floor": 0.1,
+  "rationale": "Bound amplification at 10 per unit of native observable input, mostly bounded probabilities and fractions; floor fixed before amended fitting, no threshold search.",
+  "unchanged": ["frozen split", "level 9", "feature definitions", "hidden PCA16 with training-only standardization", "logistic objective", "lambda grid", "optimizer", "nested folds", "metrics and controls"],
+  "noise": "standard normal control retains original training standardization; it is not an observable probability",
+  "development_models": ["puzzle", "summary", "rich", "rich_hidden_primary", "rich_noise_control", "hidden_shuffle_control"],
+  "stability": {"validation": "frozen training fold 0 only", "resampling_pool": "training folds 1..4", "repeats": 20, "method": "stratified solution-group bootstrap with replacement; duplicates share frozen CV group assignment", "seed": 20261028, "models": ["rich", "rich_hidden_primary"], "interpretation": "sensitivity to fitting-sample variation on a fixed development holdout; not unconditional confidence interval or confirmation power"},
+  "held_out_rule": "No calibration/test inference or fitting until stability audit and explicit final-analysis lock recorded. Do not select floor, features or PCA dimension on held-out results.",
+  "claim": "Any amended OOF result is exploratory because v0.2 development outcomes have been observed. Do not relabel repeated development as independent confirmation."
+}

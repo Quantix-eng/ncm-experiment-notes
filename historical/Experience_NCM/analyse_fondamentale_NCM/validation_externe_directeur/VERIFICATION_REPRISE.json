@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-25T21:56:53.631272+00:00",
+  "status": "requested_campaigns_executed_on_declared_domains",
+  "IOI_secondary_heads": [
+    "L9H6",
+    "L10H0"
+  ],
+  "IOI_all_three_supplementary_audits_passed": true,
+  "InterpBench_reserved_tasks": [
+    13,
+    18,
+    19,
+    21
+  ],
+  "InterpBench_semantic_domain_restricted": true,
+  "InterpBench_case18_fidelity_failure_preserved": true,
+  "independent_human_replication": false,
+  "frozen_files_checked": 2146,
+  "historical_files_checked": {
+    "benchmark_tache_commune": 76,
+    "benchmark_multimodel_ar": 29,
+    "article_benchmark_coordination": 14,
+    "benchmark_ncm_reel": 28,
+    "benchmark_causal_revision": 24,
+    "composition_terminale": 15,
+    "recherche_positive": 62
+  },
+  "markdown_docs_checked": 47,
+  "missing_local_links": [],
+  "new_agents_used": 0,
+  "new_training": false
+}

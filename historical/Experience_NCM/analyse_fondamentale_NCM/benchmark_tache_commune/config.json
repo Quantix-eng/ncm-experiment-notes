@@ -1,0 +1,1 @@
+{"seeds":[17,29,43],"architectures":["ar","parallel"],"cuts":[2,1],"steps":1200,"batch_size":64,"width":48,"layers":4,"heads":4,"mlp":96,"lr":0.002,"candidate_doses":[0.1,0.3,1.0,3.0],"partition_seed":2026102601,"direction_seed":2026102602,"margin":0.01}

@@ -1,0 +1,229 @@
+{
+  "split": "validation",
+  "created_utc": "2026-10-25T17:51:58.607216+00:00",
+  "elapsed_seconds": 117.59068158396985,
+  "n_sequences": 128,
+  "n_interventions": 512,
+  "native_correct_sequences": 34,
+  "technical_pass": true,
+  "technical": {
+    "max_native_logit_error": 0.0,
+    "max_patched_replay_logit_error": 0.0001220703125,
+    "max_native_residual_error": 0.0,
+    "max_final_mlp_change": 0.0,
+    "max_self_repair_reader_identity_error": 0.00014718091711378445,
+    "full_forward_replays": 8
+  },
+  "metrics": {
+    "n": 512,
+    "D": {
+      "mean": 0.005387272340546145,
+      "descriptive_ci95": [
+        -0.0026298477432911303,
+        0.012627708631797718
+      ]
+    },
+    "R": {
+      "mean": 0.0001930307398791964,
+      "descriptive_ci95": [
+        -0.0011320700834959508,
+        0.0014052882684957467
+      ]
+    },
+    "I": {
+      "mean": 1.7397009026698385e-05,
+      "descriptive_ci95": [
+        -0.00036524229876854777,
+        0.00025952605030680196
+      ]
+    },
+    "S": {
+      "mean": -0.0001512337378655193,
+      "descriptive_ci95": [
+        -0.000510930679920496,
+        4.5720430837825596e-05
+      ]
+    },
+    "delta_DE": {
+      "mean": -0.030666496029959706,
+      "descriptive_ci95": [
+        -0.050396370662360385,
+        -0.014071445617720377
+      ]
+    },
+    "self_repair": {
+      "mean": 0.0036343442108370434,
+      "descriptive_ci95": [
+        -0.00952175416178463,
+        0.016854355691082068
+      ]
+    },
+    "reader_logit_effect": {
+      "mean": 0.003636249634480948,
+      "descriptive_ci95": [
+        -0.00952086519801521,
+        0.016859608859508705
+      ]
+    },
+    "scale_ratio": {
+      "mean": 1.0002135316608474,
+      "descriptive_ci95": [
+        0.9997065251372987,
+        1.0007513877557357
+      ]
+    },
+    "correct_by_condition": [
+      136,
+      137,
+      137,
+      136,
+      137
+    ],
+    "scale_ratio_greater_one": 257,
+    "positive_reader_recovery": 263,
+    "positive_self_repair": 264
+  },
+  "by_head": {
+    "2": {
+      "n": 256,
+      "D": {
+        "mean": 0.0006070116340719522,
+        "descriptive_ci95": [
+          -0.010924773225808659,
+          0.010797848138998943
+        ]
+      },
+      "R": {
+        "mean": -0.0002573055630534782,
+        "descriptive_ci95": [
+          -0.0024321089908015737,
+          0.0017751215747995202
+        ]
+      },
+      "I": {
+        "mean": 1.1987951809455666e-05,
+        "descriptive_ci95": [
+          -0.000708137972787537,
+          0.0004724947880982766
+        ]
+      },
+      "S": {
+        "mean": -0.00028937010831775467,
+        "descriptive_ci95": [
+          -0.0009545026859632766,
+          7.711174428847166e-05
+        ]
+      },
+      "delta_DE": {
+        "mean": -0.038079627321199724,
+        "descriptive_ci95": [
+          -0.06907246828711645,
+          -0.012203473513652679
+        ]
+      },
+      "self_repair": {
+        "mean": 0.006340228151901477,
+        "descriptive_ci95": [
+          -0.016220542358639897,
+          0.02921251276389323
+        ]
+      },
+      "reader_logit_effect": {
+        "mean": 0.006341133598088744,
+        "descriptive_ci95": [
+          -0.01622009040689862,
+          0.029213892209536053
+        ]
+      },
+      "scale_ratio": {
+        "mean": 1.0003800562117249,
+        "descriptive_ci95": [
+          0.9995012830244377,
+          1.0013042885344476
+        ]
+      },
+      "correct_by_condition": [
+        68,
+        70,
+        70,
+        68,
+        70
+      ],
+      "scale_ratio_greater_one": 125,
+      "positive_reader_recovery": 133,
+      "positive_self_repair": 130
+    },
+    "10": {
+      "n": 256,
+      "D": {
+        "mean": 0.010167533047020338,
+        "descriptive_ci95": [
+          0.0031391090511449504,
+          0.01784211556745554
+        ]
+      },
+      "R": {
+        "mean": 0.000643367042811871,
+        "descriptive_ci95": [
+          -0.00021946136255966974,
+          0.0014685136203867236
+        ]
+      },
+      "I": {
+        "mean": 2.2806066243941103e-05,
+        "descriptive_ci95": [
+          -2.8582097981133534e-05,
+          6.027760227912404e-05
+        ]
+      },
+      "S": {
+        "mean": -1.3097367413283934e-05,
+        "descriptive_ci95": [
+          -7.61817862817038e-05,
+          2.454663643083332e-05
+        ]
+      },
+      "delta_DE": {
+        "mean": -0.023253364738719688,
+        "descriptive_ci95": [
+          -0.03634974987514854,
+          -0.01149787099444962
+        ]
+      },
+      "self_repair": {
+        "mean": 0.0009284602697726082,
+        "descriptive_ci95": [
+          -0.006344813924730422,
+          0.008111673148508627
+        ]
+      },
+      "reader_logit_effect": {
+        "mean": 0.0009313656708731521,
+        "descriptive_ci95": [
+          -0.006339861494339416,
+          0.00811723748570563
+        ]
+      },
+      "scale_ratio": {
+        "mean": 1.0000470071099699,
+        "descriptive_ci95": [
+          0.9997417596867308,
+          1.0003508345456793
+        ]
+      },
+      "correct_by_condition": [
+        68,
+        67,
+        67,
+        68,
+        67
+      ],
+      "scale_ratio_greater_one": 132,
+      "positive_reader_recovery": 130,
+      "positive_self_repair": 134
+    }
+  },
+  "conclusion": "reader-only structural control; no adaptive downstream attention/MLP exists at this boundary",
+  "parameters": 162322944,
+  "measurement_amendment": "1.2; direct-effect/self-repair only recomputed without model forward"
+}

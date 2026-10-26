@@ -1,0 +1,718 @@
+{
+  "families": 16,
+  "O": {
+    "A": {
+      "final": {
+        "n": 16,
+        "solved": 16,
+        "solved_rate": 1.0,
+        "cell_accuracy": 1.0,
+        "valid_and_clues_rate": 1.0,
+        "malformed": 0
+      },
+      "solved_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16
+      ],
+      "corrections_by_transition": [
+        16,
+        50,
+        44,
+        7,
+        95,
+        98,
+        128,
+        151,
+        119,
+        76,
+        96
+      ],
+      "degradations_by_transition": [
+        9,
+        24,
+        25,
+        6,
+        60,
+        56,
+        65,
+        41,
+        49,
+        41,
+        0
+      ],
+      "later_reversions_of_corrections_by_transition": [
+        15,
+        41,
+        39,
+        7,
+        62,
+        59,
+        48,
+        36,
+        15,
+        0,
+        0
+      ],
+      "mechanistic_conclusion": "non_identifiable_from_trajectories"
+    },
+    "B": {
+      "final": {
+        "n": 16,
+        "solved": 16,
+        "solved_rate": 1.0,
+        "cell_accuracy": 1.0,
+        "valid_and_clues_rate": 1.0,
+        "malformed": 0
+      },
+      "solved_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16
+      ],
+      "corrections_by_transition": [
+        12,
+        44,
+        45,
+        6,
+        92,
+        87,
+        127,
+        154,
+        128,
+        73,
+        99
+      ],
+      "degradations_by_transition": [
+        11,
+        15,
+        26,
+        11,
+        56,
+        50,
+        57,
+        51,
+        47,
+        44,
+        0
+      ],
+      "later_reversions_of_corrections_by_transition": [
+        11,
+        35,
+        41,
+        6,
+        61,
+        51,
+        46,
+        37,
+        21,
+        0,
+        0
+      ],
+      "mechanistic_conclusion": "non_identifiable_from_trajectories"
+    },
+    "Aplus": {
+      "final": {
+        "n": 16,
+        "solved": 16,
+        "solved_rate": 1.0,
+        "cell_accuracy": 1.0,
+        "valid_and_clues_rate": 1.0,
+        "malformed": 0
+      },
+      "solved_by_level": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16
+      ],
+      "corrections_by_transition": [
+        14,
+        45,
+        39,
+        6,
+        98,
+        87,
+        130,
+        142,
+        122,
+        72,
+        97
+      ],
+      "degradations_by_transition": [
+        6,
+        23,
+        26,
+        4,
+        56,
+        53,
+        58,
+        40,
+        41,
+        44,
+        0
+      ],
+      "later_reversions_of_corrections_by_transition": [
+        13,
+        38,
+        34,
+        6,
+        64,
+        47,
+        48,
+        28,
+        19,
+        0,
+        0
+      ],
+      "mechanistic_conclusion": "non_identifiable_from_trajectories"
+    }
+  },
+  "C": {
+    "D": {
+      "mean": 1.7471847246302982e-06,
+      "ci95": [
+        -4.1188246990751493e-07,
+        5.011721318838759e-06
+      ],
+      "ci_adjusted": [
+        -7.445265783055892e-07,
+        6.316694038079004e-06
+      ],
+      "n_families": 16
+    },
+    "R": {
+      "mean": -7.458743858367009e-06,
+      "ci95": [
+        -2.2325055505453177e-05,
+        6.923521544171638e-08
+      ],
+      "ci_adjusted": [
+        -2.9707047911279103e-05,
+        1.2351563220566462e-07
+      ],
+      "n_families": 16
+    },
+    "I": {
+      "mean": 9.474668583550846e-07,
+      "ci95": [
+        -2.2319711702740473e-07,
+        3.0853466700692102e-06
+      ],
+      "ci_adjusted": [
+        -2.8300379478930165e-07,
+        4.072390033428574e-06
+      ],
+      "n_families": 16
+    },
+    "S": {
+      "mean": 9.679514365509188e-07,
+      "ci95": [
+        -2.340236946189538e-07,
+        3.1632934613435584e-06
+      ],
+      "ci_adjusted": [
+        -2.9255970905178317e-07,
+        4.178908513657471e-06
+      ],
+      "n_families": 16
+    },
+    "decision": "mean_frozen_damage_equivalent_within_prespecified_margin",
+    "margin_nats": 0.01,
+    "loss_by_condition": {
+      "Y00": 8.493312555877014e-05,
+      "Y10": 8.668031028340043e-05,
+      "Y11": 9.41390541417674e-05,
+      "Y01": 9.33393362754922e-05,
+      "Y1wrong": 9.510700557831836e-05
+    },
+    "by_sign": {
+      "positive": {
+        "D": {
+          "mean": 4.137889472974448e-06,
+          "ci95": [
+            4.694863428824956e-07,
+            1.0320340753899103e-05
+          ],
+          "ci_adjusted": [
+            1.9033952493384918e-07,
+            1.2880465378210102e-05
+          ],
+          "n_families": 16
+        },
+        "R": {
+          "mean": -1.667847601334358e-08,
+          "ci95": [
+            -2.3435538877832898e-07,
+            2.393240240661452e-07
+          ],
+          "ci_adjusted": [
+            -2.8583838795098617e-07,
+            3.2207092758573927e-07
+          ],
+          "n_families": 16
+        },
+        "I": {
+          "mean": 5.412128933884353e-08,
+          "ci95": [
+            -9.799021854123926e-08,
+            2.9217946176126495e-07
+          ],
+          "ci_adjusted": [
+            -1.2014913041201365e-07,
+            3.892833758255176e-07
+          ],
+          "n_families": 16
+        },
+        "S": {
+          "mean": 4.1968187661538065e-08,
+          "ci95": [
+            -1.1662005737374528e-07,
+            2.85530678207588e-07
+          ],
+          "ci_adjusted": [
+            -1.399318739469103e-07,
+            3.8124971311337284e-07
+          ],
+          "n_families": 16
+        }
+      },
+      "negative": {
+        "D": {
+          "mean": -6.435200237138506e-07,
+          "ci95": [
+            -2.2857301611213413e-06,
+            2.8602952697819065e-07
+          ],
+          "ci_adjusted": [
+            -3.0262996469367874e-06,
+            3.5853567880318197e-07
+          ],
+          "n_families": 16
+        },
+        "R": {
+          "mean": -1.4900809240720673e-05,
+          "ci95": [
+            -4.457391605728141e-05,
+            6.430193520338082e-08
+          ],
+          "ci_adjusted": [
+            -5.9329356115171694e-05,
+            1.4171639731730848e-07
+          ],
+          "n_families": 16
+        },
+        "I": {
+          "mean": 1.8408124273713252e-06,
+          "ci95": [
+            -4.212497954478623e-07,
+            6.071095320945029e-06
+          ],
+          "ci_adjusted": [
+            -5.167206438884855e-07,
+            8.067487513130159e-06
+          ],
+          "n_families": 16
+        },
+        "S": {
+          "mean": 1.8939346854402995e-06,
+          "ci95": [
+            -4.262718485324133e-07,
+            6.2387056401501385e-06
+          ],
+          "ci_adjusted": [
+            -5.239984198608254e-07,
+            8.28901498137483e-06
+          ],
+          "n_families": 16
+        }
+      }
+    },
+    "tail_code_changed_fraction": 0.004475121359223301,
+    "mechanistic_conclusion": "No ground-truth mechanism class assigned"
+  },
+  "E": {
+    "input_effect": {
+      "mean": 29.467573208642055,
+      "ci95": [
+        28.158559678625355,
+        30.757244718044532
+      ],
+      "ci_adjusted": [
+        27.75719021817923,
+        31.09762314232808
+      ],
+      "n_families": 16
+    },
+    "state_effect": {
+      "mean": 3.179794898332947,
+      "ci95": [
+        2.1810395794085986,
+        4.194018734952236
+      ],
+      "ci_adjusted": [
+        1.892034879821198,
+        4.4683154660063495
+      ],
+      "n_families": 16
+    },
+    "interaction": {
+      "mean": -0.7311371907325473,
+      "ci95": [
+        -1.4020553490481795,
+        0.009171328330708361
+      ],
+      "ci_adjusted": [
+        -1.555961799936432,
+        0.21530187830516578
+      ],
+      "n_families": 16
+    },
+    "native_span": {
+      "mean": 32.647368106975,
+      "ci95": [
+        31.62139357546447,
+        33.57985857760779
+      ],
+      "ci_adjusted": [
+        31.327879168847684,
+        33.83207201309605
+      ],
+      "n_families": 16
+    },
+    "label_counts": {
+      "input_dominant_response_preference_in_this_test": 15,
+      "non_monotone_non_identifiable": 1
+    },
+    "per_family": [
+      {
+        "source_id": "sudoku-000",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 36.17898054420948,
+        "input_effect": 32.731149525940424,
+        "state_effect": 3.4478310182690626,
+        "interaction": -0.3501063495874419,
+        "input_ratio": 0.9047007138839658,
+        "interaction_ratio": -0.009677065089206256,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-001",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 30.282343834638596,
+        "input_effect": 28.84293798108896,
+        "state_effect": 1.4394058535496388,
+        "interaction": -1.0062328080336265,
+        "input_ratio": 0.9524671583742086,
+        "interaction_ratio": -0.03322836612411231,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-002",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.77644020318985,
+        "input_effect": 32.234188328186676,
+        "state_effect": 0.5422518750031795,
+        "interaction": -2.5371080040931666,
+        "input_ratio": 0.9834560473424933,
+        "interaction_ratio": -0.07740645379318074,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-003",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 33.50139764944712,
+        "input_effect": 26.883797546227772,
+        "state_effect": 6.617600103219349,
+        "interaction": -1.1263843774795568,
+        "input_ratio": 0.802467939622556,
+        "interaction_ratio": -0.0336220115132464,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-004",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 31.530697782834373,
+        "input_effect": 26.90424327055613,
+        "state_effect": 4.626454512278239,
+        "interaction": -2.526007294654848,
+        "input_ratio": 0.8532714199938534,
+        "interaction_ratio": -0.08011263537688124,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-005",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.72354503472646,
+        "input_effect": 31.03706958393256,
+        "state_effect": 1.6864754507939033,
+        "interaction": -1.8537906308968815,
+        "input_ratio": 0.9484629355100677,
+        "interaction_ratio": -0.05665005514927021,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-006",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.04921057595956,
+        "input_effect": 26.33480176479894,
+        "state_effect": 5.7144088111606175,
+        "interaction": -0.18403851744634103,
+        "input_ratio": 0.8216989214877243,
+        "interaction_ratio": -0.005742372874057316,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-007",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.478812416394554,
+        "input_effect": 29.407369653383892,
+        "state_effect": 3.071442763010662,
+        "interaction": -1.217040975888569,
+        "input_ratio": 0.9054324177980021,
+        "interaction_ratio": -0.037471843498632196,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-008",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 34.12090369065602,
+        "input_effect": 28.41183251142502,
+        "state_effect": 5.7090711792310085,
+        "interaction": -2.0964903434117694,
+        "input_ratio": 0.8326811261803002,
+        "interaction_ratio": -0.061442989975259404,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-009",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 27.133768210808437,
+        "input_effect": 23.847618197401363,
+        "state_effect": 3.286150013407072,
+        "interaction": -0.04405577977498609,
+        "input_ratio": 0.878890761213989,
+        "interaction_ratio": -0.0016236513643334272,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-010",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 31.645948228240016,
+        "input_effect": 30.413893553614617,
+        "state_effect": 1.2320546746253962,
+        "interaction": -1.1919520199298805,
+        "input_ratio": 0.9610675380702941,
+        "interaction_ratio": -0.03766523320246772,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-011",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.86411205927531,
+        "input_effect": 29.734380677342415,
+        "state_effect": 3.129731381932892,
+        "interaction": -1.9975728094577825,
+        "input_ratio": 0.9047675051652709,
+        "interaction_ratio": -0.06078280179470126,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-012",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 34.39591020345688,
+        "input_effect": 34.63650622963905,
+        "state_effect": -0.24059602618217468,
+        "interaction": -1.1086544275283714,
+        "input_ratio": 1.0069949021485116,
+        "interaction_ratio": -0.03223215844472546,
+        "functional_label": "non_monotone_non_identifiable",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-013",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.5951442917188,
+        "input_effect": 28.17780447502931,
+        "state_effect": 4.417339816689493,
+        "interaction": 1.6599060197671278,
+        "input_ratio": 0.8644785929721509,
+        "interaction_ratio": 0.05092494774409841,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-014",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 35.45738259951274,
+        "input_effect": 29.83452066034079,
+        "state_effect": 5.622861939171949,
+        "interaction": 2.2716985593239443,
+        "input_ratio": 0.8414191480888039,
+        "interaction_ratio": 0.06406842222344868,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      },
+      {
+        "source_id": "sudoku-015",
+        "native_exact_A": true,
+        "native_exact_B": true,
+        "native_span": 32.62329238653183,
+        "input_effect": 32.04905737936497,
+        "state_effect": 0.5742350071668634,
+        "interaction": 1.6096347073713915,
+        "input_ratio": 0.9823980056836958,
+        "interaction_ratio": 0.049340044784563546,
+        "functional_label": "input_dominant_response_preference_in_this_test",
+        "mechanistic_conclusion": "non_identified"
+      }
+    ],
+    "invariant": {
+      "native_plus_minus_A_nll": {
+        "mean": -4.3614649153008216e-05,
+        "ci95": [
+          -0.00012954699955439476,
+          2.2310760049405275e-06
+        ],
+        "ci_adjusted": [
+          -0.00016989964427812398,
+          3.5609488463846275e-06
+        ],
+        "n_families": 16
+      },
+      "input_plus_state_A_minus_native_plus_nll": {
+        "mean": 1.8166852035701973e-06,
+        "ci95": [
+          -3.224094981418924e-06,
+          8.056376298486425e-06
+        ],
+        "ci_adjusted": [
+          -4.139875963265226e-06,
+          1.0107303014634392e-05
+        ],
+        "n_families": 16
+      },
+      "input_A_state_plus_minus_native_A_nll": {
+        "mean": -2.257053736727204e-06,
+        "ci95": [
+          -8.415536609615868e-06,
+          2.4528496113672516e-06
+        ],
+        "ci_adjusted": [
+          -1.0387736847803333e-05,
+          3.0915559369417935e-06
+        ],
+        "n_families": 16
+      },
+      "input_plus_state_A_probability_TV": {
+        "mean": 7.503358130486091e-06,
+        "ci95": [
+          2.078228198121124e-06,
+          1.3847790115505872e-05
+        ],
+        "ci_adjusted": [
+          6.898534518124437e-07,
+          1.5794142186195474e-05
+        ],
+        "n_families": 16
+      },
+      "input_A_state_plus_probability_TV": {
+        "mean": 7.195218051943451e-06,
+        "ci95": [
+          1.9014649947812104e-06,
+          1.3472800013725877e-05
+        ],
+        "ci_adjusted": [
+          6.819396791335206e-07,
+          1.5321220777642897e-05
+        ],
+        "n_families": 16
+      }
+    },
+    "ratio_warning": "u+v=g algebraically; ratios are not independent resources or causal mediation fractions"
+  },
+  "diagnostics": {
+    "perturbation_relative_norm_mean": 0.052999894009399806,
+    "envelope_coordinate_fraction_mean": 0.002483925122893258,
+    "envelope_coordinate_fraction_max": 0.004213483146067416,
+    "latent_AB_relative_distance": {
+      "mean": 0.42945863105380977,
+      "ci95": [
+        0.35926543338755323,
+        0.5041906018954043
+      ],
+      "ci_adjusted": [
+        0.343378557051801,
+        0.5235791633766878
+      ],
+      "n_families": 16
+    },
+    "latent_Aplus_relative_distance": {
+      "mean": 0.10901899003090995,
+      "ci95": [
+        0.042963213913375174,
+        0.186540879537863
+      ],
+      "ci_adjusted": [
+        0.027288144354274655,
+        0.20748461877849644
+      ],
+      "n_families": 16
+    },
+    "warning": "Envelope is not a density/OOD test; swapped native states may be conditionally OOD"
+  },
+  "decision_scope": "Pilot with frozen checkpoint; conditional functional effects only; no mechanism labels"
+}

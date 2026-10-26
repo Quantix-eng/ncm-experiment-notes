@@ -1,0 +1,19 @@
+{
+  "version": 1, "seed": 202610242, "bootstrap": 4000,
+  "batch_size": 16, "omitted_level": 9, "fresh_n": 256, "fresh_clues": 30,
+  "sudoku_sets": ["hard_test", "external_previous", "fresh"],
+  "conditions": ["Y00", "Y10", "Y11", "Y01", "random_tail_delta"],
+  "co_primary": ["R=L10-L11", "I=L10+L01-L11-L00"],
+  "primary_population": "fresh unique puzzles generated after protocol freeze, independent solution families under audited D4/digit normalizations",
+  "primary_metric": "Per-puzzle mean decoder NLL on initially empty Sudoku cells; references used only for scoring. Conditional on frozen hard checkpoint.",
+  "inference": "Paired puzzle percentile bootstrap 4000 draws; 95% descriptive intervals and 97.5% Bonferroni intervals for two co-primary contrasts. Positive compensation claim requires both co-primary 97.5% lower bounds above zero on fresh puzzles; no universal or cognitive claim.",
+  "random_control": "Independent Gaussian direction per puzzle, same norm as adapted-minus-native tail sum; readout only, descriptive control.",
+  "text_n": 128, "text_seed_base": 320261024, "text_temperature": 1.0,
+  "text_top_k": 0, "text_top_p": 1.0, "text_prefix": 101,
+  "text_level0": "Official saved unigram, sampled separately per trajectory seed; native eager generate, no custom generator runner.",
+  "text_readout": "Raw decoder argmax at every cumulative level; separate official final frequency/adjacency postprocessing for examples only.",
+  "text_observable": "All 128 positions, no ground-truth text: adoption of final raw token at a transition then abandonment at an intermediate later level. Final token is a retrospective anchor, not correctness. Report all transitions; 8->9 primary descriptive reference to Sudoku, not scale equivalence.",
+  "text_oracle_control_n": 128,
+  "text_oracle_control": "First 128 previously selected random LM1B validation rows, reused exploratory observations; non-PAD mask. Native generation is unconditional and not paired to these references.",
+  "scope": "No attention patching or disambiguating puzzles. New study preserves all earlier files. Paper narrative depends on measured effects; no universal NCM claim from Sudoku and one LM1B generator."
+}

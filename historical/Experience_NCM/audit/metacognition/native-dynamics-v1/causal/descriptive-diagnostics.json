@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "scope": "posthoc descriptive geometry and exact paired diagnostics; no fitting or generation",
+  "treatments": {
+    "runner_up": {
+      "quantiles_0_05_50_95_100": {
+        "compensation": [
+          -1.1797200593125443,
+          -0.027608299763741153,
+          0.06365846460313031,
+          0.9600618612351471,
+          1.6003592579948025
+        ],
+        "relative_final_latent_norm": [
+          0.5050204782708834,
+          0.9999999784275495,
+          1.3623480918073492,
+          2.783030471694835,
+          11.405753420577048
+        ],
+        "forced_probability": [
+          1.7799172709262173e-08,
+          3.821840172427628e-06,
+          0.005842433407925493,
+          0.36025323277999044,
+          0.498865808354936
+        ]
+      },
+      "future_codes_unchanged": 435,
+      "exact_paired_p": 0.6875,
+      "conservative_exact_difference_interval_at_least_97_5": [
+        -0.005505286411778399,
+        0.008085849741377252
+      ]
+    },
+    "matched": {
+      "quantiles_0_05_50_95_100": {
+        "compensation": [
+          -0.6418016306582429,
+          -0.06027820879780973,
+          -0.0,
+          0.41413119542760296,
+          1.266022919164833
+        ],
+        "relative_final_latent_norm": [
+          0.6490954429405881,
+          0.9999999793283906,
+          1.0000000226146368,
+          2.5341728928113514,
+          12.021230251891868
+        ],
+        "forced_probability": [
+          1.255554126018703e-16,
+          1.209892256600737e-13,
+          7.860392243432714e-08,
+          0.000948563333805174,
+          0.22140184768691615
+        ]
+      },
+      "future_codes_unchanged": 791,
+      "exact_paired_p": 0.625,
+      "conservative_exact_difference_interval_at_least_97_5": [
+        -0.0045299674488129054,
+        0.0070976405762310495
+      ]
+    }
+  },
+  "norm_match_mismatch_quantiles_0_50_90_100": [
+    9.905249585440146e-06,
+    0.013174312588695503,
+    0.08130419168830388,
+    0.22712193364884325
+  ],
+  "exact_interval_method": "difference of marginal Clopper-Pearson98.75 percent intervals, four tail probabilities0.00625, joint Bonferroni >=97.5 percent for difference; posthoc sensitivity, not replacement of primary bootstrap",
+  "source_sha256": "20c9edcd27e46af348b56265497ef7c82a975159360e6c5a89016fe143e4ceda",
+  "outcomes_sha256": "221774b5c5f74d4a68fcd16059ac1fbc4236b2b58a842c7afc2edc0d5ebe1868"
+}

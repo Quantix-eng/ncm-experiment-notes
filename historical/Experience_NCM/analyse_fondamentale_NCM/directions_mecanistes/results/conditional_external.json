@@ -1,0 +1,91 @@
+{
+  "baseline": {
+    "changed_only": {
+      "n_puzzles": 256,
+      "n_cells": 6031,
+      "accuracy": 0.5644171779141104,
+      "logloss": 1.2187858387986141,
+      "macro_f1": 0.4179923109203176
+    },
+    "joint_all": {
+      "n_puzzles": 256,
+      "n_cells": 13056,
+      "accuracy": 0.5559129901960784,
+      "logloss": 1.1954381846196556,
+      "macro_f1": 0.46951127444648993
+    },
+    "gate_auc": 0.6856612838413157
+  },
+  "state": {
+    "changed_only": {
+      "n_puzzles": 256,
+      "n_cells": 6031,
+      "accuracy": 0.2530260321671365,
+      "logloss": 1.97575115660311,
+      "macro_f1": 0.1628440386738124
+    },
+    "joint_all": {
+      "n_puzzles": 256,
+      "n_cells": 13056,
+      "accuracy": 0.5379136029411765,
+      "logloss": 1.5875982004632403,
+      "macro_f1": 0.4581152218638594
+    },
+    "gate_auc": 0.5912967343694588
+  },
+  "combined": {
+    "changed_only": {
+      "n_puzzles": 256,
+      "n_cells": 6031,
+      "accuracy": 0.5637539379870669,
+      "logloss": 1.2211632160428818,
+      "macro_f1": 0.4170660210763106
+    },
+    "joint_all": {
+      "n_puzzles": 256,
+      "n_cells": 13056,
+      "accuracy": 0.5498621323529411,
+      "logloss": 1.1946110161947967,
+      "macro_f1": 0.4573144193985072
+    },
+    "gate_auc": 0.6878699200040597
+  },
+  "shuffled_states": {
+    "changed_only": {
+      "n_puzzles": 256,
+      "n_cells": 6031,
+      "accuracy": 0.5591112584977616,
+      "logloss": 1.2337537997603396,
+      "macro_f1": 0.4130774183075417
+    },
+    "joint_all": {
+      "n_puzzles": 256,
+      "n_cells": 13056,
+      "accuracy": 0.5528492647058824,
+      "logloss": 1.200438220951191,
+      "macro_f1": 0.46743184010841854
+    },
+    "gate_auc": 0.6884206923776384
+  },
+  "contrasts": {
+    "combined_minus_fitted_baseline": {
+      "delta": -0.000663239927043608,
+      "ci95": [
+        -0.00657724481549627,
+        0.0051350220964533596
+      ],
+      "n_puzzles": 256,
+      "method": "paired ratio bootstrap by source puzzle"
+    },
+    "combined_minus_decoder_second": {
+      "delta": 0.06151550323329465,
+      "ci95": [
+        0.05036509761764361,
+        0.07208231589485917
+      ],
+      "n_puzzles": 256,
+      "method": "paired ratio bootstrap by source puzzle"
+    },
+    "second_accuracy": 0.5022384347537722
+  }
+}

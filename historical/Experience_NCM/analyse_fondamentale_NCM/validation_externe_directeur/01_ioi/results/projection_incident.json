@@ -1,0 +1,10 @@
+{
+  "time_utc": "2026-10-25T17:55:28.047207+00:00",
+  "inputs_finite": true,
+  "n_nan_fp32": 0,
+  "n_nonfinite_fp64": 0,
+  "fp64_vs_numpy_max_error": 3.552713678800501e-15,
+  "fp64_vs_scalar_max_error": 1.7763568394002505e-15,
+  "interpretation": "local numerical defect in FP32 vector/matrix measurement; network uses full official projection",
+  "scientific_thresholds_changed": false
+}

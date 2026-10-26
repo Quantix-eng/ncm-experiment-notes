@@ -1,0 +1,122 @@
+{
+  "bootstrap": "5000 paired mixed-group resamples seed20261105",
+  "caveat": "External-distribution exploratory evaluation; no power guarantee; prior H1 calibration/test not reused",
+  "corpus_manifest_sha256": "11ab397c210e779e10a6ff39a3dbdcd01dd8da45b8a74090b65807c219dd682e",
+  "model_files": {
+    "visible.npz": "7eb487ffd6305f9e75cf32d63907de6093dc7a0155c41174eed07d556f36703b",
+    "visible_hidden.npz": "1902fc8de7f75eb02face0707f4addbf6fb14c3970f727752db4c494f2f45f6c",
+    "visible_noise.npz": "8b831cb623bce7ad993062be3c50378fd7dc2325f1ed6beb05174d71a83f49bc",
+    "visible_shuffle.npz": "a9765ca640021bf751426d58413da218d5931f7c8e25117e3bc7b1090d76fa80"
+  },
+  "models": [
+    "visible",
+    "visible_hidden",
+    "visible_noise",
+    "visible_shuffle"
+  ],
+  "n": 1000,
+  "pre_inference_format_repair": {
+    "changed_files": [
+      "experiments/metacognition/correction/external.py"
+    ],
+    "previous_lock_sha256": "5bf942de7e14a07263f4a686d32ad8c20cc7760aaba79202dcd491b9538a72f6",
+    "reason": "91-token BOS-delimited prompt required; no external predictions observed; corpus, coefficients and design unchanged"
+  },
+  "primary": "macro within-puzzle AUROC difference visible_hidden-visible among mixed current-error groups",
+  "sample_size_fixed_no_extension": true,
+  "selection": {
+    "visible": {
+      "cv_mean_within_auc": {
+        "0.0001": 0.6179341947584756,
+        "0.001": 0.6247013554196068,
+        "0.01": 0.6372059351776922,
+        "0.1": 0.6374272423281637,
+        "1": 0.6214497063774715,
+        "10": 0.6129836590803693
+      },
+      "iterations": 12,
+      "max_abs_gradient": 3.0269096207025397e-06,
+      "strength": 0.1
+    },
+    "visible_hidden": {
+      "cv_mean_within_auc": {
+        "0.0001": 0.6194072911090605,
+        "0.001": 0.6254802730919294,
+        "0.01": 0.6355950673420399,
+        "0.1": 0.6357462763380906,
+        "1": 0.6211431213985479,
+        "10": 0.6142297582810733
+      },
+      "iterations": 13,
+      "max_abs_gradient": 3.7497471611812262e-06,
+      "strength": 0.1
+    },
+    "visible_noise": {
+      "cv_mean_within_auc": {
+        "0.0001": 0.6148545552730013,
+        "0.001": 0.6219146743216044,
+        "0.01": 0.6314524386704992,
+        "0.1": 0.6363929735958509,
+        "1": 0.6202361835984027,
+        "10": 0.6154626471341447
+      },
+      "iterations": 12,
+      "max_abs_gradient": 3.1026622420016322e-06,
+      "strength": 0.1
+    },
+    "visible_shuffle": {
+      "cv_mean_within_auc": {
+        "0.0001": 0.6162487302566586,
+        "0.001": 0.6255981404426744,
+        "0.01": 0.635020187947009,
+        "0.1": 0.6351743528271905,
+        "1": 0.6212045409936489,
+        "10": 0.6144823316051683
+      },
+      "iterations": 12,
+      "max_abs_gradient": 2.9771899364523986e-06,
+      "strength": 0.1
+    }
+  },
+  "source_files": {
+    "assets.lock.json": "89cbdc24badeac8176e58c204f5a72bc51c19a5d8d69fadf9a9d5f43794939e7",
+    "experiments/metacognition/confirmation_corpus.py": "ae597c3dc6bde5fc6a98b5876dba3b619c24d3eb1a34d0ef3e88b96b3b79c595",
+    "experiments/metacognition/correction/audit_training.py": "35fe6295acbbf95d50f415a9799df714b48ee8a741bc3a3db7dc23be88d59aac",
+    "experiments/metacognition/correction/cell_features.py": "dc32caf888bdae7a7865bec53bca1dee99b8408478cb2432dab7da08739408ba",
+    "experiments/metacognition/correction/external-design-v0.1.json": "d5c80a3832ffb7aff8b72156270860db05cd138afd510879c14532bc581a1463",
+    "experiments/metacognition/correction/external.py": "cedaec2643cd0e9cecf556db90fb164466ea5be04d709b951eca26e8b6ea177d",
+    "experiments/metacognition/correction/extract_training.py": "011e71633b7fd23dfa0c81c507d728e4c5efcd6827ae8356156ddef135d1ced4",
+    "experiments/metacognition/correction/learning.py": "2cba62e94291da21a8d6d0c04bcc654af71cfb3dfa96c411561374ff06ca4a7f",
+    "experiments/metacognition/correction/protocol-v0.1.json": "229586470bb0d53fc478406bd18a1261c6f62787c35cc2a03608a90cd64d8cdc",
+    "experiments/metacognition/correction/run_development.py": "6e91561c26e94141b834a3010f953f20ecbb16bcfbe1898ddfda1bab935572d0",
+    "experiments/metacognition/correction/verify_development.py": "57d88898b4ed2f5b21c672bdfdc562ec0f836f46cd117db089d743b951d4e8e7",
+    "experiments/metacognition/correction/verify_external.py": "05d1d8edacae19f0e0f646311163024010098f38d5a90063922b2caf0e86eb83",
+    "experiments/metacognition/features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "experiments/metacognition/probes.py": "d646f50aab1f8909741a49aba726507499867025b604346d361311670c3c26df",
+    "experiments/metacognition/study_v03.py": "fa6488677a450f34b566473f47443a21782027cff80f11fe8fdfd5178dcbd4ca",
+    "experiments/metacognition/trace.py": "a4e47316ab2b1ccbe033d8ae0cff8e610d3c89c6f7a785a1bee9824564f0fa1f",
+    "src/ncm_mac/__init__.py": "c14785d41a74cae3945a42b61c9b0a391f21c93e1a0d7c2238c0b852a3b2143f",
+    "src/ncm_mac/_vendor/__init__.py": "3085687dd830df31ef385f8ebd09e3cce62af22ed44f411e493b52b5fda33b21",
+    "src/ncm_mac/_vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/models/common.py": "41b7c2c653d7ba312d583caca878ea3708d83da1a770b0b39651dbfd19754b73",
+    "src/ncm_mac/_vendor/models/next_concept.py": "f420d33e6b210d9a09b5e786bdc433eb961b20e2ab47f21ea4d337e0985fe263",
+    "src/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "src/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "src/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "src/ncm_mac/_vendor/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/tokenization/bpe_tokenizer.py": "ac423cb4a91ff1f6b249b68cbfcfc7cadab6820c4a00145095c788dc0a4b282b",
+    "src/ncm_mac/_vendor/tokenization/hf_tokenizer.py": "ce00ed791a743094019b652e14db97ced4483871d5983e4fc799c7e595863860",
+    "src/ncm_mac/_vendor/tokenization/sudoku_tokenizer.py": "cdc2f3ecd287fd1de30262288320253d939759bdac3c6bd8f1830d258c25f7d6",
+    "src/ncm_mac/_vendor/tokenization/tokenizer.py": "e527d47e4ed8634c673d48a872a07c9cc8828d30988331de2d4bd3b7c21ddcb7",
+    "src/ncm_mac/_vendor/tokenization/vqvae_tokenizer.py": "29ab3ec4af99a343da5c4be81c95165ea185b933649f1fff0b7f70b2a95302b5",
+    "src/ncm_mac/_vendor/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/utils/misc.py": "7e766c7ee036648f4959323ab671e6a7c5d3e873adb9ed60fbec83497728b452",
+    "src/ncm_mac/_vendor/utils/registry.py": "cf122d4cff4fa686be670f7b3dfdc91e1c63a56923253106e1ce22de462603ec",
+    "src/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "src/ncm_mac/cli.py": "a2d55fd82f6a950cfc367f49a000920228fe7b67afe2980bd7282841cf2775ff",
+    "src/ncm_mac/metal_experiment.py": "686ac716cbfa0217baf2ddb857841693cf20af6ca1f0eda8d816e45645f9db62",
+    "src/ncm_mac/parallel.py": "c00046b06c9e5b8dd2c49bfd7c608787808994a2bdabd7d7a4c75e27001df863",
+    "src/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76"
+  },
+  "status": "locked_before_external_inference"
+}

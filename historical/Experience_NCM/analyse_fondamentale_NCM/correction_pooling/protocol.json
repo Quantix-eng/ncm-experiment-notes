@@ -1,0 +1,13 @@
+{
+  "version": 1, "seed": 95131, "batch_size": 16, "bootstrap": 2000,
+  "validation_n": 128, "test_n": 600, "external_n": 256,
+  "variants": ["native", "weighted_0", "weighted_0.05", "weighted_0.25", "weighted_1", "weighted_2", "shift_0.25", "shift_1", "max_0.1", "max_1", "fixed_bias_0.25"],
+  "selected_scope": "Level 5 downsampling only; 9 output positions; original weights, upsampling, decoder and other levels unchanged",
+  "selection": "On first 128 hard validation solutions, exclude native/sham/fixed_bias. Require no introduced exact reconstruction failures vs native and higher positional code entropy. Maximize positional entropy, then minimize RMS quantizer-input change, then lexical name. If none qualifies, select highest entropy as diagnostic only and explicitly reject a free repair claim.",
+  "heldout_variants": "native, selected variant, weighted_1, max_1 (deduplicate)",
+  "replication": "Selected variant and native on 600 easy and medium test solutions with shared solution families",
+  "symmetries_n": 128,
+  "robustness": {"n_puzzles": 128, "seeds": [95132,95133,95134,95135,95136], "sigma_relative_to_train_encoder_rms": [0.05,0.2,0.5]},
+  "generator_parity_n": 8,
+  "limits": "Exploratory intervention prompted by prior inspected Sudoku results. Reconstruction uses known solutions, not solving puzzles. Increased variance or occupancy is not improved task robustness. Generator encoder-pool changes can be inactive at inference."
+}

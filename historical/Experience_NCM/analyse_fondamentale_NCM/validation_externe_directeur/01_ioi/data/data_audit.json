@@ -1,0 +1,46 @@
+{
+  "exclusions": {
+    "dev": {
+      "total": 10000,
+      "eligible": 10000,
+      "excluded": [],
+      "selected": 128,
+      "templates": {
+        "After the lunch, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": 9,
+        "Afterwards, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": 13,
+        "Friends {name_A} and {name_B} found a {object} at the {place}. {name_C} gave it to": 19,
+        "Later, {name_A} and {name_B} met at the {place}. {name_C} bought a {object} for": 11,
+        "Once {name_A} and {name_B} finished at the {place}, {name_C} gave a {object} to": 20,
+        "Then, {name_A} and {name_B} had a long argument. Afterwards {name_C} said to": 6,
+        "Then, {name_A} and {name_B} were thinking about going to the {place}. {name_C} wanted to give a {object} to": 15,
+        "When {name_A} and {name_B} were done exploring the {place}, {name_C} decided to give a {object} to": 15,
+        "While {name_A} and {name_B} relaxed at the {place}, {name_C} presented a {object} to": 20
+      }
+    },
+    "test": {
+      "total": 1000,
+      "eligible": 1000,
+      "excluded": [],
+      "selected": 512,
+      "templates": {
+        "Before {name_A} and {name_B} left the {place}, {name_C} decided to give a {object} to": 48,
+        "Once {name_A} and {name_B} arrived at the {place}, {name_C} gave a {object} to": 47,
+        "The {place} {name_A} and {name_B} went to had a {object}. {name_C} gave it to": 62,
+        "Then, {name_A} and {name_B} had a lot of fun at the {place}. {name_C} gave a {object} to": 55,
+        "Then, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": 54,
+        "Then, {name_A} and {name_B} were working at the {place}. {name_C} decided to give a {object} to": 59,
+        "When {name_A} and {name_B} got a {object} at the {place}, {name_C} decided to give it to": 59,
+        "When {name_A} and {name_B} were about to leave the {place}, {name_C} gave a {object} to": 63,
+        "While {name_A} and {name_B} relaxed, {name_C} gave a {object} to": 65
+      }
+    }
+  },
+  "bos": true,
+  "candidate_encoding": "one token with leading space",
+  "variant_order": [
+    "native",
+    "s2_io_flip",
+    "s1_io_flip"
+  ],
+  "test_status": "tokenization and metadata only, no model outputs"
+}

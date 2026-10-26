@@ -1,0 +1,28 @@
+{
+  "actual_numerical_versions": {
+    "numpy": "1.26.4",
+    "torch": "2.8.0",
+    "transformers": "4.57.1"
+  },
+  "isolated_target_distributions": {
+    "filelock": "4.2.4",
+    "packaging": "26.3",
+    "requests": "2.34.2",
+    "certifi": "2026.10.23",
+    "numpy": "2.5.4",
+    "huggingface_hub": "0.36.2",
+    "hf-xet": "1.7.0",
+    "tqdm": "4.70.1",
+    "urllib3": "2.8.0",
+    "PyYAML": "6.0.3",
+    "fsspec": "2026.9.0",
+    "regex": "2026.9.29",
+    "transformers": "4.57.1",
+    "typing_extensions": "4.16.0",
+    "tokenizers": "0.22.2",
+    "charset-normalizer": "3.5.2",
+    "safetensors": "0.6.2",
+    "idna": "3.20"
+  },
+  "note": "NumPy and PyTorch are imported before target dependencies; installed target NumPy is not used"
+}

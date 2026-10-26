@@ -1,0 +1,258 @@
+{
+  "status": "no_common_informative_dose_fallback",
+  "selected_rho": 3.0,
+  "primary_cut": 2,
+  "all_candidates": [
+    {
+      "rho": 0.1,
+      "architectures": {
+        "ar": {
+          "damage_nll": 1.3866465471960035e-07,
+          "accuracy_drop": 0.0
+        },
+        "parallel": {
+          "damage_nll": 4.391865316246028e-07,
+          "accuracy_drop": 0.0
+        }
+      },
+      "admissible": false
+    },
+    {
+      "rho": 0.3,
+      "architectures": {
+        "ar": {
+          "damage_nll": 1.279387589132336e-06,
+          "accuracy_drop": 0.0
+        },
+        "parallel": {
+          "damage_nll": 4.285051939184006e-06,
+          "accuracy_drop": 0.0
+        }
+      },
+      "admissible": false
+    },
+    {
+      "rho": 1.0,
+      "architectures": {
+        "ar": {
+          "damage_nll": 1.8973663278801735e-05,
+          "accuracy_drop": 0.0
+        },
+        "parallel": {
+          "damage_nll": 0.00012066984240374243,
+          "accuracy_drop": 0.0
+        }
+      },
+      "admissible": false
+    },
+    {
+      "rho": 3.0,
+      "architectures": {
+        "ar": {
+          "damage_nll": 0.0016403244159741575,
+          "accuracy_drop": 0.0
+        },
+        "parallel": {
+          "damage_nll": 0.0568364459985005,
+          "accuracy_drop": 0.002777777777777768
+        }
+      },
+      "admissible": false
+    }
+  ],
+  "per_model": [
+    {
+      "architecture": "ar",
+      "seed": 17,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 1.4844666701814354e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 1.3680312382223003e-06,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 1.994405282075214e-05,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.0015086748301238874,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "architecture": "ar",
+      "seed": 29,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 1.0130477090260881e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 9.27276442948628e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 1.2501926447288144e-05,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.0005785332454162677,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "architecture": "ar",
+      "seed": 43,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 1.6624252623804867e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 1.5428550862260792e-06,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 2.447501056836492e-05,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.002833765172382318,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "architecture": "parallel",
+      "seed": 17,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 4.286202355676642e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 4.143231009826148e-06,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 0.00010391800705271201,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.03641516953541121,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "architecture": "parallel",
+      "seed": 29,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 4.487556130411131e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 4.380250742344715e-06,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 0.00012393566062233978,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.06714390208094499,
+          "accuracy_drop": 0.004166666666666652,
+          "frozen_accuracy": 0.9958333333333333
+        }
+      ]
+    },
+    {
+      "architecture": "parallel",
+      "seed": 43,
+      "native_first_accuracy": 1.0,
+      "feasibility_85_percent": true,
+      "doses": [
+        {
+          "rho": 0.1,
+          "damage_nll": 4.401837462650311e-07,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 0.3,
+          "damage_nll": 4.331674065381155e-06,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 1.0,
+          "damage_nll": 0.00013415585953617556,
+          "accuracy_drop": 0.0,
+          "frozen_accuracy": 1.0
+        },
+        {
+          "rho": 3.0,
+          "damage_nll": 0.06695026637914528,
+          "accuracy_drop": 0.004166666666666652,
+          "frozen_accuracy": 0.9958333333333333
+        }
+      ]
+    }
+  ],
+  "scope": "Development only; no evaluation outputs read"
+}

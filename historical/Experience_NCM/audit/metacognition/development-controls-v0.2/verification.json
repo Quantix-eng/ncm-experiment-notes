@@ -1,0 +1,8 @@
+{
+  "calibration_or_test_used": false,
+  "max_abs_logit_replay_error": 1.043081283569336e-07,
+  "n": 1000,
+  "note": "Independent numerical replay of saved preprocessing and coefficients; not independent model replication or learning-variability inference",
+  "report_sha256": "18bd007bcf894f19867dd381050a4981d331521569e5ad2094550e9954139b1f",
+  "status": "passed"
+}

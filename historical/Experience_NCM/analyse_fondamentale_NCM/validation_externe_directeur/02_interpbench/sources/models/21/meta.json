@@ -1,0 +1,1 @@
+{"atol": 0.05, "lr": 0.0005, "use_single_loss": false, "iit_weight": 1.0, "behavior_weight": 1.0, "strict_weight": 0.5, "epochs": 2000, "act_fn": "gelu", "wandb_suffix": "", "device": "cuda", "clip_grad_norm": 0.1, "lr_scheduler": "", "model_pair": "strict"}

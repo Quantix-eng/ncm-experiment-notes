@@ -1,0 +1,38 @@
+{
+  "easy": {
+    "token_errors": 0,
+    "grid_errors": 0,
+    "total_tokens": 178000,
+    "total_grids": 2000,
+    "cases": []
+  },
+  "medium": {
+    "token_errors": 1,
+    "grid_errors": 1,
+    "total_tokens": 178000,
+    "total_grids": 2000,
+    "cases": [
+      {
+        "index": 549,
+        "token_positions": [
+          0
+        ],
+        "expected": [
+          7
+        ],
+        "actual": [
+          3
+        ],
+        "upstream_identical": true,
+        "generator_solves_puzzle": true
+      }
+    ]
+  },
+  "hard": {
+    "token_errors": 0,
+    "grid_errors": 0,
+    "total_tokens": 178000,
+    "total_grids": 2000,
+    "cases": []
+  }
+}

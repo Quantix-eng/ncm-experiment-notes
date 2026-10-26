@@ -1,0 +1,7 @@
+{
+  "url": "https://huggingface.co/hazyresearch/ncm-checkpoints/resolve/d342ce8aaea58830eef3b8ad473664673e41f692/lm1b/small/generator.pt",
+  "commit": "d342ce8aaea58830eef3b8ad473664673e41f692",
+  "bytes": 390138443,
+  "sha256": "b0789d5a2aad9114d40976d26bd1af09d8cea0b0bec7d385b6a44739f77256fe",
+  "tokenizer_path": "../generalisation_architecturale/artifacts/lm1b/tokenizer.pt"
+}

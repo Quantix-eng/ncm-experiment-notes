@@ -1,0 +1,8 @@
+{
+  "status": "visual_review_passed",
+  "pdf_sha256": "fca17e75aaf230e0ad2cabf0eab4ce9d34fdef525321e1e30a5750d794402962",
+  "pages": 6,
+  "renderer": "PyMuPDF 1.28.2",
+  "scope": "All six final pages inspected in contact sheet; full-size pages 1 and 5 additionally inspected. Text, equations, charts, captions and section numbering legible; no clipping or overlap observed.",
+  "utc": "2026-10-24T18:52:51Z"
+}

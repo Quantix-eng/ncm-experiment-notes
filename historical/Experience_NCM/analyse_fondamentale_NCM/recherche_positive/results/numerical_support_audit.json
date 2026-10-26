@@ -1,0 +1,13 @@
+{
+  "status": "post_hoc_diagnostic",
+  "n_sources": 128,
+  "requests_including_native_digit": 1152,
+  "maximum_tail_position_norm": 6.278457476582844e-06,
+  "maximum_tail_total_norm_ratio": 2.813789933497901e-06,
+  "maximum_elementwise_delta_difference": 3.0994415283203125e-06,
+  "readouts_changed_by_exact_support_computation": {
+    "patched": 0,
+    "random": 0
+  },
+  "explanation": "Original matched controls include all actual FP32 delta norms, including tiny subtraction tails. Analytic affine difference cancels bias and has exact three-position support. Primary frozen results are not replaced."
+}

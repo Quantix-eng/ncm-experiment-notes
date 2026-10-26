@@ -1,0 +1,13 @@
+{
+  "bootstrap_recomputed": true,
+  "fitting": false,
+  "independent_replay": true,
+  "levels": [
+    3,
+    6,
+    11
+  ],
+  "model_execution": false,
+  "report_sha256": "dff3ac98b0f55cb99d2299d431ab661fc7612517b095dc44d040c8d6c380bbef",
+  "status": "passed"
+}

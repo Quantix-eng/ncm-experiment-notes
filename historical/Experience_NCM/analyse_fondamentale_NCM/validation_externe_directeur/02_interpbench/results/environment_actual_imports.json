@@ -1,0 +1,43 @@
+{
+  "posthoc": true,
+  "reason": "importlib.metadata.version may select stale dist-info after isolated target upgrades",
+  "actual_imported_modules": {
+    "numpy": {
+      "version": "1.26.4",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/__init__.py"
+    },
+    "torch": {
+      "version": "2.8.0",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/.venv/lib/python3.13/site-packages/torch/__init__.py"
+    },
+    "datasets": {
+      "version": "2.21.0",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/datasets/__init__.py"
+    },
+    "pyarrow": {
+      "version": "19.0.1",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/pyarrow/__init__.py"
+    },
+    "accelerate": {
+      "version": "0.33.0",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/accelerate/__init__.py"
+    },
+    "einops": {
+      "version": "0.8.2",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/einops/__init__.py"
+    },
+    "transformers": {
+      "version": "4.57.1",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/benchmark_multimodel_ar/deps/transformers/__init__.py"
+    },
+    "wandb": {
+      "version": "0.16.6",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/wandb/__init__.py"
+    },
+    "protobuf": {
+      "version": "4.25.8",
+      "path": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/google/protobuf/__init__.py"
+    }
+  },
+  "transformer_lens_source": "/Users/loicmoche/Desktop/metacognition_recherche/Experience_NCM/analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/deps/transformer_lens/__init__.py"
+}

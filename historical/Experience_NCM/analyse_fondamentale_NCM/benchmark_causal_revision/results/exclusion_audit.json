@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "natural_families": 16,
+  "historical_normalized_keys": 3536,
+  "method": "Recheck retained solutions against existing D4/digit-normalized corpus keys",
+  "scope": "No full Sudoku-isomorphism guarantee; no unknown-training exclusion"
+}

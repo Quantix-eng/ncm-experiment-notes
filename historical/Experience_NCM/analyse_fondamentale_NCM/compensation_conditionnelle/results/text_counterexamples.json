@@ -1,0 +1,230 @@
+[
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 19,
+    "token_ids8_to12": [
+      2001,
+      12163,
+      12163,
+      3446,
+      12163
+    ],
+    "wordpieces8_to12": [
+      "was",
+      "unemployment",
+      "unemployment",
+      "rate",
+      "unemployment"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 31,
+    "token_ids8_to12": [
+      1997,
+      1012,
+      1016,
+      1012,
+      1012
+    ],
+    "wordpieces8_to12": [
+      "of",
+      ".",
+      "2",
+      ".",
+      "."
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 32,
+    "token_ids8_to12": [
+      1999,
+      2385,
+      1003,
+      1003,
+      2385
+    ],
+    "wordpieces8_to12": [
+      "in",
+      "16",
+      "%",
+      "%",
+      "16"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 41,
+    "token_ids8_to12": [
+      1002,
+      4413,
+      1002,
+      1002,
+      4413
+    ],
+    "wordpieces8_to12": [
+      "$",
+      "42",
+      "$",
+      "$",
+      "42"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 63,
+    "token_ids8_to12": [
+      2096,
+      1998,
+      2043,
+      1998,
+      1998
+    ],
+    "wordpieces8_to12": [
+      "while",
+      "and",
+      "when",
+      "and",
+      "and"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 68,
+    "token_ids8_to12": [
+      2022,
+      2260,
+      2410,
+      2260,
+      2260
+    ],
+    "wordpieces8_to12": [
+      "be",
+      "12",
+      "13",
+      "12",
+      "12"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 87,
+    "token_ids8_to12": [
+      1999,
+      2028,
+      1999,
+      2069,
+      2028
+    ],
+    "wordpieces8_to12": [
+      "in",
+      "one",
+      "in",
+      "only",
+      "one"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 106,
+    "token_ids8_to12": [
+      1055,
+      2023,
+      2009,
+      2023,
+      2023
+    ],
+    "wordpieces8_to12": [
+      "s",
+      "this",
+      "it",
+      "this",
+      "this"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 116,
+    "token_ids8_to12": [
+      101,
+      2085,
+      2057,
+      2057,
+      2085
+    ],
+    "wordpieces8_to12": [
+      "[CLS]",
+      "now",
+      "we",
+      "we",
+      "now"
+    ]
+  },
+  {
+    "trajectory": 0,
+    "seed": 320261024,
+    "position": 121,
+    "token_ids8_to12": [
+      1997,
+      2051,
+      3283,
+      2051,
+      2051
+    ],
+    "wordpieces8_to12": [
+      "of",
+      "time",
+      "ago",
+      "time",
+      "time"
+    ]
+  },
+  {
+    "trajectory": 1,
+    "seed": 320261025,
+    "position": 3,
+    "token_ids8_to12": [
+      2074,
+      1999,
+      2074,
+      1999,
+      1999
+    ],
+    "wordpieces8_to12": [
+      "just",
+      "in",
+      "just",
+      "in",
+      "in"
+    ]
+  },
+  {
+    "trajectory": 1,
+    "seed": 320261025,
+    "position": 8,
+    "token_ids8_to12": [
+      1010,
+      2005,
+      2004,
+      2005,
+      2005
+    ],
+    "wordpieces8_to12": [
+      ",",
+      "for",
+      "as",
+      "for",
+      "for"
+    ]
+  }
+]

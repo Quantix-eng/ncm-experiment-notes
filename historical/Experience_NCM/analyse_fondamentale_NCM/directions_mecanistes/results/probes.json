@@ -1,0 +1,799 @@
+{
+  "results": {
+    "next": {
+      "baseline": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5478104575163398,
+          "logloss": 1.4622866361913598,
+          "macro_f1": 0.43491767118987745
+        },
+        "fit": {
+          "alpha": 10,
+          "temperature": 0.1,
+          "validation_logloss": 1.4154683219936997,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            61,
+            5598,
+            5724,
+            5557,
+            6323,
+            7025,
+            5132,
+            5128,
+            5935,
+            4517,
+            0,
+            0
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.4154683219936997
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.4782148458241404
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.8762286067591005
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 2.1599795538498303
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.4161375092152115
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.4788265830703888
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.8767422333826267
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 2.160282615398604
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.4223979824584931
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.484720252615848
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.8816486502739351
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 2.1631667887723713
+            }
+          ]
+        },
+        "changed_only": {
+          "n_puzzles": 600,
+          "n_cells": 14110,
+          "accuracy": 0.029766123316796598,
+          "logloss": 2.958021047505091,
+          "macro_f1": 0.02017610415431303
+        }
+      },
+      "state": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.34601307189542485,
+          "logloss": 1.8843024261551233,
+          "macro_f1": 0.2605184771080755
+        },
+        "fit": {
+          "alpha": 1000,
+          "temperature": 0.1,
+          "validation_logloss": 1.8801432575664498,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            61,
+            5598,
+            5724,
+            5557,
+            6323,
+            7025,
+            5132,
+            5128,
+            5935,
+            4517,
+            0,
+            0
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.8856950700800146
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 2.0666194497842763
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 2.2474165421454626
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 2.3597148937929924
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.884525644968928
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 2.0666603842221045
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 2.2475335782873307
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 2.359795828861891
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.8801432575664498
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 2.0673198540037054
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 2.2483062850216684
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 2.3602839417114434
+            }
+          ]
+        },
+        "changed_only": {
+          "n_puzzles": 600,
+          "n_cells": 14110,
+          "accuracy": 0.1635719347980156,
+          "logloss": 2.3640977994495542,
+          "macro_f1": 0.11974343488393248
+        }
+      },
+      "combined": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5522222222222222,
+          "logloss": 1.4565814985815586,
+          "macro_f1": 0.43792706856137853
+        },
+        "fit": {
+          "alpha": 10,
+          "temperature": 0.1,
+          "validation_logloss": 1.4095310916254797,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            61,
+            5598,
+            5724,
+            5557,
+            6323,
+            7025,
+            5132,
+            5128,
+            5935,
+            4517,
+            0,
+            0
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.4095310916254797
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.4743220508077242
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.8718543129312335
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 2.1572452891270073
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.4100364020030522
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.4749211004783294
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.8724534273052702
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 2.157613994166014
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.4162154010656487
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.4810546957818391
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.8780888161399079
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 2.161007795150867
+            }
+          ]
+        },
+        "changed_only": {
+          "n_puzzles": 600,
+          "n_cells": 14110,
+          "accuracy": 0.04500354358610914,
+          "logloss": 2.9316304604387047,
+          "macro_f1": 0.030890754542809446
+        }
+      },
+      "shuffled_states": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5495424836601307,
+          "logloss": 1.4652025903923935,
+          "macro_f1": 0.4361898901360561
+        },
+        "fit": {
+          "alpha": 10,
+          "temperature": 0.1,
+          "validation_logloss": 1.4155887139395296,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            61,
+            5598,
+            5724,
+            5557,
+            6323,
+            7025,
+            5132,
+            5128,
+            5935,
+            4517,
+            0,
+            0
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.4155887139395296
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.4775249882637491
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.8750985291040663
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 2.1591976395391423
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.415861265596991
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.4780049846164904
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.8755761962827515
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 2.1594916484075224
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.4204840068305986
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.4834691512854092
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.88043708644761
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 2.1624000006222532
+            }
+          ]
+        },
+        "changed_only": {
+          "n_puzzles": 600,
+          "n_cells": 14110,
+          "accuracy": 0.035931963146704465,
+          "logloss": 2.958066860594181,
+          "macro_f1": 0.024469239506855478
+        }
+      },
+      "primary_changed_contrast": {
+        "delta": 0.015237420269312544,
+        "ci95": [
+          0.01256418652996755,
+          0.017886389506549343
+        ],
+        "n_puzzles": 600,
+        "method": "paired ratio bootstrap by source puzzle"
+      },
+      "all_contrast": {
+        "delta": 0.004411764705882353,
+        "ci95": [
+          0.0029411764705882353,
+          0.005816993464052287
+        ],
+        "n_puzzles": 600,
+        "method": "paired ratio bootstrap by source puzzle"
+      },
+      "second_decoder_choice_changed_accuracy": 0.4939759036144578,
+      "persistence_all_accuracy": 0.5388888888888889
+    },
+    "quality": {
+      "baseline": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5384640522875817,
+          "logloss": 1.1564599236904376,
+          "macro_f1": 0.1847376719462202,
+          "corrected_auc": 0.5803706237486816,
+          "class_counts": [
+            16490,
+            7685,
+            2783,
+            3642
+          ]
+        },
+        "fit": {
+          "alpha": 10,
+          "temperature": 0.25,
+          "validation_logloss": 1.1332340617109573,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            27436,
+            13193,
+            4663,
+            5708
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.618148463326843
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.1332340617109573
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.180314369294455
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 1.2636785462528208
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.6183190007076946
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.133237869787202
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.180324829045569
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 1.2636880078271002
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.6187705216223716
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.133237115871193
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.1804927471573305
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 1.2638284690603159
+            }
+          ]
+        }
+      },
+      "state": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5380065359477124,
+          "logloss": 1.1388696645944878,
+          "macro_f1": 0.19488353535565234,
+          "corrected_auc": 0.5917036838498646,
+          "class_counts": [
+            16490,
+            7685,
+            2783,
+            3642
+          ]
+        },
+        "fit": {
+          "alpha": 1000,
+          "temperature": 0.25,
+          "validation_logloss": 1.1303355084293167,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            27436,
+            13193,
+            4663,
+            5708
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.6122395631104707
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.131661653145137
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.1764282058163196
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 1.2606832437764763
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.6114750711075427
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.1313545116735173
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.1764388946796314
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 1.2607437391064538
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.6090720450651708
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.1303355084293167
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.1767634942528495
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 1.2611848844662965
+            }
+          ]
+        }
+      },
+      "combined": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5390196078431373,
+          "logloss": 1.141054342836533,
+          "macro_f1": 0.2135565330042788,
+          "corrected_auc": 0.6139014385289416,
+          "class_counts": [
+            16490,
+            7685,
+            2783,
+            3642
+          ]
+        },
+        "fit": {
+          "alpha": 1000,
+          "temperature": 0.25,
+          "validation_logloss": 1.1187874665930104,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            27436,
+            13193,
+            4663,
+            5708
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.5916140810710617
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.1200849090436527
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.1672227386188034
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 1.2550078354518672
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.5908056153778194
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.1197969905424312
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.1672460202928705
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 1.2550776401647974
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.5874534011069084
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.1187874665930104
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.167697904960462
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 1.2556270750738032
+            }
+          ]
+        }
+      },
+      "shuffled_states": {
+        "all": {
+          "n_puzzles": 600,
+          "n_cells": 30600,
+          "accuracy": 0.5362418300653595,
+          "logloss": 1.1456301797793045,
+          "macro_f1": 0.21048345885721664,
+          "corrected_auc": 0.6054832667075616,
+          "class_counts": [
+            16490,
+            7685,
+            2783,
+            3642
+          ]
+        },
+        "fit": {
+          "alpha": 1000,
+          "temperature": 0.25,
+          "validation_logloss": 1.1212138730088683,
+          "n_train_puzzles": 1000,
+          "n_train_cells": 51000,
+          "train_class_counts": [
+            27436,
+            13193,
+            4663,
+            5708
+          ],
+          "trials": [
+            {
+              "alpha": 10,
+              "temperature": 0.1,
+              "validation_logloss": 1.6099983332464127
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.25,
+              "validation_logloss": 1.124054007967738
+            },
+            {
+              "alpha": 10,
+              "temperature": 0.5,
+              "validation_logloss": 1.1685735576768723
+            },
+            {
+              "alpha": 10,
+              "temperature": 1.0,
+              "validation_logloss": 1.2555572413873508
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.1,
+              "validation_logloss": 1.6081216926555602
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.25,
+              "validation_logloss": 1.1234120432517811
+            },
+            {
+              "alpha": 100,
+              "temperature": 0.5,
+              "validation_logloss": 1.168458700368424
+            },
+            {
+              "alpha": 100,
+              "temperature": 1.0,
+              "validation_logloss": 1.2555668688169277
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.1,
+              "validation_logloss": 1.6003277582914035
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.25,
+              "validation_logloss": 1.1212138730088683
+            },
+            {
+              "alpha": 1000,
+              "temperature": 0.5,
+              "validation_logloss": 1.1684967918947482
+            },
+            {
+              "alpha": 1000,
+              "temperature": 1.0,
+              "validation_logloss": 1.255946842332054
+            }
+          ]
+        }
+      }
+    }
+  },
+  "primary": {
+    "delta": 0.015237420269312544,
+    "ci95": [
+      0.01256418652996755,
+      0.017886389506549343
+    ],
+    "n_puzzles": 600,
+    "method": "paired ratio bootstrap by source puzzle"
+  },
+  "seconds": 7.957672166056,
+  "note": "Changed-only is a future-defined evaluation stratum, not an oracle available to a deployed predictor. Classes absent from data count as zero in 12-class macro F1."
+}

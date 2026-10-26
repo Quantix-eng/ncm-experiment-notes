@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "seed": 2026102502,
+  "analytic_per_family": 12,
+  "sudoku_families": 16,
+  "max_sudoku_attempts": 256,
+  "development_families": ["equality", "parity"],
+  "evaluation_families": ["permutation", "sudoku"],
+  "pure_controls": ["oracle_replay", "tolerant", "state_compensation", "input_recompute", "fixed_response"],
+  "mixture_alphas": [0.25, 0.5, 0.75],
+  "mixtures_evaluation_only": true,
+  "dtype": "float64",
+  "zero_tolerance": 1e-12,
+  "perturbation_amplitude": 1.0,
+  "native_residual_amplitude": 0.1,
+  "reader_schedule": [1.25, 0.0, 1.25, 0.0],
+  "solver_cap": 3,
+  "report_format": "Markdown only; no canvas, figures or presentation",
+  "scope": "Constructed-system calibration and natural counterfactual validation; no learned-family attribution, independent preregistration, external method evaluation, reference-benchmark claim or Wyner study. Stop after stage 2 report."
+}

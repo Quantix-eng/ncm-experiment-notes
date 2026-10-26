@@ -1,0 +1,49 @@
+{
+  "cell_accuracy_regressive_transitions": 1232,
+  "exact_correct_by_level": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    863
+  ],
+  "examples_with_cell_accuracy_regression": 804,
+  "extraction_report_sha256": "765c806bd04de4bcac1d2ab7cc6e3d40daaf38debb809e5d3f6131c62ab60a89",
+  "malformed_by_level": [
+    11,
+    11,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "n": 1000,
+  "scope": "training_only_descriptive_not_policy_evaluation",
+  "verifier_valid_by_level": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    863
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-25T17:59:52.200877+00:00",
+  "model_loaded": false,
+  "network_forward_executed": false,
+  "n_measurements": 512,
+  "max_abs_DE_change": 1.579662972650553e-07,
+  "mean_signed_DE_change": -4.881997699653893e-10,
+  "all_other_observations_exactly_unchanged": true,
+  "max_self_repair_reader_identity_error": 0.00014718091711378445,
+  "elapsed_seconds": 0.4307031250791624
+}

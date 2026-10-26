@@ -1,0 +1,15 @@
+{
+  "initial_free_disk_GiB_approx": 3.8,
+  "observation_utc": "2026-10-23T16:09:00.880717+00:00",
+  "free_disk_bytes": 433479680,
+  "experiment_bytes": 646624314,
+  "causal_process_rss_KiB_observed": 392880,
+  "rss_scope": "one process, one instant; not peak",
+  "decision": "causal process only, no new large extraction; final results expected under 10 MB; no deletion of user data",
+  "caveat": "system-wide storage pressure, cause not attributed; other applications not stopped",
+  "final_observation_utc": "2026-10-23T16:37:55.321481+00:00",
+  "final_free_disk_bytes": 537374720,
+  "lowest_observed_free_disk_MiB_approx": 151,
+  "final_experiment_bytes": 647167265,
+  "new_stress_corpus_created": false
+}

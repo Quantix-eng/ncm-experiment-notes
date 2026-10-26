@@ -1,0 +1,18 @@
+{
+  "python": "3.13.0",
+  "platform": "macOS-14.0-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "torch": "2.8.0",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.9.2",
+    "omegaconf": "2.3.1"
+  },
+  "pdf_package": {
+    "pymupdf": "1.28.2"
+  },
+  "document_tools": {
+    "pandoc": "pandoc 3.6.2",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2024)"
+  }
+}

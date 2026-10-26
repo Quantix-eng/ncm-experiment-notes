@@ -1,0 +1,58 @@
+{
+  "n": 256,
+  "coverage": {
+    "mean": 0.38671875,
+    "ci95": [
+      0.328125,
+      0.44921875
+    ],
+    "ci_familywise": [
+      0.3203125,
+      0.45703125
+    ],
+    "n": 256
+  },
+  "native": {
+    "n": 256,
+    "solved": 188,
+    "solved_rate": 0.734375,
+    "cell_accuracy": 0.9722222222222222,
+    "valid_and_clues_rate": 0.734375,
+    "malformed": 0
+  },
+  "hybrid": {
+    "n": 256,
+    "solved": 189,
+    "solved_rate": 0.73828125,
+    "cell_accuracy": 0.9722704475308642,
+    "valid_and_clues_rate": 0.73828125,
+    "malformed": 0
+  },
+  "lookup_only": {
+    "n": 256,
+    "solved": 99,
+    "solved_rate": 0.38671875,
+    "cell_accuracy": 0.9656635802469136,
+    "valid_and_clues_rate": 0.38671875,
+    "malformed": 0
+  },
+  "cell_agreement_lookup": 0.9927662037037037,
+  "native_grids_reproduced_by_lookup": 127,
+  "introduced": 0,
+  "rescued": 1,
+  "certified_correct": 99,
+  "certified": 99,
+  "quality_delta": {
+    "mean": 0.00390625,
+    "ci95": [
+      0.0,
+      0.01171875
+    ],
+    "ci_familywise": [
+      0.0,
+      0.015625
+    ],
+    "n": 256
+  },
+  "singleton_vs_batched_changed_grids": 0
+}

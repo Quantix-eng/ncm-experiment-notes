@@ -1,0 +1,6 @@
+{
+ "reason": "The first stability implementation reused the original 5-fold assignment after excluding outer fold 0. Its inner fold 0 was empty; no completed replicate or usable result was produced.",
+ "preservation": "audit/metacognition/stability-v0.3-failed-01/report.json; original study_v03.py left unchanged for completed nested-run provenance",
+ "fix": "Assign five stratified inner folds on the eligible pool only, seed 20261029; map assignments to original rows; every duplicate of a solution stays in the same inner fold.",
+ "unchanged": "bootstrap seed, sample indices, held-out fold 0, twenty repetitions, scaler, models, lambda grid, optimizer and metrics"
+}

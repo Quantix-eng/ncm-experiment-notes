@@ -1,0 +1,68 @@
+{
+  "original": {
+    "raw_pool32_relative_l2": 0.0,
+    "raw_pool32_max_abs": 0.0,
+    "norm_pool32_relative_l2": 0.0,
+    "norm_pool32_max_abs": 0.0,
+    "first_input_relative_l2": 0.0,
+    "first_input_max_abs": 0.0,
+    "per_level_code_disagreement": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "within_four": {
+    "raw_pool32_relative_l2": 5.006946955729888e-08,
+    "raw_pool32_max_abs": 2.384185791015625e-07,
+    "norm_pool32_relative_l2": 6.467827625698943e-08,
+    "norm_pool32_max_abs": 3.5762786865234375e-07,
+    "first_input_relative_l2": 1.2297191073573062,
+    "first_input_max_abs": 1762.447265625,
+    "per_level_code_disagreement": [
+      1.0,
+      0.125,
+      0.080078125,
+      0.5182291666666666,
+      0.2607421875,
+      0.5796875,
+      0.7379807692307693,
+      0.755859375,
+      0.8523848684210527,
+      0.8699048913043478,
+      0.8935185185185185,
+      0.83056640625
+    ]
+  },
+  "global_permutation": {
+    "raw_pool32_relative_l2": 1.3579328493461476,
+    "raw_pool32_max_abs": 2.2625006437301636,
+    "norm_pool32_relative_l2": 1.3585394704553113,
+    "norm_pool32_max_abs": 3.4017646312713623,
+    "first_input_relative_l2": 1.2754101768214334,
+    "first_input_max_abs": 1596.5006408691406,
+    "per_level_code_disagreement": [
+      1.0,
+      0.98828125,
+      0.986328125,
+      0.9895833333333334,
+      0.98828125,
+      0.98671875,
+      0.9939903846153846,
+      0.9912109375,
+      0.9925986842105263,
+      0.9942255434782609,
+      0.9933449074074074,
+      0.993408203125
+    ]
+  }
+}

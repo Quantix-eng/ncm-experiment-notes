@@ -1,0 +1,9 @@
+{
+  "tensor_elements_by_stored_dtype": {
+    "F16": 162323052,
+    "U8": 50331648
+  },
+  "header_bytes": 20936,
+  "forward_executed": false,
+  "note": "checkpoint buffers may add stored elements beyond trainable parameter count"
+}

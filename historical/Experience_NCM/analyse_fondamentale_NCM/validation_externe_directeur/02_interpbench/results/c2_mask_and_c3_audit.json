@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "posthoc": true,
+  "C2_predictions_changed": false,
+  "C2_primary_metrics_changed": false,
+  "task_results": {
+    "13": {
+      "O_prudent": {
+        "scorable_claims": 0,
+        "network_contradictions_same_mask": 0,
+        "risk_network_same_mask": null
+      },
+      "O_naive": {
+        "scorable_claims": 1536,
+        "network_contradictions_same_mask": 806,
+        "risk_network_same_mask": 0.5247395833333334
+      },
+      "C_without_frozen": {
+        "scorable_claims": 580,
+        "network_contradictions_same_mask": 14,
+        "risk_network_same_mask": 0.02413793103448276
+      },
+      "C_without_mismatch": {
+        "scorable_claims": 578,
+        "network_contradictions_same_mask": 14,
+        "risk_network_same_mask": 0.02422145328719723
+      },
+      "C_full": {
+        "scorable_claims": 578,
+        "network_contradictions_same_mask": 14,
+        "risk_network_same_mask": 0.02422145328719723
+      }
+    },
+    "18": {
+      "O_prudent": {
+        "scorable_claims": 0,
+        "network_contradictions_same_mask": 0,
+        "risk_network_same_mask": null
+      },
+      "O_naive": {
+        "scorable_claims": 768,
+        "network_contradictions_same_mask": 288,
+        "risk_network_same_mask": 0.375
+      },
+      "C_without_frozen": {
+        "scorable_claims": 448,
+        "network_contradictions_same_mask": 14,
+        "risk_network_same_mask": 0.03125
+      },
+      "C_without_mismatch": {
+        "scorable_claims": 441,
+        "network_contradictions_same_mask": 12,
+        "risk_network_same_mask": 0.027210884353741496
+      },
+      "C_full": {
+        "scorable_claims": 439,
+        "network_contradictions_same_mask": 12,
+        "risk_network_same_mask": 0.02733485193621868
+      }
+    },
+    "19": {
+      "O_prudent": {
+        "scorable_claims": 0,
+        "network_contradictions_same_mask": 0,
+        "risk_network_same_mask": null
+      },
+      "O_naive": {
+        "scorable_claims": 1266,
+        "network_contradictions_same_mask": 399,
+        "risk_network_same_mask": 0.31516587677725116
+      },
+      "C_without_frozen": {
+        "scorable_claims": 768,
+        "network_contradictions_same_mask": 1,
+        "risk_network_same_mask": 0.0013020833333333333
+      },
+      "C_without_mismatch": {
+        "scorable_claims": 551,
+        "network_contradictions_same_mask": 1,
+        "risk_network_same_mask": 0.0018148820326678765
+      },
+      "C_full": {
+        "scorable_claims": 545,
+        "network_contradictions_same_mask": 1,
+        "risk_network_same_mask": 0.001834862385321101
+      }
+    },
+    "21": {
+      "O_prudent": {
+        "scorable_claims": 0,
+        "network_contradictions_same_mask": 0,
+        "risk_network_same_mask": null
+      },
+      "O_naive": {
+        "scorable_claims": 2048,
+        "network_contradictions_same_mask": 311,
+        "risk_network_same_mask": 0.15185546875
+      },
+      "C_without_frozen": {
+        "scorable_claims": 1355,
+        "network_contradictions_same_mask": 3,
+        "risk_network_same_mask": 0.002214022140221402
+      },
+      "C_without_mismatch": {
+        "scorable_claims": 1329,
+        "network_contradictions_same_mask": 3,
+        "risk_network_same_mask": 0.002257336343115124
+      },
+      "C_full": {
+        "scorable_claims": 1316,
+        "network_contradictions_same_mask": 3,
+        "risk_network_same_mask": 0.0022796352583586625
+      }
+    }
+  },
+  "scalar_checks": 16594,
+  "C3_native_argmax_audited": 1024,
+  "purpose": "separate all-useful-position network risk from same-oracle-mask network risk",
+  "new_neural_forward": false
+}

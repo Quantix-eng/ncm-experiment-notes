@@ -1,0 +1,29 @@
+{
+  "status": "working_manuscript_and_theory_complete",
+  "utc": "2026-10-25T14:43:30Z",
+  "scientific_scope": "Calibrated protocol and frozen learned-model case study; functional input dominance, no validated mechanism ground truth or measured NCM Wyner rate",
+  "new_inference": false,
+  "auxiliary_status": "Post-hoc descriptive calculation on retained traces, locally frozen before auxiliary execution",
+  "reports": [
+    "PAPER.md",
+    "THEORIE_WYNER.md",
+    "RAPPORT_CONSOLIDATION.md",
+    "PREUVES.md"
+  ],
+  "files": {
+    "JOURNAL.md": "fddc476b9c200c1f262a91678d9e7665777120d141d10cd21e2bb33578434bc0",
+    "PAPER.md": "a988eed6f69b96bbabc05a2a17f60c36a690a51584c8c054497f0c2a2c2ec9e2",
+    "PREUVES.md": "2d69f72a037a46d468b566eaa0e3a8f8d767f6765136562eb3ddf30786322509",
+    "PROTOCOLE_AUXILIAIRE.md": "6e09bc38746eca5c56c02bdf87388c8d7482c8be46f6c068c4da0e4813eb49fc",
+    "RAPPORT_CONSOLIDATION.md": "5ef94a5b8154c973afea500df284587948a0fe499baef45a683fd5af0a877421",
+    "README.md": "ceeac83cf5dd9b48ffc58f6441d836de9b82efdd14464766c280d9ca4743fc0b",
+    "THEORIE_WYNER.md": "a360507a770899efb4c1623bbddf6a9ebb51bb7371eae1b0a8cf086a8fdc5f57",
+    "auxiliary.py": "77583bf609b4af3107ad3bdd88816480e0ab213012f9b7a30363f984fec5951a",
+    "results/auxiliary.json": "f833bfbf76a19f9e05c31c4cbe7c578c51b3eb0cc5d4f45fa94f218a219d2c51",
+    "results/auxiliary.log": "72085fc40cedcabc0397bb6a3ebea83226ba6ff76bd35073526c4b65af272c7e",
+    "results/auxiliary_frozen.json": "f15bee7a2c88da513333d41ce46a398e296f1c5279bb909ee9e1e74ac07726dc",
+    "results/input_manifest.json": "a5568e3270b6d55b033c9cb4fc712261d57e36a2e9c744941a20ac49ec869173",
+    "results/verification.json": "aefa0f105110afad5c40a5154a14319ab36ccaf24981e1be9c7b34a5efaa0ea8",
+    "verify.py": "fe1eec3c5d7c20f9202bd60279cadb102cf9b47ac0da740733fe0c96c5f0ce4b"
+  }
+}

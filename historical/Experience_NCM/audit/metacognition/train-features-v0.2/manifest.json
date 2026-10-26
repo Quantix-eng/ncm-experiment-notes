@@ -1,0 +1,33 @@
+{
+  "extraction_report_sha256": "765c806bd04de4bcac1d2ab7cc6e3d40daaf38debb809e5d3f6131c62ab60a89",
+  "features_code_sha256": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+  "files": {
+    "failure.npy": "3c990b0324d6145b31e4b47bf2b8dc68527a195d28295a63586d38db9ae03527",
+    "hidden_raw.npy": "5f9c65ce0cf28fdffc90ea02a0148b696dba708f42a6c1fcd3561d68b80e9839",
+    "indices.npy": "319488653e0f673e453a70e4f7a8042a0c609866cf4830a7a851995adb2407b9",
+    "puzzle.npy": "5fa929bbdc14997be2689a99faaf2a14fda9a834fa5fa000585a160546651803",
+    "rich.npy": "a6bb9c4db91d911850b5ba90d633640ed656adac825e1ba4b79ee17b0ff73239",
+    "summary.npy": "4c3e7b2ae9692f222890de86548b95e890641c7ade9723f8c08cf780a8f729ec"
+  },
+  "level": 9,
+  "protocol_sha256": "2ecd154f048cdd25833a1629bb7090b072436325d5d81eb39e8ada6914825047",
+  "shapes": {
+    "hidden_raw": [
+      1000,
+      1024
+    ],
+    "puzzle": [
+      1000,
+      846
+    ],
+    "rich": [
+      1000,
+      13877
+    ],
+    "summary": [
+      1000,
+      1341
+    ]
+  },
+  "status": "complete"
+}

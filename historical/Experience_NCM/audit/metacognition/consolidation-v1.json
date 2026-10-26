@@ -1,0 +1,271 @@
+{
+  "auditor_sha256": "80e3af941c15cbfad3338a84176eca6841e8520b83041989d6ae95d8a1b95aec",
+  "caveats": [
+    "Existing independent replays are arithmetic checks in this workspace, not a replication by another team or machine",
+    "No new uniqueness solving or statistical power simulation performed during consolidation",
+    "No native metacognition proof; neither result exhausts all observable predictors or internal readouts"
+  ],
+  "checks": [
+    "group split disjointness",
+    "source/model/artifact hashes and verification-report links",
+    "direct pairwise AUC replay, no refit",
+    "new corpus solution validity and known-transform exclusion",
+    "same corpus and coefficients before/after pre-inference prompt repair",
+    "invalid audit excluded",
+    "local documentation links"
+  ],
+  "date": "2026-10-23",
+  "document_sha256": {
+    "FEUILLE_DE_ROUTE.md": "75460eb198b6ea7a39ca64b2bd2cbf5a58482ab423e124eb86611552e6a823a1",
+    "PLAN_RECHERCHE_METACOGNITION.md": "e1493a7d9b095eff056ce6006ed4fb7646759882f37b583d46e2f297c0636552",
+    "RAPPORT_CORRECTION_FUTURE.md": "b0f042fe53db80fea00280ab8303487f30e982f55981cfb84355665ac76504ff",
+    "RAPPORT_DEVELOPPEMENT_METACOGNITION.md": "7b54b65ba2aaf546476823bd378f68734e6822e90be2b105a342bfcd2211a48e",
+    "RAPPORT_METACOGNITION.md": "8ba9a9f77d20afd9db300a2e4a29ea7a9fe0bef1f9a00b5fd680e21beea2ac65",
+    "RAPPORT_PILOTE_METACOGNITION.md": "f3bbdd489b3c0b2d9e8f690846119f23782b56508e010e41c31b630fb4ccaa75",
+    "RAPPORT_RESULTATS_METACOGNITION.md": "516d9547fa42ec4d72ba079973ef6592319a55365d6f7ffbe641233cb43706f3",
+    "SYNTHESE_METACOGNITION.md": "6fbdda2507ef6dd4f3dd62df28f41e1641c457dcb3651314be0fbfbd3a838eb3"
+  },
+  "documents": [
+    "SYNTHESE_METACOGNITION.md",
+    "RAPPORT_RESULTATS_METACOGNITION.md",
+    "RAPPORT_CORRECTION_FUTURE.md",
+    "RAPPORT_DEVELOPPEMENT_METACOGNITION.md",
+    "RAPPORT_PILOTE_METACOGNITION.md",
+    "RAPPORT_METACOGNITION.md",
+    "PLAN_RECHERCHE_METACOGNITION.md",
+    "FEUILLE_DE_ROUTE.md"
+  ],
+  "evidence": {
+    "correction-v0.1/development/report.json": {
+      "sha256": "cc87de867719405fea2ea0b201b05823baf9740c131fbc66167da878dfeebbbf",
+      "status": "complete"
+    },
+    "correction-v0.1/development/verification.json": {
+      "sha256": "b7f441f4ac7a32d13c205e2141e6b63a69ef57bf29125f62456630f8b235156a",
+      "status": "passed"
+    },
+    "correction-v0.1/external/analysis/report.json": {
+      "sha256": "86695fb0957e1fe302774cfc8f561fad4361a72974ced018a5c3a87fc131fbca",
+      "status": "complete"
+    },
+    "correction-v0.1/external/analysis/verification.json": {
+      "sha256": "c9cfa7407128924c792e41a280621adb1d61aa82c24e512850a8d06240c617fe",
+      "status": "passed"
+    },
+    "correction-v0.1/external/corpus-manifest.json": {
+      "sha256": "11ab397c210e779e10a6ff39a3dbdcd01dd8da45b8a74090b65807c219dd682e",
+      "status": "complete"
+    },
+    "correction-v0.1/external/format-failure-01/failure.json": {
+      "sha256": "48468d1f7e5cdd4622031e064c6654225bdece116225da4d35967426d572e493",
+      "status": null
+    },
+    "correction-v0.1/external/format-failure-01/lock.json": {
+      "sha256": "5bf942de7e14a07263f4a686d32ad8c20cc7760aaba79202dcd491b9538a72f6",
+      "status": "locked_before_external_inference"
+    },
+    "correction-v0.1/external/lock.json": {
+      "sha256": "b3d1dd06e8d834f36b8fa07c9bc6340c7276a9ca7e95712f60cee0e2931f3851",
+      "status": "locked_before_external_inference"
+    },
+    "correction-v0.1/external/traces/report.json": {
+      "sha256": "31dfd8ffa784f1b6955c976d18fd531b21ae52f7d97911728ada989f9d9ec4ed",
+      "status": "complete"
+    },
+    "correction-v0.1/training-label-audit.json": {
+      "sha256": "83bbd7132410a8db81a84708ab41b8f1f5525998d277fcf1a3b3af140d5e24fa",
+      "status": "complete"
+    },
+    "correction-v0.1/training-uniqueness-invalid-format-01.json": {
+      "sha256": "9d6caf12f983c3be2404c6fb9573ab116cce03a7ac8d23e1b7201a54aa23cf5c",
+      "status": "invalid"
+    },
+    "correction-v0.1/training-uniqueness.json": {
+      "sha256": "c06c1173740ddb379f0e4b4306c70d385ca313184db540fd8935a389d477620d",
+      "status": "complete"
+    },
+    "development-controls-v0.2/report.json": {
+      "sha256": "18bd007bcf894f19867dd381050a4981d331521569e5ad2094550e9954139b1f",
+      "status": "complete"
+    },
+    "development-primary-v0.2/report.json": {
+      "sha256": "be9523725e0fc00b91369a9df6980e129331c95fb2379b34afe8094681752fd0",
+      "status": "complete"
+    },
+    "development-v0.3/report.json": {
+      "sha256": "3aca3d808d8fc3fddec2271d45fd3b58609b5e99a1748fc51da7cbae5cf12c79",
+      "status": "complete"
+    },
+    "final-v0.3/analysis/report.json": {
+      "sha256": "a7d1bed6dcedb7c21d768477277b8aa5c31bd96077e816187e47cf3e626af7e2",
+      "status": "complete"
+    },
+    "final-v0.3/analysis/verification.json": {
+      "sha256": "60219a32e399f032cac9765a881f020a05c0c94c47a5b6ea8443fb13e89456c0",
+      "status": "passed"
+    },
+    "final-v0.3/held-out/report.json": {
+      "sha256": "6b3d39c0ce5d3fe8aa8727c34aa5d140502bd91d0f36d607a831242a14255269",
+      "status": "complete"
+    },
+    "final-v0.3/lock.json": {
+      "sha256": "9a8a07cc5a44a9487cdce89795580d64abcede5fb96c6b74e03f95a2ef271b58",
+      "status": "locked_before_new_held_out_inference"
+    },
+    "pilot-v0.2/report.json": {
+      "sha256": "bd65be324b6d92842ccbfa0e4ecfe7f5f792d4b8155edb2b040969acf98ef612",
+      "status": "complete"
+    },
+    "sensitivity-v0.3/analysis/report.json": {
+      "sha256": "dff3ac98b0f55cb99d2299d431ab661fc7612517b095dc44d040c8d6c380bbef",
+      "status": "complete"
+    },
+    "sensitivity-v0.3/analysis/verification.json": {
+      "sha256": "7855fbe5c673b00d3b1f417ae19b62e9a9d222c02338d6f5d1e1f266d955bc62",
+      "status": "passed"
+    },
+    "sensitivity-v0.3/lock.json": {
+      "sha256": "36d515562503d561f377be3b7b51b731e4059387da90e129254904302258cb60",
+      "status": "locked"
+    },
+    "split-v0.2.json": {
+      "sha256": "e9298238ffb693bb5914ce29b72d2e83707f80c8b6878540d3f7eea89f3e5e65",
+      "status": null
+    },
+    "stability-v0.3-failed-01/report.json": {
+      "sha256": "3c2384a2b46d944894bed6aadef88eab11905b9e5f3faebaa4d599e66d7c32d8",
+      "status": "failed"
+    },
+    "stability-v0.3/report.json": {
+      "sha256": "6f7b86950748aad54ac3cce3cbb71f1266204f157e07c2394ab2ba046a803c54",
+      "status": "complete"
+    }
+  },
+  "pinned_hard_assets_verified": true,
+  "results": {
+    "H1": {
+      "baseline_auc": 0.883510348583878,
+      "delta": 0.004255174291939112,
+      "failures": 68,
+      "internal_auc": 0.887765522875817,
+      "interval": [
+        0.0020084422657951047,
+        0.006808278867102335
+      ],
+      "n": 500,
+      "summary_auc": 0.9102328431372549
+    },
+    "future_correction": {
+      "baseline_within_auc": 0.6732534226560586,
+      "delta": -0.0006012845625493479,
+      "internal_within_auc": 0.6726521380935092,
+      "interval": [
+        -0.0042794390885021166,
+        0.003201278635867872
+      ],
+      "n_errors": 19941,
+      "n_mixed_puzzles": 145,
+      "n_puzzles": 1000
+    }
+  },
+  "scope": "consolidation_only_no_inference_no_training_no_new_bootstrap",
+  "status": "passed",
+  "verified_hashes": {
+    "assets.lock.json": "89cbdc24badeac8176e58c204f5a72bc51c19a5d8d69fadf9a9d5f43794939e7",
+    "audit/metacognition/correction-v0.1/development/model-visible.npz": "c76ac6e0c4adaa1d8295dce54880279339eeec6b3038b0367ee496858692224c",
+    "audit/metacognition/correction-v0.1/development/model-visible_hidden.npz": "665ebcfd7cf8e4d840f1470daba06244c8f6f0cc21317253753fa134a2d3a769",
+    "audit/metacognition/correction-v0.1/development/model-visible_noise.npz": "8c6951946911bfbbc2764f788a1e79cc27e02e83f3ac3070009692dc4b5a77ed",
+    "audit/metacognition/correction-v0.1/development/model-visible_shuffle.npz": "fddd7e0c18fc49af117df9cbafbd0d496bef6a03a977fe99726606dd1610b227",
+    "audit/metacognition/correction-v0.1/development/predictions.npz": "fd87cab79ea9a021c3bd544ef6e6e64bb9d78999c70e79a50143ea81e1034b40",
+    "audit/metacognition/correction-v0.1/development/report.json": "cc87de867719405fea2ea0b201b05823baf9740c131fbc66167da878dfeebbbf",
+    "audit/metacognition/correction-v0.1/external/analysis/predictions.npz": "c2d4a07dfd93b1e0bf45f8a3a16afafb9b833f72e377bc7e180f01f4bdcbc227",
+    "audit/metacognition/correction-v0.1/external/analysis/report.json": "86695fb0957e1fe302774cfc8f561fad4361a72974ced018a5c3a87fc131fbca",
+    "audit/metacognition/correction-v0.1/external/corpus-manifest.json": "11ab397c210e779e10a6ff39a3dbdcd01dd8da45b8a74090b65807c219dd682e",
+    "audit/metacognition/correction-v0.1/external/corpus.npz": "77216c690e0d149df3016dc15ed5b7f7264bc98d3373aac60184f3be721a8aa4",
+    "audit/metacognition/correction-v0.1/external/format-failure-01/external.py": "23ebc78e9b3b1835144402bc5cda218f0e7ca8e29daae0f039c1b9b0f93e67e0",
+    "audit/metacognition/correction-v0.1/external/format-failure-01/lock.json": "5bf942de7e14a07263f4a686d32ad8c20cc7760aaba79202dcd491b9538a72f6",
+    "audit/metacognition/correction-v0.1/external/lock.json": "b3d1dd06e8d834f36b8fa07c9bc6340c7276a9ca7e95712f60cee0e2931f3851",
+    "audit/metacognition/correction-v0.1/external/models/visible.npz": "7eb487ffd6305f9e75cf32d63907de6093dc7a0155c41174eed07d556f36703b",
+    "audit/metacognition/correction-v0.1/external/models/visible_hidden.npz": "1902fc8de7f75eb02face0707f4addbf6fb14c3970f727752db4c494f2f45f6c",
+    "audit/metacognition/correction-v0.1/external/models/visible_noise.npz": "8b831cb623bce7ad993062be3c50378fd7dc2325f1ed6beb05174d71a83f49bc",
+    "audit/metacognition/correction-v0.1/external/models/visible_shuffle.npz": "a9765ca640021bf751426d58413da218d5931f7c8e25117e3bc7b1090d76fa80",
+    "audit/metacognition/correction-v0.1/external/traces/cell.npy": "651763e1b90adf4311a435cacbbeace1a8b58e577f2700d2cf65443a143e9101",
+    "audit/metacognition/correction-v0.1/external/traces/current_error.npy": "530cf24e66f3f5d976521a38f2b52370a6e1d22b5e017b8f50f0a6c455113ae1",
+    "audit/metacognition/correction-v0.1/external/traces/group.npy": "5d2a47ccbe171a9270323706e0b0b0361c27a8a6cbd320a632a7e92983445bbf",
+    "audit/metacognition/correction-v0.1/external/traces/hidden.npy": "094e1935b9692ea7411f6780899e48c771d1919515a2e4a02db763c2343d253c",
+    "audit/metacognition/correction-v0.1/external/traces/persistent.npy": "5519bcfb1ddce6ea402c60b9eb3be42c1d3be639bdabb7ed6b043c14bdd6f03b",
+    "audit/metacognition/correction-v0.1/external/traces/visible.npy": "06f122094eeddb5024045154e3a40e17dca4e09f358dc8b484c57bfc29d255fa",
+    "audit/metacognition/final-v0.3/analysis/calibration.json": "ef01445c40c6705e6210fdc313dfcc06468fe68590db400613664206796ba86f",
+    "audit/metacognition/final-v0.3/analysis/report.json": "a7d1bed6dcedb7c21d768477277b8aa5c31bd96077e816187e47cf3e626af7e2",
+    "audit/metacognition/final-v0.3/analysis/test-predictions.npz": "3d151404e6ea958aa3b602f8f6e7f8856489cd2615c44b952471a6de4af37b5a",
+    "audit/metacognition/final-v0.3/held-out/calibration-features.npz": "4c7374eb2104e372a5bb142bdc374a9d327a6e4bed034219f6c168f386eed479",
+    "audit/metacognition/final-v0.3/held-out/test-features.npz": "9a580d14d1b825e9061ded2366688b3263b318e53c7e5cbe483055463374f297",
+    "audit/metacognition/final-v0.3/lock.json": "9a8a07cc5a44a9487cdce89795580d64abcede5fb96c6b74e03f95a2ef271b58",
+    "audit/metacognition/final-v0.3/model-rich.npz": "b4acbf4ead422c9dc2c10cf23e0d84f5bc1211488fd00db2a85c08ff3768439d",
+    "audit/metacognition/final-v0.3/model-rich_hidden_primary.npz": "62ad66f1a125ecaa05256799ef4f3aad516877f646e806dfaad5b9f1bc2cf7b9",
+    "audit/metacognition/final-v0.3/model-rich_noise_control.npz": "78cd4210e4bcd2565a23458893661ac016f02332170776311c9afef6554daf48",
+    "audit/metacognition/final-v0.3/model-summary.npz": "90daef707764833b736474c6d44b8f7be9eb14b9ba8599e4dcaf94a0960d39a0",
+    "audit/metacognition/sensitivity-v0.3/analysis/calibration-11.json": "a22bfd17e3ee68557051f6476b23144497852a3ebbb7c891959b5b7f4be27609",
+    "audit/metacognition/sensitivity-v0.3/analysis/calibration-3.json": "245de74caf631d42ec7491df3d1ff3e3158e18be1474bc6fe894e61713972106",
+    "audit/metacognition/sensitivity-v0.3/analysis/calibration-6.json": "4b4ac5e2db2e03c1cf650cdff5caf4a7d7aa47856b5ba9a8e902f614474798dd",
+    "audit/metacognition/sensitivity-v0.3/analysis/report.json": "dff3ac98b0f55cb99d2299d431ab661fc7612517b095dc44d040c8d6c380bbef",
+    "audit/metacognition/sensitivity-v0.3/analysis/test-predictions-11.npz": "2204cd4e78159abd44a105aca220d4f856f1a5fad3829c600a9995aaddf6fede",
+    "audit/metacognition/sensitivity-v0.3/analysis/test-predictions-3.npz": "2027ed97d46f23119bd48cacc187e71d3b954797ef859e8d63ade3f0806e9466",
+    "audit/metacognition/sensitivity-v0.3/analysis/test-predictions-6.npz": "76e115c21629fa058beabce5e1959a857fa43a2f5485867622692367be7e9946",
+    "audit/metacognition/sensitivity-v0.3/model-11-rich.npz": "faa513a8555b1d08841117f444eed10cc0f7e9fb1ae30aeabdf682f28f18bd5c",
+    "audit/metacognition/sensitivity-v0.3/model-11-rich_hidden_primary.npz": "073969d91088ae037c84dc0cfe294f32442933c1ff9fe0ae1f87148929367e38",
+    "audit/metacognition/sensitivity-v0.3/model-11-summary.npz": "f60bdcd3b5ac7f950399611adb3e9bbe66f11714cff04be155f3417195825979",
+    "audit/metacognition/sensitivity-v0.3/model-3-rich.npz": "f8b6b53d6be4b905fbdd3031ddc196a9a97ecb0e1391ede9ad5bcddf1275f14e",
+    "audit/metacognition/sensitivity-v0.3/model-3-rich_hidden_primary.npz": "55894593059b533d07240c1cc22f082a3842081da33b49b35039f2d86fc28820",
+    "audit/metacognition/sensitivity-v0.3/model-3-summary.npz": "c22a7311e4dccdee1d59be4cd0879b4f5d5bfc44078a5c03f92d6b68443f1afe",
+    "audit/metacognition/sensitivity-v0.3/model-6-rich.npz": "b750e329050cba903ea89fb83ba510a4968471918621a988f7c1b4209d53047a",
+    "audit/metacognition/sensitivity-v0.3/model-6-rich_hidden_primary.npz": "143df73edb2471d6699d9d98884de982f39d8b2b4f919c71fe18c42bea99a7ba",
+    "audit/metacognition/sensitivity-v0.3/model-6-summary.npz": "0742bd23c8afb71281e1646ce1105560f99c4f5ecd27ecdef0eaceb50cff687b",
+    "audit/metacognition/split-v0.2.json": "e9298238ffb693bb5914ce29b72d2e83707f80c8b6878540d3f7eea89f3e5e65",
+    "experiments/metacognition/amendment-v0.3.json": "9e1f90f2bf77655ee573e0fbbd6874ac89e0a2130be0d05837e007f43300a554",
+    "experiments/metacognition/confirmation_corpus.py": "ae597c3dc6bde5fc6a98b5876dba3b619c24d3eb1a34d0ef3e88b96b3b79c595",
+    "experiments/metacognition/correction/audit_training.py": "35fe6295acbbf95d50f415a9799df714b48ee8a741bc3a3db7dc23be88d59aac",
+    "experiments/metacognition/correction/cell_features.py": "dc32caf888bdae7a7865bec53bca1dee99b8408478cb2432dab7da08739408ba",
+    "experiments/metacognition/correction/external-design-v0.1.json": "d5c80a3832ffb7aff8b72156270860db05cd138afd510879c14532bc581a1463",
+    "experiments/metacognition/correction/external.py": "cedaec2643cd0e9cecf556db90fb164466ea5be04d709b951eca26e8b6ea177d",
+    "experiments/metacognition/correction/extract_training.py": "011e71633b7fd23dfa0c81c507d728e4c5efcd6827ae8356156ddef135d1ced4",
+    "experiments/metacognition/correction/learning.py": "2cba62e94291da21a8d6d0c04bcc654af71cfb3dfa96c411561374ff06ca4a7f",
+    "experiments/metacognition/correction/protocol-v0.1.json": "229586470bb0d53fc478406bd18a1261c6f62787c35cc2a03608a90cd64d8cdc",
+    "experiments/metacognition/correction/run_development.py": "6e91561c26e94141b834a3010f953f20ecbb16bcfbe1898ddfda1bab935572d0",
+    "experiments/metacognition/correction/verify_development.py": "57d88898b4ed2f5b21c672bdfdc562ec0f836f46cd117db089d743b951d4e8e7",
+    "experiments/metacognition/correction/verify_external.py": "05d1d8edacae19f0e0f646311163024010098f38d5a90063922b2caf0e86eb83",
+    "experiments/metacognition/features.py": "70bc2e9ca4e2e85516870725829cbe6e4d6b77eab62933734f7dd5223c192322",
+    "experiments/metacognition/final_v03.py": "3626d5a7e4d0a206f451202d339cdbd58cbfbc452588dbef7049cfd8964b360d",
+    "experiments/metacognition/probes.py": "d646f50aab1f8909741a49aba726507499867025b604346d361311670c3c26df",
+    "experiments/metacognition/protocol-v0.2.json": "2ecd154f048cdd25833a1629bb7090b072436325d5d81eb39e8ada6914825047",
+    "experiments/metacognition/run_pilot.py": "7c4cb8f2fc0cffaf7908f42d110b9b415c2885c323c4e5d00ac3914bf28365c8",
+    "experiments/metacognition/sensitivity_v03.py": "e4aeac39bdb331f58cb9f88827df9080441c03062276f3c44d3c29014ffbb3e9",
+    "experiments/metacognition/stability-correction-v0.3.json": "4e15ad506749cc351bb19a15f3c4a8ac6bbf2e2ddbc6107344f6c9e13c48af21",
+    "experiments/metacognition/stability_v03.py": "38da22e03f23ce32253f0905e8d5dddf534ef26227832781c110db125d2837a9",
+    "experiments/metacognition/study_v03.py": "fa6488677a450f34b566473f47443a21782027cff80f11fe8fdfd5178dcbd4ca",
+    "experiments/metacognition/trace.py": "a4e47316ab2b1ccbe033d8ae0cff8e610d3c89c6f7a785a1bee9824564f0fa1f",
+    "experiments/metacognition/train_probes.py": "62d254c025c70a6a42d7926c3555327eafd5aef11c9d274336d69a2e2e48c20d",
+    "src/ncm_mac/__init__.py": "c14785d41a74cae3945a42b61c9b0a391f21c93e1a0d7c2238c0b852a3b2143f",
+    "src/ncm_mac/_vendor/__init__.py": "3085687dd830df31ef385f8ebd09e3cce62af22ed44f411e493b52b5fda33b21",
+    "src/ncm_mac/_vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/models/common.py": "41b7c2c653d7ba312d583caca878ea3708d83da1a770b0b39651dbfd19754b73",
+    "src/ncm_mac/_vendor/models/next_concept.py": "f420d33e6b210d9a09b5e786bdc433eb961b20e2ab47f21ea4d337e0985fe263",
+    "src/ncm_mac/_vendor/models/quant.py": "c9686a6e68cd5bb35a1aa48957b907a74bafe35829af3bb93900046971a0f87a",
+    "src/ncm_mac/_vendor/models/vae.py": "7d393b56813342278def3b053e83ec4ff4e56a492e4ddf2a2441e1c9f78d4317",
+    "src/ncm_mac/_vendor/models/vqvae.py": "067ccce16901a329bcdc49a38162ebc74bd4ecf0796d952c560f4fe9b20a1e17",
+    "src/ncm_mac/_vendor/tokenization/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/tokenization/bpe_tokenizer.py": "ac423cb4a91ff1f6b249b68cbfcfc7cadab6820c4a00145095c788dc0a4b282b",
+    "src/ncm_mac/_vendor/tokenization/hf_tokenizer.py": "ce00ed791a743094019b652e14db97ced4483871d5983e4fc799c7e595863860",
+    "src/ncm_mac/_vendor/tokenization/sudoku_tokenizer.py": "cdc2f3ecd287fd1de30262288320253d939759bdac3c6bd8f1830d258c25f7d6",
+    "src/ncm_mac/_vendor/tokenization/tokenizer.py": "e527d47e4ed8634c673d48a872a07c9cc8828d30988331de2d4bd3b7c21ddcb7",
+    "src/ncm_mac/_vendor/tokenization/vqvae_tokenizer.py": "29ab3ec4af99a343da5c4be81c95165ea185b933649f1fff0b7f70b2a95302b5",
+    "src/ncm_mac/_vendor/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/ncm_mac/_vendor/utils/misc.py": "7e766c7ee036648f4959323ab671e6a7c5d3e873adb9ed60fbec83497728b452",
+    "src/ncm_mac/_vendor/utils/registry.py": "cf122d4cff4fa686be670f7b3dfdc91e1c63a56923253106e1ce22de462603ec",
+    "src/ncm_mac/cached.py": "e3fdcd9d74d98f9a0c2b5dd39993bb5a8c2a694fcb6b392e62145781061b509c",
+    "src/ncm_mac/cli.py": "a2d55fd82f6a950cfc367f49a000920228fe7b67afe2980bd7282841cf2775ff",
+    "src/ncm_mac/metal_experiment.py": "686ac716cbfa0217baf2ddb857841693cf20af6ca1f0eda8d816e45645f9db62",
+    "src/ncm_mac/parallel.py": "c00046b06c9e5b8dd2c49bfd7c608787808994a2bdabd7d7a4c75e27001df863",
+    "src/ncm_mac/sudoku.py": "3eb176bb34fba59ef8ca95db4d6af29cac9276d647c3dc0d0da507e072f4da76"
+  }
+}

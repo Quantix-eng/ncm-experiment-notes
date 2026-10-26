@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_computation",
+  "error": "ModuleNotFoundError: chex",
+  "cause": "tracr.compiler.__init__ imports compiling and the optional JAX assembler",
+  "reserved_forwards": 0,
+  "old_files_preserved": true
+}

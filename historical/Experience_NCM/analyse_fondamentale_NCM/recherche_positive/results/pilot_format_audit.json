@@ -1,0 +1,9 @@
+{
+  "status": "post_hoc_metric_clarification",
+  "n": 32,
+  "exact_89_tokens": 0,
+  "exact_81_cells": 10,
+  "exact_8_separators": 0,
+  "reference_cell_accuracy": 0.9618055555555556,
+  "explanation": "The frozen pilot metric counted all 89 tokens. Zero complete outputs does not mean zero grids with all 81 digits correct. The pilot and primary protocol hashes are unchanged."
+}

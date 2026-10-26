@@ -1,0 +1,15 @@
+{
+ "version":"correction-external-0.1",
+ "reason":"Development local-state probe showed no clear gain; assess fixed method on a new dataset without reusing the previous H1 test",
+ "n":1000,"generation_seed":20261106,"clues":30,
+ "selection":"First 1000 successful unique 30-clue puzzles under generator; exclusion of known transformations versus all official solutions and generator pilot32; no NCM scoring used in selection",
+ "generation":"randomized backtracking, greedy uniqueness-preserving removal, independent exact-cover uniqueness check",
+ "attempt_cap":100000,
+ "training":"original training1000 only; 5 original grouped folds for lambda selection by within-puzzle AUROC; all other protocol-v0.1 choices unchanged",
+ "evaluation":"all newly generated1000 puzzles, no extension if mixed-outcome group count is small; evaluate current wrong blank cells at level9, macro within-puzzle AUROC over mixed outcomes",
+ "primary":"visible_hidden minus visible macro within-puzzle AUROC; paired group bootstrap5000 seed20261105",
+ "models":["visible","visible_hidden","visible_noise","visible_shuffle"],
+ "probabilities":"uncalibrated persistence probabilities; no Platt fitting on external outcomes",
+ "interpretation":"exploratory external-distribution validation, no guaranteed IID match to official data, unknown mixed-group prevalence and no 80 percent power claim",
+ "freeze":"model coefficients, preprocessing, source hashes, corpus puzzles and selection manifest before new NCM inference"
+}

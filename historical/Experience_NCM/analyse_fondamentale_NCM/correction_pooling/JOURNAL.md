@@ -1,0 +1,9 @@
+# Journal concis
+
+- Protocole et grille finie rédigés avant essais. Les corpus Sudoku ont déjà été examinés dans les campagnes précédentes ; cette extension reste exploratoire.
+- La correction étudiée change uniquement le sous-échantillonnage de l'encodeur au niveau 5. Le chemin de génération sera contrôlé séparément ; une opération inutilisée par le générateur ne peut à elle seule améliorer sa résolution.
+- Après deux variantes de contrôle, arrêt préventif de la première exécution pour éviter d'archiver des contributions 89×256 inutilisées et réduire la rétention mémoire. Reprise complète avec le même protocole gelé ; la capture des contributions inutilisées est supprimée, pas le calcul du codec. Le log initial reste conservé.
+- Après préservation des reconstructions hard propres : AMENDEMENT_COMPENSATION.md ajoute un contrôle des codes fins fixes et des décodages partiels sur les 128 premières solutions test. Il ne modifie ni la sélection ni les critères initiaux.
+- Résultats : weighted_1 retenu sur validation ; reconstruction préservée sur hard 600/600 et externe 256/256, easy 600/600, medium 599/600. Le niveau 5 utilise 15 codes dans chaque corpus réservé. Les trois bruits latents et les transformations restent au plafond pour les deux codecs : aucun gain de robustesse revendiqué.
+- Contrôle post-hoc : l'hybride à codes fins natifs conserve 128/128 reconstructions, alors que la lecture partielle au niveau 5 baisse de 21,19 % à 18,31 % de cases exactes. Le supplément limite explicitement toute interprétation de meilleure représentation intermédiaire.
+- Génération : le pooling modifié est appelé pendant encode et zéro fois pendant les huit générations contrôlées, toutes bit-identiques. L'accord des codes générés avec les nouvelles cibles du niveau 5 est de 1,65 % contre 100 % avec l'encodage natif. Aucun gain de résolution n'est affirmé.

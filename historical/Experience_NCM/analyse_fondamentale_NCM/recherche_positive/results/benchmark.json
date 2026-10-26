@@ -1,0 +1,48 @@
+{
+  "end_to_end": {
+    "mean_native_ms": 254.36731313020834,
+    "mean_certified_ms": 249.609222828125,
+    "log_speed_ratio": {
+      "mean": 0.014615297846823267,
+      "ci95": [
+        -0.006084758949438029,
+        0.03669074118061198
+      ],
+      "ci_familywise": [
+        -0.009224341148079646,
+        0.040161313136334656
+      ],
+      "n": 64
+    },
+    "geometric_speed_ratio": 1.01472262354062,
+    "geometric_speed_ratio_ci95": [
+      0.9939337157060307,
+      1.0373721547375385
+    ],
+    "geometric_latency_reduction": 0.014509012807114696,
+    "n_source_puzzles": 64
+  },
+  "readout_only": {
+    "mean_native_ms": 1.0914942216796875,
+    "mean_certified_ms": 0.4933060693359375,
+    "log_speed_ratio": {
+      "mean": 2.220474279072321,
+      "ci95": [
+        1.7639832417129495,
+        2.6727450777187456
+      ],
+      "ci_familywise": [
+        1.7009620165171588,
+        2.743294805789844
+      ],
+      "n": 64
+    },
+    "geometric_speed_ratio": 9.21169874593905,
+    "geometric_speed_ratio_ci95": [
+      5.835635909459597,
+      14.479662486155428
+    ],
+    "geometric_latency_reduction": 0.8914423899890509,
+    "n_source_puzzles": 64
+  }
+}

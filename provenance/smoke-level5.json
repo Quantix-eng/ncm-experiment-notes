@@ -1,0 +1,17 @@
+{
+  "scope": "new smoke check on the first n official hard puzzles; not the historical held-out study",
+  "n": 16,
+  "torch": "2.8.0",
+  "backend": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "level5_identifier_11_on_all_inputs": true,
+  "forced_head_calls": 2,
+  "equal": {
+    "codes": true,
+    "reconstruction": true,
+    "logits": true,
+    "ids": true
+  },
+  "passed": true
+}

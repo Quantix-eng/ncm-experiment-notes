@@ -1,0 +1,350 @@
+{
+  "reference_nonpad": {
+    "transitions": [
+      {
+        "arrival_level": 2,
+        "changed": 7432,
+        "adoption_then_abandonment": {
+          "numerator": 499,
+          "denominator": 710,
+          "rate": 0.7028169014084507,
+          "ci95": [
+            0.6662049861495845,
+            0.7405665311439172
+          ]
+        }
+      },
+      {
+        "arrival_level": 3,
+        "changed": 8229,
+        "adoption_then_abandonment": {
+          "numerator": 663,
+          "denominator": 1094,
+          "rate": 0.6060329067641682,
+          "ci95": [
+            0.5738620639047299,
+            0.638986556108562
+          ]
+        }
+      },
+      {
+        "arrival_level": 4,
+        "changed": 8764,
+        "adoption_then_abandonment": {
+          "numerator": 1032,
+          "denominator": 1787,
+          "rate": 0.5775041969781757,
+          "ci95": [
+            0.5507888452698539,
+            0.6046386607113695
+          ]
+        }
+      },
+      {
+        "arrival_level": 5,
+        "changed": 9591,
+        "adoption_then_abandonment": {
+          "numerator": 1458,
+          "denominator": 2940,
+          "rate": 0.4959183673469388,
+          "ci95": [
+            0.4769160492899028,
+            0.5147468419655271
+          ]
+        }
+      },
+      {
+        "arrival_level": 6,
+        "changed": 7494,
+        "adoption_then_abandonment": {
+          "numerator": 995,
+          "denominator": 2870,
+          "rate": 0.34668989547038326,
+          "ci95": [
+            0.32963042092777745,
+            0.3639895354430238
+          ]
+        }
+      },
+      {
+        "arrival_level": 7,
+        "changed": 7150,
+        "adoption_then_abandonment": {
+          "numerator": 621,
+          "denominator": 3536,
+          "rate": 0.17562217194570134,
+          "ci95": [
+            0.16360572151742922,
+            0.18833633598086197
+          ]
+        }
+      },
+      {
+        "arrival_level": 8,
+        "changed": 6513,
+        "adoption_then_abandonment": {
+          "numerator": 310,
+          "denominator": 4434,
+          "rate": 0.06991429860171403,
+          "ci95": [
+            0.06323642918416549,
+            0.07656185407563242
+          ]
+        }
+      },
+      {
+        "arrival_level": 9,
+        "changed": 2324,
+        "adoption_then_abandonment": {
+          "numerator": 97,
+          "denominator": 1675,
+          "rate": 0.05791044776119403,
+          "ci95": [
+            0.046987749656343496,
+            0.0690084733286441
+          ]
+        }
+      },
+      {
+        "arrival_level": 10,
+        "changed": 1533,
+        "adoption_then_abandonment": {
+          "numerator": 44,
+          "denominator": 1187,
+          "rate": 0.03706823925863521,
+          "ci95": [
+            0.02706955893200381,
+            0.047737541860348884
+          ]
+        }
+      },
+      {
+        "arrival_level": 11,
+        "changed": 811,
+        "adoption_then_abandonment": {
+          "numerator": 0,
+          "denominator": 628,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "arrival_level": 12,
+        "changed": 681,
+        "adoption_then_abandonment": {
+          "numerator": 0,
+          "denominator": 661,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "agreement_by_level": [
+      0.07440185546875,
+      0.10260009765625,
+      0.147705078125,
+      0.22332763671875,
+      0.33819580078125,
+      0.4364013671875,
+      0.57342529296875,
+      0.7861328125,
+      0.86688232421875,
+      0.92620849609375,
+      0.9580078125,
+      0.99835205078125
+    ],
+    "changed_after9_rate": 0.14990234375,
+    "n_positions": 16384,
+    "n_trajectories": 128
+  },
+  "final_anchor_nonpad": {
+    "transitions": [
+      {
+        "arrival_level": 2,
+        "changed": 7432,
+        "adoption_then_abandonment": {
+          "numerator": 499,
+          "denominator": 710,
+          "rate": 0.7028169014084507,
+          "ci95": [
+            0.6662049861495845,
+            0.7405665311439172
+          ]
+        }
+      },
+      {
+        "arrival_level": 3,
+        "changed": 8229,
+        "adoption_then_abandonment": {
+          "numerator": 663,
+          "denominator": 1094,
+          "rate": 0.6060329067641682,
+          "ci95": [
+            0.5738620639047299,
+            0.638986556108562
+          ]
+        }
+      },
+      {
+        "arrival_level": 4,
+        "changed": 8764,
+        "adoption_then_abandonment": {
+          "numerator": 1032,
+          "denominator": 1787,
+          "rate": 0.5775041969781757,
+          "ci95": [
+            0.5507888452698539,
+            0.6046386607113695
+          ]
+        }
+      },
+      {
+        "arrival_level": 5,
+        "changed": 9591,
+        "adoption_then_abandonment": {
+          "numerator": 1458,
+          "denominator": 2940,
+          "rate": 0.4959183673469388,
+          "ci95": [
+            0.4769160492899028,
+            0.5147468419655271
+          ]
+        }
+      },
+      {
+        "arrival_level": 6,
+        "changed": 7494,
+        "adoption_then_abandonment": {
+          "numerator": 995,
+          "denominator": 2871,
+          "rate": 0.34656913967258796,
+          "ci95": [
+            0.3294476618457768,
+            0.36382482081677375
+          ]
+        }
+      },
+      {
+        "arrival_level": 7,
+        "changed": 7150,
+        "adoption_then_abandonment": {
+          "numerator": 621,
+          "denominator": 3536,
+          "rate": 0.17562217194570134,
+          "ci95": [
+            0.16360572151742922,
+            0.18833633598086197
+          ]
+        }
+      },
+      {
+        "arrival_level": 8,
+        "changed": 6513,
+        "adoption_then_abandonment": {
+          "numerator": 311,
+          "denominator": 4437,
+          "rate": 0.07009240477800316,
+          "ci95": [
+            0.06353080273151215,
+            0.07673363380504251
+          ]
+        }
+      },
+      {
+        "arrival_level": 9,
+        "changed": 2324,
+        "adoption_then_abandonment": {
+          "numerator": 98,
+          "denominator": 1676,
+          "rate": 0.05847255369928401,
+          "ci95": [
+            0.04745166959578207,
+            0.06967008820667357
+          ]
+        }
+      },
+      {
+        "arrival_level": 10,
+        "changed": 1533,
+        "adoption_then_abandonment": {
+          "numerator": 44,
+          "denominator": 1189,
+          "rate": 0.03700588730025231,
+          "ci95": [
+            0.02700487434205649,
+            0.047694785707767785
+          ]
+        }
+      },
+      {
+        "arrival_level": 11,
+        "changed": 811,
+        "adoption_then_abandonment": {
+          "numerator": 0,
+          "denominator": 630,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "arrival_level": 12,
+        "changed": 681,
+        "adoption_then_abandonment": {
+          "numerator": 0,
+          "denominator": 681,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "agreement_by_level": [
+      0.074462890625,
+      0.1026611328125,
+      0.14776611328125,
+      0.22332763671875,
+      0.33819580078125,
+      0.43646240234375,
+      0.573486328125,
+      0.786376953125,
+      0.8671875,
+      0.92657470703125,
+      0.95843505859375,
+      1.0
+    ],
+    "changed_after9_rate": 0.14990234375,
+    "n_positions": 16384,
+    "n_trajectories": 128
+  },
+  "batch_size": 4,
+  "cross_batch_parity": [
+    {
+      "codes_equal": true,
+      "readouts_equal": true
+    },
+    {
+      "codes_equal": true,
+      "readouts_equal": true
+    },
+    {
+      "codes_equal": true,
+      "readouts_equal": true
+    },
+    {
+      "codes_equal": true,
+      "readouts_equal": true
+    }
+  ],
+  "note": "Reused validation rows; true reconstruction tokens are available here only. Different inputs from generated unconditional sequences."
+}

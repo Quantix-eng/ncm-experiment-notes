@@ -1,0 +1,1740 @@
+{
+  "full": [
+    {
+      "puzzle": 3,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 317241458,
+      "certified_ns": 293085084
+    },
+    {
+      "puzzle": 24,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 327865416,
+      "certified_ns": 284580833
+    },
+    {
+      "puzzle": 8,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 287175416,
+      "certified_ns": 304163042
+    },
+    {
+      "puzzle": 1,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 307661167,
+      "certified_ns": 289737000
+    },
+    {
+      "puzzle": 18,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 288151625,
+      "certified_ns": 296699500
+    },
+    {
+      "puzzle": 28,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 289074042,
+      "certified_ns": 287207417
+    },
+    {
+      "puzzle": 4,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 322266375,
+      "certified_ns": 290236834
+    },
+    {
+      "puzzle": 39,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 290553500,
+      "certified_ns": 307144042
+    },
+    {
+      "puzzle": 12,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 289275709,
+      "certified_ns": 296969167
+    },
+    {
+      "puzzle": 35,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 297174250,
+      "certified_ns": 295220292
+    },
+    {
+      "puzzle": 30,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 289196250,
+      "certified_ns": 279534209
+    },
+    {
+      "puzzle": 41,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 317880625,
+      "certified_ns": 305709667
+    },
+    {
+      "puzzle": 47,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 309860792,
+      "certified_ns": 282809333
+    },
+    {
+      "puzzle": 20,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 285855167,
+      "certified_ns": 278323917
+    },
+    {
+      "puzzle": 26,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 284205959,
+      "certified_ns": 282936916
+    },
+    {
+      "puzzle": 57,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 280495084,
+      "certified_ns": 280059000
+    },
+    {
+      "puzzle": 5,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 281989125,
+      "certified_ns": 278704291
+    },
+    {
+      "puzzle": 53,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 292202083,
+      "certified_ns": 305721083
+    },
+    {
+      "puzzle": 0,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 294906208,
+      "certified_ns": 282344958
+    },
+    {
+      "puzzle": 11,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 282659083,
+      "certified_ns": 298339042
+    },
+    {
+      "puzzle": 58,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 310248833,
+      "certified_ns": 316457416
+    },
+    {
+      "puzzle": 31,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 322403334,
+      "certified_ns": 292616417
+    },
+    {
+      "puzzle": 54,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 297814875,
+      "certified_ns": 318868250
+    },
+    {
+      "puzzle": 34,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 283407833,
+      "certified_ns": 307336042
+    },
+    {
+      "puzzle": 27,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 309847417,
+      "certified_ns": 293585833
+    },
+    {
+      "puzzle": 2,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 315296625,
+      "certified_ns": 302704709
+    },
+    {
+      "puzzle": 44,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 287517041,
+      "certified_ns": 292660458
+    },
+    {
+      "puzzle": 59,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 320892708,
+      "certified_ns": 309990458
+    },
+    {
+      "puzzle": 46,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 288990209,
+      "certified_ns": 301189834
+    },
+    {
+      "puzzle": 15,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 289113042,
+      "certified_ns": 292262000
+    },
+    {
+      "puzzle": 52,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 427101958,
+      "certified_ns": 313175000
+    },
+    {
+      "puzzle": 19,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 371542709,
+      "certified_ns": 300164459
+    },
+    {
+      "puzzle": 51,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 211816166,
+      "certified_ns": 282621500
+    },
+    {
+      "puzzle": 48,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 197751625,
+      "certified_ns": 205416875
+    },
+    {
+      "puzzle": 49,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 220468083,
+      "certified_ns": 221100541
+    },
+    {
+      "puzzle": 45,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 218230042,
+      "certified_ns": 221546458
+    },
+    {
+      "puzzle": 6,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 196910209,
+      "certified_ns": 197888333
+    },
+    {
+      "puzzle": 38,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 209166375,
+      "certified_ns": 194728041
+    },
+    {
+      "puzzle": 32,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 265302458,
+      "certified_ns": 208538750
+    },
+    {
+      "puzzle": 50,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 213007084,
+      "certified_ns": 208312417
+    },
+    {
+      "puzzle": 36,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 208348958,
+      "certified_ns": 195600208
+    },
+    {
+      "puzzle": 42,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 226190125,
+      "certified_ns": 199760000
+    },
+    {
+      "puzzle": 37,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 233988666,
+      "certified_ns": 213546583
+    },
+    {
+      "puzzle": 7,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 218588250,
+      "certified_ns": 204269458
+    },
+    {
+      "puzzle": 29,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 211846500,
+      "certified_ns": 281003042
+    },
+    {
+      "puzzle": 63,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 204586542,
+      "certified_ns": 213481083
+    },
+    {
+      "puzzle": 55,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 216005916,
+      "certified_ns": 235302791
+    },
+    {
+      "puzzle": 21,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 210480292,
+      "certified_ns": 230268792
+    },
+    {
+      "puzzle": 9,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 217517458,
+      "certified_ns": 227654208
+    },
+    {
+      "puzzle": 13,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 195932958,
+      "certified_ns": 210532375
+    },
+    {
+      "puzzle": 33,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 205828084,
+      "certified_ns": 195461166
+    },
+    {
+      "puzzle": 43,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 194858750,
+      "certified_ns": 198800625
+    },
+    {
+      "puzzle": 16,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 204804667,
+      "certified_ns": 200707000
+    },
+    {
+      "puzzle": 25,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 198485417,
+      "certified_ns": 216013125
+    },
+    {
+      "puzzle": 10,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 195108875,
+      "certified_ns": 218708542
+    },
+    {
+      "puzzle": 14,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 194953917,
+      "certified_ns": 193266334
+    },
+    {
+      "puzzle": 62,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 207691166,
+      "certified_ns": 192416166
+    },
+    {
+      "puzzle": 56,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 217375708,
+      "certified_ns": 216909959
+    },
+    {
+      "puzzle": 60,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 197929791,
+      "certified_ns": 214294291
+    },
+    {
+      "puzzle": 40,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 195815125,
+      "certified_ns": 193954750
+    },
+    {
+      "puzzle": 61,
+      "repeat": 0,
+      "first_arm": 1,
+      "native_ns": 214662583,
+      "certified_ns": 200449375
+    },
+    {
+      "puzzle": 17,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 207945708,
+      "certified_ns": 210172791
+    },
+    {
+      "puzzle": 22,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 193852167,
+      "certified_ns": 194391250
+    },
+    {
+      "puzzle": 23,
+      "repeat": 0,
+      "first_arm": 0,
+      "native_ns": 193692333,
+      "certified_ns": 193726167
+    },
+    {
+      "puzzle": 27,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 215427500,
+      "certified_ns": 195031625
+    },
+    {
+      "puzzle": 2,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 221747250,
+      "certified_ns": 195600333
+    },
+    {
+      "puzzle": 25,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 201221083,
+      "certified_ns": 192074250
+    },
+    {
+      "puzzle": 17,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 220664500,
+      "certified_ns": 208604375
+    },
+    {
+      "puzzle": 40,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 193757666,
+      "certified_ns": 196797292
+    },
+    {
+      "puzzle": 51,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 216693917,
+      "certified_ns": 216892875
+    },
+    {
+      "puzzle": 56,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 218340250,
+      "certified_ns": 213428916
+    },
+    {
+      "puzzle": 31,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 215856584,
+      "certified_ns": 217677000
+    },
+    {
+      "puzzle": 53,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 216424958,
+      "certified_ns": 196222875
+    },
+    {
+      "puzzle": 36,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 203603250,
+      "certified_ns": 193395750
+    },
+    {
+      "puzzle": 52,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 195883541,
+      "certified_ns": 199447875
+    },
+    {
+      "puzzle": 45,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 199718875,
+      "certified_ns": 331228333
+    },
+    {
+      "puzzle": 28,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 297614333,
+      "certified_ns": 395314708
+    },
+    {
+      "puzzle": 18,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 340281167,
+      "certified_ns": 270036458
+    },
+    {
+      "puzzle": 35,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 315465916,
+      "certified_ns": 351612750
+    },
+    {
+      "puzzle": 47,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 279920250,
+      "certified_ns": 287195792
+    },
+    {
+      "puzzle": 23,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 242666209,
+      "certified_ns": 231713833
+    },
+    {
+      "puzzle": 54,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 216306125,
+      "certified_ns": 249010041
+    },
+    {
+      "puzzle": 9,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 216288583,
+      "certified_ns": 209680875
+    },
+    {
+      "puzzle": 22,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 209297875,
+      "certified_ns": 204994875
+    },
+    {
+      "puzzle": 8,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 204710625,
+      "certified_ns": 200993208
+    },
+    {
+      "puzzle": 14,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 207089208,
+      "certified_ns": 200740375
+    },
+    {
+      "puzzle": 43,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 196059250,
+      "certified_ns": 288178709
+    },
+    {
+      "puzzle": 26,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 243619708,
+      "certified_ns": 248349958
+    },
+    {
+      "puzzle": 29,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 255383875,
+      "certified_ns": 267084667
+    },
+    {
+      "puzzle": 62,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 221248750,
+      "certified_ns": 206992875
+    },
+    {
+      "puzzle": 57,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 254546958,
+      "certified_ns": 242635750
+    },
+    {
+      "puzzle": 41,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 299137209,
+      "certified_ns": 303317791
+    },
+    {
+      "puzzle": 5,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 215221625,
+      "certified_ns": 292522875
+    },
+    {
+      "puzzle": 30,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 257572333,
+      "certified_ns": 222542833
+    },
+    {
+      "puzzle": 44,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 214488917,
+      "certified_ns": 237019750
+    },
+    {
+      "puzzle": 42,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 227217000,
+      "certified_ns": 230783667
+    },
+    {
+      "puzzle": 58,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 257254375,
+      "certified_ns": 239952458
+    },
+    {
+      "puzzle": 49,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 324136708,
+      "certified_ns": 269790208
+    },
+    {
+      "puzzle": 11,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 247478209,
+      "certified_ns": 244571875
+    },
+    {
+      "puzzle": 0,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 231469625,
+      "certified_ns": 196598875
+    },
+    {
+      "puzzle": 48,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 211231625,
+      "certified_ns": 318610083
+    },
+    {
+      "puzzle": 21,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 216015958,
+      "certified_ns": 230816458
+    },
+    {
+      "puzzle": 38,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 228703583,
+      "certified_ns": 221576292
+    },
+    {
+      "puzzle": 60,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 218805000,
+      "certified_ns": 227361208
+    },
+    {
+      "puzzle": 1,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 203843000,
+      "certified_ns": 223946291
+    },
+    {
+      "puzzle": 10,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 239262542,
+      "certified_ns": 242547083
+    },
+    {
+      "puzzle": 32,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 230619417,
+      "certified_ns": 238764292
+    },
+    {
+      "puzzle": 50,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 228726125,
+      "certified_ns": 239042250
+    },
+    {
+      "puzzle": 13,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 259054375,
+      "certified_ns": 243692625
+    },
+    {
+      "puzzle": 24,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 198616959,
+      "certified_ns": 236084209
+    },
+    {
+      "puzzle": 37,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 206765375,
+      "certified_ns": 230288417
+    },
+    {
+      "puzzle": 3,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 238510000,
+      "certified_ns": 233924584
+    },
+    {
+      "puzzle": 63,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 210431958,
+      "certified_ns": 237519833
+    },
+    {
+      "puzzle": 61,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 265752125,
+      "certified_ns": 222223750
+    },
+    {
+      "puzzle": 4,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 261864250,
+      "certified_ns": 269293375
+    },
+    {
+      "puzzle": 15,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 263081791,
+      "certified_ns": 252123208
+    },
+    {
+      "puzzle": 19,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 227971292,
+      "certified_ns": 248022334
+    },
+    {
+      "puzzle": 6,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 227516125,
+      "certified_ns": 228753958
+    },
+    {
+      "puzzle": 20,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 239740959,
+      "certified_ns": 240149791
+    },
+    {
+      "puzzle": 16,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 238554917,
+      "certified_ns": 354547583
+    },
+    {
+      "puzzle": 55,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 232120958,
+      "certified_ns": 242076166
+    },
+    {
+      "puzzle": 39,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 249109292,
+      "certified_ns": 237632583
+    },
+    {
+      "puzzle": 7,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 230507958,
+      "certified_ns": 257586583
+    },
+    {
+      "puzzle": 33,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 264712166,
+      "certified_ns": 244477917
+    },
+    {
+      "puzzle": 59,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 231094334,
+      "certified_ns": 212963000
+    },
+    {
+      "puzzle": 34,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 233399042,
+      "certified_ns": 222335166
+    },
+    {
+      "puzzle": 12,
+      "repeat": 1,
+      "first_arm": 1,
+      "native_ns": 267689709,
+      "certified_ns": 274466083
+    },
+    {
+      "puzzle": 46,
+      "repeat": 1,
+      "first_arm": 0,
+      "native_ns": 292215875,
+      "certified_ns": 318783834
+    },
+    {
+      "puzzle": 46,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 383385583,
+      "certified_ns": 235539542
+    },
+    {
+      "puzzle": 15,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 236406708,
+      "certified_ns": 255603334
+    },
+    {
+      "puzzle": 4,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 288249083,
+      "certified_ns": 251488333
+    },
+    {
+      "puzzle": 39,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 251749708,
+      "certified_ns": 298350625
+    },
+    {
+      "puzzle": 16,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 247194084,
+      "certified_ns": 254383458
+    },
+    {
+      "puzzle": 43,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 292078833,
+      "certified_ns": 338898417
+    },
+    {
+      "puzzle": 44,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 266511000,
+      "certified_ns": 197816542
+    },
+    {
+      "puzzle": 26,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 207112125,
+      "certified_ns": 198812042
+    },
+    {
+      "puzzle": 56,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 201666833,
+      "certified_ns": 196407250
+    },
+    {
+      "puzzle": 1,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 199060208,
+      "certified_ns": 197330292
+    },
+    {
+      "puzzle": 2,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 571043709,
+      "certified_ns": 840991375
+    },
+    {
+      "puzzle": 45,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 310682208,
+      "certified_ns": 263557000
+    },
+    {
+      "puzzle": 59,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 229724250,
+      "certified_ns": 279497208
+    },
+    {
+      "puzzle": 12,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 238628375,
+      "certified_ns": 241115209
+    },
+    {
+      "puzzle": 38,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 265942000,
+      "certified_ns": 231441167
+    },
+    {
+      "puzzle": 34,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 296133084,
+      "certified_ns": 249497375
+    },
+    {
+      "puzzle": 57,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 236650416,
+      "certified_ns": 216636042
+    },
+    {
+      "puzzle": 50,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 252747542,
+      "certified_ns": 232717292
+    },
+    {
+      "puzzle": 53,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 257351083,
+      "certified_ns": 229324291
+    },
+    {
+      "puzzle": 5,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 247736125,
+      "certified_ns": 236610083
+    },
+    {
+      "puzzle": 61,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 332461875,
+      "certified_ns": 243413666
+    },
+    {
+      "puzzle": 20,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 236605458,
+      "certified_ns": 246411958
+    },
+    {
+      "puzzle": 49,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 245860125,
+      "certified_ns": 230189583
+    },
+    {
+      "puzzle": 63,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 693749500,
+      "certified_ns": 244456208
+    },
+    {
+      "puzzle": 19,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 280447125,
+      "certified_ns": 260814083
+    },
+    {
+      "puzzle": 27,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 248990125,
+      "certified_ns": 243356209
+    },
+    {
+      "puzzle": 21,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 292136792,
+      "certified_ns": 243054833
+    },
+    {
+      "puzzle": 60,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 234126375,
+      "certified_ns": 317493375
+    },
+    {
+      "puzzle": 0,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 543712792,
+      "certified_ns": 248234709
+    },
+    {
+      "puzzle": 62,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 294055958,
+      "certified_ns": 269383375
+    },
+    {
+      "puzzle": 10,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 220149041,
+      "certified_ns": 233549083
+    },
+    {
+      "puzzle": 42,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 235844625,
+      "certified_ns": 228102708
+    },
+    {
+      "puzzle": 52,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 228600042,
+      "certified_ns": 230983083
+    },
+    {
+      "puzzle": 55,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 245909625,
+      "certified_ns": 231008667
+    },
+    {
+      "puzzle": 24,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 318339792,
+      "certified_ns": 240116084
+    },
+    {
+      "puzzle": 54,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 242868875,
+      "certified_ns": 236486292
+    },
+    {
+      "puzzle": 23,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 233261750,
+      "certified_ns": 226441166
+    },
+    {
+      "puzzle": 33,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 221660625,
+      "certified_ns": 208501208
+    },
+    {
+      "puzzle": 47,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 239996458,
+      "certified_ns": 246269500
+    },
+    {
+      "puzzle": 28,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 373494958,
+      "certified_ns": 253914167
+    },
+    {
+      "puzzle": 36,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 218830333,
+      "certified_ns": 276137084
+    },
+    {
+      "puzzle": 40,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 241351375,
+      "certified_ns": 248344041
+    },
+    {
+      "puzzle": 31,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 220922375,
+      "certified_ns": 229212542
+    },
+    {
+      "puzzle": 30,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 264181958,
+      "certified_ns": 258319750
+    },
+    {
+      "puzzle": 25,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 240437292,
+      "certified_ns": 249954667
+    },
+    {
+      "puzzle": 22,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 248400333,
+      "certified_ns": 243644542
+    },
+    {
+      "puzzle": 6,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 227015458,
+      "certified_ns": 210811208
+    },
+    {
+      "puzzle": 29,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 213455000,
+      "certified_ns": 225247791
+    },
+    {
+      "puzzle": 48,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 220001375,
+      "certified_ns": 209530166
+    },
+    {
+      "puzzle": 51,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 236037833,
+      "certified_ns": 222132000
+    },
+    {
+      "puzzle": 35,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 209963750,
+      "certified_ns": 220265708
+    },
+    {
+      "puzzle": 17,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 209341875,
+      "certified_ns": 232190625
+    },
+    {
+      "puzzle": 32,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 213743666,
+      "certified_ns": 217575333
+    },
+    {
+      "puzzle": 11,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 296586125,
+      "certified_ns": 257460333
+    },
+    {
+      "puzzle": 9,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 268102500,
+      "certified_ns": 236371541
+    },
+    {
+      "puzzle": 41,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 224220000,
+      "certified_ns": 234632875
+    },
+    {
+      "puzzle": 14,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 264822208,
+      "certified_ns": 227739417
+    },
+    {
+      "puzzle": 8,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 231544792,
+      "certified_ns": 228601666
+    },
+    {
+      "puzzle": 37,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 256270875,
+      "certified_ns": 258685834
+    },
+    {
+      "puzzle": 3,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 379238042,
+      "certified_ns": 300599750
+    },
+    {
+      "puzzle": 18,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 258517917,
+      "certified_ns": 237064458
+    },
+    {
+      "puzzle": 7,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 228838000,
+      "certified_ns": 234358375
+    },
+    {
+      "puzzle": 13,
+      "repeat": 2,
+      "first_arm": 0,
+      "native_ns": 241757333,
+      "certified_ns": 254479625
+    },
+    {
+      "puzzle": 58,
+      "repeat": 2,
+      "first_arm": 1,
+      "native_ns": 213880000,
+      "certified_ns": 234389458
+    }
+  ],
+  "stage": [
+    {
+      "puzzle": 54,
+      "first_arm": 0,
+      "native_ns": 977184.9375,
+      "certified_ns": 990268.1875
+    },
+    {
+      "puzzle": 35,
+      "first_arm": 0,
+      "native_ns": 1261583.375,
+      "certified_ns": 1168372.375
+    },
+    {
+      "puzzle": 6,
+      "first_arm": 0,
+      "native_ns": 917057.3125,
+      "certified_ns": 911067.75
+    },
+    {
+      "puzzle": 52,
+      "first_arm": 0,
+      "native_ns": 1303221.375,
+      "certified_ns": 22890.625
+    },
+    {
+      "puzzle": 1,
+      "first_arm": 1,
+      "native_ns": 1049591.125,
+      "certified_ns": 21994.8125
+    },
+    {
+      "puzzle": 4,
+      "first_arm": 0,
+      "native_ns": 1089661.4375,
+      "certified_ns": 21877.5625
+    },
+    {
+      "puzzle": 47,
+      "first_arm": 1,
+      "native_ns": 1100075.5,
+      "certified_ns": 23752.625
+    },
+    {
+      "puzzle": 24,
+      "first_arm": 0,
+      "native_ns": 994057.3125,
+      "certified_ns": 1248486.9375
+    },
+    {
+      "puzzle": 12,
+      "first_arm": 1,
+      "native_ns": 1048898.4375,
+      "certified_ns": 23544.25
+    },
+    {
+      "puzzle": 19,
+      "first_arm": 1,
+      "native_ns": 995072.9375,
+      "certified_ns": 1034138.0
+    },
+    {
+      "puzzle": 37,
+      "first_arm": 0,
+      "native_ns": 984692.75,
+      "certified_ns": 22997.375
+    },
+    {
+      "puzzle": 46,
+      "first_arm": 1,
+      "native_ns": 1137414.0625,
+      "certified_ns": 1132947.9375
+    },
+    {
+      "puzzle": 59,
+      "first_arm": 0,
+      "native_ns": 1052627.5625,
+      "certified_ns": 22838.5625
+    },
+    {
+      "puzzle": 33,
+      "first_arm": 1,
+      "native_ns": 989112.0,
+      "certified_ns": 22802.125
+    },
+    {
+      "puzzle": 26,
+      "first_arm": 0,
+      "native_ns": 1015468.75,
+      "certified_ns": 1024955.6875
+    },
+    {
+      "puzzle": 17,
+      "first_arm": 0,
+      "native_ns": 1075247.375,
+      "certified_ns": 21153.6875
+    },
+    {
+      "puzzle": 57,
+      "first_arm": 1,
+      "native_ns": 971375.0,
+      "certified_ns": 21841.1875
+    },
+    {
+      "puzzle": 45,
+      "first_arm": 1,
+      "native_ns": 1117648.4375,
+      "certified_ns": 23364.5625
+    },
+    {
+      "puzzle": 20,
+      "first_arm": 1,
+      "native_ns": 1106674.5,
+      "certified_ns": 24953.125
+    },
+    {
+      "puzzle": 58,
+      "first_arm": 0,
+      "native_ns": 1108492.1875,
+      "certified_ns": 1076184.9375
+    },
+    {
+      "puzzle": 55,
+      "first_arm": 0,
+      "native_ns": 1001963.5625,
+      "certified_ns": 23328.125
+    },
+    {
+      "puzzle": 63,
+      "first_arm": 1,
+      "native_ns": 1326601.5625,
+      "certified_ns": 46315.0625
+    },
+    {
+      "puzzle": 28,
+      "first_arm": 1,
+      "native_ns": 939380.1875,
+      "certified_ns": 23570.3125
+    },
+    {
+      "puzzle": 36,
+      "first_arm": 0,
+      "native_ns": 1083838.5,
+      "certified_ns": 1139057.3125
+    },
+    {
+      "puzzle": 27,
+      "first_arm": 0,
+      "native_ns": 830330.6875,
+      "certified_ns": 20778.625
+    },
+    {
+      "puzzle": 42,
+      "first_arm": 0,
+      "native_ns": 960291.6875,
+      "certified_ns": 970955.75
+    },
+    {
+      "puzzle": 22,
+      "first_arm": 1,
+      "native_ns": 1033164.0625,
+      "certified_ns": 23585.9375
+    },
+    {
+      "puzzle": 44,
+      "first_arm": 0,
+      "native_ns": 1195307.25,
+      "certified_ns": 997843.75
+    },
+    {
+      "puzzle": 13,
+      "first_arm": 1,
+      "native_ns": 933921.875,
+      "certified_ns": 1079302.0625
+    },
+    {
+      "puzzle": 30,
+      "first_arm": 0,
+      "native_ns": 962992.1875,
+      "certified_ns": 887085.9375
+    },
+    {
+      "puzzle": 10,
+      "first_arm": 1,
+      "native_ns": 870807.3125,
+      "certified_ns": 22539.0625
+    },
+    {
+      "puzzle": 11,
+      "first_arm": 0,
+      "native_ns": 1042856.8125,
+      "certified_ns": 1055145.8125
+    },
+    {
+      "puzzle": 48,
+      "first_arm": 1,
+      "native_ns": 953791.625,
+      "certified_ns": 22031.25
+    },
+    {
+      "puzzle": 62,
+      "first_arm": 0,
+      "native_ns": 868776.0,
+      "certified_ns": 20750.0
+    },
+    {
+      "puzzle": 3,
+      "first_arm": 0,
+      "native_ns": 1097203.125,
+      "certified_ns": 20789.0625
+    },
+    {
+      "puzzle": 43,
+      "first_arm": 0,
+      "native_ns": 1040174.4375,
+      "certified_ns": 1091210.9375
+    },
+    {
+      "puzzle": 41,
+      "first_arm": 1,
+      "native_ns": 1051710.9375,
+      "certified_ns": 22080.6875
+    },
+    {
+      "puzzle": 7,
+      "first_arm": 0,
+      "native_ns": 1034362.0,
+      "certified_ns": 1093489.625
+    },
+    {
+      "puzzle": 16,
+      "first_arm": 0,
+      "native_ns": 1185609.375,
+      "certified_ns": 24838.5
+    },
+    {
+      "puzzle": 29,
+      "first_arm": 1,
+      "native_ns": 1385723.9375,
+      "certified_ns": 33018.25
+    },
+    {
+      "puzzle": 50,
+      "first_arm": 0,
+      "native_ns": 1315210.9375,
+      "certified_ns": 1393854.1875
+    },
+    {
+      "puzzle": 38,
+      "first_arm": 1,
+      "native_ns": 1973895.8125,
+      "certified_ns": 26653.625
+    },
+    {
+      "puzzle": 32,
+      "first_arm": 1,
+      "native_ns": 1067237.0,
+      "certified_ns": 24239.625
+    },
+    {
+      "puzzle": 5,
+      "first_arm": 1,
+      "native_ns": 1074601.5625,
+      "certified_ns": 22184.9375
+    },
+    {
+      "puzzle": 61,
+      "first_arm": 0,
+      "native_ns": 1253098.9375,
+      "certified_ns": 1163552.0625
+    },
+    {
+      "puzzle": 31,
+      "first_arm": 0,
+      "native_ns": 1154536.4375,
+      "certified_ns": 98817.6875
+    },
+    {
+      "puzzle": 8,
+      "first_arm": 0,
+      "native_ns": 1199031.25,
+      "certified_ns": 1353247.375
+    },
+    {
+      "puzzle": 34,
+      "first_arm": 1,
+      "native_ns": 1121138.0,
+      "certified_ns": 1142984.375
+    },
+    {
+      "puzzle": 25,
+      "first_arm": 1,
+      "native_ns": 1120242.1875,
+      "certified_ns": 22304.6875
+    },
+    {
+      "puzzle": 15,
+      "first_arm": 1,
+      "native_ns": 1042880.1875,
+      "certified_ns": 22020.875
+    },
+    {
+      "puzzle": 0,
+      "first_arm": 0,
+      "native_ns": 1170760.4375,
+      "certified_ns": 1191645.8125
+    },
+    {
+      "puzzle": 2,
+      "first_arm": 1,
+      "native_ns": 1211468.75,
+      "certified_ns": 58726.5625
+    },
+    {
+      "puzzle": 14,
+      "first_arm": 0,
+      "native_ns": 1085513.0625,
+      "certified_ns": 20744.75
+    },
+    {
+      "puzzle": 53,
+      "first_arm": 1,
+      "native_ns": 1105468.75,
+      "certified_ns": 21867.1875
+    },
+    {
+      "puzzle": 51,
+      "first_arm": 1,
+      "native_ns": 1057838.5625,
+      "certified_ns": 1261848.9375
+    },
+    {
+      "puzzle": 60,
+      "first_arm": 1,
+      "native_ns": 924171.875,
+      "certified_ns": 982250.0
+    },
+    {
+      "puzzle": 40,
+      "first_arm": 0,
+      "native_ns": 978632.8125,
+      "certified_ns": 989911.4375
+    },
+    {
+      "puzzle": 56,
+      "first_arm": 1,
+      "native_ns": 1066317.6875,
+      "certified_ns": 21109.375
+    },
+    {
+      "puzzle": 49,
+      "first_arm": 1,
+      "native_ns": 923625.0,
+      "certified_ns": 23703.125
+    },
+    {
+      "puzzle": 9,
+      "first_arm": 0,
+      "native_ns": 1332216.1875,
+      "certified_ns": 2834666.6875
+    },
+    {
+      "puzzle": 18,
+      "first_arm": 0,
+      "native_ns": 1220421.875,
+      "certified_ns": 21958.3125
+    },
+    {
+      "puzzle": 23,
+      "first_arm": 0,
+      "native_ns": 1059354.1875,
+      "certified_ns": 21234.375
+    },
+    {
+      "puzzle": 21,
+      "first_arm": 1,
+      "native_ns": 1210390.625,
+      "certified_ns": 1352434.875
+    },
+    {
+      "puzzle": 39,
+      "first_arm": 0,
+      "native_ns": 1093614.5625,
+      "certified_ns": 21479.1875
+    }
+  ],
+  "clock": "perf_counter_ns",
+  "threads": 1,
+  "interop_threads": 1,
+  "warmups": 4,
+  "order": "randomized AB/BA within pair; randomized puzzle order each repeat",
+  "acceptance_first64": 0.59375
+}

@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-10-25T21:10:44.862381+00:00",
+  "error": "TypeError: numpy.bool_ not JSON serializable at export of audit result",
+  "scientific_observations_changed": false,
+  "correction": "explicit Python bool conversion in additional unfrozen audit implementation"
+}

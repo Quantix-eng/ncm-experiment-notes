@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scalar_checks": 45056,
+  "families": 1024,
+  "queries": 5632,
+  "E_regenerated_checks": 18432,
+  "all_future_logits_finite": true,
+  "prediction_seal_intact": true,
+  "input_seal_intact": true,
+  "case13_history_checked": true,
+  "new_neural_forward": false,
+  "external_replication": false,
+  "scope": "checks scoring and provenance; oracle and model forward implemented internally"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scalar_counts": {
+    "both": 5644,
+    "one": 3848,
+    "neither": 748,
+    "clean": 5576,
+    "matched": 5504,
+    "loss": 298,
+    "gain": 370,
+    "collateral": 89,
+    "format_change": 0,
+    "format_invalid": 0,
+    "both_unchanged": 650,
+    "single_clean": 1889
+  },
+  "singleton_replays": 400,
+  "replay_sources": 1,
+  "replay_tokens": 89,
+  "bootstrap_unit": "source puzzle",
+  "frozen_inputs_unchanged": true,
+  "observations_sha256": "fc47ffc45c4ca1c4ce1d6f774b15889e8f3bec1abede04bc15b26cbfbbac1b29",
+  "summary_sha256": "63efba660ca206bc7a5f5659ff1da05a7aaa37b58502db12068ef986e6574874",
+  "limitation": "Same research agent; software audit, not independent replication or scientific certification."
+}

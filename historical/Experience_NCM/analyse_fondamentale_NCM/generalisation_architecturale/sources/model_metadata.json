@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "_id": "6ace20e466da38894589af01",
+    "id": "hazyresearch/ncm-checkpoints",
+    "private": false,
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "text-generation",
+      "arxiv:2610.14162",
+      "license:mit",
+      "region:us"
+    ],
+    "downloads": 0,
+    "likes": 42,
+    "modelId": "hazyresearch/ncm-checkpoints",
+    "author": "hazyresearch",
+    "sha": "d342ce8aaea58830eef3b8ad473664673e41f692",
+    "lastModified": "2026-10-16T03:40:07.000Z",
+    "gated": false,
+    "disabled": false,
+    "widgetData": [
+      {
+        "text": "Hi, what can you help me with?"
+      },
+      {
+        "text": "What is 84 * 3 / 2?"
+      },
+      {
+        "text": "Tell me an interesting fact about the universe!"
+      },
+      {
+        "text": "Explain quantum computing in simple terms."
+      }
+    ],
+    "model-index": null,
+    "config": {},
+    "cardData": {
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "lm1b/README.md"
+      },
+      {
+        "rfilename": "lm1b/large/config.yaml"
+      },
+      {
+        "rfilename": "lm1b/large/generator.pt"
+      },
+      {
+        "rfilename": "lm1b/medium/config.yaml"
+      },
+      {
+        "rfilename": "lm1b/medium/generator.pt"
+      },
+      {
+        "rfilename": "lm1b/small/config.yaml"
+      },
+      {
+        "rfilename": "lm1b/small/generator.pt"
+      },
+      {
+        "rfilename": "lm1b/tokenizer.pt"
+      },
+      {
+        "rfilename": "owt/TODO.md"
+      },
+      {
+        "rfilename": "sudoku/README.md"
+      },
+      {
+        "rfilename": "sudoku/easy/config.yaml"
+      },
+      {
+        "rfilename": "sudoku/easy/generator.pt"
+      },
+      {
+        "rfilename": "sudoku/easy/tokenizer.pt"
+      },
+      {
+        "rfilename": "sudoku/hard/config.yaml"
+      },
+      {
+        "rfilename": "sudoku/hard/generator.pt"
+      },
+      {
+        "rfilename": "sudoku/hard/tokenizer.pt"
+      },
+      {
+        "rfilename": "sudoku/medium/config.yaml"
+      },
+      {
+        "rfilename": "sudoku/medium/generator.pt"
+      },
+      {
+        "rfilename": "sudoku/medium/tokenizer.pt"
+      },
+      {
+        "rfilename": "tinystories/README.md"
+      },
+      {
+        "rfilename": "tinystories/bpe_merges_8192.pickle"
+      },
+      {
+        "rfilename": "tinystories/bpe_vocab_8192.pickle"
+      },
+      {
+        "rfilename": "tinystories/config.yaml"
+      },
+      {
+        "rfilename": "tinystories/generator.pt"
+      },
+      {
+        "rfilename": "tinystories/tokenizer.pt"
+      },
+      {
+        "rfilename": "wmt14/README.md"
+      },
+      {
+        "rfilename": "wmt14/config.yaml"
+      },
+      {
+        "rfilename": "wmt14/generator.pt"
+      },
+      {
+        "rfilename": "wmt14/tokenizer.pt"
+      },
+      {
+        "rfilename": "xsum/README.md"
+      },
+      {
+        "rfilename": "xsum/config.yaml"
+      },
+      {
+        "rfilename": "xsum/generator.pt"
+      },
+      {
+        "rfilename": "xsum/tokenizer.pt"
+      }
+    ],
+    "spaces": [
+      "mrfakename/ncm",
+      "mrfakename/ncm-webgpu"
+    ],
+    "createdAt": "2026-10-13T12:15:32.000Z",
+    "usedStorage": 8002886625
+  },
+  "tree": [
+    {
+      "type": "directory",
+      "oid": "81db0f4b16b5ad2fff30b4ad66a3c27140cccdd8",
+      "size": 0,
+      "path": "lm1b"
+    },
+    {
+      "type": "directory",
+      "oid": "1c225be5aaaf4a654df2ede28823c55fecb81398",
+      "size": 0,
+      "path": "lm1b/large"
+    },
+    {
+      "type": "directory",
+      "oid": "f3461622a728448763c71bcd03f8ff340ad74003",
+      "size": 0,
+      "path": "lm1b/medium"
+    },
+    {
+      "type": "directory",
+      "oid": "b3844c183f6d636eb27740da6df089e2de95ee6e",
+      "size": 0,
+      "path": "lm1b/small"
+    },
+    {
+      "type": "directory",
+      "oid": "bc4c1d0ea92037f1a38ff93f86be0c39f13239df",
+      "size": 0,
+      "path": "owt"
+    },
+    {
+      "type": "directory",
+      "oid": "ee1e692415a92498dc0d04bb2ea4d5df5d7f68a2",
+      "size": 0,
+      "path": "sudoku"
+    },
+    {
+      "type": "directory",
+      "oid": "9fbff179f5c206b099638b1f7ae43dbb3f4f8b03",
+      "size": 0,
+      "path": "sudoku/easy"
+    },
+    {
+      "type": "directory",
+      "oid": "d04851a9f7b0275a64785b629a6d75eaa204d828",
+      "size": 0,
+      "path": "sudoku/hard"
+    },
+    {
+      "type": "directory",
+      "oid": "2fb50e01186e3b999ff8f62e7994918ac5830769",
+      "size": 0,
+      "path": "sudoku/medium"
+    },
+    {
+      "type": "directory",
+      "oid": "efd4ae3eaabe1540ab46a03003f27ffbf5cca4b1",
+      "size": 0,
+      "path": "tinystories"
+    },
+    {
+      "type": "directory",
+      "oid": "cc94e0d953c9d56044f702b12c11df119d9acffa",
+      "size": 0,
+      "path": "wmt14"
+    },
+    {
+      "type": "directory",
+      "oid": "6f094a05fcb421e9465dc91e1e63d76db0496f4b",
+      "size": 0,
+      "path": "xsum"
+    },
+    {
+      "type": "file",
+      "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "49e9759f0e958edad744c6e88601ecbb96cf1852",
+      "size": 1235,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "ff2bc048e0f95f58e525404a0621c7c9471f84a9",
+      "size": 277,
+      "path": "lm1b/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "4667606bb5b51920d25e6dc8cf77879450be676c",
+      "size": 2753,
+      "path": "lm1b/large/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "4b0c6f9e435bc2839a8f70e39b37b4a4182893ac",
+      "size": 2901184267,
+      "lfs": {
+        "oid": "ec34d6c56a81f428303b2fa3a8e1615ceee81b7dec7f59380427f46808ec224c",
+        "size": 2901184267,
+        "pointerSize": 135
+      },
+      "xetHash": "e3121a0493caf9c3ff40988058be81581965bde486ada30d8f7ac8b2d20d81dc",
+      "path": "lm1b/large/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "702222c93354c77984a10ae163efe6d3626bfccc",
+      "size": 2754,
+      "path": "lm1b/medium/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "751b409c12ec521b373629ebf8d306304c8c4d5f",
+      "size": 1268014283,
+      "lfs": {
+        "oid": "5aa4621472c2e658ab343e50d98abc808e4c2c6dd26eaf8535897b6a540c1604",
+        "size": 1268014283,
+        "pointerSize": 135
+      },
+      "xetHash": "79fb199393963ef74c56f1994acbbc3d8db0cfc0f904e95537631b43c06da7cd",
+      "path": "lm1b/medium/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "7b8f55d9d966f8a38ab03272fe7ec2b60221bb5b",
+      "size": 2749,
+      "path": "lm1b/small/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "48b16e0ffb30e27847f111b11cb95fbfd81dd5a2",
+      "size": 390138443,
+      "lfs": {
+        "oid": "b0789d5a2aad9114d40976d26bd1af09d8cea0b0bec7d385b6a44739f77256fe",
+        "size": 390138443,
+        "pointerSize": 134
+      },
+      "xetHash": "0c8697cd3dffdf3b75805b92d2675e8ba7832e35437955fd43ecd91157d57c73",
+      "path": "lm1b/small/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "3931aff856ac046b07ce65110368ca4d7916d26c",
+      "size": 597840331,
+      "lfs": {
+        "oid": "d88aa17b66d730f2cb1fb31c5dbe63888a10da47ed8bea29dcb1f89423c3059c",
+        "size": 597840331,
+        "pointerSize": 134
+      },
+      "xetHash": "7078bad31cf2b38b75acd50139c4e7a8da30f96f02c8310844d631263f717898",
+      "path": "lm1b/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "1333ed77b7e1ed056329cae96075dc558158ee69",
+      "size": 5,
+      "path": "owt/TODO.md"
+    },
+    {
+      "type": "file",
+      "oid": "5f4970ec7d2978f6c8abea6fe6976a5670762fba",
+      "size": 140,
+      "path": "sudoku/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "adef40fc50a296bf598ecf6fee092bc571715c34",
+      "size": 1980,
+      "path": "sudoku/easy/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "90f77db72c484dccbaf9677b6d7a0ac0b6951ac3",
+      "size": 102560203,
+      "lfs": {
+        "oid": "1cefebcd1eae0e210b7e991fdce0e86964d0e897e94a3b432d1008ab92d9926e",
+        "size": 102560203,
+        "pointerSize": 134
+      },
+      "xetHash": "35793c2dbe96428608e7d9531c9c32e87830e471e0c7d72124c2637d7fe66922",
+      "path": "sudoku/easy/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "6cb4b0295300ede3d9dfa137fe38c10f8a056e98",
+      "size": 59816209,
+      "lfs": {
+        "oid": "3f9c87e99fd49900929cd650181f55bf00530280416992b11ddc4ea869b39d68",
+        "size": 59816209,
+        "pointerSize": 133
+      },
+      "xetHash": "be90a1394a7a5e3f3a60df6c35ec3407f4fd4facc2e939a7122ea52a38cdce89",
+      "path": "sudoku/easy/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "c21f90e1eb874b09dbefed466c5292bdac756752",
+      "size": 1980,
+      "path": "sudoku/hard/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a7d4211c0db5dd856ff3c9660178e6a3f86c1826",
+      "size": 102560203,
+      "lfs": {
+        "oid": "9e0bfe44abc1ca3930b7a63cd56cd0b9564b95e29edfe12dd0903207b89df8b8",
+        "size": 102560203,
+        "pointerSize": 134
+      },
+      "xetHash": "12e281d5e24945ec84badf0642900f282b6c9f81a4c8ed5f642d862a1d8d88ac",
+      "path": "sudoku/hard/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "9287828be99a9926c1c81dbdfccac5d960d6929c",
+      "size": 59816209,
+      "lfs": {
+        "oid": "3bc6aecad8e15820f9d9bb09750e3c59bdf91ca953f1f11dbd109aaed1d80c0b",
+        "size": 59816209,
+        "pointerSize": 133
+      },
+      "xetHash": "3ccc7c2386af9f91d9a46063c15a7def1e1dae424e849e0b1206285f14d19d08",
+      "path": "sudoku/hard/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "02bd6dd8ef5f7dcbe15206fef163d4d880fd9fc6",
+      "size": 1982,
+      "path": "sudoku/medium/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "5d82fdad97fd707f341f99a94591d5126f8ebda9",
+      "size": 102560203,
+      "lfs": {
+        "oid": "8336b53fa3dcbddd9375374b8b7409feba2c2ae3b5a1fc5167ecd7852b26ae17",
+        "size": 102560203,
+        "pointerSize": 134
+      },
+      "xetHash": "bf131b99143e74a634e1b57b7f435627304c19c36c835f59edac063c2f33b7f8",
+      "path": "sudoku/medium/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "ea86729b235c13fb3357ca9d40504db24f3be1d8",
+      "size": 59816209,
+      "lfs": {
+        "oid": "aca5523a0c477a6f142bfd6c2ba157353c01b1e3f072bb0f75e34b3b75ebc211",
+        "size": 59816209,
+        "pointerSize": 133
+      },
+      "xetHash": "949a9805621ed3eeb9c11f8fe9ebd4c0694eaeda854cbd44bd7087988de948fa",
+      "path": "sudoku/medium/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "a760ed41df5bf0d834cca743ebc3aad5b797f01f",
+      "size": 255,
+      "path": "tinystories/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "0223648056757a741571d450dbc30b1c680bedd5",
+      "size": 108277,
+      "lfs": {
+        "oid": "0d4cab13f2e7b684b75eaa290a52e596ba87744ef13d943cf3a50a5a8e080ec1",
+        "size": 108277,
+        "pointerSize": 131
+      },
+      "xetHash": "86e604e7ba2d0e471bc103b8087dbae1e127ad5adb39e05c1e6330b050422f59",
+      "path": "tinystories/bpe_merges_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "ef6111c104e7ff5a1ddfe2cea4e24faab1e204e3",
+      "size": 95122,
+      "lfs": {
+        "oid": "fb176b4c68108e4b5ef61b9ff2af3731600124e3e160970a6bd78cd0a5d3ff6c",
+        "size": 95122,
+        "pointerSize": 130
+      },
+      "xetHash": "61b01b6cb72b645a767c47c0a05fe579861315879d9888569d39a7480f946e9a",
+      "path": "tinystories/bpe_vocab_8192.pickle"
+    },
+    {
+      "type": "file",
+      "oid": "1e1ea4cc0f2626f056c0005bb117579ff4d46263",
+      "size": 2483,
+      "path": "tinystories/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "105d78218ce8cd7de1a8c37dd322a988b78f0cea",
+      "size": 356160651,
+      "lfs": {
+        "oid": "0acaf4f795390f9f7ccc8f84047867619a1d00e291681e299b855d7e563be6ff",
+        "size": 356160651,
+        "pointerSize": 134
+      },
+      "xetHash": "7b5b2cec1bd39f90157d2038f3deb2a636b34088f8fc465e0a775865429a2ffb",
+      "path": "tinystories/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "d0e766dc84203e754baf40ffdbf6d55383812571",
+      "size": 221861835,
+      "lfs": {
+        "oid": "76e26003719db32dc3d542518951c286be07d6a5881f29ad5152d299764b0f81",
+        "size": 221861835,
+        "pointerSize": 134
+      },
+      "xetHash": "47ac56ad267f5cd4627f3098bf38045d5e26b52c104958c12b2754548824b1d9",
+      "path": "tinystories/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "3dd03e6fe02976d0b53fe514bdfaedb1a4124034",
+      "size": 218,
+      "path": "wmt14/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "6826002535d2b9b62298f4e041b929232055b6fa",
+      "size": 2177,
+      "path": "wmt14/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6d12a8318ff3f88e5742f841f82c954c13d65b80",
+      "size": 480582539,
+      "lfs": {
+        "oid": "ae580cbbb400a27b30c616634745d4c9cfa8b66806f936c6c26041e5b9640d4f",
+        "size": 480582539,
+        "pointerSize": 134
+      },
+      "xetHash": "c21a3f941e204afacb7c5a19e1064a37172ffd49213bb3794e1a9f62864d7658",
+      "path": "wmt14/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "d0491be7c755983a82722ea3074160bba3ee1879",
+      "size": 645790351,
+      "lfs": {
+        "oid": "74f04176a3cd985e4142761bd7464ea6edb44dc0025c40302b5e45ea0d865702",
+        "size": 645790351,
+        "pointerSize": 134
+      },
+      "xetHash": "2f6eddbaf1679540f7429079a5a21800614398e5535fcfb4d534f42cef32d473",
+      "path": "wmt14/tokenizer.pt"
+    },
+    {
+      "type": "file",
+      "oid": "29b138492ddb9f75c54e5cbc04d62e5a2c23a5b8",
+      "size": 201,
+      "path": "xsum/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "0394a34c0dee9e36e60318d61f7de1bd9c7fa489",
+      "size": 2345,
+      "path": "xsum/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "7e56a5c0e99a63609c73ec6cdcaf41c1fb0d82a4",
+      "size": 354355211,
+      "lfs": {
+        "oid": "f152f390253de886e46303654f01b9e7a2586e609ba3d6b5e86d5969903b1fd4",
+        "size": 354355211,
+        "pointerSize": 134
+      },
+      "xetHash": "f1e4d82f99f900d01ca83b896db27302a767b68b22c69b9af85eecabac4efd76",
+      "path": "xsum/generator.pt"
+    },
+    {
+      "type": "file",
+      "oid": "72e54349fcee8cc23265174180a215b59d5f282f",
+      "size": 299626079,
+      "lfs": {
+        "oid": "1f806ddaf8e023d1933e95efeabcaaf99f795576c0a05045f1a0f9389ab34fa7",
+        "size": 299626079,
+        "pointerSize": 134
+      },
+      "xetHash": "ade4c4f092ce139391a4d8f9cfcc8fd9bbd99adf6ecd2a329cd48ff4de258799",
+      "path": "xsum/tokenizer.pt"
+    }
+  ]
+}

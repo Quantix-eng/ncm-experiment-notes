@@ -1,0 +1,441 @@
+[
+  {
+    "rank": 1,
+    "original_experiment": 6,
+    "slug": "pooling",
+    "title": "A pooling symmetry in solved Sudoku",
+    "path": "experiments/01-pooling/README.md",
+    "question": "Averaging raw token-plus-position embeddings loses the order of digits inside a valid Sudoku row. At one nine-position level, the hard checkpoint also uses a constant code on the examined inputs.",
+    "result": "Weighted pooling activates 15 of the 16 encoding identifiers while preserving the recorded reconstruction counts. Agreement with the frozen generator target falls from 100% to 1.65%.",
+    "interpretation": "This is the clearest small observation to discuss with the NCM authors. The useful part is the checkpoint diagnosis and its limits; the averaging identity itself is elementary.",
+    "limits": "The algebra applies before GroupNorm and earlier residual subtraction. It does not prove that native quantization must collapse. The modified encoding path is not used by native generation, and no solving improvement follows.",
+    "code": [
+      "analyse_fondamentale_NCM/directions_mecanistes/scripts",
+      "analyse_fondamentale_NCM/correction_pooling/scripts"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/directions_mecanistes/results/pooling_algebra.json",
+      "analyse_fondamentale_NCM/directions_mecanistes/results/level5_diagnostic.json",
+      "analyse_fondamentale_NCM/correction_pooling/results/heldout.json",
+      "analyse_fondamentale_NCM/correction_pooling/results/generator_alignment.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Observation",
+    "overview_result": "15/16 encoding codes active with weighted pooling; generator agreement falls to 1.65%.",
+    "overview_interpretation": "Encoding diagnosis; no generation improvement."
+  },
+  {
+    "rank": 2,
+    "original_experiment": 10,
+    "slug": "terminal-readout",
+    "title": "Reading and editing terminal codes",
+    "path": "experiments/02-terminal-readout/README.md",
+    "question": "Can a simple table read digits from the final Sudoku codes, and can a code replacement write a requested digit?",
+    "result": "Target-associated substitutions succeed in 784/1,024 requests on 128 puzzles. A lookup plus a Sudoku checker certifies 552/1,024 fresh puzzles before falling back to the native decoder.",
+    "interpretation": "A concrete endpoint experiment, with an external verifier that makes the limits easy to inspect. It is not evidence of a human-like symbolic alphabet.",
+    "limits": "Eight requests share each source puzzle. Gaussian controls do not match valid codebook geometry. The certificate depends on clue checks, uniqueness and exact fallback. No whole-model speedup is established.",
+    "code": [
+      "analyse_fondamentale_NCM/recherche_positive/scripts"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/recherche_positive/results/writing_interventions.json",
+      "analyse_fondamentale_NCM/recherche_positive/results/hard_readout.json",
+      "analyse_fondamentale_NCM/recherche_positive/results/benchmark.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Mixed",
+    "overview_result": "784/1,024 requested writes; 552/1,024 fresh puzzles certified by lookup + checker.",
+    "overview_interpretation": "Partial terminal readout; no full-pipeline speedup established."
+  },
+  {
+    "rank": 3,
+    "original_experiment": 17,
+    "slug": "ioi-recovery",
+    "title": "Recovery and donor matching in GPT-2",
+    "path": "experiments/03-ioi-recovery/README.md",
+    "question": "After replacing a Name Mover head output, compare a frozen continuation, a recomputed continuation and one adapted to another donor.",
+    "result": "On 512 source families, L9H9 has 2.752 nats of frozen-tail damage, 1.910 nats of recovery and a 0.038-nat matching advantage. Replaying published backups increases loss more than the control group.",
+    "interpretation": "The main question is what matching adds beyond recovery. These results support a bounded case study, not a new discovery of compensation.",
+    "limits": "IOI compensation and backup heads are established findings. Two fixed donor assignments do not control displacement norm or difficulty. Shared donors also limit bootstrap interpretation.",
+    "code": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_observations.json",
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_summary.json"
+    ],
+    "domain": "GPT-2 · IOI",
+    "outcome": "Observation",
+    "overview_result": "Recovery 1.910 nats; donor matching adds 0.038 nat at L9H9.",
+    "overview_interpretation": "Recovery exceeds matching; compensation itself is already known."
+  },
+  {
+    "rank": 4,
+    "original_experiment": 11,
+    "slug": "terminal-composition",
+    "title": "Two terminal edits can interfere",
+    "path": "experiments/04-terminal-composition/README.md",
+    "question": "Do two individually useful terminal substitutions still work when applied together?",
+    "result": "Across 10,240 double edits, both requested targets are written in 55.12% of trials and the complete contract holds in 54.45%. Retention is lower for adjacent cells.",
+    "interpretation": "A useful limit on the terminal-readout result. It prevents the single-edit experiment from being read as a context-free editing interface.",
+    "limits": "The terminal residual includes a local convolution, so spatial interference is not surprising by itself. Edits share sources and must not be counted as independent puzzles.",
+    "code": [
+      "analyse_fondamentale_NCM/composition_terminale/experiment.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/composition_terminale/results/summary.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Mixed",
+    "overview_result": "Both targets written in 55.12% of 10,240 double edits.",
+    "overview_interpretation": "Edits interfere; single-edit success does not imply composition."
+  },
+  {
+    "rank": 5,
+    "original_experiment": 9,
+    "slug": "text-reversals",
+    "title": "Token reversals in LM1B generation",
+    "path": "experiments/05-text-reversals/README.md",
+    "question": "Check whether intermediate readouts can leave a token after first adopting the token that appears at the end.",
+    "result": "In 128 native LM1B small trajectories, 416/2,340 selected positions leave their eventual final token after adopting it at level 9. An oracle text-codec control also has reconstruction reversals.",
+    "interpretation": "It extends the readout observation beyond Sudoku, while keeping correctness and agreement with the eventual output separate.",
+    "limits": "The final-token anchor is retrospective and is not a correctness label. Different levels have different resolutions; this does not establish semantic self-correction.",
+    "code": [
+      "analyse_fondamentale_NCM/compensation_conditionnelle/scripts/text_generation.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/compensation_conditionnelle/results/lm1b_generation.json",
+      "analyse_fondamentale_NCM/compensation_conditionnelle/results/lm1b_oracle.json"
+    ],
+    "domain": "NCM · LM1B",
+    "outcome": "Observation",
+    "overview_result": "416/2,340 selected positions leave the final token after reaching it at level 9.",
+    "overview_interpretation": "Readouts are non-monotonic; codec controls also reverse."
+  },
+  {
+    "rank": 6,
+    "original_experiment": 3,
+    "slug": "sudoku-reversals",
+    "title": "A correct intermediate digit can change again",
+    "path": "experiments/06-sudoku-reversals/README.md",
+    "question": "Test whether decoded Sudoku values become permanently fixed at level 9.",
+    "result": "On 600 hard puzzles, 25.04% of the cells corrected between levels 8 and 9 become wrong again later. Earlier complete readouts solve no full grid in the reported cutoff test.",
+    "interpretation": "A direct check on an initially tempting interpretation. Non-monotonic intermediate quality is already acknowledged in the NCM paper; the contribution here is its measurement and oracle control.",
+    "limits": "Decoded grids are intermediate observations, not the generator input. An oracle codec given the correct solution also shows reversals. This rules out strict decoded-value locking, not every possible latent commitment.",
+    "code": [
+      "analyse_fondamentale_NCM/dynamique_temporelle/scripts"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/dynamique_temporelle/RAPPORT.md",
+      "analyse_fondamentale_NCM/mecanismes_revision/README.md"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Observation",
+    "overview_result": "25.04% of cells corrected at levels 8–9 become wrong later.",
+    "overview_interpretation": "A correct intermediate digit is not a stable commitment."
+  },
+  {
+    "rank": 7,
+    "original_experiment": 20,
+    "slug": "interpbench",
+    "title": "An extra mismatch check did not improve prediction",
+    "path": "experiments/07-interpbench/README.md",
+    "question": "Use probe interventions to predict whether a future donor exchange preserves the native output.",
+    "result": "On four reserved tasks and 5,632 queries, the five-condition rule has 50.52% coverage and 2.35% neural contradiction risk. Without mismatch, these are 50.90% and 2.34%.",
+    "interpretation": "An important negative result for the proposed use of matching. More conditions did not establish better predictions in this test.",
+    "limits": "These are finite task averages, not a matched-coverage ranking. One task has substantial native model-program disagreement. The internal ablations are not independent competing methods.",
+    "code": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/results/c2_summary.json",
+      "analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/RAPPORT_C2.md"
+    ],
+    "domain": "Tracr · InterpBench",
+    "outcome": "Negative",
+    "overview_result": "Coverage/risk: 50.52%/2.35%; without mismatch: 50.90%/2.34%.",
+    "overview_interpretation": "No added benefit from the extra mismatch condition."
+  },
+  {
+    "rank": 8,
+    "original_experiment": 18,
+    "slug": "ioi-secondary-heads",
+    "title": "Repeating IOI interventions at two other heads",
+    "path": "experiments/08-ioi-secondary-heads/README.md",
+    "question": "Repeat the crossed-continuation measurements at L9H6 and L10H0.",
+    "result": "Matching advantages are about 0.025 and 0.008 nat. Both retained intervals exclude zero; the L10H0 interval does not establish an effect above the conventional 0.01-nat margin.",
+    "interpretation": "They help show the scale and variability of the primary IOI result. Failure to exceed a margin is not evidence of absent specificity.",
+    "limits": "These use the same GPT-2 checkpoint and source families. They are intervention replications, not independent model or research replications. The practical margin has no independent utility calibration.",
+    "code": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/run_test.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_L9H6_summary.json",
+      "analyse_fondamentale_NCM/validation_externe_directeur/01_ioi/results/test_L10H0_summary.json"
+    ],
+    "domain": "GPT-2 · IOI",
+    "outcome": "Mixed",
+    "overview_result": "Matching: 0.025 nat at L9H6; 0.008 nat at L10H0.",
+    "overview_interpretation": "Positive effects; L10H0 does not clear the conventional 0.01-nat margin."
+  },
+  {
+    "rank": 9,
+    "original_experiment": 8,
+    "slug": "ncm-omission",
+    "title": "Omitting a residual did not establish specific repair",
+    "path": "experiments/09-ncm-omission/README.md",
+    "question": "Cross omission of residual 9 with frozen and regenerated later contributions on 256 fresh puzzles.",
+    "result": "Mean recovery is -0.001641 nat and the interaction contrast is -0.003803 nat. The announced joint criterion fails.",
+    "interpretation": "A necessary negative result to keep next to any discussion of adaptation. Changed later codes alone do not establish useful compensation.",
+    "limits": "The omission does not create a consistent mean NLL deficit in the first place. This is a limited repair test and does not show that the generator is generally blind to errors.",
+    "code": [
+      "analyse_fondamentale_NCM/compensation_conditionnelle/scripts/crossed.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/compensation_conditionnelle/results/fresh_crossed.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Negative",
+    "overview_result": "Recovery −0.001641 nat; joint criterion fails.",
+    "overview_interpretation": "Specific repair not established under this omission."
+  },
+  {
+    "rank": 10,
+    "original_experiment": 5,
+    "slug": "initial-audit",
+    "title": "The initial NCM audit",
+    "path": "experiments/10-initial-audit/README.md",
+    "question": "Inspect reconstruction, code usage, deterministic repeats, symmetries, checkpoint transfer and simple probes.",
+    "result": "The audit found the constant intermediate level and a naked-single probe with AUROC 0.877 versus 0.496 with shuffled labels. The causal ablation was not specific.",
+    "interpretation": "Background for the more focused pooling experiments. It is a collection of diagnostics rather than a complete causal anatomy.",
+    "limits": "Naked singles can be computed directly from the puzzle. Decodability alone does not show that the model uses the feature or implements a human Sudoku rule.",
+    "code": [
+      "analyse_fondamentale_NCM/scripts"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/results/tokenizer.json",
+      "analyse_fondamentale_NCM/results/naked_single.json",
+      "analyse_fondamentale_NCM/results/causal.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Mixed",
+    "overview_result": "Naked-single probe AUROC 0.877; causal ablation not specific.",
+    "overview_interpretation": "Decodability does not establish causal use of the feature."
+  },
+  {
+    "rank": 11,
+    "original_experiment": 7,
+    "slug": "text-pooling-controls",
+    "title": "The constant level did not recur in text tokenizers",
+    "path": "experiments/11-text-pooling-controls/README.md",
+    "question": "Audit LM1B and TinyStories tokenizers for the same kind of constant native level.",
+    "result": "No constant native level was found in the examined random and longer-text strata. Local permutations can change native codes.",
+    "interpretation": "This keeps the Sudoku observation from becoming a claim about all NCMs.",
+    "limits": "Two tokenizers do not prove that every text level is useful. The raw averaging identity can hold while contextualization and residual quantization remain input-dependent.",
+    "code": [
+      "analyse_fondamentale_NCM/generalisation_architecturale/scripts/text_audit.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/generalisation_architecturale/README.md",
+      "analyse_fondamentale_NCM/generalisation_architecturale/results"
+    ],
+    "domain": "NCM · LM1B / TinyStories",
+    "outcome": "Control",
+    "overview_result": "No constant native level in the examined text strata.",
+    "overview_interpretation": "The Sudoku observation does not generalize to these text checks."
+  },
+  {
+    "rank": 12,
+    "original_experiment": 1,
+    "slug": "failure-probes",
+    "title": "Internal states added little to failure prediction",
+    "path": "experiments/12-failure-probes/README.md",
+    "question": "Ask whether internal activations predict final Sudoku failure better than observable readout features.",
+    "result": "The reserved 500-puzzle study reports an AUROC increment of about 0.0043 for one fitted contrast. A stronger observable-only summary outperforms that state-augmented comparison.",
+    "interpretation": "A useful stopping point for the original hypothesis: adding hidden-state features did not produce a convincing practical benefit.",
+    "limits": "A small conditional improvement is not an operational advantage. These are externally fitted predictors, not native confidence or metacognition. Earlier probe objectives are separate experiments.",
+    "code": [
+      "experiments/metacognition"
+    ],
+    "records": [
+      "audit/metacognition/final-v0.3/analysis/report.json",
+      "RAPPORT_METACOGNITION.md"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Negative",
+    "overview_result": "Hidden-state contrast adds about 0.0043 AUROC; stronger observable baseline wins.",
+    "overview_interpretation": "No convincing practical benefit from internal-state features."
+  },
+  {
+    "rank": 13,
+    "original_experiment": 4,
+    "slug": "early-abandonment",
+    "title": "An abandonment policy saved too little",
+    "path": "experiments/13-early-abandonment/README.md",
+    "question": "Use a level-9 risk signal to stop trajectories likely to fail and measure the available computation savings.",
+    "result": "Optimistic savings are 2.29% at a budget of ten lost solutions per 1,000, or 1.47% at three per 1,000. The 5% feasibility gate is not met.",
+    "interpretation": "A practical negative result. It explains why the confidence work did not become an inference optimization.",
+    "limits": "Abandonment can discard solvable puzzles. The error budget and measured CPU costs belong to this policy and environment.",
+    "code": [
+      "experiments/metacognition/early_control"
+    ],
+    "records": [
+      "audit/metacognition/early-control-v1/campaign-summary.json",
+      "RAPPORT_CONTROLE_PRECOCE.md"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Negative",
+    "overview_result": "Optimistic savings 2.29% at 10 lost solutions per 1,000; gate was 5%.",
+    "overview_interpretation": "The tested early-abandonment policy is not worthwhile."
+  },
+  {
+    "rank": 14,
+    "original_experiment": 2,
+    "slug": "future-corrections",
+    "title": "Predicting which cell errors persist",
+    "path": "experiments/14-future-corrections/README.md",
+    "question": "Test whether local latent features improve prediction of which currently wrong cells will remain wrong.",
+    "result": "On the restricted mixed-puzzle cohort, the reported increment is -0.00060 with an interval spanning zero. Most current errors are corrected later, creating a strong prevalence trap.",
+    "interpretation": "Another hypothesis that did not pay off. Retaining the baseline and cohort definition matters more than the number of attempted probes.",
+    "limits": "The cohort is selected and the target is a future event. The result concerns this fitted procedure, not the absence of information everywhere in the network.",
+    "code": [
+      "experiments/metacognition/correction"
+    ],
+    "records": [
+      "audit/metacognition/correction-v0.1/external/analysis/report.json",
+      "RAPPORT_CORRECTION_FUTURE.md"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Negative",
+    "overview_result": "Predictive increment −0.00060; interval spans zero.",
+    "overview_interpretation": "Local latent features do not help this fitted persistence predictor."
+  },
+  {
+    "rank": 15,
+    "original_experiment": 19,
+    "slug": "pythia-reader",
+    "title": "A reader-only Pythia control",
+    "path": "experiments/15-pythia-reader/README.md",
+    "question": "Use the parallel branches in Pythia-160M final layer to separate changes in the reader from downstream block adaptation.",
+    "result": "Across 512 WikiText sequences, mean reader recovery is -0.000601 nat; the descriptive interval includes zero. The reader/self-repair identity passes its numerical check.",
+    "interpretation": "A structural implementation control with a negative average outcome.",
+    "limits": "This does not show that LayerNorm never contributes to self-repair. It uses a different distribution and sampling policy from prior work, and does not decompose the IOI result.",
+    "code": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/scripts"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/validation_externe_directeur/03_pythia/results/test_summary.json"
+    ],
+    "domain": "Pythia-160M · WikiText",
+    "outcome": "Control",
+    "overview_result": "Mean reader recovery −0.000601 nat; interval includes zero.",
+    "overview_interpretation": "Structural identity checked; no average recovery established."
+  },
+  {
+    "rank": 16,
+    "original_experiment": 13,
+    "slug": "ncm-exchanges",
+    "title": "Input and state exchanges in NCM",
+    "path": "experiments/16-ncm-exchanges/README.md",
+    "question": "Exchange retained states between controlled Sudoku input pairs while varying which input context remains available.",
+    "result": "The operational rule labels 15/16 families input-dominant. Regeneration returns the recipient solution in 32/32 swaps, but a recipient-native frozen continuation does so too.",
+    "interpretation": "A small functional demonstration that is useful mainly for understanding the intervention design.",
+    "limits": "That frozen continuation comes from a previous complete computation. The diagnostic depends on the boundary, access contract and chosen margins; it is not a mechanism label or shortcut.",
+    "code": [
+      "analyse_fondamentale_NCM/benchmark_ncm_reel"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/benchmark_ncm_reel/results/summary.json",
+      "analyse_fondamentale_NCM/benchmark_ncm_reel/results/output_quality.json"
+    ],
+    "domain": "NCM · Sudoku",
+    "outcome": "Mixed",
+    "overview_result": "15/16 families input-dominant; frozen recipient tail also succeeds in 32/32 swaps.",
+    "overview_interpretation": "Access-dependent diagnosis; regeneration benefit not established."
+  },
+  {
+    "rank": 17,
+    "original_experiment": 14,
+    "slug": "gpt2-copying",
+    "title": "The same access test on GPT-2 copying",
+    "path": "experiments/17-gpt2-copying/README.md",
+    "question": "Port the input/state exchange protocol to a next-token copying task in GPT-2.",
+    "result": "Eight of sixteen families pass the native-anchor gate and receive input-dominant diagnoses. The other eight remain unidentified. Regeneration has little exact-answer advantage over the recipient-native frozen control.",
+    "interpretation": "Evidence that the implementation transfers, with weak evidence for a broader scientific claim.",
+    "limits": "Half the families fail native competence requirements. These are intermediate next-token computations, not edits to text already emitted.",
+    "code": [
+      "analyse_fondamentale_NCM/benchmark_multimodel_ar"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/benchmark_multimodel_ar/results/summary.json"
+    ],
+    "domain": "GPT-2 · Copying",
+    "outcome": "Mixed",
+    "overview_result": "8/16 families pass native competence; 8 remain unidentified.",
+    "overview_interpretation": "Protocol transfer, with limited evidence beyond it."
+  },
+  {
+    "rank": 18,
+    "original_experiment": 15,
+    "slug": "matched-toy-models",
+    "title": "AR and parallel toy models on one task",
+    "path": "experiments/18-matched-toy-models/README.md",
+    "question": "Train three paired seeds of small autoregressive and parallel Transformers on the same symbol-rotation task.",
+    "result": "All six models solve the native examples, but no tested corruption dose meets the shared damage gate. Recovery contrasts at the fallback dose are negative. Cutoffs and seeds change exchange behavior.",
+    "interpretation": "A control experiment that sets a boundary on what the earlier cross-model comparisons can claim.",
+    "limits": "The calibration objective fails. The parallel model is not NCM, and the training objectives differ. These runs cannot identify a general effect of autoregressive versus parallel generation.",
+    "code": [
+      "analyse_fondamentale_NCM/benchmark_tache_commune"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/benchmark_tache_commune/results/calibration.json",
+      "analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json"
+    ],
+    "domain": "Toy AR / parallel · Symbol rotation",
+    "outcome": "Negative",
+    "overview_result": "6/6 models solve native examples; shared damage gate fails.",
+    "overview_interpretation": "No valid general comparison of AR and parallel repair."
+  },
+  {
+    "rank": 19,
+    "original_experiment": 12,
+    "slug": "constructed-controls",
+    "title": "Checking the protocol on constructed programs",
+    "path": "experiments/19-constructed-controls/README.md",
+    "question": "Check whether the observation, continuation and exchange rules distinguish programs with known behavior.",
+    "result": "The complete diagnostic returns the intended answer in 344/344 constructed instances. The program library and diagnostic were designed together.",
+    "interpretation": "Keep it as an implementation and logic check rather than a headline finding.",
+    "limits": "This is a consistency check, not external validation or a benchmark of mechanism discovery on learned networks. Observation-only failure on these programs is not a universal upper bound.",
+    "code": [
+      "analyse_fondamentale_NCM/benchmark_causal_revision"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/benchmark_causal_revision/results/summary.json"
+    ],
+    "domain": "Constructed programs",
+    "outcome": "Control",
+    "overview_result": "344/344 intended diagnoses on jointly designed instances.",
+    "overview_interpretation": "Implementation consistency, not external mechanism validation."
+  },
+  {
+    "rank": 20,
+    "original_experiment": 16,
+    "slug": "whole-memory-control",
+    "title": "Replacing the whole memory removes the recipient path",
+    "path": "experiments/20-whole-memory-control/README.md",
+    "question": "Exchange every available state tensor, leaving no recipient representation for the remaining computation.",
+    "result": "Regenerated outputs reproduce the donor as required by the access contract. The resulting state-dominant classification follows from the construction.",
+    "interpretation": "The least substantive scientific result, but a useful check that the implementation respects its declared inputs.",
+    "limits": "No recipient influence can be recovered through a path that has been removed. This is a control of the adapter, not a discovered property of intelligence.",
+    "code": [
+      "analyse_fondamentale_NCM/benchmark_tache_commune/evaluate.py"
+    ],
+    "records": [
+      "analyse_fondamentale_NCM/benchmark_tache_commune/results/summary.json"
+    ],
+    "domain": "Toy models · Whole-memory exchange",
+    "outcome": "Control",
+    "overview_result": "Outputs follow the donor when all recipient state is removed.",
+    "overview_interpretation": "Expected consequence of the access contract."
+  }
+]

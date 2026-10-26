@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "command": "analyse_fondamentale_NCM/.venv/bin/python analyse_fondamentale_NCM/validation_externe_directeur/02_interpbench/verify.py",
+  "exit_code": 1,
+  "failed_assertion": "np.allclose(expected, actual, atol=2e-4, rtol=2e-5)",
+  "first_source": "dev-8-017",
+  "max_abs_difference_first_source": 0.0005538618895570835,
+  "scope": "FP32 Torch versus FP64 NumPy native logits",
+  "criteria_modified": false,
+  "reserved_inference_executed": false,
+  "followup": "A separate post-hoc diagnostic is retained; the original verifier and freeze remain unchanged."
+}

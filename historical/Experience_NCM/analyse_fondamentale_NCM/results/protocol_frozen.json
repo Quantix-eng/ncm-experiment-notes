@@ -1,0 +1,33 @@
+{
+  "protocol": {
+    "version": 1,
+    "seed": 20261024,
+    "primary_level": 6,
+    "split_sizes": [
+      1000,
+      400,
+      600
+    ],
+    "batch_size": 16,
+    "threads": 1,
+    "bootstrap": 2000,
+    "logistic_C": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "solution_projection_dim": 128,
+    "solution_ridge_alpha": 100.0,
+    "cross_n": 256,
+    "external_n": 256,
+    "symmetry_n": 128,
+    "functional_substitution_n": 32,
+    "causal_random_directions": 5,
+    "scope": "Sudoku easy/medium/hard only; mechanistic analyses exploratory"
+  },
+  "todo_sha256": "788b85fbe80dfaf1b5ff7c43afefdf2fc2350e6ca2f6fd5b3677554b9a953cc9",
+  "protocol_sha256": "9560e66577db2426627466e2e4bf35f983c78f364b318a7b3ed3e3f3c0e31895",
+  "utc": "2026-10-24T12:18:05Z",
+  "splits_sha256": "f92bf995a0417fbacdd8eb706f27f69725d41fe40f5dc6f3326eaf4b91af0e4b"
+}

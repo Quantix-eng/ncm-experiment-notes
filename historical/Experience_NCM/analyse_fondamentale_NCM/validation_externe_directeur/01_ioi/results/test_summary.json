@@ -1,0 +1,324 @@
+{
+  "stage": "test",
+  "head": "L9H9",
+  "n_families": 512,
+  "n_resamples": 1024,
+  "contrasts": {
+    "D": {
+      "mean": 2.752368983313326,
+      "ci95": [
+        2.676342098409708,
+        2.827016864446399
+      ],
+      "ci9875": [
+        2.6571556767103903,
+        2.8460605372927783
+      ]
+    },
+    "R": {
+      "mean": 1.9099525877813606,
+      "ci95": [
+        1.8345700749481209,
+        1.9855903877737384
+      ],
+      "ci9875": [
+        1.8138197763724322,
+        2.006202257882807
+      ]
+    },
+    "I": {
+      "mean": 1.2759022352544227,
+      "ci95": [
+        1.2118087187285473,
+        1.3425695024790338
+      ],
+      "ci9875": [
+        1.1921333918996697,
+        1.361651504141353
+      ]
+    },
+    "S": {
+      "mean": 0.03797380189015828,
+      "ci95": [
+        0.0267768925490766,
+        0.05034290757020026
+      ],
+      "ci9875": [
+        0.024040773261185974,
+        0.05402196880638451
+      ]
+    },
+    "B": {
+      "mean": 0.21096815967128776,
+      "ci95": [
+        0.19340458224038287,
+        0.22934374104948133
+      ],
+      "ci9875": [
+        0.188604630741823,
+        0.23456716052646415
+      ]
+    },
+    "block_backups_minus_adapted": {
+      "mean": 0.2510590707971287,
+      "ci95": [
+        0.23176078376476056,
+        0.2713975145464719
+      ],
+      "ci9875": [
+        0.22653581260481012,
+        0.27704802496646774
+      ]
+    },
+    "block_controls_minus_adapted": {
+      "mean": 0.040090911125840956,
+      "ci95": [
+        0.032543339125369226,
+        0.04765749388117771
+      ],
+      "ci9875": [
+        0.03048846527394836,
+        0.04968924250650272
+      ]
+    },
+    "self_repair": {
+      "mean": 2.3548599822355074,
+      "ci95": [
+        2.2652893135140846,
+        2.445141587893748
+      ],
+      "ci9875": [
+        2.2402007079401436,
+        2.4703723026736686
+      ]
+    },
+    "delta_DE": {
+      "mean": -3.385906812829277,
+      "ci95": [
+        -3.4667029384993273,
+        -3.3044822870262127
+      ],
+      "ci9875": [
+        -3.486255794457484,
+        -3.2834170256335944
+      ]
+    },
+    "ordinary_ablation_damage": {
+      "mean": 0.8424163955319656,
+      "ci95": [
+        0.8059969921170456,
+        0.8796153085863477
+      ],
+      "ci9875": [
+        0.7971050320978665,
+        0.8907108056319791
+      ]
+    }
+  },
+  "accuracy": {
+    "Y00": {
+      "correct_candidate": 1024,
+      "correct_vocab": 952
+    },
+    "Y10": {
+      "correct_candidate": 698,
+      "correct_vocab": 59
+    },
+    "Y11": {
+      "correct_candidate": 1015,
+      "correct_vocab": 622
+    },
+    "Y01": {
+      "correct_candidate": 1024,
+      "correct_vocab": 1001
+    },
+    "Y1wrong": {
+      "correct_candidate": 975,
+      "correct_vocab": 581
+    },
+    "block_backups": {
+      "correct_candidate": 1007,
+      "correct_vocab": 492
+    },
+    "block_controls": {
+      "correct_candidate": 1016,
+      "correct_vocab": 599
+    }
+  },
+  "operational_claims_adjusted": {
+    "D": true,
+    "R": true,
+    "S": true,
+    "B": true
+  },
+  "per_family_threshold_counts": {
+    "D": 510,
+    "R": 507,
+    "S": 194,
+    "B": 439
+  },
+  "claim_coverage": {
+    "complete": 192,
+    "without_specificity": 507,
+    "without_frozen": "cannot identify necessity of adaptation from Y00/Y11 alone",
+    "self_repair_positive": 505
+  },
+  "by_template": {
+    "Before {name_A} and {name_B} left the {place}, {name_C} decided to give a {object} to": {
+      "n": 48,
+      "D": 3.0024337338113845,
+      "R": 1.9897096688298512,
+      "I": 0.925027272237883,
+      "S": 0.03255185499261263,
+      "B": 0.17858687787800598,
+      "block_backups_minus_adapted": 0.2089022887911526,
+      "block_controls_minus_adapted": 0.03031541091314664,
+      "self_repair": 2.215208190692784,
+      "delta_DE": -3.25523852447245,
+      "ordinary_ablation_damage": 1.0127240649815328
+    },
+    "Once {name_A} and {name_B} arrived at the {place}, {name_C} gave a {object} to": {
+      "n": 47,
+      "D": 2.5542770540744804,
+      "R": 1.5737770001471383,
+      "I": 1.0024963182614643,
+      "S": 0.028926179143896884,
+      "B": 0.16889423274576154,
+      "block_backups_minus_adapted": 0.17799871608675594,
+      "block_controls_minus_adapted": 0.009104483340994412,
+      "self_repair": 1.9464848148238736,
+      "delta_DE": -3.138425652809979,
+      "ordinary_ablation_damage": 0.9805000539273423
+    },
+    "The {place} {name_A} and {name_B} went to had a {object}. {name_C} gave it to": {
+      "n": 62,
+      "D": 2.917216390778367,
+      "R": 2.222379027167486,
+      "I": 1.716377625937336,
+      "S": 0.031271236402863695,
+      "B": 0.2585180995821837,
+      "block_backups_minus_adapted": 0.33943425493221796,
+      "block_controls_minus_adapted": 0.08091615535003421,
+      "self_repair": 2.882240147350742,
+      "delta_DE": -3.7949809994493107,
+      "ordinary_ablation_damage": 0.6948373636108813
+    },
+    "Then, {name_A} and {name_B} had a lot of fun at the {place}. {name_C} gave a {object} to": {
+      "n": 55,
+      "D": 2.457465074707583,
+      "R": 1.7653540032561734,
+      "I": 1.3377295924099475,
+      "S": 0.016216706088604968,
+      "B": 0.24495070572516692,
+      "block_backups_minus_adapted": 0.28389110806423495,
+      "block_controls_minus_adapted": 0.03894040233906802,
+      "self_repair": 2.4029245149953207,
+      "delta_DE": -3.401957107216731,
+      "ordinary_ablation_damage": 0.6921110714514088
+    },
+    "Then, {name_A} and {name_B} went to the {place}. {name_C} gave a {object} to": {
+      "n": 54,
+      "D": 2.429633263942355,
+      "R": 1.695076281084342,
+      "I": 1.161792948497438,
+      "S": 0.04306804114297092,
+      "B": 0.19136819431278893,
+      "block_backups_minus_adapted": 0.2337711730891695,
+      "block_controls_minus_adapted": 0.042402978776380586,
+      "self_repair": 2.1387963463788027,
+      "delta_DE": -3.157803428383654,
+      "ordinary_ablation_damage": 0.7345569828580127
+    },
+    "Then, {name_A} and {name_B} were working at the {place}. {name_C} decided to give a {object} to": {
+      "n": 59,
+      "D": 2.722259769079644,
+      "R": 1.9483045342526344,
+      "I": 1.3197174693666713,
+      "S": 0.07324972479522487,
+      "B": 0.21837878664721547,
+      "block_backups_minus_adapted": 0.25089280280311,
+      "block_controls_minus_adapted": 0.032514016155894526,
+      "self_repair": 2.351900332173599,
+      "delta_DE": -3.3085830601650748,
+      "ordinary_ablation_damage": 0.7739552348270098
+    },
+    "When {name_A} and {name_B} got a {object} at the {place}, {name_C} decided to give it to": {
+      "n": 59,
+      "D": 3.0679026848054094,
+      "R": 2.332265022603184,
+      "I": 1.6315963391292347,
+      "S": 0.044864417295748575,
+      "B": 0.2569345764994763,
+      "block_backups_minus_adapted": 0.31486795129776035,
+      "block_controls_minus_adapted": 0.05793337479828406,
+      "self_repair": 2.821719924850767,
+      "delta_DE": -3.6819679985869236,
+      "ordinary_ablation_damage": 0.7356376622022257
+    },
+    "When {name_A} and {name_B} were about to leave the {place}, {name_C} gave a {object} to": {
+      "n": 63,
+      "D": 2.8062856967906047,
+      "R": 1.8792782401851036,
+      "I": 1.3478799205556662,
+      "S": 0.04286570197107623,
+      "B": 0.2244434108638537,
+      "block_backups_minus_adapted": 0.2513940191162302,
+      "block_controls_minus_adapted": 0.026950608252376534,
+      "self_repair": 2.363526410851706,
+      "delta_DE": -3.5265592053436405,
+      "ordinary_ablation_damage": 0.9270074566055013
+    },
+    "While {name_A} and {name_B} relaxed, {name_C} gave a {object} to": {
+      "n": 65,
+      "D": 2.760020052690564,
+      "R": 1.708583381617312,
+      "I": 0.9226461402887415,
+      "S": 0.026075135188246015,
+      "B": 0.14596587511625364,
+      "block_backups_minus_adapted": 0.17921090673319398,
+      "block_controls_minus_adapted": 0.033245031616940354,
+      "self_repair": 1.9595851114086937,
+      "delta_DE": -3.1122037371281714,
+      "ordinary_ablation_damage": 1.051436671073252
+    }
+  },
+  "E": {
+    "other1_regenerated": {
+      "n": 1024,
+      "recipient_candidate_correct": 19,
+      "recipient_vocab_correct": 7
+    },
+    "other1_recipient_native": {
+      "n": 1024,
+      "recipient_candidate_correct": 16,
+      "recipient_vocab_correct": 1
+    },
+    "other1_donor_native": {
+      "n": 1024,
+      "recipient_candidate_correct": 14,
+      "recipient_vocab_correct": 4
+    },
+    "other2_regenerated": {
+      "n": 1024,
+      "recipient_candidate_correct": 583,
+      "recipient_vocab_correct": 430
+    },
+    "other2_recipient_native": {
+      "n": 1024,
+      "recipient_candidate_correct": 953,
+      "recipient_vocab_correct": 832
+    },
+    "other2_donor_native": {
+      "n": 1024,
+      "recipient_candidate_correct": 1018,
+      "recipient_vocab_correct": 922
+    }
+  },
+  "gate": {
+    "mean_damage": 2.752368983313326,
+    "fraction_damage_over_001": 0.99609375,
+    "passed": true
+  },
+  "elapsed_seconds": 432.42071662505623,
+  "status": "reserved evaluation; conditionally independent source families"
+}
